@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "chapters": [
+    {
+      "id": "c01",
+      "no": 1,
+      "title": "句子结构",
+      "pages": [
+        2,
+        7
+      ],
+      "grammarPoints": [
+        "gp01-01",
+        "gp01-02",
+        "gp01-03",
+        "gp01-04",
+        "gp01-05",
+        "gp01-06",
+        "gp01-07",
+        "gp01-08",
+        "gp01-09",
+        "gp01-10",
+        "gp01-11",
+        "gp01-12"
+      ]
+    },
+    {
+      "id": "c02",
+      "no": 2,
+      "title": "认识句子的所有成分",
+      "pages": [
+        8,
+        21
+      ],
+      "grammarPoints": [
+        "gp02-01",
+        "gp02-02",
+        "gp02-03",
+        "gp02-04",
+        "gp02-05"
+      ]
+    },
+    {
+      "id": "c03",
+      "no": 3,
+      "title": "词性精讲",
+      "pages": [
+        22,
+        71
+      ],
+      "grammarPoints": [
+        "gp03-01",
+        "gp03-02"
+      ]
+    },
+    {
+      "id": "c04",
+      "no": 4,
+      "title": "谓语动词的时态",
+      "pages": [
+        72,
+        87
+      ],
+      "grammarPoints": []
+    },
+    {
+      "id": "c05",
+      "no": 5,
+      "title": "谓语动词的语态",
+      "pages": [
+        88,
+        96
+      ],
+      "grammarPoints": []
+    },
+    {
+      "id": "c06",
+      "no": 6,
+      "title": "非谓语动词",
+      "pages": [
+        97,
+        109
+      ],
+      "grammarPoints": [
+        "gp06-01"
+      ]
+    },
+    {
+      "id": "c07",
+      "no": 7,
+      "title": "并列句",
+      "pages": [
+        110,
+        118
+      ],
+      "grammarPoints": []
+    },
+    {
+      "id": "c08",
+      "no": 8,
+      "title": "名词性从句",
+      "pages": [
+        119,
+        137
+      ],
+      "grammarPoints": []
+    },
+    {
+      "id": "c09",
+      "no": 9,
+      "title": "定语从句",
+      "pages": [
+        138,
+        151
+      ],
+      "grammarPoints": []
+    },
+    {
+      "id": "c10",
+      "no": 10,
+      "title": "状语从句",
+      "pages": [
+        152,
+        172
+      ],
+      "grammarPoints": []
+    },
+    {
+      "id": "c11",
+      "no": 11,
+      "title": "英语中的特殊结构",
+      "pages": [
+        173,
+        188
+      ],
+      "grammarPoints": []
+    },
+    {
+      "id": "c12",
+      "no": 12,
+      "title": "主谓一致",
+      "pages": [
+        189,
+        199
+      ],
+      "grammarPoints": []
+    },
+    {
+      "id": "c13",
+      "no": 13,
+      "title": "组合训练1",
+      "pages": [
+        200,
+        200
+      ],
+      "grammarPoints": []
+    },
+    {
+      "id": "c14",
+      "no": 14,
+      "title": "组合训练2",
+      "pages": [
+        201,
+        201
+      ],
+      "grammarPoints": []
+    },
+    {
+      "id": "c15",
+      "no": 15,
+      "title": "组合训练3",
+      "pages": [
+        202,
+        204
+      ],
+      "grammarPoints": []
+    },
+    {
+      "id": "c16",
+      "no": 16,
+      "title": "组合训练4",
+      "pages": [
+        205,
+        205
+      ],
+      "grammarPoints": []
+    },
+    {
+      "id": "c17",
+      "no": 17,
+      "title": "组合训练5",
+      "pages": [
+        206,
+        206
+      ],
+      "grammarPoints": []
+    },
+    {
+      "id": "c18",
+      "no": 18,
+      "title": "组合训练6",
+      "pages": [
+        207,
+        207
+      ],
+      "grammarPoints": []
+    },
+    {
+      "id": "c19",
+      "no": 19,
+      "title": "组合训练7",
+      "pages": [
+        208,
+        209
+      ],
+      "grammarPoints": []
+    },
+    {
+      "id": "c20",
+      "no": 20,
+      "title": "组合训练8",
+      "pages": [
+        210,
+        210
+      ],
+      "grammarPoints": []
+    },
+    {
+      "id": "c21",
+      "no": 21,
+      "title": "组合训练9",
+      "pages": [
+        211,
+        212
+      ],
+      "grammarPoints": []
+    },
+    {
+      "id": "c22",
+      "no": 22,
+      "title": "组合训练10",
+      "pages": [
+        213,
+        213
+      ],
+      "grammarPoints": []
+    },
+    {
+      "id": "c23",
+      "no": 23,
+      "title": "附录",
+      "pages": [
+        214,
+        216
+      ],
+      "grammarPoints": []
+    },
+    {
+      "id": "c24",
+      "no": 24,
+      "title": "答案详析",
+      "pages": [
+        217,
+        242
+      ],
+      "grammarPoints": []
+    }
+  ]
+}

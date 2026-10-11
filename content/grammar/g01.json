@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "chapterId": "c01",
+  "cards": [
+    {
+      "id": "gp01-01",
+      "chapterId": "c01",
+      "majorTag": "名词",
+      "title": "名词：可数、不可数与所有格",
+      "rule": "东西能一个个数就用可数名词，有单复数；数不了（water、advice）就用不可数，没有复数。作主语时可数名词单数不能「光头」，前面要加 a/an/the 或变复数。",
+      "examples": [
+        "s01-0001",
+        "s01-0002",
+        "s01-0003"
+      ],
+      "errors": [
+        {
+          "wrong": "I need some advices.",
+          "right": "I need some advice.",
+          "note": "advice、information、furniture 都是不可数，永远不加 -s。"
+        },
+        {
+          "wrong": "He gave me many useful informations.",
+          "right": "He gave me much useful information.",
+          "note": "不可数名词不能跟 many，要用 much / a lot of。"
+        }
+      ],
+      "examTips": "浙江专升本常考「不可数名词不能加 -s」和「a number of / the number of 后跟复数、谓语分别用复数/单数」，属于送分点，背住就能拿。",
+      "method": "识别方法：①能不能数得出来 → 可数/不可数；②看前面限定词（a/an/many 提示可数单数或复数，much 提示不可数）；③看谓语动词单复数是否和主语一致。"
+    },
+    {
+      "id": "gp01-02",
+      "chapterId": "c01",
+      "majorTag": "冠词",
+      "title": "冠词：a/an/the 怎么选",
+      "rule": "第一次提到、泛指用 a/an（看后面单词的读音，元音音素用 an）；双方都知道是哪个、特指用 the；抽象名词、复数泛指、球类棋类前不加冠词。",
+      "examples": [
+        "s01-0004",
+        "s01-0009",
+        "s01-0010"
+      ],
+      "errors": [
+        {
+          "wrong": "I like playing the basketball.",
+          "right": "I like playing basketball.",
+          "note": "球类运动前不加 the。"
+        },
+        {
+          "wrong": "He is a honest man.",
+          "right": "He is an honest man.",
+          "note": "honest 的 h 不发音，开头是元音音素，用 an。"
+        }
+      ],
+      "examTips": "浙江专升本最常考固定搭配里的冠词：in the morning、at night、go to school、on the other hand，以及「the + 形容词」表一类人（the young、the rich）。",
+      "method": "识别方法：①先判断是特指还是泛指；②泛指可数名词单数必须有 a/an；③专有名词、抽象名词、三餐、球类、学科前一般不加。"
+    },
+    {
+      "id": "gp01-03",
+      "chapterId": "c01",
+      "majorTag": "代词",
+      "title": "代词：格、性、数要对上",
+      "rule": "作主语用主格（I/he/she），作宾语用宾格（me/him/her），表示「谁的」用形容词性物主代词（my/his）或名词性物主代词（mine/his）。it 还能作形式主语、形式宾语。",
+      "examples": [
+        "s01-0001",
+        "s01-0002",
+        "s01-0004"
+      ],
+      "errors": [
+        {
+          "wrong": "Me and him went home.",
+          "right": "He and I went home.",
+          "note": "作主语必须用主格，且把 I/me 放在后面。"
+        },
+        {
+          "wrong": "This book is my.",
+          "right": "This book is mine.",
+          "note": "句子末尾单独用要用名词性物主代词。"
+        }
+      ],
+      "examTips": "浙江专升本喜欢考 it 作形式主语（It is important to do sth）和「代词指代一致」——主语是单数，后面就不能用 them 去指代。",
+      "method": "识别方法：①看空格在谓语前还是后 → 主格/宾格；②看后面有没有名词 → 有名词用形容词性（my），没名词用名词性（mine）；③句子以 it 开头时，问一句「真正的主语/宾语是什么」。"
+    },
+    {
+      "id": "gp01-04",
+      "chapterId": "c01",
+      "majorTag": "形容词与副词",
+      "title": "形容词与副词：修饰谁、比较几级",
+      "rule": "形容词修饰名词，放在名词前或系动词后作表语；副词修饰动词、形容词或整句。比较级 two 者比较（-er/more），最高级三者以上（-est/most），前面加 the。",
+      "examples": [
+        "s01-0042",
+        "s02-0019"
+      ],
+      "errors": [
+        {
+          "wrong": "He runs quick.",
+          "right": "He runs quickly.",
+          "note": "修饰动词要用副词。"
+        },
+        {
+          "wrong": "She is more taller than me.",
+          "right": "She is taller than me.",
+          "note": "more 和 -er 不能同时用。"
+        }
+      ],
+      "examTips": "浙江专升本高频考：①as…as 中间用原级；②比较级前用 much/even/still 加强；③the more…the more；④修饰人用 -ed、修饰物用 -ing（interested/interesting）。",
+      "method": "识别方法：①看被修饰的是名词（用形容词）还是动词/形容词（用副词）；②看到 than 就是比较级，看到 in/of + 范围就是最高级；③形容词修饰 something/anything 时要放后面。"
+    },
+    {
+      "id": "gp01-05",
+      "chapterId": "c01",
+      "majorTag": "介词",
+      "title": "介词：时间、地点与固定搭配",
+      "rule": "时间：in 用于年月季、on 用于具体某天、at 用于时刻。地点：in 大地方、on 表面、at 小地点。介词后面要跟名词、代词或动名词（-ing）。",
+      "examples": [
+        "s01-0005",
+        "s01-0016",
+        "s01-0030"
+      ],
+      "errors": [
+        {
+          "wrong": "I am good at swim.",
+          "right": "I am good at swimming.",
+          "note": "介词后面动词要变 -ing。"
+        },
+        {
+          "wrong": "I arrived to Beijing yesterday.",
+          "right": "I arrived in Beijing yesterday.",
+          "note": "arrive in + 大地方，arrive at + 小地点。"
+        }
+      ],
+      "examTips": "浙江专升本最爱考固定搭配：be interested in、be proud of、be good at、depend on、according to、instead of。这类题没有规律，只能背。",
+      "method": "识别方法：①介词后面永远不是动词原形；②记住「动词 + 介词」是一个整体，如 look after、take care of；③不确定时先看搭配表。"
+    },
+    {
+      "id": "gp01-06",
+      "chapterId": "c01",
+      "majorTag": "动词时态",
+      "title": "动词时态：7 种常考时态",
+      "rule": "看时间状语定时间，看动作状态定体：经常发生用一般现在（三单加 -s），过去发生用一般过去，将来用 will/be going to，正在用 be doing，已完成用 have/has done，过去的过去用 had done。",
+      "examples": [
+        "s01-0005",
+        "s01-0015",
+        "s01-0018"
+      ],
+      "errors": [
+        {
+          "wrong": "He go to school every day.",
+          "right": "He goes to school every day.",
+          "note": "主语第三人称单数，一般现在时动词要加 -s。"
+        },
+        {
+          "wrong": "I have seen him yesterday.",
+          "right": "I saw him yesterday.",
+          "note": "有明确过去时间状语就不能用现在完成时。"
+        }
+      ],
+      "examTips": "浙江专升本「主将从现」必考：if / when / as soon as 引导的时间或条件状语从句，主句用将来时，从句用一般现在时表将来。",
+      "method": "识别方法：①先找时间状语（every day、yesterday、now、since、by the time）；②再看动作是「点」还是「段」；③时间段 + 已完成 → 完成时，须用延续性动词。"
+    },
+    {
+      "id": "gp01-07",
+      "chapterId": "c01",
+      "majorTag": "被动语态",
+      "title": "被动语态：be + 过去分词",
+      "rule": "主语是动作的承受者就用被动：be + 过去分词。时态体现在 be 上（is done / was done / has been done / will be done）。只有及物动词才有被动。",
+      "examples": [
+        "s01-0006",
+        "s02-0003"
+      ],
+      "errors": [
+        {
+          "wrong": "The accident was happened last night.",
+          "right": "The accident happened last night.",
+          "note": "happen、occur、belong 都是不及物动词，没有被动。"
+        },
+        {
+          "wrong": "The homework must finish today.",
+          "right": "The homework must be finished today.",
+          "note": "作业是被完成的，情态动词后要用 be + 过去分词。"
+        }
+      ],
+      "examTips": "浙江专升本常考「主动语态的句子改被动」和「不及物动词没有被动」两个点，另外注意 be made of / be made from 的区别。",
+      "method": "识别方法：①先看主语能不能自己发出这个动作，只能被做就是被动；②看 by 短语；③记住不及物动词清单（happen、occur、rise、arrive、belong）。"
+    },
+    {
+      "id": "gp01-08",
+      "chapterId": "c01",
+      "majorTag": "非谓语动词",
+      "title": "非谓语：to do / doing / done",
+      "rule": "一个句子只能有一个谓语；其他动词要变非谓语：to do 表目的或将来，doing 表主动或进行，done 表被动或完成。介词后面用 doing，使役/感官动词后用原形或 doing。",
+      "examples": [
+        "s01-0001",
+        "s01-0002",
+        "s01-0004"
+      ],
+      "errors": [
+        {
+          "wrong": "I enjoy to read books.",
+          "right": "I enjoy reading books.",
+          "note": "enjoy 后面只能跟 -ing。"
+        },
+        {
+          "wrong": "The meeting held yesterday was important.",
+          "right": "The meeting held yesterday was important.",
+          "note": "held 是过去分词作定语，不是谓语，此句唯一谓语是 was。"
+        }
+      ],
+      "examTips": "浙江专升本考法：①判断句子是否需要非谓语（已有谓语）；②记固定搭配（want to do、enjoy doing、have sth done、be worth doing）；③非谓语独立主格与状语的判别。",
+      "method": "识别方法：①先数谓语，第二个动词就要考虑非谓语；②看它和逻辑主语是主动（doing）还是被动（done）；③看前面有没有介词（有 → doing）。"
+    },
+    {
+      "id": "gp01-09",
+      "chapterId": "c01",
+      "majorTag": "情态动词",
+      "title": "情态动词：推测、请求与虚拟",
+      "rule": "情态动词后跟动词原形。could/might 比 can/may 更客气；must 表「一定」，否定用 can't（不可能），不是 mustn't（禁止）；情态 + have done 表示对过去的推测或虚拟。",
+      "examples": [
+        "s01-0003",
+        "s01-0013",
+        "s01-0018"
+      ],
+      "errors": [
+        {
+          "wrong": "He can plays the piano.",
+          "right": "He can play the piano.",
+          "note": "情态动词后面永远用动词原形。"
+        },
+        {
+          "wrong": "It must not be him; he is at home.",
+          "right": "It can't be him; he is at home.",
+          "note": "表示「不可能是」用 can't。"
+        }
+      ],
+      "examTips": "浙江专升本高频：①must have done（过去一定做过）；②should have done（本该做却没做）；③needn't have done（本不必做却做了）——这三个是必考区分点。",
+      "method": "识别方法：①看到情态动词 → 后面是不是原形；②看到「对过去的推测」→ 情态 + have done；③看到「本应该/本不必」→ 情态 + have done 表虚拟。"
+    },
+    {
+      "id": "gp01-10",
+      "chapterId": "c01",
+      "majorTag": "状语从句",
+      "title": "状语从句：时间、条件、原因、让步",
+      "rule": "从句给主句补充信息：时间（when、as soon as）、条件（if、unless）、原因（because、since）、让步（although、even if）、结果（so…that）。时间/条件从句用一般现在时表将来。",
+      "examples": [
+        "s01-0006",
+        "s02-0069"
+      ],
+      "errors": [
+        {
+          "wrong": "Although he is young, but he knows a lot.",
+          "right": "Although he is young, he knows a lot.",
+          "note": "although 和 but 不能同时出现。"
+        },
+        {
+          "wrong": "Because he was ill, so he didn't come.",
+          "right": "Because he was ill, he didn't come.",
+          "note": "because 和 so 不能同时出现。"
+        }
+      ],
+      "examTips": "浙江专升本最爱考「主将从现」和中英连词搭配陷阱（although…but、because…so 二选一），以及 when / while / as 的区分。",
+      "method": "识别方法：①看到连词就找它引导到哪儿结束（到下一个主谓结构前）；②判断从句在这句里是给主句补充什么信息；③时间/条件从句里不能用将来时。"
+    },
+    {
+      "id": "gp01-11",
+      "chapterId": "c01",
+      "majorTag": "主谓一致",
+      "title": "主谓一致：三条原则",
+      "rule": "①语法一致：主语单数谓语就单数；②意义一致：police、people 形式单数意义复数；③就近一致：either…or、neither…nor、there be 后看最近的主语。",
+      "examples": [
+        "s01-0008",
+        "s02-0045"
+      ],
+      "errors": [
+        {
+          "wrong": "The number of students are 50.",
+          "right": "The number of students is 50.",
+          "note": "the number of 表示「…的数量」，谓语用单数。"
+        },
+        {
+          "wrong": "Ten years are a long time.",
+          "right": "Ten years is a long time.",
+          "note": "时间、距离、金额作主语时看作一个整体，谓语用单数。"
+        }
+      ],
+      "examTips": "浙江专升本主谓一致必考：the number of（单数）vs a number of（复数）、each/every/one of 后跟复数但谓语单数、and 连接两个主语一般用复数（但指同一人同一物时用单数）。",
+      "method": "识别方法：①先找准真正的主语（划掉修饰成分）；②判断主语是单数还是复数意义；③主语由 or/nor/but also 连接时看最近的。"
+    },
+    {
+      "id": "gp01-12",
+      "chapterId": "c01",
+      "majorTag": "it的用法",
+      "title": "it 的用法：形式主语与形式宾语",
+      "rule": "it 可以代替不定式、动名词或从句作形式主语（It is important to learn English），也可以作形式宾语（I find it hard to finish）。此外 it 还能指天气、时间、距离。",
+      "examples": [
+        "s01-0037",
+        "s02-0004"
+      ],
+      "errors": [
+        {
+          "wrong": "Is important to learn English.",
+          "right": "It is important to learn English.",
+          "note": "主语不能缺，用 it 占位。"
+        }
+      ],
+      "examTips": "浙江专升本考「It is + 形容词 + for/of sb + to do」中 for 与 of 的区别（形容词描述人的品质用 of），以及 find/think/make it + 形容词 + to do 的形式宾语。",
+      "method": "识别方法：①句首 it 后面是 is/was + 形容词 → 找后面真正的主语（to do 或 that 从句）；②动词后面出现 it + 形容词 + to do → it 是形式宾语。"
+    }
+  ]
+}

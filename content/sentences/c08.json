@@ -1,0 +1,7027 @@
+{
+  "schemaVersion": 1,
+  "chapterId": "c08",
+  "sentences": [
+    {
+      "id": "s08-0004",
+      "en": "These drawings on the wall tell people how each process goes on to the next.",
+      "zh": "墙上的这些图画告诉人们每个过程是如何进行到下一步的。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 15,
+        "clauses": 0,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "非谓语动词",
+          "主谓一致"
+        ],
+        "fine": [
+          "each/every 作主语时谓语用单数",
+          "长句，先找谓语再断句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "on",
+          "hint": "介词，在…上（本空填 on）",
+          "gp": "介词"
+        },
+        {
+          "answer": "on",
+          "hint": "介词，在…上（本空填 on）",
+          "gp": "介词"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "These drawings on the wall",
+          "role": "主语",
+          "span": [
+            0,
+            26
+          ]
+        },
+        {
+          "text": "tell",
+          "role": "谓语",
+          "span": [
+            27,
+            31
+          ]
+        },
+        {
+          "text": "people",
+          "role": "宾语",
+          "span": [
+            32,
+            38
+          ]
+        },
+        {
+          "text": "how",
+          "role": "状语",
+          "span": [
+            39,
+            42
+          ]
+        },
+        {
+          "text": "each process",
+          "role": "状语",
+          "span": [
+            43,
+            55
+          ]
+        },
+        {
+          "text": "goes",
+          "role": "谓语",
+          "span": [
+            56,
+            60
+          ]
+        },
+        {
+          "text": "on to the next",
+          "role": "状语",
+          "span": [
+            61,
+            75
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "主句谓语是 tell，how 引导宾语从句。",
+            "why": "tell（告诉）是主句谓语，how each process goes on 是 how 引导的宾语从句。",
+            "highlight": [
+              27,
+              31
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别宾语从句",
+            "what": "how each process goes on to the next 是宾语从句，作 tell 的宾语。",
+            "why": "how 引导宾语从句，each process goes on to the next 是从句内容。",
+            "highlight": [
+              39,
+              75
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "墙上的这些图画告诉人们每个过程是如何进行到下一步的。",
+            "why": "These drawings on the wall tell people how each process goes on to the next 译「墙上的这些图画告诉人们每个过程是如何进行到下一步的」。",
+            "highlight": [
+              0,
+              75
+            ]
+          }
+        ],
+        "finalZh": "墙上的这些图画告诉人们每个过程是如何进行到下一步的。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOC"
+    },
+    {
+      "id": "s08-0015",
+      "en": "Gump is a real man.",
+      "zh": "阿甘是个真正的男子汉。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 5,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "动词时态",
+          "冠词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "a",
+          "hint": "不定冠词，修饰可数名词单数（本空填 a）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Gump",
+          "role": "主语",
+          "span": [
+            0,
+            4
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            5,
+            7
+          ]
+        },
+        {
+          "text": "a real man",
+          "role": "表语",
+          "span": [
+            8,
+            18
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is（系动词），表语 a real man。",
+            "why": "is 是系动词，a real man（真正的男子汉）是表语，说明 Gump。",
+            "highlight": [
+              5,
+              7
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "阿甘是个真正的男子汉。",
+            "why": "Gump is a real man 译「阿甘是个真正的男子汉」。",
+            "highlight": [
+              0,
+              18
+            ]
+          }
+        ],
+        "finalZh": "阿甘是个真正的男子汉。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s08-0016",
+      "en": "I enjoy the part, the warm ending.",
+      "zh": "我喜欢温暖的结局这个部分。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 7,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "非谓语动词",
+          "代词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "enjoy",
+          "role": "谓语",
+          "span": [
+            2,
+            7
+          ]
+        },
+        {
+          "text": "the part, the warm ending",
+          "role": "宾语",
+          "span": [
+            8,
+            33
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 enjoy，the part 是宾语，the warm ending 是同位语。",
+            "why": "enjoy（喜欢）是谓语，the part（这个部分）是宾语，the warm ending（温暖的结局）是同位语。",
+            "highlight": [
+              2,
+              7
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "同位语",
+            "what": "the part, the warm ending = 这个部分——温暖的结局，同位语补充说明。",
+            "why": "the warm ending 是 the part 的同位语，具体说明是哪个部分。",
+            "how": "译「温暖的结局这个部分」，同位语顺译。",
+            "highlight": [
+              8,
+              33
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我喜欢温暖的结局这个部分。",
+            "why": "I enjoy the part, the warm ending 译「我喜欢温暖的结局这个部分」。",
+            "highlight": [
+              0,
+              33
+            ]
+          }
+        ],
+        "finalZh": "我喜欢温暖的结局这个部分。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s08-0017",
+      "en": "What I saw repeatedly is so encouraging.",
+      "zh": "我反复看到的是如此鼓舞人心。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 7,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "What",
+          "hint": "引导名词性从句并在从句中作成分（本空填 What）",
+          "gp": "名词性从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "saw",
+          "hint": "see 的过去式（本空填 saw）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "What I saw repeatedly is so encouraging.",
+          "role": "宾语从句",
+          "span": [
+            0,
+            40
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is（系动词），What I saw repeatedly 是主语从句。",
+            "why": "is 是系动词，What I saw repeatedly（我反复看到的）是 what 引导的主语从句，encouraging 是表语。",
+            "highlight": [
+              22,
+              24
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别主语从句",
+            "what": "What I saw repeatedly 是主语从句，what 作 saw 的宾语。",
+            "why": "what 引导主语从句，在从句中作 saw 的宾语，表示「……的东西」。",
+            "highlight": [
+              0,
+              21
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我反复看到的是如此鼓舞人心。",
+            "why": "What I saw repeatedly is so encouraging 译「我反复看到的是如此鼓舞人心」。",
+            "highlight": [
+              0,
+              39
+            ]
+          }
+        ],
+        "finalZh": "我反复看到的是如此鼓舞人心。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s08-0018",
+      "en": "I admire what his mother said.",
+      "zh": "我很欣赏他母亲说的话。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 6,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "代词",
+          "名词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "what",
+          "hint": "引导名词性从句并在从句中作成分（本空填 what）",
+          "gp": "名词性从句"
+        }
+      ],
+      "components": [
+        {
+          "text": "I admire",
+          "role": "主语",
+          "span": [
+            0,
+            8
+          ]
+        },
+        {
+          "text": "what his mother said.",
+          "role": "宾语从句",
+          "span": [
+            9,
+            30
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 admire，what his mother said 是宾语从句。",
+            "why": "admire（欣赏）是谓语，what his mother said（他母亲说的话）是 what 引导的宾语从句。",
+            "highlight": [
+              2,
+              8
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别宾语从句",
+            "what": "what his mother said 是宾语从句，what 作 said 的宾语。",
+            "why": "what 引导宾语从句，在从句中作 said 的宾语，表示「说的话」。",
+            "highlight": [
+              9,
+              29
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我很欣赏他母亲说的话。",
+            "why": "I admire what his mother said 译「我很欣赏他母亲说的话」。",
+            "highlight": [
+              0,
+              29
+            ]
+          }
+        ],
+        "finalZh": "我很欣赏他母亲说的话。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s08-0019",
+      "en": "Gump is who we should learn from.",
+      "zh": "阿甘是我们应该学习的人。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 7,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "定语从句",
+          "情态动词"
+        ],
+        "fine": [
+          "关系代词 who 在从句中作主语"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "who",
+          "hint": "关系代词，指人（本空填 who）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "should",
+          "hint": "情态动词，应该（本空填 should）",
+          "gp": "情态动词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Gump",
+          "role": "主语",
+          "span": [
+            0,
+            4
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            5,
+            7
+          ]
+        },
+        {
+          "text": "who we should learn from.",
+          "role": "定语从句",
+          "span": [
+            8,
+            33
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is（系动词），who we should learn from 是表语从句。",
+            "why": "is 是系动词，who we should learn from（我们应该学习的人）是 who 引导的表语从句。",
+            "highlight": [
+              5,
+              7
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别表语从句",
+            "what": "who we should learn from 是表语从句，who 作 from 的宾语。",
+            "why": "who 引导表语从句，在从句中作 learn from 的宾语，表示「……的人」。",
+            "highlight": [
+              8,
+              32
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "阿甘是我们应该学习的人。",
+            "why": "Gump is who we should learn from 译「阿甘是我们应该学习的人」。",
+            "highlight": [
+              0,
+              32
+            ]
+          }
+        ],
+        "finalZh": "阿甘是我们应该学习的人。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s08-0020",
+      "en": "I enjoy the part that a feather is flying in the sky.",
+      "zh": "我喜欢羽毛在天空中飞的部分。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 12,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "进行时（be + 现在分词）"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "in",
+          "hint": "介词，在…里（本空填 in）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "enjoy",
+          "role": "谓语",
+          "span": [
+            2,
+            7
+          ]
+        },
+        {
+          "text": "the part",
+          "role": "宾语",
+          "span": [
+            8,
+            16
+          ]
+        },
+        {
+          "text": "that",
+          "role": "状语",
+          "span": [
+            17,
+            21
+          ]
+        },
+        {
+          "text": "a feather",
+          "role": "状语",
+          "span": [
+            22,
+            31
+          ]
+        },
+        {
+          "text": "is flying",
+          "role": "谓语",
+          "span": [
+            32,
+            41
+          ]
+        },
+        {
+          "text": "in the sky",
+          "role": "状语",
+          "span": [
+            42,
+            52
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 enjoy，that a feather is flying 是同位语从句。",
+            "why": "enjoy（喜欢）是谓语，the part（这个部分）是宾语，that a feather is flying 是 that 引导的同位语从句。",
+            "highlight": [
+              2,
+              7
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别同位语从句",
+            "what": "that a feather is flying in the sky 是同位语从句，说明 the part 的内容。",
+            "why": "that 引导同位语从句，说明 the part 的具体内容，that 只连接不作成分。",
+            "highlight": [
+              17,
+              52
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我喜欢羽毛在天空中飞的部分。",
+            "why": "I enjoy the part that a feather is flying in the sky 译「我喜欢羽毛在天空中飞的部分」。",
+            "highlight": [
+              0,
+              52
+            ]
+          }
+        ],
+        "finalZh": "我喜欢羽毛在天空中飞的部分。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s08-0032",
+      "en": "Who has won the game.",
+      "zh": "是谁赢得了比赛。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 5,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "定语从句",
+          "动词时态"
+        ],
+        "fine": [
+          "关系代词 who 在从句中作主语",
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "Who",
+          "hint": "关系代词，指人（本空填 Who）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "has",
+          "hint": "助动词，第三人称单数（本空填 has）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Who has won the game.",
+          "role": "定语从句",
+          "span": [
+            0,
+            21
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 has won，Who 作主语引导主语从句。",
+            "why": "Who has won the game 是 who 引导的主语从句，who 在从句中作主语。",
+            "highlight": [
+              0,
+              20
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "who 作主语",
+            "what": "Who has won the game = 谁赢得了比赛，who 作从句主语。",
+            "why": "who 是连接代词，在主语从句中作主语，has won 是谓语。",
+            "how": "译「是谁赢得了比赛」，who 译「谁」。",
+            "highlight": [
+              0,
+              20
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "是谁赢得了比赛。",
+            "why": "Who has won the game 译「是谁赢得了比赛」。",
+            "highlight": [
+              0,
+              20
+            ]
+          }
+        ],
+        "finalZh": "是谁赢得了比赛。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s08-0035",
+      "en": "When the new road will be open to traffic.",
+      "zh": "新路何时通车。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "状语从句",
+          "被动语态"
+        ],
+        "fine": [
+          "一般将来时"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "When",
+          "hint": "关系副词/时间状语从句引导词（本空填 When）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "will",
+          "hint": "助动词，一般将来时（本空填 will）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "be",
+          "hint": "系动词/助动词原形（本空填 be）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "When the new road will be open to traffic.",
+          "role": "状语从句",
+          "span": [
+            0,
+            42
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 will be open，When 引导主语从句。",
+            "why": "When the new road will be open 是 when 引导的主语从句，when 作时间状语。",
+            "highlight": [
+              0,
+              41
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "when 引导主语从句",
+            "what": "When the new road will be open to traffic = 新路何时通车，when 作时间状语。",
+            "why": "when 是连接副词，在主语从句中作时间状语，the new road 是主语。",
+            "how": "译「新路何时通车」，when 译「何时」。",
+            "highlight": [
+              0,
+              41
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "新路何时通车。",
+            "why": "When the new road will be open to traffic 译「新路何时通车」。",
+            "highlight": [
+              0,
+              41
+            ]
+          }
+        ],
+        "finalZh": "新路何时通车。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s08-0037",
+      "en": "Where the competition will be held.",
+      "zh": "比赛将在哪里举行。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 6,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "被动语态",
+          "情态动词"
+        ],
+        "fine": [
+          "一般将来时",
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "Where",
+          "hint": "关系副词，表示地点（本空填 Where）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "will",
+          "hint": "助动词，一般将来时（本空填 will）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "be",
+          "hint": "系动词/助动词原形（本空填 be）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "Where the competition will be held.",
+          "role": "状语从句",
+          "span": [
+            0,
+            35
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 will be held，Where 引导主语从句。",
+            "why": "Where the competition will be held 是 where 引导的主语从句，where 作地点状语。",
+            "highlight": [
+              0,
+              34
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "where 引导主语从句",
+            "what": "Where the competition will be held = 比赛在哪里举行，where 作地点状语。",
+            "why": "where 是连接副词，在主语从句中作地点状语，the competition 是主语。",
+            "how": "译「比赛将在哪里举行」，where 译「在哪里」。",
+            "highlight": [
+              0,
+              34
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "比赛将在哪里举行。",
+            "why": "Where the competition will be held 译「比赛将在哪里举行」。",
+            "highlight": [
+              0,
+              34
+            ]
+          }
+        ],
+        "finalZh": "比赛将在哪里举行。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s08-0043",
+      "en": "It is common knowledge that a positive attitude plays a key role in success.",
+      "zh": "积极的态度在成功中起关键作用，这是常识。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 14,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "强调",
+          "it的用法"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "in",
+          "hint": "介词，在…里（本空填 in）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "It",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            3,
+            5
+          ]
+        },
+        {
+          "text": "common knowledge",
+          "role": "表语",
+          "span": [
+            6,
+            22
+          ]
+        },
+        {
+          "text": "that",
+          "role": "状语",
+          "span": [
+            23,
+            27
+          ]
+        },
+        {
+          "text": "a positive attitude",
+          "role": "状语",
+          "span": [
+            28,
+            47
+          ]
+        },
+        {
+          "text": "plays",
+          "role": "谓语",
+          "span": [
+            48,
+            53
+          ]
+        },
+        {
+          "text": "a key role",
+          "role": "宾语",
+          "span": [
+            54,
+            64
+          ]
+        },
+        {
+          "text": "in success",
+          "role": "状语",
+          "span": [
+            65,
+            75
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，It 是形式主语，that 引导主语从句。",
+            "why": "is 是系动词，It 是形式主语，that a positive attitude plays a key role 是真正主语从句。",
+            "highlight": [
+              3,
+              5
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别主语从句",
+            "what": "that a positive attitude plays a key role in success 是主语从句。",
+            "why": "that 引导主语从句，a positive attitude plays a key role 是完整句，作真正主语。",
+            "highlight": [
+              23,
+              75
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "积极的态度在成功中起关键作用，这是常识。",
+            "why": "It is common knowledge that a positive attitude plays a key role in success 译「积极的态度在成功中起关键作用，这是常识」。",
+            "highlight": [
+              0,
+              75
+            ]
+          }
+        ],
+        "finalZh": "积极的态度在成功中起关键作用，这是常识。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s08-0045",
+      "en": "It is my belief that the issue about raising pets should become the public concern nowadays.",
+      "zh": "我的信念是，养宠物的问题如今应成为公众关注的问题。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 16,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "定语从句",
+          "强调"
+        ],
+        "fine": [
+          "长句，先找谓语再断句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "should",
+          "hint": "情态动词，应该（本空填 should）",
+          "gp": "情态动词"
+        }
+      ],
+      "components": [
+        {
+          "text": "It",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            3,
+            5
+          ]
+        },
+        {
+          "text": "my belief",
+          "role": "表语",
+          "span": [
+            6,
+            15
+          ]
+        },
+        {
+          "text": "that",
+          "role": "状语",
+          "span": [
+            16,
+            20
+          ]
+        },
+        {
+          "text": "the issue about raising pets",
+          "role": "状语",
+          "span": [
+            21,
+            49
+          ]
+        },
+        {
+          "text": "should become",
+          "role": "谓语",
+          "span": [
+            50,
+            63
+          ]
+        },
+        {
+          "text": "the public concern nowadays",
+          "role": "表语",
+          "span": [
+            64,
+            91
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，It 是形式主语，that 引导主语从句。",
+            "why": "is 是系动词，It 是形式主语，that the issue about raising pets should become... 是真正主语从句。",
+            "highlight": [
+              3,
+              5
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别主语从句",
+            "what": "that the issue about raising pets should become the public concern 是主语从句。",
+            "why": "that 引导主语从句，the issue about raising pets 是主语，should become 是谓语。",
+            "highlight": [
+              16,
+              91
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我的信念是，养宠物的问题如今应成为公众关注的问题。",
+            "why": "It is my belief that the issue about raising pets should become the public concern nowadays 译「我的信念是，养宠物的问题如今应成为公众关注的问题」。",
+            "highlight": [
+              0,
+              91
+            ]
+          }
+        ],
+        "finalZh": "我的信念是，养宠物的问题如今应成为公众关注的问题。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s08-0047",
+      "en": "It has been found that plastics can be widely used in the industry.",
+      "zh": "已经发现塑料可以广泛用于工业。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 13,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "定语从句",
+          "被动语态"
+        ],
+        "fine": [
+          "完成时 + be，注意是完成还是被动",
+          "have/get sth done 结构"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "has",
+          "hint": "助动词，第三人称单数（本空填 has）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "been",
+          "hint": "be 的过去分词（本空填 been）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "It",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "has been found",
+          "role": "谓语",
+          "span": [
+            3,
+            17
+          ]
+        },
+        {
+          "text": "that plastics",
+          "role": "宾语",
+          "span": [
+            18,
+            31
+          ]
+        },
+        {
+          "text": "can be",
+          "role": "谓语",
+          "span": [
+            32,
+            38
+          ]
+        },
+        {
+          "text": "widely used",
+          "role": "表语",
+          "span": [
+            39,
+            50
+          ]
+        },
+        {
+          "text": "in the industry",
+          "role": "状语",
+          "span": [
+            51,
+            66
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 has been found，It 是形式主语，that 引导主语从句。",
+            "why": "has been found（已被发现）是谓语，It 是形式主语，that plastics can be widely used 是真正主语从句。",
+            "highlight": [
+              3,
+              17
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别主语从句",
+            "what": "that plastics can be widely used in the industry 是主语从句。",
+            "why": "that 引导主语从句，plastics can be widely used 是完整句，作真正主语。",
+            "highlight": [
+              18,
+              66
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "已经发现塑料可以广泛用于工业。",
+            "why": "It has been found that plastics can be widely used in the industry 译「已经发现塑料可以广泛用于工业」。",
+            "highlight": [
+              0,
+              66
+            ]
+          }
+        ],
+        "finalZh": "已经发现塑料可以广泛用于工业。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s08-0049",
+      "en": "It is universally acknowledged that air and water are very important to humans.",
+      "zh": "空气和水对人类非常重要，这是举世公认的。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 13,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "强调",
+          "it的用法"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "are",
+          "hint": "系动词/助动词，复数（本空填 are）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "It",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            3,
+            5
+          ]
+        },
+        {
+          "text": "universally acknowledged",
+          "role": "表语",
+          "span": [
+            6,
+            30
+          ]
+        },
+        {
+          "text": "that",
+          "role": "状语",
+          "span": [
+            31,
+            35
+          ]
+        },
+        {
+          "text": "air",
+          "role": "状语",
+          "span": [
+            36,
+            39
+          ]
+        },
+        {
+          "text": "water",
+          "role": "主语",
+          "span": [
+            44,
+            49
+          ]
+        },
+        {
+          "text": "are",
+          "role": "谓语",
+          "span": [
+            50,
+            53
+          ]
+        },
+        {
+          "text": "very important",
+          "role": "表语",
+          "span": [
+            54,
+            68
+          ]
+        },
+        {
+          "text": "to humans",
+          "role": "状语",
+          "span": [
+            69,
+            78
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is acknowledged，It 是形式主语，that 引导主语从句。",
+            "why": "is acknowledged（被公认）是谓语，It 是形式主语，that air and water are very important 是真正主语从句。",
+            "highlight": [
+              3,
+              30
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别主语从句",
+            "what": "that air and water are very important to humans 是主语从句。",
+            "why": "that 引导主语从句，air and water are very important 是完整句，作真正主语。",
+            "highlight": [
+              31,
+              78
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "空气和水对人类非常重要，这是举世公认的。",
+            "why": "It is universally acknowledged that air and water are very important to humans 译「空气和水对人类非常重要，这是举世公认的」。",
+            "highlight": [
+              0,
+              78
+            ]
+          }
+        ],
+        "finalZh": "空气和水对人类非常重要，这是举世公认的。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s08-0051",
+      "en": "It has been widely accepted that teaching will be the most effective when the students take an active part in the class activities.",
+      "zh": "当学生积极参与课堂活动时，教学效果最好，这已被广泛接受。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 23,
+        "clauses": 2,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "定语从句",
+          "状语从句"
+        ],
+        "fine": [
+          "完成时 + be，注意是完成还是被动",
+          "一般将来时",
+          "形容词最高级",
+          "长句，先找谓语再断句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "when",
+          "hint": "关系副词/时间状语从句引导词（本空填 when）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "has",
+          "hint": "助动词，第三人称单数（本空填 has）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "It",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "has been",
+          "role": "谓语",
+          "span": [
+            3,
+            11
+          ]
+        },
+        {
+          "text": "widely",
+          "role": "表语",
+          "span": [
+            12,
+            18
+          ]
+        },
+        {
+          "text": "accepted",
+          "role": "谓语",
+          "span": [
+            19,
+            27
+          ]
+        },
+        {
+          "text": "that teaching will be the most effective when the students take an active part in the class activities.",
+          "role": "宾语从句",
+          "span": [
+            28,
+            131
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 has been accepted，It 是形式主语，that 引导主语从句。",
+            "why": "has been accepted（已被接受）是谓语，It 是形式主语，that teaching will be the most effective 是真正主语从句。",
+            "highlight": [
+              3,
+              27
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别主语从句",
+            "what": "that teaching will be the most effective when... 是主语从句，when 引导时间从句。",
+            "why": "that 引导主语从句，teaching will be the most effective 是主句，when the students take an active part 是时间状语从句。",
+            "highlight": [
+              28,
+              130
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "当学生积极参与课堂活动时，教学效果最好，这已被广泛接受。",
+            "why": "It has been widely accepted that teaching will be the most effective when the students take an active part in the class activities 译「当学生积极参与课堂活动时，教学效果最好，这已被广泛接受」。",
+            "highlight": [
+              0,
+              130
+            ]
+          }
+        ],
+        "finalZh": "当学生积极参与课堂活动时，教学效果最好，这已被广泛接受。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s08-0053",
+      "en": "It is generally agreed that smoking is bad for health.",
+      "zh": "吸烟有害健康，这是普遍认同的。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "定语从句",
+          "强调"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "It",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "is generally agreed",
+          "role": "谓语",
+          "span": [
+            3,
+            22
+          ]
+        },
+        {
+          "text": "that smoking",
+          "role": "宾语",
+          "span": [
+            23,
+            35
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            36,
+            38
+          ]
+        },
+        {
+          "text": "bad",
+          "role": "表语",
+          "span": [
+            39,
+            42
+          ]
+        },
+        {
+          "text": "for",
+          "role": "状语",
+          "span": [
+            43,
+            46
+          ]
+        },
+        {
+          "text": "health",
+          "role": "状语",
+          "span": [
+            47,
+            53
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is agreed，It 是形式主语，that 引导主语从句。",
+            "why": "is agreed（被同意）是谓语，It 是形式主语，that smoking is bad for health 是真正主语从句。",
+            "highlight": [
+              3,
+              22
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别主语从句",
+            "what": "that smoking is bad for health 是主语从句。",
+            "why": "that 引导主语从句，smoking is bad for health 是完整句。",
+            "highlight": [
+              23,
+              53
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "吸烟有害健康，这是普遍认同的。",
+            "why": "It is generally agreed that smoking is bad for health 译「吸烟有害健康，这是普遍认同的」。",
+            "highlight": [
+              0,
+              53
+            ]
+          }
+        ],
+        "finalZh": "吸烟有害健康，这是普遍认同的。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s08-0055",
+      "en": "It is beyond dispute that university education obviously promotes the progress of our society.",
+      "zh": "大学教育显然促进了社会的进步，这是毋庸置疑的。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 14,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "强调",
+          "被动语态"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "of",
+          "hint": "介词，…的（本空填 of）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "It",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            3,
+            5
+          ]
+        },
+        {
+          "text": "beyond dispute",
+          "role": "表语",
+          "span": [
+            6,
+            20
+          ]
+        },
+        {
+          "text": "that",
+          "role": "状语",
+          "span": [
+            21,
+            25
+          ]
+        },
+        {
+          "text": "university education obviously",
+          "role": "状语",
+          "span": [
+            26,
+            56
+          ]
+        },
+        {
+          "text": "promotes",
+          "role": "谓语",
+          "span": [
+            57,
+            65
+          ]
+        },
+        {
+          "text": "the progress",
+          "role": "宾语",
+          "span": [
+            66,
+            78
+          ]
+        },
+        {
+          "text": "of our society",
+          "role": "状语",
+          "span": [
+            79,
+            93
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，It 是形式主语，that 引导主语从句。",
+            "why": "is beyond dispute（毋庸置疑）是谓语，It 是形式主语，that university education promotes... 是真正主语从句。",
+            "highlight": [
+              3,
+              20
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别主语从句",
+            "what": "that university education obviously promotes the progress of our society 是主语从句。",
+            "why": "that 引导主语从句，university education obviously promotes 是完整句。",
+            "highlight": [
+              21,
+              93
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "大学教育显然促进了社会的进步，这是毋庸置疑的。",
+            "why": "It is beyond dispute that university education obviously promotes the progress of our society 译「大学教育显然促进了社会的进步，这是毋庸置疑的」。",
+            "highlight": [
+              0,
+              93
+            ]
+          }
+        ],
+        "finalZh": "大学教育显然促进了社会的进步，这是毋庸置疑的。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s08-0057",
+      "en": "It is self-evident that we will never have enough resources to meet the demand.",
+      "zh": "我们永远不会有足够的资源来满足需求，这是不言而喻的。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 15,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "定语从句",
+          "强调"
+        ],
+        "fine": [
+          "一般将来时"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "will",
+          "hint": "助动词，一般将来时（本空填 will）",
+          "gp": "情态动词"
+        }
+      ],
+      "components": [
+        {
+          "text": "It",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            3,
+            5
+          ]
+        },
+        {
+          "text": "self-evident",
+          "role": "表语",
+          "span": [
+            6,
+            18
+          ]
+        },
+        {
+          "text": "that",
+          "role": "状语",
+          "span": [
+            19,
+            23
+          ]
+        },
+        {
+          "text": "we",
+          "role": "状语",
+          "span": [
+            24,
+            26
+          ]
+        },
+        {
+          "text": "will never have",
+          "role": "谓语",
+          "span": [
+            27,
+            42
+          ]
+        },
+        {
+          "text": "enough resources",
+          "role": "宾语",
+          "span": [
+            43,
+            59
+          ]
+        },
+        {
+          "text": "to meet the demand",
+          "role": "状语",
+          "span": [
+            60,
+            78
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，It 是形式主语，that 引导主语从句。",
+            "why": "is self-evident（不言而喻）是谓语，It 是形式主语，that we will never have enough resources 是真正主语从句。",
+            "highlight": [
+              3,
+              18
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别主语从句",
+            "what": "that we will never have enough resources to meet the demand 是主语从句。",
+            "why": "that 引导主语从句，we will never have enough resources 是完整句。",
+            "highlight": [
+              19,
+              78
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我们永远不会有足够的资源来满足需求，这是不言而喻的。",
+            "why": "It is self-evident that we will never have enough resources to meet the demand 译「我们永远不会有足够的资源来满足需求，这是不言而喻的」。",
+            "highlight": [
+              0,
+              78
+            ]
+          }
+        ],
+        "finalZh": "我们永远不会有足够的资源来满足需求，这是不言而喻的。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s08-0058",
+      "en": "It is a good idea to think in this way.",
+      "zh": "用这种方式思考是一个好主意。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "it的用法",
+          "非谓语动词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        },
+        {
+          "answer": "in",
+          "hint": "介词，在…里（本空填 in）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "It",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            3,
+            5
+          ]
+        },
+        {
+          "text": "a good idea",
+          "role": "表语",
+          "span": [
+            6,
+            17
+          ]
+        },
+        {
+          "text": "to think in this way",
+          "role": "状语",
+          "span": [
+            18,
+            38
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，It 是形式主语，to think in this way 是真正主语。",
+            "why": "is 是系动词，It 是形式主语，to think in this way（用这种方式思考）是真正主语，a good idea 是表语。",
+            "highlight": [
+              3,
+              5
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "it is + 名词 + to do",
+            "what": "It is a good idea to think in this way = 这样想是个好主意。",
+            "why": "it is + 名词 + to do 是固定结构，to think in this way 是真正主语。",
+            "how": "译「用这种方式思考是一个好主意」，to think 提前作主语。",
+            "highlight": [
+              6,
+              38
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "用这种方式思考是一个好主意。",
+            "why": "It is a good idea to think in this way 译「用这种方式思考是一个好主意」。",
+            "highlight": [
+              0,
+              38
+            ]
+          }
+        ],
+        "finalZh": "用这种方式思考是一个好主意。",
+        "orderRules": [
+          "形式主语 It 不译，真主语 to think 提前"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s08-0059",
+      "en": "It is important to train ourselves before any examination.",
+      "zh": "在任何考试前， 自我训练是很重要的。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "状语从句",
+          "被动语态"
+        ],
+        "fine": [
+          "it 作形式主语，真正的主语是后面的不定式"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "before",
+          "hint": "引导时间状语从句（本空填 before）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "It",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            3,
+            5
+          ]
+        },
+        {
+          "text": "important",
+          "role": "表语",
+          "span": [
+            6,
+            15
+          ]
+        },
+        {
+          "text": "to train ourselves",
+          "role": "状语",
+          "span": [
+            16,
+            34
+          ]
+        },
+        {
+          "text": "before any examination.",
+          "role": "状语从句",
+          "span": [
+            35,
+            58
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，It 是形式主语，to train ourselves 是真正主语。",
+            "why": "is 是系动词，It 是形式主语，to train ourselves（训练自己）是真正主语，important 是表语。",
+            "highlight": [
+              3,
+              5
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "it is + adj + to do",
+            "what": "It is important to train ourselves = 训练自己很重要。",
+            "why": "it is + 形容词 + to do 是固定结构，to train ourselves 是真正主语。",
+            "how": "译「自我训练是很重要的」，to train ourselves 提前作主语。",
+            "highlight": [
+              6,
+              57
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "在任何考试前，自我训练是很重要的。",
+            "why": "It is important to train ourselves before any examination 译「在任何考试前，自我训练是很重要的」。",
+            "highlight": [
+              0,
+              57
+            ]
+          }
+        ],
+        "finalZh": "在任何考试前，自我训练是很重要的。",
+        "orderRules": [
+          "形式主语 It 不译，真主语 to train 提前"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s08-0060",
+      "en": "It is so kind of him to help his classmates in need.",
+      "zh": "他帮助有需要的同学真是太好了。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 12,
+        "clauses": 0,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "情态动词",
+          "it的用法"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "need",
+          "hint": "情态动词/实义动词，需要（本空填 need）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "of",
+          "hint": "介词，…的（本空填 of）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "It",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            3,
+            5
+          ]
+        },
+        {
+          "text": "so kind",
+          "role": "表语",
+          "span": [
+            6,
+            13
+          ]
+        },
+        {
+          "text": "of him to help his classmates in",
+          "role": "状语",
+          "span": [
+            14,
+            46
+          ]
+        },
+        {
+          "text": "need",
+          "role": "谓语",
+          "span": [
+            47,
+            51
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，It 是形式主语，to help his classmates 是真正主语。",
+            "why": "is 是系动词，It 是形式主语，to help his classmates（帮助同学）是真正主语，so kind of him 是表语。",
+            "highlight": [
+              3,
+              5
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "it is + adj + of sb to do",
+            "what": "It is so kind of him to help = 他帮助人真是太好了，of him 表人品质。",
+            "why": "it is + 形容词 + of + 人 + to do 是固定结构，kind 形容人，所以用 of him（不是 for him）。",
+            "how": "译「他帮助有需要的同学真是太好了」，to help 提前作主语。",
+            "highlight": [
+              6,
+              51
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他帮助有需要的同学真是太好了。",
+            "why": "It is so kind of him to help his classmates in need 译「他帮助有需要的同学真是太好了」。",
+            "highlight": [
+              0,
+              51
+            ]
+          }
+        ],
+        "finalZh": "他帮助有需要的同学真是太好了。",
+        "orderRules": [
+          "形式主语 It 不译"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s08-0062",
+      "en": "It took us one hour to finish the homework.",
+      "zh": "我们花了一个小时完成家庭作业。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "非谓语动词",
+          "代词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        },
+        {
+          "answer": "It",
+          "hint": "代词，可作形式主语/形式宾语（本空填 It）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "It",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "took",
+          "role": "谓语",
+          "span": [
+            3,
+            7
+          ]
+        },
+        {
+          "text": "us one hour",
+          "role": "宾语",
+          "span": [
+            8,
+            19
+          ]
+        },
+        {
+          "text": "to finish the homework",
+          "role": "状语",
+          "span": [
+            20,
+            42
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 took，It 是形式主语，to finish the homework 是真正主语。",
+            "why": "took（花费）是谓语，It 是形式主语，to finish the homework（完成作业）是真正主语，one hour 是宾语。",
+            "highlight": [
+              3,
+              7
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "it took sb + 时间 + to do",
+            "what": "It took us one hour to finish = 我们花了一小时完成，it took 结构。",
+            "why": "it took + 人 + 时间 + to do 是固定结构，us 是「花费的人」，one hour 是时间。",
+            "how": "译「我们花了一个小时完成家庭作业」，it took us 译「我们花了」。",
+            "highlight": [
+              3,
+              42
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我们花了一个小时完成家庭作业。",
+            "why": "It took us one hour to finish the homework 译「我们花了一个小时完成家庭作业」。",
+            "highlight": [
+              0,
+              42
+            ]
+          }
+        ],
+        "finalZh": "我们花了一个小时完成家庭作业。",
+        "orderRules": [
+          "形式主语 It 不译"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s08-0063",
+      "en": "It happens to me to come across her on the way home.",
+      "zh": "我碰巧在回家的路上遇见了她。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 12,
+        "clauses": 0,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "非谓语动词",
+          "代词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        },
+        {
+          "answer": "on",
+          "hint": "介词，在…上（本空填 on）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "It",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "happens",
+          "role": "谓语",
+          "span": [
+            3,
+            10
+          ]
+        },
+        {
+          "text": "to me to come across her on the way home",
+          "role": "状语",
+          "span": [
+            11,
+            51
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 happens，It 是形式主语，to come across her 是真正主语。",
+            "why": "happens（碰巧）是谓语，It 是形式主语，to come across her（遇见她）是真正主语。",
+            "highlight": [
+              3,
+              10
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "it happens to sb to do",
+            "what": "It happens to me to come across = 我碰巧遇见，happen to do 表碰巧。",
+            "why": "it happens to sb to do 是固定结构，happen to do 表「碰巧做」，to me 是「发生在我身上」。",
+            "how": "译「我碰巧在回家的路上遇见了她」，happen to 译「碰巧」。",
+            "highlight": [
+              3,
+              51
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我碰巧在回家的路上遇见了她。",
+            "why": "It happens to me to come across her on the way home 译「我碰巧在回家的路上遇见了她」。",
+            "highlight": [
+              0,
+              51
+            ]
+          }
+        ],
+        "finalZh": "我碰巧在回家的路上遇见了她。",
+        "orderRules": [
+          "形式主语 It 不译"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s08-0064",
+      "en": "It is useless doing that.",
+      "zh": "那样做是没用的。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 5,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "强调",
+          "it的用法"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "It",
+          "hint": "代词，可作形式主语/形式宾语（本空填 It）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "It",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            3,
+            5
+          ]
+        },
+        {
+          "text": "useless doing",
+          "role": "表语",
+          "span": [
+            6,
+            19
+          ]
+        },
+        {
+          "text": "that.",
+          "role": "宾语从句",
+          "span": [
+            20,
+            25
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，It 是形式主语，doing that 是动名词作真正主语。",
+            "why": "is 是系动词，It 是形式主语，doing that（那样做）是动名词作真正主语，useless 是表语。",
+            "highlight": [
+              3,
+              5
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "it is + adj + doing",
+            "what": "It is useless doing that = 那样做没用，动名词作主语。",
+            "why": "it is + 形容词 + 动名词 是固定结构，doing that 是动名词作真正主语。",
+            "how": "译「那样做是没用的」，doing that 提前作主语。",
+            "highlight": [
+              6,
+              24
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "那样做是没用的。",
+            "why": "It is useless doing that 译「那样做是没用的」。",
+            "highlight": [
+              0,
+              24
+            ]
+          }
+        ],
+        "finalZh": "那样做是没用的。",
+        "orderRules": [
+          "形式主语 It 不译"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s08-0065",
+      "en": "It's no good arguing with him because he will never change his mind.",
+      "zh": "同他争论没有用，因为他决不会改变自己的主意。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 13,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "状语从句",
+          "情态动词"
+        ],
+        "fine": [
+          "一般将来时"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "because",
+          "hint": "引导原因状语从句（本空填 because）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "will",
+          "hint": "助动词，一般将来时（本空填 will）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "with",
+          "hint": "介词，和/带着（本空填 with）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "It's no good arguing with him",
+          "role": "主语",
+          "span": [
+            0,
+            29
+          ]
+        },
+        {
+          "text": "because he will never change his mind.",
+          "role": "状语从句",
+          "span": [
+            30,
+            68
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，It 是形式主语，arguing with him 是动名词作真正主语，because 引导原因从句。",
+            "why": "is 是系动词，It 是形式主语，arguing with him（和他争论）是动名词作真正主语，because he will never change his mind 是原因状语从句。",
+            "highlight": [
+              5,
+              8
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "it's no good doing",
+            "what": "It's no good arguing with him = 和他争论没用，no good doing 固定句型。",
+            "why": "it's no good + 动名词 是固定句型，arguing with him 是动名词作真正主语。",
+            "how": "译「同他争论没有用」，arguing with him 提前作主语。",
+            "highlight": [
+              5,
+              29
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "clause",
+            "title": "识别原因状语从句",
+            "what": "because he will never change his mind 是原因状语从句。",
+            "why": "because（因为）引导原因状语从句，he will never change his mind 是从句内容。",
+            "highlight": [
+              30,
+              67
+            ]
+          },
+          {
+            "step": 4,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "同他争论没有用，因为他决不会改变自己的主意。",
+            "why": "It's no good arguing with him 译「同他争论没有用」，because he will never change his mind 译「因为他决不会改变自己的主意」。",
+            "highlight": [
+              0,
+              67
+            ]
+          }
+        ],
+        "finalZh": "同他争论没有用，因为他决不会改变自己的主意。",
+        "orderRules": [
+          "形式主语 It 不译"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s08-0066",
+      "en": "It is dangerous playing with fire.",
+      "zh": "玩火是危险的。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 6,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "it的用法",
+          "非谓语动词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "with",
+          "hint": "介词，和/带着（本空填 with）",
+          "gp": "介词"
+        },
+        {
+          "answer": "It",
+          "hint": "代词，可作形式主语/形式宾语（本空填 It）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "It",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            3,
+            5
+          ]
+        },
+        {
+          "text": "dangerous playing",
+          "role": "表语",
+          "span": [
+            6,
+            23
+          ]
+        },
+        {
+          "text": "with fire",
+          "role": "状语",
+          "span": [
+            24,
+            33
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，It 是形式主语，playing with fire 是动名词作真正主语。",
+            "why": "is 是系动词，It 是形式主语，playing with fire（玩火）是动名词作真正主语，dangerous 是表语。",
+            "highlight": [
+              3,
+              5
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "it is + adj + doing",
+            "what": "It is dangerous playing with fire = 玩火危险，动名词作主语。",
+            "why": "it is + 形容词 + 动名词 是固定结构，playing with fire 是动名词作真正主语。",
+            "how": "译「玩火是危险的」，playing with fire 提前作主语。",
+            "highlight": [
+              6,
+              33
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "玩火是危险的。",
+            "why": "It is dangerous playing with fire 译「玩火是危险的」。",
+            "highlight": [
+              0,
+              33
+            ]
+          }
+        ],
+        "finalZh": "玩火是危险的。",
+        "orderRules": [
+          "形式主语 It 不译"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s08-0067",
+      "en": "I don't think (that) the branch can hold your weight.",
+      "zh": "我认为这根树枝承受不住你的重量。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "情态动词",
+          "代词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "can",
+          "hint": "情态动词，能/可以（本空填 can）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "don't think",
+          "role": "谓语",
+          "span": [
+            2,
+            13
+          ]
+        },
+        {
+          "text": "that) the branch",
+          "role": "宾语",
+          "span": [
+            15,
+            31
+          ]
+        },
+        {
+          "text": "can hold",
+          "role": "谓语",
+          "span": [
+            32,
+            40
+          ]
+        },
+        {
+          "text": "your weight",
+          "role": "宾语",
+          "span": [
+            41,
+            52
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 don't think，(that) 引导宾语从句（that 可省略）。",
+            "why": "don't think（不认为）是谓语，(that) the branch can hold your weight 是 that 引导的宾语从句。",
+            "highlight": [
+              2,
+              12
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别宾语从句",
+            "what": "(that) the branch can hold your weight 是宾语从句，that 省略。",
+            "why": "think 后接宾语从句，that 可省略，the branch can hold your weight 是从句内容。",
+            "highlight": [
+              14,
+              52
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我认为这根树枝承受不住你的重量。",
+            "why": "I don't think (that) the branch can hold your weight 译「我认为这根树枝承受不住你的重量」。",
+            "highlight": [
+              0,
+              52
+            ]
+          }
+        ],
+        "finalZh": "我认为这根树枝承受不住你的重量。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOO"
+    },
+    {
+      "id": "s08-0069",
+      "en": "I wonder whether you can pass the exam.",
+      "zh": "我想知道你能否通过考试。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "情态动词",
+          "代词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "whether",
+          "hint": "引导名词性从句，表示是否（本空填 whether）",
+          "gp": "名词性从句"
+        },
+        {
+          "answer": "can",
+          "hint": "情态动词，能/可以（本空填 can）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "I wonder",
+          "role": "主语",
+          "span": [
+            0,
+            8
+          ]
+        },
+        {
+          "text": "whether you can pass the exam.",
+          "role": "宾语从句",
+          "span": [
+            9,
+            39
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 wonder，whether 引导宾语从句。",
+            "why": "wonder（想知道）是谓语，whether you can pass the exam 是 whether 引导的宾语从句。",
+            "highlight": [
+              2,
+              8
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别宾语从句",
+            "what": "whether you can pass the exam 是宾语从句，whether 表「是否」。",
+            "why": "whether（是否）引导宾语从句，you can pass the exam 是从句内容。",
+            "highlight": [
+              9,
+              38
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我想知道你能否通过考试。",
+            "why": "I wonder whether you can pass the exam 译「我想知道你能否通过考试」。",
+            "highlight": [
+              0,
+              38
+            ]
+          }
+        ],
+        "finalZh": "我想知道你能否通过考试。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s08-0070",
+      "en": "Do you know who lived in our neighbor's house?",
+      "zh": "你知道谁住在我们邻居的房子里吗？",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "定语从句",
+          "祈使句与感叹句"
+        ],
+        "fine": [
+          "关系代词 who 在从句中作主语"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "who",
+          "hint": "关系代词，指人（本空填 who）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "Do",
+          "hint": "助动词/实义动词（本空填 Do）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "in",
+          "hint": "介词，在…里（本空填 in）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Do",
+          "role": "谓语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "you",
+          "role": "宾语",
+          "span": [
+            3,
+            6
+          ]
+        },
+        {
+          "text": "know",
+          "role": "谓语",
+          "span": [
+            7,
+            11
+          ]
+        },
+        {
+          "text": "who lived in our neighbor's house?",
+          "role": "定语从句",
+          "span": [
+            12,
+            46
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 Do...know，who 引导宾语从句。",
+            "why": "Do know（知道）是谓语疑问，who lived in our neighbor's house 是 who 引导的宾语从句。",
+            "highlight": [
+              0,
+              11
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别宾语从句",
+            "what": "who lived in our neighbor's house 是宾语从句，who 作主语。",
+            "why": "who 引导宾语从句，在从句中作主语，lived 是谓语。",
+            "highlight": [
+              12,
+              45
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "你知道谁住在我们邻居的房子里吗？",
+            "why": "Do you know who lived in our neighbor's house 译「你知道谁住在我们邻居的房子里吗」。",
+            "highlight": [
+              0,
+              45
+            ]
+          }
+        ],
+        "finalZh": "你知道谁住在我们邻居的房子里吗？",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s08-0071",
+      "en": "I feel it a pity that I missed the chance.",
+      "zh": "我觉得错过这个机会很可惜。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "非谓语动词",
+          "代词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "a",
+          "hint": "不定冠词，修饰可数名词单数（本空填 a）",
+          "gp": "冠词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "feel",
+          "role": "谓语",
+          "span": [
+            2,
+            6
+          ]
+        },
+        {
+          "text": "it a pity",
+          "role": "表语",
+          "span": [
+            7,
+            16
+          ]
+        },
+        {
+          "text": "that",
+          "role": "状语",
+          "span": [
+            17,
+            21
+          ]
+        },
+        {
+          "text": "I",
+          "role": "状语",
+          "span": [
+            22,
+            23
+          ]
+        },
+        {
+          "text": "missed",
+          "role": "谓语",
+          "span": [
+            24,
+            30
+          ]
+        },
+        {
+          "text": "the chance",
+          "role": "宾语",
+          "span": [
+            31,
+            41
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 feel，it 是形式宾语，that 引导宾语从句。",
+            "why": "feel（觉得）是谓语，it 是形式宾语，that I missed the chance 是真正宾语从句，a pity 是宾补。",
+            "highlight": [
+              2,
+              6
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "feel it + 名词 + that 从句",
+            "what": "feel it a pity that = 觉得可惜，it 是形式宾语。",
+            "why": "feel it + 名词 + that 从句是固定结构，it 是形式宾语，that I missed the chance 是真正宾语。",
+            "how": "译「觉得错过这个机会很可惜」，it 形式宾语不译。",
+            "highlight": [
+              7,
+              41
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我觉得错过这个机会很可惜。",
+            "why": "I feel it a pity that I missed the chance 译「我觉得错过这个机会很可惜」。",
+            "highlight": [
+              0,
+              41
+            ]
+          }
+        ],
+        "finalZh": "我觉得错过这个机会很可惜。",
+        "orderRules": [
+          "形式宾语 it 不译"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s08-0072",
+      "en": "Everything depends on whether you pass the examination.",
+      "zh": "一切取决于你是否通过考试。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "非谓语动词",
+          "代词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "whether",
+          "hint": "引导名词性从句，表示是否（本空填 whether）",
+          "gp": "名词性从句"
+        },
+        {
+          "answer": "on",
+          "hint": "介词，在…上（本空填 on）",
+          "gp": "介词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Everything",
+          "role": "主语",
+          "span": [
+            0,
+            10
+          ]
+        },
+        {
+          "text": "depends",
+          "role": "谓语",
+          "span": [
+            11,
+            18
+          ]
+        },
+        {
+          "text": "on",
+          "role": "状语",
+          "span": [
+            19,
+            21
+          ]
+        },
+        {
+          "text": "whether you pass the examination.",
+          "role": "宾语从句",
+          "span": [
+            22,
+            55
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 depends on，whether 引导宾语从句。",
+            "why": "depends on（取决于）是谓语，whether you pass the examination 是 whether 引导的宾语从句。",
+            "highlight": [
+              11,
+              20
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别宾语从句（介词宾语）",
+            "what": "whether you pass the examination 是宾语从句，作介词 on 的宾语。",
+            "why": "whether（是否）引导宾语从句，作 depends on 的介词宾语。",
+            "highlight": [
+              22,
+              54
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "一切取决于你是否通过考试。",
+            "why": "Everything depends on whether you pass the examination 译「一切取决于你是否通过考试」。",
+            "highlight": [
+              0,
+              54
+            ]
+          }
+        ],
+        "finalZh": "一切取决于你是否通过考试。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s08-0073",
+      "en": "They succeeded in what they set out to do.",
+      "zh": "他们成功地做了他们打算做的事。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "非谓语动词",
+          "代词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "what",
+          "hint": "引导名词性从句并在从句中作成分（本空填 what）",
+          "gp": "名词性从句"
+        },
+        {
+          "answer": "do",
+          "hint": "助动词/实义动词（本空填 do）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "in",
+          "hint": "介词，在…里（本空填 in）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "They",
+          "role": "主语",
+          "span": [
+            0,
+            4
+          ]
+        },
+        {
+          "text": "succeeded",
+          "role": "谓语",
+          "span": [
+            5,
+            14
+          ]
+        },
+        {
+          "text": "in",
+          "role": "状语",
+          "span": [
+            15,
+            17
+          ]
+        },
+        {
+          "text": "what they set out to do.",
+          "role": "宾语从句",
+          "span": [
+            18,
+            42
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 succeeded in，what 引导宾语从句。",
+            "why": "succeeded in（成功做）是谓语，what they set out to do 是 what 引导的宾语从句。",
+            "highlight": [
+              5,
+              17
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别宾语从句（介词宾语）",
+            "what": "what they set out to do 是宾语从句，what 作 do 的宾语。",
+            "why": "what 引导宾语从句，作 in 的宾语，what 在从句中作 set out to do 的宾语。",
+            "highlight": [
+              18,
+              41
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他们成功地做了他们打算做的事。",
+            "why": "They succeeded in what they set out to do 译「他们成功地做了他们打算做的事」。",
+            "highlight": [
+              0,
+              41
+            ]
+          }
+        ],
+        "finalZh": "他们成功地做了他们打算做的事。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s08-0074",
+      "en": "Many parents worry about whether their children are getting enough vitamins.",
+      "zh": "许多父母担心孩子是否摄入了足够的维生素。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 11,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "进行时（be + 现在分词）"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "whether",
+          "hint": "引导名词性从句，表示是否（本空填 whether）",
+          "gp": "名词性从句"
+        },
+        {
+          "answer": "are",
+          "hint": "系动词/助动词，复数（本空填 are）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "about",
+          "hint": "介词，关于（本空填 about）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Many parents",
+          "role": "主语",
+          "span": [
+            0,
+            12
+          ]
+        },
+        {
+          "text": "worry about",
+          "role": "谓语",
+          "span": [
+            13,
+            24
+          ]
+        },
+        {
+          "text": "whether their children are getting enough vitamins.",
+          "role": "宾语从句",
+          "span": [
+            25,
+            76
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 worry about，whether 引导宾语从句。",
+            "why": "worry about（担心）是谓语，whether their children are getting enough vitamins 是 whether 引导的宾语从句。",
+            "highlight": [
+              13,
+              24
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别宾语从句（介词宾语）",
+            "what": "whether their children are getting enough vitamins 是宾语从句。",
+            "why": "whether（是否）引导宾语从句，作 worry about 的介词宾语。",
+            "highlight": [
+              25,
+              75
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "许多父母担心孩子是否摄入了足够的维生素。",
+            "why": "Many parents worry about whether their children are getting enough vitamins 译「许多父母担心孩子是否摄入了足够的维生素」。",
+            "highlight": [
+              0,
+              75
+            ]
+          }
+        ],
+        "finalZh": "许多父母担心孩子是否摄入了足够的维生素。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s08-0075",
+      "en": "I am not sure whether I can pass the exam.",
+      "zh": "我不确定我能否通过考试。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "被动语态",
+          "情态动词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "whether",
+          "hint": "引导名词性从句，表示是否（本空填 whether）",
+          "gp": "名词性从句"
+        },
+        {
+          "answer": "am",
+          "hint": "系动词/助动词，第一人称单数（本空填 am）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "can",
+          "hint": "情态动词，能/可以（本空填 can）",
+          "gp": "情态动词"
+        }
+      ],
+      "components": [
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "am not",
+          "role": "谓语",
+          "span": [
+            2,
+            8
+          ]
+        },
+        {
+          "text": "sure",
+          "role": "表语",
+          "span": [
+            9,
+            13
+          ]
+        },
+        {
+          "text": "whether I can pass the exam.",
+          "role": "宾语从句",
+          "span": [
+            14,
+            42
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 am not sure，whether 引导宾语从句。",
+            "why": "am not sure（不确定）是谓语，whether I can pass the exam 是 whether 引导的宾语从句。",
+            "highlight": [
+              2,
+              12
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别宾语从句",
+            "what": "whether I can pass the exam 是宾语从句，whether 表「是否」。",
+            "why": "whether（是否）引导宾语从句，I can pass the exam 是从句内容。",
+            "highlight": [
+              14,
+              41
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我不确定我能否通过考试。",
+            "why": "I am not sure whether I can pass the exam 译「我不确定我能否通过考试」。",
+            "highlight": [
+              0,
+              41
+            ]
+          }
+        ],
+        "finalZh": "我不确定我能否通过考试。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s08-0076",
+      "en": "I'm satisfied that they are telling the truth.",
+      "zh": "我很满意他们在说实话。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "定语从句",
+          "非谓语动词"
+        ],
+        "fine": [
+          "进行时（be + 现在分词）"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "are",
+          "hint": "系动词/助动词，复数（本空填 are）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "I'm",
+          "role": "谓语",
+          "span": [
+            0,
+            3
+          ]
+        },
+        {
+          "text": "satisfied",
+          "role": "宾语",
+          "span": [
+            4,
+            13
+          ]
+        },
+        {
+          "text": "that",
+          "role": "状语",
+          "span": [
+            14,
+            18
+          ]
+        },
+        {
+          "text": "they",
+          "role": "状语",
+          "span": [
+            19,
+            23
+          ]
+        },
+        {
+          "text": "are telling",
+          "role": "谓语",
+          "span": [
+            24,
+            35
+          ]
+        },
+        {
+          "text": "the truth",
+          "role": "表语",
+          "span": [
+            36,
+            45
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 am satisfied，that 引导宾语从句。",
+            "why": "am satisfied（满意）是谓语，that they are telling the truth 是 that 引导的宾语从句。",
+            "highlight": [
+              2,
+              13
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别宾语从句",
+            "what": "that they are telling the truth 是宾语从句。",
+            "why": "that 引导宾语从句，they are telling the truth 是从句内容。",
+            "highlight": [
+              14,
+              45
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我很满意他们在说实话。",
+            "why": "I'm satisfied that they are telling the truth 译「我很满意他们在说实话」。",
+            "highlight": [
+              0,
+              45
+            ]
+          }
+        ],
+        "finalZh": "我很满意他们在说实话。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s08-0077",
+      "en": "Our success depends on whether we work hard.",
+      "zh": "我们的成功取决于我们是否努力工作。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "代词",
+          "介词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "whether",
+          "hint": "引导名词性从句，表示是否（本空填 whether）",
+          "gp": "名词性从句"
+        },
+        {
+          "answer": "on",
+          "hint": "介词，在…上（本空填 on）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Our success",
+          "role": "主语",
+          "span": [
+            0,
+            11
+          ]
+        },
+        {
+          "text": "depends",
+          "role": "谓语",
+          "span": [
+            12,
+            19
+          ]
+        },
+        {
+          "text": "on",
+          "role": "状语",
+          "span": [
+            20,
+            22
+          ]
+        },
+        {
+          "text": "whether we work hard.",
+          "role": "宾语从句",
+          "span": [
+            23,
+            44
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 depends on，whether 引导宾语从句。",
+            "why": "depends on（取决于）是谓语，whether we work hard 是 whether 引导的宾语从句。",
+            "highlight": [
+              12,
+              21
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别宾语从句（介词宾语）",
+            "what": "whether we work hard 是宾语从句，作 on 的宾语。",
+            "why": "whether（是否）引导宾语从句，作 depends on 的介词宾语。",
+            "highlight": [
+              23,
+              43
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我们的成功取决于我们是否努力工作。",
+            "why": "Our success depends on whether we work hard 译「我们的成功取决于我们是否努力工作」。",
+            "highlight": [
+              0,
+              43
+            ]
+          }
+        ],
+        "finalZh": "我们的成功取决于我们是否努力工作。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s08-0078",
+      "en": "Tell me whether or not I should invite him.",
+      "zh": "告诉我我是否应该邀请他。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "情态动词",
+          "并列结构"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "whether",
+          "hint": "引导名词性从句，表示是否（本空填 whether）",
+          "gp": "名词性从句"
+        },
+        {
+          "answer": "should",
+          "hint": "情态动词，应该（本空填 should）",
+          "gp": "情态动词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Tell",
+          "role": "谓语",
+          "span": [
+            0,
+            4
+          ]
+        },
+        {
+          "text": "me",
+          "role": "宾语",
+          "span": [
+            5,
+            7
+          ]
+        },
+        {
+          "text": "whether or not I should invite him.",
+          "role": "宾语从句",
+          "span": [
+            8,
+            43
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 Tell，whether or not 引导宾语从句。",
+            "why": "Tell（告诉）是谓语，whether or not I should invite him 是 whether or not 引导的宾语从句。",
+            "highlight": [
+              0,
+              4
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "whether or not",
+            "what": "whether or not = 是否，whether or not 固定搭配。",
+            "why": "whether or not（是否）引导宾语从句，I should invite him 是从句内容。",
+            "how": "译「告诉我我是否应该邀请他」，whether or not 译「是否」。",
+            "highlight": [
+              5,
+              42
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "告诉我我是否应该邀请他。",
+            "why": "Tell me whether or not I should invite him 译「告诉我我是否应该邀请他」。",
+            "highlight": [
+              0,
+              42
+            ]
+          }
+        ],
+        "finalZh": "告诉我我是否应该邀请他。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOC"
+    },
+    {
+      "id": "s08-0079",
+      "en": "Could you tell me whether you know the answer?",
+      "zh": "你能告诉我你是否知道答案吗？",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "情态动词",
+          "代词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "whether",
+          "hint": "引导名词性从句，表示是否（本空填 whether）",
+          "gp": "名词性从句"
+        },
+        {
+          "answer": "Could",
+          "hint": "情态动词，能（过去）/可以（本空填 Could）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Could",
+          "role": "谓语",
+          "span": [
+            0,
+            5
+          ]
+        },
+        {
+          "text": "you",
+          "role": "宾语",
+          "span": [
+            6,
+            9
+          ]
+        },
+        {
+          "text": "tell",
+          "role": "谓语",
+          "span": [
+            10,
+            14
+          ]
+        },
+        {
+          "text": "me",
+          "role": "宾语",
+          "span": [
+            15,
+            17
+          ]
+        },
+        {
+          "text": "whether you know the answer?",
+          "role": "宾语从句",
+          "span": [
+            18,
+            46
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 Could...tell，whether 引导宾语从句。",
+            "why": "Could tell（能告诉）是谓语疑问，whether you know the answer 是 whether 引导的宾语从句。",
+            "highlight": [
+              0,
+              14
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别宾语从句",
+            "what": "whether you know the answer 是宾语从句，whether 表「是否」。",
+            "why": "whether（是否）引导宾语从句，you know the answer 是从句内容。",
+            "highlight": [
+              18,
+              45
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "你能告诉我你是否知道答案吗？",
+            "why": "Could you tell me whether you know the answer 译「你能告诉我你是否知道答案吗」。",
+            "highlight": [
+              0,
+              45
+            ]
+          }
+        ],
+        "finalZh": "你能告诉我你是否知道答案吗？",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOO"
+    },
+    {
+      "id": "s08-0080",
+      "en": "Whether they will come to the party, I don't care.",
+      "zh": "他们是否会来参加聚会，我不在乎。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "情态动词",
+          "非谓语动词"
+        ],
+        "fine": [
+          "一般将来时"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "Whether",
+          "hint": "引导名词性从句，表示是否（本空填 Whether）",
+          "gp": "名词性从句"
+        },
+        {
+          "answer": "will",
+          "hint": "助动词，一般将来时（本空填 will）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Whether they will come to the party",
+          "role": "宾语从句",
+          "span": [
+            0,
+            35
+          ]
+        },
+        {
+          "text": "I",
+          "role": "宾语",
+          "span": [
+            37,
+            38
+          ]
+        },
+        {
+          "text": "don't",
+          "role": "谓语",
+          "span": [
+            39,
+            44
+          ]
+        },
+        {
+          "text": "care",
+          "role": "宾语",
+          "span": [
+            45,
+            49
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 don't care，Whether 引导宾语从句（前置）。",
+            "why": "don't care（不在乎）是谓语，Whether they will come to the party 是 whether 引导的宾语从句（前置到句首）。",
+            "highlight": [
+              37,
+              48
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "宾语从句前置",
+            "what": "Whether they will come to the party, I don't care = 他们是否来聚会，我不在乎。",
+            "why": "whether 引导的宾语从句前置到句首，表示强调，正常语序是 I don't care whether they will come。",
+            "how": "译「他们是否会来参加聚会，我不在乎」，宾语从句前置强调。",
+            "highlight": [
+              0,
+              35
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他们是否会来参加聚会，我不在乎。",
+            "why": "Whether they will come to the party, I don't care 译「他们是否会来参加聚会，我不在乎」。",
+            "highlight": [
+              0,
+              49
+            ]
+          }
+        ],
+        "finalZh": "他们是否会来参加聚会，我不在乎。",
+        "orderRules": [
+          "宾语从句前置强调"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOO"
+    },
+    {
+      "id": "s08-0081",
+      "en": "A number of factors decide whether a movie will be successful or not.",
+      "zh": "许多因素决定一部电影是否会成功。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 13,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "情态动词",
+          "并列结构"
+        ],
+        "fine": [
+          "一般将来时",
+          "a number of + 复数名词，谓语用复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "whether",
+          "hint": "引导名词性从句，表示是否（本空填 whether）",
+          "gp": "名词性从句"
+        },
+        {
+          "answer": "will",
+          "hint": "助动词，一般将来时（本空填 will）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "be",
+          "hint": "系动词/助动词原形（本空填 be）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "A number of factors",
+          "role": "主语",
+          "span": [
+            0,
+            19
+          ]
+        },
+        {
+          "text": "decide",
+          "role": "谓语",
+          "span": [
+            20,
+            26
+          ]
+        },
+        {
+          "text": "whether a movie will be successful or not.",
+          "role": "宾语从句",
+          "span": [
+            27,
+            69
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 decide，whether 引导宾语从句。",
+            "why": "decide（决定）是谓语，whether a movie will be successful or not 是 whether 引导的宾语从句。",
+            "highlight": [
+              20,
+              26
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别宾语从句",
+            "what": "whether a movie will be successful or not 是宾语从句，whether...or not 表「是否」。",
+            "why": "whether...or not（是否）引导宾语从句，a movie will be successful 是从句内容。",
+            "highlight": [
+              27,
+              68
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "许多因素决定一部电影是否会成功。",
+            "why": "A number of factors decide whether a movie will be successful or not 译「许多因素决定一部电影是否会成功」。",
+            "highlight": [
+              0,
+              68
+            ]
+          }
+        ],
+        "finalZh": "许多因素决定一部电影是否会成功。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s08-0082",
+      "en": "We must consider whether it will be worthwhile.",
+      "zh": "我们必须考虑这是否值得。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "情态动词",
+          "动词时态"
+        ],
+        "fine": [
+          "一般将来时"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "whether",
+          "hint": "引导名词性从句，表示是否（本空填 whether）",
+          "gp": "名词性从句"
+        },
+        {
+          "answer": "must",
+          "hint": "情态动词，必须/一定（本空填 must）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "will",
+          "hint": "助动词，一般将来时（本空填 will）",
+          "gp": "情态动词"
+        }
+      ],
+      "components": [
+        {
+          "text": "We",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "must consider",
+          "role": "谓语",
+          "span": [
+            3,
+            16
+          ]
+        },
+        {
+          "text": "whether it will be worthwhile.",
+          "role": "宾语从句",
+          "span": [
+            17,
+            47
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 must consider，whether 引导宾语从句。",
+            "why": "must consider（必须考虑）是谓语，whether it will be worthwhile 是 whether 引导的宾语从句。",
+            "highlight": [
+              3,
+              15
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别宾语从句",
+            "what": "whether it will be worthwhile 是宾语从句，whether 表「是否」。",
+            "why": "whether（是否）引导宾语从句，it will be worthwhile 是从句内容。",
+            "highlight": [
+              17,
+              46
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我们必须考虑这是否值得。",
+            "why": "We must consider whether it will be worthwhile 译「我们必须考虑这是否值得」。",
+            "highlight": [
+              0,
+              46
+            ]
+          }
+        ],
+        "finalZh": "我们必须考虑这是否值得。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s08-0083",
+      "en": "I know (that) I'm asking you too much.",
+      "zh": "我知道我对你要求太多了。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "非谓语动词",
+          "代词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        }
+      ],
+      "components": [
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "know",
+          "role": "谓语",
+          "span": [
+            2,
+            6
+          ]
+        },
+        {
+          "text": "that) I'm asking you too much.",
+          "role": "宾语从句",
+          "span": [
+            8,
+            38
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 know，(that) 引导宾语从句（that 可省略）。",
+            "why": "know（知道）是谓语，(that) I'm asking you too much 是 that 引导的宾语从句。",
+            "highlight": [
+              2,
+              6
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别宾语从句",
+            "what": "(that) I'm asking you too much 是宾语从句，that 省略。",
+            "why": "know 后接宾语从句，that 可省略，I'm asking you too much 是从句内容。",
+            "highlight": [
+              8,
+              37
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我知道我对你要求太多了。",
+            "why": "I know (that) I'm asking you too much 译「我知道我对你要求太多了」。",
+            "highlight": [
+              0,
+              37
+            ]
+          }
+        ],
+        "finalZh": "我知道我对你要求太多了。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s08-0084",
+      "en": "I know (that) she's honest and reliable.",
+      "zh": "我知道她诚实可靠。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 7,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "并列结构",
+          "代词"
+        ],
+        "fine": [
+          "形容词最高级"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        }
+      ],
+      "components": [
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "know",
+          "role": "谓语",
+          "span": [
+            2,
+            6
+          ]
+        },
+        {
+          "text": "that) she's honest and reliable.",
+          "role": "宾语从句",
+          "span": [
+            8,
+            40
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 know，(that) 引导宾语从句（that 可省略）。",
+            "why": "know（知道）是谓语，(that) she's honest and reliable 是 that 引导的宾语从句。",
+            "highlight": [
+              2,
+              6
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别宾语从句",
+            "what": "(that) she's honest and reliable 是宾语从句，that 省略。",
+            "why": "know 后接宾语从句，that 可省略，she's honest and reliable 是从句内容。",
+            "highlight": [
+              8,
+              39
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我知道她诚实可靠。",
+            "why": "I know (that) she's honest and reliable 译「我知道她诚实可靠」。",
+            "highlight": [
+              0,
+              39
+            ]
+          }
+        ],
+        "finalZh": "我知道她诚实可靠。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s08-0085",
+      "en": "He says (that) he will leave a message on my desk.",
+      "zh": "他说他会在我桌上留个口信。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 11,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "情态动词",
+          "动词时态"
+        ],
+        "fine": [
+          "一般将来时"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "will",
+          "hint": "助动词，一般将来时（本空填 will）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "on",
+          "hint": "介词，在…上（本空填 on）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "He",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "says",
+          "role": "谓语",
+          "span": [
+            3,
+            7
+          ]
+        },
+        {
+          "text": "that) he",
+          "role": "宾语",
+          "span": [
+            9,
+            17
+          ]
+        },
+        {
+          "text": "will leave",
+          "role": "谓语",
+          "span": [
+            18,
+            28
+          ]
+        },
+        {
+          "text": "a message",
+          "role": "宾语",
+          "span": [
+            29,
+            38
+          ]
+        },
+        {
+          "text": "on my desk",
+          "role": "状语",
+          "span": [
+            39,
+            49
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 says，(that) 引导宾语从句（that 可省略）。",
+            "why": "says（说）是谓语，(that) he will leave a message 是 that 引导的宾语从句。",
+            "highlight": [
+              3,
+              7
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别宾语从句",
+            "what": "(that) he will leave a message on my desk 是宾语从句，that 省略。",
+            "why": "says 后接宾语从句，that 可省略，he will leave a message 是从句内容。",
+            "highlight": [
+              8,
+              49
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他说他会在我桌上留个口信。",
+            "why": "He says (that) he will leave a message on my desk 译「他说他会在我桌上留个口信」。",
+            "highlight": [
+              0,
+              49
+            ]
+          }
+        ],
+        "finalZh": "他说他会在我桌上留个口信。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOO"
+    },
+    {
+      "id": "s08-0086",
+      "en": "He told me that he had told Mary about the meeting already.",
+      "zh": "他告诉我他已经告诉玛丽会议的事了。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 12,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "定语从句",
+          "非谓语动词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "had",
+          "hint": "使役/助动词过去式（本空填 had）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "about",
+          "hint": "介词，关于（本空填 about）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "He",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "told",
+          "role": "谓语",
+          "span": [
+            3,
+            7
+          ]
+        },
+        {
+          "text": "me",
+          "role": "宾语",
+          "span": [
+            8,
+            10
+          ]
+        },
+        {
+          "text": "that",
+          "role": "状语",
+          "span": [
+            11,
+            15
+          ]
+        },
+        {
+          "text": "he",
+          "role": "状语",
+          "span": [
+            16,
+            18
+          ]
+        },
+        {
+          "text": "had told",
+          "role": "谓语",
+          "span": [
+            19,
+            27
+          ]
+        },
+        {
+          "text": "Mary",
+          "role": "宾语",
+          "span": [
+            28,
+            32
+          ]
+        },
+        {
+          "text": "about the meeting already",
+          "role": "状语",
+          "span": [
+            33,
+            58
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 told，that 引导宾语从句（含过去完成时）。",
+            "why": "told（告诉）是谓语，that he had told Mary 是 that 引导的宾语从句，had told 是过去完成时。",
+            "highlight": [
+              3,
+              7
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别宾语从句 + 时态",
+            "what": "that he had told Mary about the meeting 是宾语从句，had told 是过去完成时。",
+            "why": "told 后接宾语从句，had told 是过去完成时（过去的过去），already 是「已经」。",
+            "highlight": [
+              8,
+              58
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他告诉我他已经告诉玛丽会议的事了。",
+            "why": "He told me that he had told Mary about the meeting already 译「他告诉我他已经告诉玛丽会议的事了」。",
+            "highlight": [
+              0,
+              58
+            ]
+          }
+        ],
+        "finalZh": "他告诉我他已经告诉玛丽会议的事了。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOO"
+    },
+    {
+      "id": "s08-0087",
+      "en": "She asked if I would help.",
+      "zh": "她问我是否愿意帮忙。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 6,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "状语从句",
+          "情态动词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "if",
+          "hint": "引导条件状语从句或宾语从句（本空填 if）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "would",
+          "hint": "助动词，过去将来时/虚拟（本空填 would）",
+          "gp": "情态动词"
+        }
+      ],
+      "components": [
+        {
+          "text": "She",
+          "role": "主语",
+          "span": [
+            0,
+            3
+          ]
+        },
+        {
+          "text": "asked",
+          "role": "谓语",
+          "span": [
+            4,
+            9
+          ]
+        },
+        {
+          "text": "if I would help.",
+          "role": "状语从句",
+          "span": [
+            10,
+            26
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 asked，if 引导宾语从句。",
+            "why": "asked（问）是谓语，if I would help 是 if 引导的宾语从句。",
+            "highlight": [
+              4,
+              9
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别宾语从句",
+            "what": "if I would help 是宾语从句，if 表「是否」。",
+            "why": "if（是否）引导宾语从句，I would help 是从句内容。",
+            "highlight": [
+              10,
+              25
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "她问我是否愿意帮忙。",
+            "why": "She asked if I would help 译「她问我是否愿意帮忙」。",
+            "highlight": [
+              0,
+              25
+            ]
+          }
+        ],
+        "finalZh": "她问我是否愿意帮忙。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s08-0088",
+      "en": "The teacher told us that the earth moves round the sun.",
+      "zh": "老师告诉我们地球绕着太阳转。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 11,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "代词",
+          "冠词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "The",
+          "hint": "定冠词，特指（本空填 The）",
+          "gp": "冠词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "The teacher",
+          "role": "主语",
+          "span": [
+            0,
+            11
+          ]
+        },
+        {
+          "text": "told",
+          "role": "谓语",
+          "span": [
+            12,
+            16
+          ]
+        },
+        {
+          "text": "us",
+          "role": "宾语",
+          "span": [
+            17,
+            19
+          ]
+        },
+        {
+          "text": "that",
+          "role": "状语",
+          "span": [
+            20,
+            24
+          ]
+        },
+        {
+          "text": "the earth",
+          "role": "状语",
+          "span": [
+            25,
+            34
+          ]
+        },
+        {
+          "text": "moves",
+          "role": "谓语",
+          "span": [
+            35,
+            40
+          ]
+        },
+        {
+          "text": "round the sun",
+          "role": "宾语",
+          "span": [
+            41,
+            54
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 told，that 引导宾语从句（客观真理用一般现在时）。",
+            "why": "told（告诉）是谓语，that the earth moves round the sun 是 that 引导的宾语从句。",
+            "highlight": [
+              12,
+              16
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "客观真理保持一般现在时",
+            "what": "the earth moves round the sun = 地球绕太阳转，客观真理不变时态。",
+            "why": "宾语从句表客观真理时，即使主句是过去时 told，从句仍用一般现在时 moves（不随主句变过去）。",
+            "how": "译「地球绕着太阳转」，moves 译「绕着转」。",
+            "highlight": [
+              17,
+              54
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "老师告诉我们地球绕着太阳转。",
+            "why": "The teacher told us that the earth moves round the sun 译「老师告诉我们地球绕着太阳转」。",
+            "highlight": [
+              0,
+              54
+            ]
+          }
+        ],
+        "finalZh": "老师告诉我们地球绕着太阳转。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOO"
+    },
+    {
+      "id": "s08-0089",
+      "en": "I told my son that the sun rises in the east.",
+      "zh": "我告诉我儿子太阳从东方升起。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 11,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "代词",
+          "冠词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "in",
+          "hint": "介词，在…里（本空填 in）",
+          "gp": "介词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "told",
+          "role": "谓语",
+          "span": [
+            2,
+            6
+          ]
+        },
+        {
+          "text": "my son",
+          "role": "宾语",
+          "span": [
+            7,
+            13
+          ]
+        },
+        {
+          "text": "that",
+          "role": "状语",
+          "span": [
+            14,
+            18
+          ]
+        },
+        {
+          "text": "the sun",
+          "role": "状语",
+          "span": [
+            19,
+            26
+          ]
+        },
+        {
+          "text": "rises",
+          "role": "谓语",
+          "span": [
+            27,
+            32
+          ]
+        },
+        {
+          "text": "in the east",
+          "role": "状语",
+          "span": [
+            33,
+            44
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 told，that 引导宾语从句（客观真理）。",
+            "why": "told（告诉）是谓语，that the sun rises in the east 是 that 引导的宾语从句。",
+            "highlight": [
+              2,
+              6
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "客观真理一般现在时",
+            "what": "the sun rises in the east = 太阳从东方升起，客观真理不变时态。",
+            "why": "宾语从句表客观真理，主句 told 是过去时，从句仍用一般现在时 rises。",
+            "how": "译「太阳从东方升起」，rises 译「升起」。",
+            "highlight": [
+              14,
+              44
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我告诉我儿子太阳从东方升起。",
+            "why": "I told my son that the sun rises in the east 译「我告诉我儿子太阳从东方升起」。",
+            "highlight": [
+              0,
+              44
+            ]
+          }
+        ],
+        "finalZh": "我告诉我儿子太阳从东方升起。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOC"
+    },
+    {
+      "id": "s08-0090",
+      "en": "The fact is that he doesn't really try.",
+      "zh": "事实是他并没有真正努力。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "被动语态",
+          "动词时态"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "The",
+          "hint": "定冠词，特指（本空填 The）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "The fact",
+          "role": "主语",
+          "span": [
+            0,
+            8
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            9,
+            11
+          ]
+        },
+        {
+          "text": "that he",
+          "role": "表语",
+          "span": [
+            12,
+            19
+          ]
+        },
+        {
+          "text": "doesn't really try",
+          "role": "谓语",
+          "span": [
+            20,
+            38
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is（系动词），that 引导表语从句。",
+            "why": "is 是系动词，that he doesn't really try 是 that 引导的表语从句。",
+            "highlight": [
+              9,
+              11
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别表语从句",
+            "what": "that he doesn't really try 是表语从句，说明 The fact 的内容。",
+            "why": "that 引导表语从句，he doesn't really try 是从句内容，作 is 的表语。",
+            "highlight": [
+              12,
+              38
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "事实是他并没有真正努力。",
+            "why": "The fact is that he doesn't really try 译「事实是他并没有真正努力」。",
+            "highlight": [
+              0,
+              38
+            ]
+          }
+        ],
+        "finalZh": "事实是他并没有真正努力。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s08-0091",
+      "en": "My opinion is that human beings should be kind and have dreams.",
+      "zh": "我的观点是人应该善良并且有梦想。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 12,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "被动语态",
+          "情态动词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "should",
+          "hint": "情态动词，应该（本空填 should）",
+          "gp": "情态动词"
+        }
+      ],
+      "components": [
+        {
+          "text": "My opinion",
+          "role": "主语",
+          "span": [
+            0,
+            10
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            11,
+            13
+          ]
+        },
+        {
+          "text": "that human beings should be kind",
+          "role": "表语",
+          "span": [
+            14,
+            46
+          ]
+        },
+        {
+          "text": "have",
+          "role": "谓语",
+          "span": [
+            51,
+            55
+          ]
+        },
+        {
+          "text": "dreams",
+          "role": "宾语",
+          "span": [
+            56,
+            62
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is（系动词），that 引导表语从句。",
+            "why": "is 是系动词，that human beings should be kind and have dreams 是 that 引导的表语从句。",
+            "highlight": [
+              11,
+              13
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别表语从句",
+            "what": "that human beings should be kind and have dreams 是表语从句。",
+            "why": "that 引导表语从句，human beings should be kind and have dreams 是从句内容。",
+            "highlight": [
+              14,
+              62
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我的观点是人应该善良并且有梦想。",
+            "why": "My opinion is that human beings should be kind and have dreams 译「我的观点是人应该善良并且有梦想」。",
+            "highlight": [
+              0,
+              62
+            ]
+          }
+        ],
+        "finalZh": "我的观点是人应该善良并且有梦想。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s08-0093",
+      "en": "The question is whether the film is worth watching.",
+      "zh": "问题是这部电影是否值得看。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "whether",
+          "hint": "引导名词性从句，表示是否（本空填 whether）",
+          "gp": "名词性从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "The question",
+          "role": "主语",
+          "span": [
+            0,
+            12
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            13,
+            15
+          ]
+        },
+        {
+          "text": "whether the film is worth watching.",
+          "role": "宾语从句",
+          "span": [
+            16,
+            51
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is（系动词），whether 引导表语从句。",
+            "why": "is 是系动词，whether the film is worth watching 是 whether 引导的表语从句。",
+            "highlight": [
+              13,
+              15
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别表语从句",
+            "what": "whether the film is worth watching 是表语从句，whether 表「是否」。",
+            "why": "whether（是否）引导表语从句，the film is worth watching 是从句内容。",
+            "highlight": [
+              16,
+              50
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "问题是这部电影是否值得看。",
+            "why": "The question is whether the film is worth watching 译「问题是这部电影是否值得看」。",
+            "highlight": [
+              0,
+              50
+            ]
+          }
+        ],
+        "finalZh": "问题是这部电影是否值得看。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s08-0094",
+      "en": "What she's worried about is whether he is all right.",
+      "zh": "她所担心的只有他是否都好。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 2,
+        "level": 3
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "非谓语动词",
+          "主谓一致"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "What",
+          "hint": "引导名词性从句并在从句中作成分（本空填 What）",
+          "gp": "名词性从句"
+        },
+        {
+          "answer": "whether",
+          "hint": "引导名词性从句，表示是否（本空填 whether）",
+          "gp": "名词性从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "What she's worried about is whether he is all right.",
+          "role": "宾语从句",
+          "span": [
+            0,
+            52
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，What she's worried about 是主语从句，whether 引导表语从句。",
+            "why": "is 是系动词，What she's worried about（她担心的）是主语从句，whether he is all right 是表语从句。",
+            "highlight": [
+              25,
+              27
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别主语从句 + 表语从句",
+            "what": "What she's worried about 是主语从句，whether he is all right 是表语从句。",
+            "why": "what 引导主语从句，whether 引导表语从句，两个从句嵌套。",
+            "highlight": [
+              0,
+              51
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "她所担心的只有他是否都好。",
+            "why": "What she's worried about is whether he is all right 译「她所担心的只有他是否都好」。",
+            "highlight": [
+              0,
+              51
+            ]
+          }
+        ],
+        "finalZh": "她所担心的只有他是否都好。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s08-0095",
+      "en": "The problem is how we can find him.",
+      "zh": "问题是我们如何找到他。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "情态动词",
+          "动词时态"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "can",
+          "hint": "情态动词，能/可以（本空填 can）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "The",
+          "hint": "定冠词，特指（本空填 The）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "The problem",
+          "role": "主语",
+          "span": [
+            0,
+            11
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            12,
+            14
+          ]
+        },
+        {
+          "text": "how we",
+          "role": "表语",
+          "span": [
+            15,
+            21
+          ]
+        },
+        {
+          "text": "can find",
+          "role": "谓语",
+          "span": [
+            22,
+            30
+          ]
+        },
+        {
+          "text": "him",
+          "role": "宾语",
+          "span": [
+            31,
+            34
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is（系动词），how 引导表语从句。",
+            "why": "is 是系动词，how we can find him 是 how 引导的表语从句。",
+            "highlight": [
+              12,
+              14
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别表语从句",
+            "what": "how we can find him 是表语从句，how 表「如何」。",
+            "why": "how（如何）引导表语从句，we can find him 是从句内容。",
+            "highlight": [
+              15,
+              34
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "问题是我们如何找到他。",
+            "why": "The problem is how we can find him 译「问题是我们如何找到他」。",
+            "highlight": [
+              0,
+              34
+            ]
+          }
+        ],
+        "finalZh": "问题是我们如何找到他。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s08-0099",
+      "en": "It is because he doesn't know her.",
+      "zh": "那是因为他不认识她。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 7,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "状语从句",
+          "it的用法"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "because",
+          "hint": "引导原因状语从句（本空填 because）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "It",
+          "hint": "代词，可作形式主语/形式宾语（本空填 It）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "It",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            3,
+            5
+          ]
+        },
+        {
+          "text": "because he doesn't know her.",
+          "role": "状语从句",
+          "span": [
+            6,
+            34
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，It 指代前文，because 引导表语从句。",
+            "why": "is 是系动词，because he doesn't know her 是 because 引导的表语从句。",
+            "highlight": [
+              3,
+              5
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别表语从句（because）",
+            "what": "because he doesn't know her 是表语从句，说明原因。",
+            "why": "because 引导表语从句，he doesn't know her 是从句内容，说明 It 的原因。",
+            "highlight": [
+              6,
+              33
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "那是因为他不认识她。",
+            "why": "It is because he doesn't know her 译「那是因为他不认识她」。",
+            "highlight": [
+              0,
+              33
+            ]
+          }
+        ],
+        "finalZh": "那是因为他不认识她。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s08-0100",
+      "en": "It may be because he is too busy.",
+      "zh": "可能是因为他太忙了。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "状语从句",
+          "情态动词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "because",
+          "hint": "引导原因状语从句（本空填 because）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "may",
+          "hint": "情态动词，可以/可能（本空填 may）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "be",
+          "hint": "系动词/助动词原形（本空填 be）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "It",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "may be",
+          "role": "谓语",
+          "span": [
+            3,
+            9
+          ]
+        },
+        {
+          "text": "because he is too busy.",
+          "role": "状语从句",
+          "span": [
+            10,
+            33
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 may be，because 引导表语从句。",
+            "why": "may be（可能是）是谓语，because he is too busy 是 because 引导的表语从句。",
+            "highlight": [
+              3,
+              9
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别表语从句（because）",
+            "what": "because he is too busy 是表语从句，说明原因。",
+            "why": "because 引导表语从句，he is too busy 是从句内容。",
+            "highlight": [
+              10,
+              32
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "可能是因为他太忙了。",
+            "why": "It may be because he is too busy 译「可能是因为他太忙了」。",
+            "highlight": [
+              0,
+              32
+            ]
+          }
+        ],
+        "finalZh": "可能是因为他太忙了。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s08-0104",
+      "en": "The question whether pollution will cause children to suffer from serious diseases has drawn our attention.",
+      "zh": "污染是否会导致儿童患上严重疾病这个问题已经引起了我们的关注。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 16,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "情态动词",
+          "非谓语动词"
+        ],
+        "fine": [
+          "一般将来时",
+          "长句，先找谓语再断句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "whether",
+          "hint": "引导名词性从句，表示是否（本空填 whether）",
+          "gp": "名词性从句"
+        },
+        {
+          "answer": "will",
+          "hint": "助动词，一般将来时（本空填 will）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "has",
+          "hint": "助动词，第三人称单数（本空填 has）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "The question",
+          "role": "主语",
+          "span": [
+            0,
+            12
+          ]
+        },
+        {
+          "text": "whether pollution will cause children to suffer from serious diseases has drawn our attention.",
+          "role": "宾语从句",
+          "span": [
+            13,
+            107
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 has drawn，whether 引导同位语从句。",
+            "why": "has drawn（引起）是谓语，The question whether pollution will cause... 中 whether 引导同位语从句。",
+            "highlight": [
+              83,
+              92
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别同位语从句",
+            "what": "whether pollution will cause children to suffer... 是同位语从句，说明 The question 的内容。",
+            "why": "whether 引导同位语从句，说明 The question 的具体内容，whether 不作成分。",
+            "highlight": [
+              13,
+              82
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "污染是否会导致儿童患上严重疾病这个问题已经引起了我们的关注。",
+            "why": "The question whether pollution will cause children to suffer from serious diseases has drawn our attention 译「污染是否会导致儿童患上严重疾病这个问题已经引起了我们的关注」。",
+            "highlight": [
+              0,
+              106
+            ]
+          }
+        ],
+        "finalZh": "污染是否会导致儿童患上严重疾病这个问题已经引起了我们的关注。",
+        "orderRules": [
+          "同位语从句前置作定语"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s08-0105",
+      "en": "He must answer the question whether he agrees with it or not.",
+      "zh": "他必须回答这个问题：他是否同意它。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 12,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "情态动词",
+          "并列结构"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "whether",
+          "hint": "引导名词性从句，表示是否（本空填 whether）",
+          "gp": "名词性从句"
+        },
+        {
+          "answer": "must",
+          "hint": "情态动词，必须/一定（本空填 must）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "with",
+          "hint": "介词，和/带着（本空填 with）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "He",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "must answer",
+          "role": "谓语",
+          "span": [
+            3,
+            14
+          ]
+        },
+        {
+          "text": "the question",
+          "role": "宾语",
+          "span": [
+            15,
+            27
+          ]
+        },
+        {
+          "text": "whether he agrees with it or not.",
+          "role": "宾语从句",
+          "span": [
+            28,
+            61
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 must answer，whether 引导同位语从句。",
+            "why": "must answer（必须回答）是谓语，the question whether he agrees with it 中 whether 引导同位语从句。",
+            "highlight": [
+              3,
+              14
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别同位语从句",
+            "what": "whether he agrees with it or not 是同位语从句，说明 question 的内容。",
+            "why": "whether...or not 引导同位语从句，说明 question 的具体内容。",
+            "highlight": [
+              15,
+              60
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他必须回答这个问题：他是否同意它。",
+            "why": "He must answer the question whether he agrees with it or not 译「他必须回答这个问题：他是否同意它」。",
+            "highlight": [
+              0,
+              60
+            ]
+          }
+        ],
+        "finalZh": "他必须回答这个问题：他是否同意它。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s08-0107",
+      "en": "The problem who should negotiate with the company needs careful consideration.",
+      "zh": "谁应该与公司谈判这个问题需要仔细考虑。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 11,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "定语从句",
+          "情态动词"
+        ],
+        "fine": [
+          "关系代词 who 在从句中作主语"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "who",
+          "hint": "关系代词，指人（本空填 who）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "should",
+          "hint": "情态动词，应该（本空填 should）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "with",
+          "hint": "介词，和/带着（本空填 with）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "The problem",
+          "role": "主语",
+          "span": [
+            0,
+            11
+          ]
+        },
+        {
+          "text": "who should negotiate with the company needs careful consideration.",
+          "role": "定语从句",
+          "span": [
+            12,
+            78
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 needs，who 引导同位语从句。",
+            "why": "needs（需要）是谓语，The problem who should negotiate 中 who 引导同位语从句。",
+            "highlight": [
+              50,
+              55
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别同位语从句",
+            "what": "who should negotiate with the company 是同位语从句，说明 problem 的内容。",
+            "why": "who 引导同位语从句，说明 The problem 的具体内容，who 作从句主语。",
+            "highlight": [
+              12,
+              49
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "谁应该与公司谈判这个问题需要仔细考虑。",
+            "why": "The problem who should negotiate with the company needs careful consideration 译「谁应该与公司谈判这个问题需要仔细考虑」。",
+            "highlight": [
+              0,
+              77
+            ]
+          }
+        ],
+        "finalZh": "谁应该与公司谈判这个问题需要仔细考虑。",
+        "orderRules": [
+          "同位语从句前置作定语"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    }
+  ]
+}

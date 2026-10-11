@@ -1,0 +1,4129 @@
+{
+  "schemaVersion": 1,
+  "chapterId": "c01",
+  "sentences": [
+    {
+      "id": "s01-0001",
+      "en": "It seemed impossible to finish the work.",
+      "zh": "完成这项工作似乎是不可能的。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 7,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "名词",
+          "非谓语动词",
+          "代词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        },
+        {
+          "answer": "It",
+          "hint": "代词，可作形式主语/形式宾语（本空填 It）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "It",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "seemed",
+          "role": "谓语",
+          "span": [
+            3,
+            9
+          ]
+        },
+        {
+          "text": "impossible",
+          "role": "表语",
+          "span": [
+            10,
+            20
+          ]
+        },
+        {
+          "text": "to finish the",
+          "role": "状语",
+          "span": [
+            21,
+            34
+          ]
+        },
+        {
+          "text": "work",
+          "role": "谓语",
+          "span": [
+            35,
+            39
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "本句谓语是 seemed（seem 的过去式），后面 to finish 是不定式、不是谓语。",
+            "why": "seemed 有时态变化（过去式），所以是谓语；to finish 是「to + 动词原形」的不定式，不定式永远不作谓语。",
+            "highlight": [
+              3,
+              9
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "识别形式主语 it",
+            "what": "句首的 It 不是「它」，而是形式主语，真正的主语是后面的 to finish the work。",
+            "why": "finish（完成）这个动作才是「似乎不可能」真正要说明的对象，英文嫌 to finish the work 太长，就先用 It 占住主语位置，把真主语挪到后面。",
+            "how": "中文不说「它似乎不可能去完成工作」，要把真正的主语「完成这项工作」先译出来，再译「似乎是不可能的」。",
+            "highlight": [
+              0,
+              2
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "完成这项工作似乎是不可能的。",
+            "why": "先翻真主语 to finish the work（完成这项工作），再翻 seemed impossible（似乎是不可能的），这才是中文习惯。",
+            "highlight": [
+              21,
+              39
+            ]
+          }
+        ],
+        "finalZh": "完成这项工作似乎是不可能的。",
+        "orderRules": [
+          "形式主语 It 不译，真主语 to do 提前"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s01-0002",
+      "en": "My mother blamed me yesterday.",
+      "zh": "我妈妈昨天责备了我。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 5,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "名词",
+          "非谓语动词",
+          "代词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "mother",
+          "hint": "本句关键词，注意它的形式（本空填 mother）",
+          "gp": "名词"
+        }
+      ],
+      "components": [],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 blamed（blame 的过去式），主语 My mother，宾语 me，yesterday 是时间状语。",
+            "why": "blamed 有过去式变化，是唯一谓语；My mother 在它前面作主语，me 在它后面作宾语，yesterday 说明动作发生在昨天。",
+            "highlight": [
+              10,
+              16
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我妈妈昨天责备了我。",
+            "why": "My mother blamed me 顺着译成「我妈妈责备了我」，yesterday（昨天）提到动词前，符合中文时间状语前置的习惯。",
+            "highlight": [
+              0,
+              29
+            ]
+          }
+        ],
+        "finalZh": "我妈妈昨天责备了我。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s01-0003",
+      "en": "Wolves can smell things far away well.",
+      "zh": "狼能很好地闻到远处的东西。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 7,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "情态动词",
+          "名词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "can",
+          "hint": "情态动词，能/可以（本空填 can）",
+          "gp": "情态动词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Wolves",
+          "role": "主语",
+          "span": [
+            0,
+            6
+          ]
+        },
+        {
+          "text": "can smell",
+          "role": "谓语",
+          "span": [
+            7,
+            16
+          ]
+        },
+        {
+          "text": "things far away well",
+          "role": "表语",
+          "span": [
+            17,
+            37
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 can smell，can 是情态动词，smell 是动词原形。主语 Wolves，宾语 things。",
+            "why": "can 后面永远跟动词原形，can smell 一起构成谓语；Wolves 在谓语前是主语，things 是 smell（闻）的对象。",
+            "highlight": [
+              7,
+              16
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "order",
+            "title": "调整状语语序",
+            "what": "far away（远处的）修饰 things，well（很好地）修饰 smell，要按中文习惯放到对应词前面。",
+            "why": "英文把修饰语 far away 和 well 放在句尾，中文则要「很远地闻」「远处的东西」，修饰语往被修饰词前面放。",
+            "how": "先翻主语「狼」，再翻谓语「能很好地闻到」，最后翻宾语「远处的东西」，把 far away 和 well 分别提前。",
+            "highlight": [
+              17,
+              37
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "狼能很好地闻到远处的东西。",
+            "why": "按「主语 + 情态动词 + 状语 + 谓语 + 定语 + 宾语」的中文顺序重新排布，well 修饰 smell、far away 修饰 things。",
+            "highlight": [
+              0,
+              37
+            ]
+          }
+        ],
+        "finalZh": "狼能很好地闻到远处的东西。",
+        "orderRules": [
+          "方式状语 well 提到谓语前",
+          "后置定语 far away 提前"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s01-0004",
+      "en": "His voice sounded strange on the phone.",
+      "zh": "他的声音在电话里听起来很奇怪。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 7,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "非谓语动词",
+          "代词",
+          "冠词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "on",
+          "hint": "介词，在…上（本空填 on）",
+          "gp": "介词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "His",
+          "role": "主语",
+          "span": [
+            0,
+            3
+          ]
+        },
+        {
+          "text": "voice sounded",
+          "role": "谓语",
+          "span": [
+            4,
+            17
+          ]
+        },
+        {
+          "text": "strange",
+          "role": "表语",
+          "span": [
+            18,
+            25
+          ]
+        },
+        {
+          "text": "on the phone",
+          "role": "状语",
+          "span": [
+            26,
+            38
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 sounded，这是系动词 sound 的过去式，后面 strange 是表语，on the phone 是地点状语。",
+            "why": "sounded 后面跟的不是宾语而是表语 strange（形容词），说明 sound 在这里是系动词，表示「听起来」。",
+            "highlight": [
+              10,
+              17
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他的声音在电话里听起来很奇怪。",
+            "why": "His voice（他的声音）作主语，sounded strange（听起来很奇怪）顺译，on the phone（在电话里）提前作状语。",
+            "highlight": [
+              0,
+              38
+            ]
+          }
+        ],
+        "finalZh": "他的声音在电话里听起来很奇怪。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s01-0005",
+      "en": "People have sweet memories of summer days.",
+      "zh": "人们对夏日有着美好的回忆。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 7,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "动词时态",
+          "介词",
+          "名词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "have",
+          "hint": "使役动词，让（have sth done）（本空填 have）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "of",
+          "hint": "介词，…的（本空填 of）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "People",
+          "role": "主语",
+          "span": [
+            0,
+            6
+          ]
+        },
+        {
+          "text": "have",
+          "role": "谓语",
+          "span": [
+            7,
+            11
+          ]
+        },
+        {
+          "text": "sweet memories",
+          "role": "宾语",
+          "span": [
+            12,
+            26
+          ]
+        },
+        {
+          "text": "of summer days",
+          "role": "状语",
+          "span": [
+            27,
+            41
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 have，主语 People，宾语 sweet memories，of summer days 是后置定语修饰 memories。",
+            "why": "have 在这里是实义动词「拥有」；of summer days 是介词短语，修饰前面的 memories（回忆），说明是「夏日的回忆」。",
+            "highlight": [
+              7,
+              11
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "人们对夏日有着美好的回忆。",
+            "why": "of summer days（夏日的）是后置定语，中文要提到 memories 前面；sweet（美好的）本就在前面，顺译即可。",
+            "highlight": [
+              0,
+              41
+            ]
+          }
+        ],
+        "finalZh": "人们对夏日有着美好的回忆。",
+        "orderRules": [
+          "后置定语 of summer days 提前"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOC"
+    },
+    {
+      "id": "s01-0006",
+      "en": "Apples quickly turn brown after being left in the air for a while.",
+      "zh": "苹果在空气中放一会儿就会很快变褐。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 13,
+        "clauses": 2,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "被动语态",
+          "非谓语动词"
+        ],
+        "fine": [
+          "介词 + 动名词"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "after",
+          "hint": "引导时间状语从句（本空填 after）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "while",
+          "hint": "引导时间/让步状语从句（本空填 while）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "being",
+          "hint": "be 的现在分词（本空填 being）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "Apples quickly",
+          "role": "主语",
+          "span": [
+            0,
+            14
+          ]
+        },
+        {
+          "text": "turn",
+          "role": "谓语",
+          "span": [
+            15,
+            19
+          ]
+        },
+        {
+          "text": "brown",
+          "role": "表语",
+          "span": [
+            20,
+            25
+          ]
+        },
+        {
+          "text": "after being left in the air for a while.",
+          "role": "状语从句",
+          "span": [
+            26,
+            66
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "主句谓语是 turn（变），after 引导的时间状语从句里 being left 是被动结构。",
+            "why": "turn 是主句谓语；after 是连词，后面 being left（被放置）是「be + 过去分词」的被动语态，作从句的谓语部分。",
+            "highlight": [
+              15,
+              19
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "断句划从句",
+            "what": "after being left in the air for a while 是一个时间状语从句，说明 turn brown 发生的时间。",
+            "why": "after 是引导时间状语从句的连词，它后面的 being left 是被动，主语 Apples 是「被放置」的对象，所以用被动不用主动。",
+            "highlight": [
+              26,
+              65
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "order",
+            "title": "先翻从句",
+            "what": "时间状语从句要提到主句前面，先说「在空气中放一会儿之后」，再说「苹果变褐」。",
+            "why": "英文把时间状语 after... 放在句尾，中文习惯先说时间背景、再说主句结果。",
+            "how": "先翻 after being left in the air for a while（在空气中放了一会儿之后），再翻主句 Apples quickly turn brown（苹果很快变褐）。",
+            "highlight": [
+              26,
+              65
+            ]
+          },
+          {
+            "step": 4,
+            "kind": "trap",
+            "title": "被动还原",
+            "what": "being left 是被动，意思是「被放置」，翻译时要还原成主动含义「放着」。",
+            "why": "left 是 leave（留下、放置）的过去分词，being left 直译是「被留下」，但中文说苹果「被放在空气中」别扭，要译成「（苹果）放在空气中」。",
+            "how": "被动 being left 不译「被」，直接译「放（在空气中）」，因为苹果自己不会主动「放」，中文靠语意就懂。",
+            "highlight": [
+              32,
+              42
+            ]
+          },
+          {
+            "step": 5,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "苹果在空气中放一会儿就会很快变褐。",
+            "why": "时间从句前置，quickly（很快）作状语提到 turn 前，being left 还原成「放」，整体按中文因果顺序排布。",
+            "highlight": [
+              0,
+              65
+            ]
+          }
+        ],
+        "finalZh": "苹果在空气中放一会儿就会很快变褐。",
+        "orderRules": [
+          "时间状语从句前置",
+          "被动 being left 还原为主动"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s01-0007",
+      "en": "He returned me my textbook.",
+      "zh": "他把课本还给了我。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 5,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "名词",
+          "非谓语动词",
+          "代词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "returned",
+          "hint": "本句关键词，注意它的形式（本空填 returned）",
+          "gp": "名词"
+        }
+      ],
+      "components": [
+        {
+          "text": "He",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "returned",
+          "role": "谓语",
+          "span": [
+            3,
+            11
+          ]
+        },
+        {
+          "text": "me my textbook",
+          "role": "宾语",
+          "span": [
+            12,
+            26
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 returned，后面跟了两个宾语：me（间接宾语）和 my textbook（直接宾语）。",
+            "why": "returned 是 return 的过去式；它后面 me 和 my textbook 都是名词性成分，构成「双宾语」结构。",
+            "highlight": [
+              3,
+              11
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "双宾语结构",
+            "what": "return me my textbook = 把课本还给「我」，me 是「给谁」，my textbook 是「给什么」。",
+            "why": "return 这类动词可以带两个宾语，前面的 me 指人（间接宾语），后面的 my textbook 指物（直接宾语），这是 return 的固定用法。",
+            "how": "中文要说「把课本还给我」，「课本」放前面、「我」放后面并加「给」，顺序和英文正好相反。",
+            "highlight": [
+              3,
+              26
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他把课本还给了我。",
+            "why": "returned 带的「间接宾语 me + 直接宾语 my textbook」译成中文要调成「把 + 直接宾语 + 谓语 + 给 + 间接宾语」。",
+            "highlight": [
+              0,
+              26
+            ]
+          }
+        ],
+        "finalZh": "他把课本还给了我。",
+        "orderRules": [
+          "双宾语直接宾语前置、间接宾语后置加「给」"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s01-0008",
+      "en": "He brought me some candies.",
+      "zh": "他给我带来了一些糖果。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 5,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "主谓一致",
+          "代词",
+          "名词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "brought",
+          "hint": "本句关键词，注意它的形式（本空填 brought）",
+          "gp": "主谓一致"
+        }
+      ],
+      "components": [
+        {
+          "text": "He",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "brought",
+          "role": "谓语",
+          "span": [
+            3,
+            10
+          ]
+        },
+        {
+          "text": "me some candies",
+          "role": "宾语",
+          "span": [
+            11,
+            26
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 brought，后面 me 是间接宾语，some candies 是直接宾语。",
+            "why": "brought 是 bring 的过去式；me（我）和 some candies（一些糖果）都是名词性成分，构成双宾语。",
+            "highlight": [
+              3,
+              10
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "双宾语结构",
+            "what": "brought me some candies = 给我带来一些糖果，me 是「给谁」，some candies 是「带什么」。",
+            "why": "bring 可以带双宾语，前面的 me 指人、后面的 some candies 指物，这是 bring 的固定搭配。",
+            "how": "中文说「给我带来一些糖果」，「给我」放前面、「糖果」放后面，和英文顺序一致，直接顺译。",
+            "highlight": [
+              3,
+              26
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他给我带来了一些糖果。",
+            "why": "brought 带的「间接宾语 me + 直接宾语 some candies」按中文习惯译成「给 + 间接宾语 + 谓语 + 直接宾语」。",
+            "highlight": [
+              0,
+              26
+            ]
+          }
+        ],
+        "finalZh": "他给我带来了一些糖果。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s01-0009",
+      "en": "He showed us a nice photo.",
+      "zh": "他给我们看了一张好看的照片。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 6,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "非谓语动词",
+          "代词",
+          "冠词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "a",
+          "hint": "不定冠词，修饰可数名词单数（本空填 a）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "He",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "showed",
+          "role": "谓语",
+          "span": [
+            3,
+            9
+          ]
+        },
+        {
+          "text": "us a nice photo",
+          "role": "宾语",
+          "span": [
+            10,
+            25
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 showed，后面 us 是间接宾语，a nice photo 是直接宾语。",
+            "why": "showed 是 show 的过去式；us（我们）指人、a nice photo（一张好看的照片）指物，构成双宾语。",
+            "highlight": [
+              3,
+              9
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "双宾语结构",
+            "what": "showed us a nice photo = 给我们看一张好看的照片。",
+            "why": "show 可以带双宾语，前面的 us 是「给谁看」，后面的 a nice photo 是「看什么」。",
+            "how": "中文说「给我们看一张照片」，「给我们」放前面、「照片」放后面，顺译即可。",
+            "highlight": [
+              3,
+              25
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他给我们看了一张好看的照片。",
+            "why": "showed 带的「间接宾语 us + 直接宾语 a nice photo」按中文习惯译成「给 + 间接宾语 + 谓语 + 直接宾语」。",
+            "highlight": [
+              0,
+              25
+            ]
+          }
+        ],
+        "finalZh": "他给我们看了一张好看的照片。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s01-0010",
+      "en": "He showed a nice photo to us.",
+      "zh": "他给我们看了一张好看的照片。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 7,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "非谓语动词",
+          "代词",
+          "冠词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        },
+        {
+          "answer": "a",
+          "hint": "不定冠词，修饰可数名词单数（本空填 a）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "He",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "showed",
+          "role": "谓语",
+          "span": [
+            3,
+            9
+          ]
+        },
+        {
+          "text": "a nice photo",
+          "role": "宾语",
+          "span": [
+            10,
+            22
+          ]
+        },
+        {
+          "text": "to us",
+          "role": "状语",
+          "span": [
+            23,
+            28
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 showed，后面 a nice photo 是直接宾语，to us 是介词短语。",
+            "why": "showed 是 show 的过去式；这里直接宾语 a nice photo 紧跟谓语，to us 用介词 to 引出「给谁」。",
+            "highlight": [
+              3,
+              9
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "双宾语换 to 结构",
+            "what": "showed a nice photo to us 和 showed us a nice photo 意思相同，只是把「给谁」放到后面用 to 引出。",
+            "why": "showed 的双宾语可以换成「直接宾语 + to + 人」的结构，两者等价；to us 表示动作的接受者。",
+            "how": "译成中文仍是「给我们看一张照片」，把 to us 提前到谓语前。",
+            "highlight": [
+              17,
+              28
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他给我们看了一张好看的照片。",
+            "why": "to us（给我们）提前到动词前，a nice photo（一张照片）放后面，符合中文语序。",
+            "highlight": [
+              0,
+              28
+            ]
+          }
+        ],
+        "finalZh": "他给我们看了一张好看的照片。",
+        "orderRules": [
+          "to us 提前作状语"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s01-0011",
+      "en": "My mother bought me a coat.",
+      "zh": "我母亲给我买了一件外套。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 6,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "名词",
+          "代词",
+          "冠词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "a",
+          "hint": "不定冠词，修饰可数名词单数（本空填 a）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "My mother",
+          "role": "主语",
+          "span": [
+            0,
+            9
+          ]
+        },
+        {
+          "text": "bought",
+          "role": "谓语",
+          "span": [
+            10,
+            16
+          ]
+        },
+        {
+          "text": "me a coat",
+          "role": "宾语",
+          "span": [
+            17,
+            26
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 bought，后面 me 是间接宾语，a coat 是直接宾语。",
+            "why": "bought 是 buy 的过去式；me（我）指人、a coat（一件外套）指物，构成双宾语。",
+            "highlight": [
+              10,
+              16
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "双宾语结构",
+            "what": "bought me a coat = 给我买一件外套。",
+            "why": "buy 可以带双宾语，前面的 me 是「给谁买」，后面的 a coat 是「买什么」。",
+            "how": "中文说「给我买一件外套」，「给我」放前面、「外套」放后面，顺译。",
+            "highlight": [
+              10,
+              26
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我母亲给我买了一件外套。",
+            "why": "bought 带的「间接宾语 me + 直接宾语 a coat」按中文习惯译成「给 + 间接宾语 + 谓语 + 直接宾语」。",
+            "highlight": [
+              0,
+              26
+            ]
+          }
+        ],
+        "finalZh": "我母亲给我买了一件外套。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s01-0012",
+      "en": "My mother bought a coat for me.",
+      "zh": "我母亲给我买了一件外套。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 7,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "名词",
+          "代词",
+          "冠词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "for",
+          "hint": "介词，为了（本空填 for）",
+          "gp": "介词"
+        },
+        {
+          "answer": "a",
+          "hint": "不定冠词，修饰可数名词单数（本空填 a）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "My mother",
+          "role": "主语",
+          "span": [
+            0,
+            9
+          ]
+        },
+        {
+          "text": "bought",
+          "role": "谓语",
+          "span": [
+            10,
+            16
+          ]
+        },
+        {
+          "text": "a coat",
+          "role": "宾语",
+          "span": [
+            17,
+            23
+          ]
+        },
+        {
+          "text": "for",
+          "role": "状语",
+          "span": [
+            24,
+            27
+          ]
+        },
+        {
+          "text": "me",
+          "role": "状语",
+          "span": [
+            28,
+            30
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 bought，后面 a coat 是直接宾语，for me 是介词短语。",
+            "why": "bought 是 buy 的过去式；直接宾语 a coat 紧跟谓语，for me 用介词 for 引出「为谁」。",
+            "highlight": [
+              10,
+              16
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "双宾语换 for 结构",
+            "what": "bought a coat for me 和 bought me a coat 意思相同，用 for 把「为谁」放到后面。",
+            "why": "bought 的双宾语可以换成「直接宾语 + for + 人」，for me 表示受益者，两者等价。",
+            "how": "译成中文仍是「给我买一件外套」，把 for me 提前到谓语前。",
+            "highlight": [
+              19,
+              30
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我母亲给我买了一件外套。",
+            "why": "for me（给我）提前，a coat（外套）放后面，符合中文语序。",
+            "highlight": [
+              0,
+              30
+            ]
+          }
+        ],
+        "finalZh": "我母亲给我买了一件外套。",
+        "orderRules": [
+          "for me 提前作状语"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s01-0013",
+      "en": "We should keep the door open.",
+      "zh": "我们应该让门开着。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 6,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "名词",
+          "情态动词",
+          "代词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "should",
+          "hint": "情态动词，应该（本空填 should）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        },
+        {
+          "answer": "keep",
+          "hint": "使役动词，保持（本空填 keep）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "We",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "should keep",
+          "role": "谓语",
+          "span": [
+            3,
+            14
+          ]
+        },
+        {
+          "text": "the door",
+          "role": "表语",
+          "span": [
+            15,
+            23
+          ]
+        },
+        {
+          "text": "open",
+          "role": "谓语",
+          "span": [
+            24,
+            28
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 should keep，should 是情态动词，keep 是动词原形，the door 是宾语，open 是宾语补足语。",
+            "why": "should 后面跟动词原形 keep；keep 后面 the door（门）是宾语，open（开着的）说明门的状態，是宾补。",
+            "highlight": [
+              3,
+              14
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "keep + 宾语 + 形容词",
+            "what": "keep the door open = 让门保持开着，open 是形容词作宾补，不是宾语。",
+            "why": "keep 表示「保持」，后面 the door 是让谁保持，open 是保持成什么状態，这是「keep + 宾语 + 宾补」结构。",
+            "how": "中文译「让门开着」，open（开着的）直接跟在「门」后面作补语，顺译。",
+            "highlight": [
+              10,
+              28
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我们应该让门开着。",
+            "why": "should keep 译「应该让……保持」，the door open 译「门开着」，中文用「让」字引出宾补。",
+            "highlight": [
+              0,
+              28
+            ]
+          }
+        ],
+        "finalZh": "我们应该让门开着。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s01-0014",
+      "en": "We named our baby Yoyo.",
+      "zh": "我们给我们的宝宝起名为悠悠。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 5,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "名词",
+          "非谓语动词",
+          "代词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "named",
+          "hint": "本句关键词，注意它的形式（本空填 named）",
+          "gp": "名词"
+        }
+      ],
+      "components": [
+        {
+          "text": "We",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "named",
+          "role": "谓语",
+          "span": [
+            3,
+            8
+          ]
+        },
+        {
+          "text": "our baby Yoyo",
+          "role": "宾语",
+          "span": [
+            9,
+            22
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 named，后面 our baby 是宾语，Yoyo 是宾语补足语（名词）。",
+            "why": "named 是 name 的过去式；name 在这里是动词「给……取名」，our baby（我们的宝宝）是被取名的人，Yoyo 是取的名字。",
+            "highlight": [
+              3,
+              8
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "name + 宾语 + 名词宾补",
+            "what": "named our baby Yoyo = 给宝宝取名「悠悠」，Yoyo 是名词作宾补，不是第二个宾语。",
+            "why": "name（取名）这个动词固定搭配「name + 人 + 名字」，our baby 和 Yoyo 是「人和名字」的关系，不是两个并列宾语。",
+            "how": "中文说「给宝宝取名为悠悠」，用「为」字引出名字，顺译。",
+            "highlight": [
+              3,
+              22
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我们给我们的宝宝起名为悠悠。",
+            "why": "named our baby Yoyo 译「给我们的宝宝起名为悠悠」，name 的动作「起名」和宾补 Yoyo「悠悠」都译出。",
+            "highlight": [
+              0,
+              22
+            ]
+          }
+        ],
+        "finalZh": "我们给我们的宝宝起名为悠悠。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOC"
+    },
+    {
+      "id": "s01-0015",
+      "en": "I had my watch repaired yesterday.",
+      "zh": "昨天我让人修了我的手表。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 6,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "名词",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "had",
+          "hint": "使役/助动词过去式（本空填 had）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "watch",
+          "hint": "感官动词，观看（本空填 watch）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "had",
+          "role": "谓语",
+          "span": [
+            2,
+            5
+          ]
+        },
+        {
+          "text": "my",
+          "role": "宾语",
+          "span": [
+            6,
+            8
+          ]
+        },
+        {
+          "text": "watch repaired",
+          "role": "谓语",
+          "span": [
+            9,
+            23
+          ]
+        },
+        {
+          "text": "yesterday",
+          "role": "宾语",
+          "span": [
+            24,
+            33
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 had，后面 my watch 是宾语，repaired 是过去分词作宾补。",
+            "why": "had 在这里是 have 的过去式，作「让、使」讲；my watch（我的手表）是 had 的宾语，repaired 是 repair 的过去分词。",
+            "highlight": [
+              2,
+              5
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "识别 have sth done",
+            "what": "had my watch repaired = 让手表「被修」，即「请别人修表」。",
+            "why": "have + 名词 + 过去分词是固定结构「让……被做」，手表自己不会修自己，repaired 用过去分词表示「被修」。",
+            "how": "中文说「让人修了手表」，把「让别人做」这个隐含意思译出来，而不是「我有修表」。",
+            "highlight": [
+              2,
+              23
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "order",
+            "title": "时间状语前置",
+            "what": "yesterday（昨天）作时间状语，中文要提到句首。",
+            "why": "英文把 yesterday 放句尾，中文习惯把时间状语放最前面，先说「昨天」。",
+            "how": "先翻 yesterday（昨天），再翻「我让人修了手表」。",
+            "highlight": [
+              24,
+              33
+            ]
+          },
+          {
+            "step": 4,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "昨天我让人修了我的手表。",
+            "why": "yesterday 提前，had my watch repaired 译成「让人修了手表」这个使役含义。",
+            "highlight": [
+              0,
+              33
+            ]
+          }
+        ],
+        "finalZh": "昨天我让人修了我的手表。",
+        "orderRules": [
+          "时间状语 yesterday 前置",
+          "have sth done 译使役"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOO"
+    },
+    {
+      "id": "s01-0016",
+      "en": "His father told him to make friends carefully.",
+      "zh": "他父亲告诫他要慎重交朋友。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "非谓语动词",
+          "代词",
+          "介词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        },
+        {
+          "answer": "make",
+          "hint": "使役动词，后接宾语+补足语（本空填 make）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "His father",
+          "role": "主语",
+          "span": [
+            0,
+            10
+          ]
+        },
+        {
+          "text": "told",
+          "role": "谓语",
+          "span": [
+            11,
+            15
+          ]
+        },
+        {
+          "text": "him",
+          "role": "宾语",
+          "span": [
+            16,
+            19
+          ]
+        },
+        {
+          "text": "to make friends carefully",
+          "role": "状语",
+          "span": [
+            20,
+            45
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 told，后面 him 是宾语，to make friends 是不定式作宾补。",
+            "why": "told 是 tell 的过去式；tell 后面跟「人 + to do」结构，him 是被告知的人，to make friends（交朋友）是被告知做的事。",
+            "highlight": [
+              11,
+              15
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "tell sb to do 结构",
+            "what": "told him to make friends = 告诉他去交朋友，to make 是不定式，不是谓语。",
+            "why": "tell 的固定用法是「tell + 人 + to + 动词原形」，to make friends 是宾语 him 的动作，所以 make 用不定式。",
+            "how": "中文译「告诫他交朋友」，to make（去交）直接接在「他」后面。",
+            "highlight": [
+              11,
+              35
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "order",
+            "title": "副词状语前置",
+            "what": "carefully（慎重地）修饰 make，中文提到动词前。",
+            "why": "英文把 carefully 放句尾，中文副词要放在动词前面，译成「慎重地交朋友」。",
+            "how": "先翻 told him to make（告诫他交），再补 carefully（慎重地）修饰 make。",
+            "highlight": [
+              36,
+              45
+            ]
+          },
+          {
+            "step": 4,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他父亲告诫他要慎重交朋友。",
+            "why": "told him to make friends carefully 译「告诫他要慎重交朋友」，carefully 提到 make 前。",
+            "highlight": [
+              0,
+              45
+            ]
+          }
+        ],
+        "finalZh": "他父亲告诫他要慎重交朋友。",
+        "orderRules": [
+          "副词 carefully 提前修饰动词"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOC"
+    },
+    {
+      "id": "s01-0017",
+      "en": "My father heard the boys playing basketball outside.",
+      "zh": "我父亲听见男孩们在外面打篮球。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "非谓语动词",
+          "代词",
+          "冠词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        },
+        {
+          "answer": "heard",
+          "hint": "hear 的过去式（本空填 heard）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "My father",
+          "role": "主语",
+          "span": [
+            0,
+            9
+          ]
+        },
+        {
+          "text": "heard",
+          "role": "谓语",
+          "span": [
+            10,
+            15
+          ]
+        },
+        {
+          "text": "the boys playing basketball outside",
+          "role": "宾语",
+          "span": [
+            16,
+            51
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 heard，后面 the boys 是宾语，playing basketball 是现在分词作宾补。",
+            "why": "heard 是 hear 的过去式；the boys（男孩们）是 heard 的宾语，playing basketball（打篮球）说明男孩们在做什么。",
+            "highlight": [
+              10,
+              15
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "感官动词 + 现在分词宾补",
+            "what": "heard the boys playing basketball = 听见男孩们「正在」打篮球，playing 表示正在进行的动作。",
+            "why": "hear 是感官动词，后面跟「宾语 + 现在分词」，playing basketball 表示听见时这个动作正在进行，所以用 playing 不用 play。",
+            "how": "中文译「听见男孩们在打篮球」，「在」字体现 playing 的进行意味。",
+            "highlight": [
+              10,
+              43
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "order",
+            "title": "状语前置",
+            "what": "outside（在外面）是地点状语，中文提到动词前。",
+            "why": "英文把 outside 放句尾，中文习惯把地点状语放前面，译成「在外面打篮球」。",
+            "how": "先翻 heard the boys playing（听见男孩们打），再补 outside（在外面）。",
+            "highlight": [
+              44,
+              51
+            ]
+          },
+          {
+            "step": 4,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我父亲听见男孩们在外面打篮球。",
+            "why": "heard the boys playing basketball outside 译「听见男孩们在外面打篮球」，playing 的进行义和 outside 的地点都译出。",
+            "highlight": [
+              0,
+              51
+            ]
+          }
+        ],
+        "finalZh": "我父亲听见男孩们在外面打篮球。",
+        "orderRules": [
+          "地点状语 outside 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOC"
+    },
+    {
+      "id": "s01-0018",
+      "en": "Dayan will make my English better.",
+      "zh": "大雁会让我的英语变得更好。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 6,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "名词",
+          "情态动词",
+          "动词时态"
+        ],
+        "fine": [
+          "一般将来时",
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "will",
+          "hint": "助动词，一般将来时（本空填 will）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "make",
+          "hint": "使役动词，后接宾语+补足语（本空填 make）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "Dayan",
+          "role": "主语",
+          "span": [
+            0,
+            5
+          ]
+        },
+        {
+          "text": "will make",
+          "role": "谓语",
+          "span": [
+            6,
+            15
+          ]
+        },
+        {
+          "text": "my English better",
+          "role": "宾语",
+          "span": [
+            16,
+            33
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 will make，主语 Dayan，宾语 my English，better 是形容词宾补。",
+            "why": "will 是情态动词，后面 make 用原形；make 后面 my English（我的英语）是宾语，better（更好）说明英语变怎样。",
+            "highlight": [
+              6,
+              15
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "make + 宾语 + 形容词",
+            "what": "make my English better = 让英语变得更好，better 是宾补不是宾语。",
+            "why": "make（使、让）固定搭配「make + 宾语 + 形容词」，my English 是让谁变，better 是变怎样。",
+            "how": "中文译「让我的英语变得更好」，better 译「更好」接在英语后面。",
+            "highlight": [
+              11,
+              33
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "大雁会让我的英语变得更好。",
+            "why": "will make my English better 译「会让我的英语变得更好」，make 的使役义用「让」译出。",
+            "highlight": [
+              0,
+              33
+            ]
+          }
+        ],
+        "finalZh": "大雁会让我的英语变得更好。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOC"
+    },
+    {
+      "id": "s01-0019",
+      "en": "The novel won the writer a big prize.",
+      "zh": "这部小说为这位作家赢得了一个大奖。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "名词",
+          "冠词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "The",
+          "hint": "定冠词，特指（本空填 The）",
+          "gp": "冠词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        },
+        {
+          "answer": "a",
+          "hint": "不定冠词，修饰可数名词单数（本空填 a）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "The novel",
+          "role": "主语",
+          "span": [
+            0,
+            9
+          ]
+        },
+        {
+          "text": "won",
+          "role": "谓语",
+          "span": [
+            10,
+            13
+          ]
+        },
+        {
+          "text": "the writer a big prize",
+          "role": "宾语",
+          "span": [
+            14,
+            36
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 won，后面 the writer 是间接宾语，a big prize 是直接宾语。",
+            "why": "won 是 win 的过去式；the writer（这位作家）指人、a big prize（一个大奖）指物，构成双宾语。",
+            "highlight": [
+              10,
+              13
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "双宾语结构",
+            "what": "won the writer a big prize = 为作家赢得一个大奖。",
+            "why": "win 可以带双宾语，前面的 the writer 是「为谁赢」，后面的 a big prize 是「赢得什么」。",
+            "how": "中文译「为这位作家赢得一个大奖」，用「为」引出 the writer。",
+            "highlight": [
+              10,
+              36
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "这部小说为这位作家赢得了一个大奖。",
+            "why": "won the writer a big prize 译「为这位作家赢得了一个大奖」，win 的双宾语用「为」字衔接。",
+            "highlight": [
+              0,
+              36
+            ]
+          }
+        ],
+        "finalZh": "这部小说为这位作家赢得了一个大奖。",
+        "orderRules": [
+          "间接宾语 the writer 用「为」前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s01-0020",
+      "en": "I found the article easily.",
+      "zh": "我很容易就找到了那篇文章。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 5,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "名词",
+          "代词",
+          "冠词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        },
+        {
+          "answer": "found",
+          "hint": "find 的过去式（本空填 found）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "found",
+          "role": "谓语",
+          "span": [
+            2,
+            7
+          ]
+        },
+        {
+          "text": "the article easily",
+          "role": "宾语",
+          "span": [
+            8,
+            26
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 found，宾语 the article，easily 是方式副词修饰 found。",
+            "why": "found 是 find 的过去式；the article（那篇文章）是 found 的宾语，easily（容易地）修饰 found 这个动作。",
+            "highlight": [
+              2,
+              7
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我很容易就找到了那篇文章。",
+            "why": "found the article easily 译「很容易找到了那篇文章」，easily 提到 found 前作状语。",
+            "highlight": [
+              0,
+              26
+            ]
+          }
+        ],
+        "finalZh": "我很容易就找到了那篇文章。",
+        "orderRules": [
+          "副词 easily 提前修饰谓语"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOC"
+    },
+    {
+      "id": "s01-0021",
+      "en": "I found the article easy.",
+      "zh": "我发现那篇文章很容易。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 5,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "名词",
+          "代词",
+          "冠词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        },
+        {
+          "answer": "found",
+          "hint": "find 的过去式（本空填 found）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "found",
+          "role": "谓语",
+          "span": [
+            2,
+            7
+          ]
+        },
+        {
+          "text": "the article easy",
+          "role": "宾语",
+          "span": [
+            8,
+            24
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 found，宾语 the article，easy 是形容词宾补。",
+            "why": "found 是 find 的过去式；the article（那篇文章）是 found 的宾语，easy（容易的）说明文章的性质，是宾补。",
+            "highlight": [
+              2,
+              7
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "find + 宾语 + 形容词（对照 easily）",
+            "what": "found the article easy = 发现那篇文章「很容易」，easy 是宾补，和 found the article easily（容易地找到）完全不同。",
+            "why": "find + 宾语 + 形容词是「发现……怎么样」，easy 修饰 article；而 easily 是副词修饰 found（怎么找），两句话意思相反。",
+            "how": "中文译「发现那篇文章很容易」，easy 接在 article 后面，不能译成「容易地找到」。",
+            "highlight": [
+              2,
+              24
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我发现那篇文章很容易。",
+            "why": "found the article easy 译「发现那篇文章很容易」，easy 作宾补说明 article 的性质。",
+            "highlight": [
+              0,
+              24
+            ]
+          }
+        ],
+        "finalZh": "我发现那篇文章很容易。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOC"
+    },
+    {
+      "id": "s01-0027",
+      "en": "I cannot stand the hot weather.",
+      "zh": "我受不了这炎热的天气。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 6,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "名词",
+          "代词",
+          "冠词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "cannot stand",
+          "role": "谓语",
+          "span": [
+            2,
+            14
+          ]
+        },
+        {
+          "text": "the hot weather",
+          "role": "宾语",
+          "span": [
+            15,
+            30
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 cannot stand，cannot 是否定情态动词，stand 是动词原形，the hot weather 是宾语。",
+            "why": "cannot（不能）后面跟动词原形 stand（忍受），the hot weather（这炎热的天气）是 stand 的对象。",
+            "highlight": [
+              2,
+              14
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我受不了这炎热的天气。",
+            "why": "cannot stand the hot weather 译「受不了这炎热的天气」，stand 的「忍受」义和 cannot 的否定一起译出。",
+            "highlight": [
+              0,
+              30
+            ]
+          }
+        ],
+        "finalZh": "我受不了这炎热的天气。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s01-0028",
+      "en": "The news made everyone happy.",
+      "zh": "这个消息让每个人都高兴。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 5,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "冠词",
+          "名词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "The",
+          "hint": "定冠词，特指（本空填 The）",
+          "gp": "冠词"
+        },
+        {
+          "answer": "made",
+          "hint": "make 的过去式/过去分词（本空填 made）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "The news",
+          "role": "主语",
+          "span": [
+            0,
+            8
+          ]
+        },
+        {
+          "text": "made",
+          "role": "谓语",
+          "span": [
+            9,
+            13
+          ]
+        },
+        {
+          "text": "everyone happy",
+          "role": "宾语",
+          "span": [
+            14,
+            28
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 made，宾语 everyone，happy 是形容词宾补。",
+            "why": "made 是 make 的过去式；everyone（每个人）是 made 的宾语，happy（高兴的）说明每个人变怎样。",
+            "highlight": [
+              9,
+              13
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "make + 宾语 + 形容词",
+            "what": "made everyone happy = 让每个人都高兴，happy 是宾补不是宾语。",
+            "why": "make（使、让）固定搭配「make + 宾语 + 形容词」，everyone 是让谁变，happy 是变怎样。",
+            "how": "中文译「让每个人都高兴」，happy 直接接在 everyone 后面。",
+            "highlight": [
+              9,
+              28
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "这个消息让每个人都高兴。",
+            "why": "made everyone happy 译「让每个人都高兴」，make 的使役义用「让」译出。",
+            "highlight": [
+              0,
+              28
+            ]
+          }
+        ],
+        "finalZh": "这个消息让每个人都高兴。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOC"
+    },
+    {
+      "id": "s01-0029",
+      "en": "These questions seem difficult.",
+      "zh": "这些问题看起来很难。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 4,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "名词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "These",
+          "hint": "本句关键词，注意它的形式（本空填 These）",
+          "gp": "名词"
+        }
+      ],
+      "components": [
+        {
+          "text": "These questions",
+          "role": "主语",
+          "span": [
+            0,
+            15
+          ]
+        },
+        {
+          "text": "seem",
+          "role": "谓语",
+          "span": [
+            16,
+            20
+          ]
+        },
+        {
+          "text": "difficult",
+          "role": "表语",
+          "span": [
+            21,
+            30
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 seem（系动词），主语 These questions，表语 difficult。",
+            "why": "seem 是系动词「似乎、看起来」，后面跟形容词 difficult（困难的）作表语，说明 These questions（这些问题）的性质。",
+            "highlight": [
+              16,
+              20
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "这些问题看起来很难。",
+            "why": "These questions seem difficult 译「这些问题看起来很难」，seem 译「看起来」，difficult 译「难」。",
+            "highlight": [
+              0,
+              30
+            ]
+          }
+        ],
+        "finalZh": "这些问题看起来很难。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s01-0030",
+      "en": "Our grandpa often tells us stories on Sundays.",
+      "zh": "我们爷爷常在星期天给我们讲故事。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "代词",
+          "介词",
+          "名词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "on",
+          "hint": "介词，在…上（本空填 on）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Our grandpa often",
+          "role": "主语",
+          "span": [
+            0,
+            17
+          ]
+        },
+        {
+          "text": "tells",
+          "role": "谓语",
+          "span": [
+            18,
+            23
+          ]
+        },
+        {
+          "text": "us stories",
+          "role": "宾语",
+          "span": [
+            24,
+            34
+          ]
+        },
+        {
+          "text": "on Sundays",
+          "role": "状语",
+          "span": [
+            35,
+            45
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 tells，宾语 us（间接宾语）和 stories（直接宾语），on Sundays 是时间状语。",
+            "why": "tells 是 tell 的第三人称单数；us（我们）指人、stories（故事）指物，构成双宾语；on Sundays（每逢星期天）是时间状语。",
+            "highlight": [
+              18,
+              23
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "双宾语结构",
+            "what": "tells us stories = 给我们讲故事，us 是「给谁」，stories 是「讲什么」。",
+            "why": "tell 可以带双宾语，前面的 us 是「给谁讲」，后面的 stories 是「讲什么」。",
+            "how": "中文说「给我们讲故事」，「给我们」放前面、「故事」放后面，顺译。",
+            "highlight": [
+              18,
+              34
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我们爷爷常在星期天给我们讲故事。",
+            "why": "tells us stories on Sundays 译「在星期天给我们讲故事」，often（常常）和 on Sundays 提到动词前。",
+            "highlight": [
+              0,
+              45
+            ]
+          }
+        ],
+        "finalZh": "我们爷爷常在星期天给我们讲故事。",
+        "orderRules": [
+          "时间状语 on Sundays 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOC"
+    },
+    {
+      "id": "s01-0031",
+      "en": "Failure brings us lessons.",
+      "zh": "失败给我们带来教训。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 4,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "代词",
+          "名词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "Failure",
+          "hint": "本句关键词，注意它的形式（本空填 Failure）",
+          "gp": "代词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Failure",
+          "role": "主语",
+          "span": [
+            0,
+            7
+          ]
+        },
+        {
+          "text": "brings",
+          "role": "谓语",
+          "span": [
+            8,
+            14
+          ]
+        },
+        {
+          "text": "us lessons",
+          "role": "宾语",
+          "span": [
+            15,
+            25
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 brings，宾语 us（间接宾语）和 lessons（直接宾语）。",
+            "why": "brings 是 bring 的第三人称单数；us（我们）指人、lessons（教训）指物，构成双宾语。",
+            "highlight": [
+              8,
+              14
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "双宾语结构",
+            "what": "brings us lessons = 给我们带来教训。",
+            "why": "bring 可以带双宾语，前面的 us 是「给谁」，后面的 lessons 是「带来什么」。",
+            "how": "中文说「给我们带来教训」，顺译。",
+            "highlight": [
+              8,
+              25
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "失败给我们带来教训。",
+            "why": "brings us lessons 译「给我们带来教训」，bring 的双宾语顺译即可。",
+            "highlight": [
+              0,
+              25
+            ]
+          }
+        ],
+        "finalZh": "失败给我们带来教训。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s01-0032",
+      "en": "We found the cat under the bed.",
+      "zh": "我们发现猫在床底下。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 7,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "名词",
+          "非谓语动词",
+          "代词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        },
+        {
+          "answer": "found",
+          "hint": "find 的过去式（本空填 found）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "We",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "found",
+          "role": "谓语",
+          "span": [
+            3,
+            8
+          ]
+        },
+        {
+          "text": "the cat",
+          "role": "宾语",
+          "span": [
+            9,
+            16
+          ]
+        },
+        {
+          "text": "under the bed",
+          "role": "状语",
+          "span": [
+            17,
+            30
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 found，宾语 the cat，under the bed 是地点状语。",
+            "why": "found 是 find 的过去式；the cat（猫）是 found 的宾语，under the bed（在床底下）说明猫的位置。",
+            "highlight": [
+              3,
+              8
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我们发现猫在床底下。",
+            "why": "found the cat under the bed 译「发现猫在床底下」，under the bed 提前说明位置。",
+            "highlight": [
+              0,
+              30
+            ]
+          }
+        ],
+        "finalZh": "我们发现猫在床底下。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOC"
+    },
+    {
+      "id": "s01-0033",
+      "en": "Your flight will leave at 5:00 p.m.",
+      "zh": "你的航班将在下午五点起飞。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 7,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "名词",
+          "情态动词",
+          "动词时态"
+        ],
+        "fine": [
+          "一般将来时"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "will",
+          "hint": "助动词，一般将来时（本空填 will）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "at",
+          "hint": "介词，在（本空填 at）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Your flight",
+          "role": "主语",
+          "span": [
+            0,
+            11
+          ]
+        },
+        {
+          "text": "will leave",
+          "role": "谓语",
+          "span": [
+            12,
+            22
+          ]
+        },
+        {
+          "text": "at 5:00 p.m",
+          "role": "状语",
+          "span": [
+            23,
+            34
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 will leave，主语 Your flight，at 5:00 p.m. 是时间状语。",
+            "why": "will 是情态动词，后面 leave 用原形；Your flight（你的航班）是主语，at 5:00 p.m.（在下午五点）是时间状语。",
+            "highlight": [
+              12,
+              22
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "你的航班将在下午五点起飞。",
+            "why": "will leave at 5:00 p.m. 译「将在下午五点起飞」，时间状语 at 5:00 p.m. 提前。",
+            "highlight": [
+              0,
+              34
+            ]
+          }
+        ],
+        "finalZh": "你的航班将在下午五点起飞。",
+        "orderRules": [
+          "时间状语 at 5:00 p.m. 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s01-0034",
+      "en": "Vienna is the capital city of Austria.",
+      "zh": "维也纳是奥地利的首都。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 7,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "动词时态",
+          "冠词",
+          "介词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "of",
+          "hint": "介词，…的（本空填 of）",
+          "gp": "介词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Vienna",
+          "role": "主语",
+          "span": [
+            0,
+            6
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            7,
+            9
+          ]
+        },
+        {
+          "text": "the capital city",
+          "role": "表语",
+          "span": [
+            10,
+            26
+          ]
+        },
+        {
+          "text": "of Austria",
+          "role": "状语",
+          "span": [
+            27,
+            37
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is（系动词），主语 Vienna，表语 the capital city，of Austria 是后置定语。",
+            "why": "is 是系动词，the capital city（首都）作表语说明 Vienna（维也纳）；of Austria（奥地利的）修饰 capital city。",
+            "highlight": [
+              7,
+              9
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "维也纳是奥地利的首都。",
+            "why": "Vienna is the capital city of Austria 译「维也纳是奥地利的首都」，of Austria 提前修饰 capital city。",
+            "highlight": [
+              0,
+              37
+            ]
+          }
+        ],
+        "finalZh": "维也纳是奥地利的首都。",
+        "orderRules": [
+          "后置定语 of Austria 提前"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s01-0036",
+      "en": "We are arriving at Beijing West Railway Station.",
+      "zh": "我们就要到北京西站了。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "名词",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "进行时（be + 现在分词）",
+          "形容词最高级",
+          "介词 + 动名词"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "are",
+          "hint": "系动词/助动词，复数（本空填 are）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "at",
+          "hint": "介词，在（本空填 at）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "We",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "are arriving",
+          "role": "谓语",
+          "span": [
+            3,
+            15
+          ]
+        },
+        {
+          "text": "at Beijing West Railway Station",
+          "role": "状语",
+          "span": [
+            16,
+            47
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 are arriving（现在进行时），at Beijing West Railway Station 是地点状语。",
+            "why": "are arriving 是「be + 现在分词」的现在进行时，arrive（到达）的进行时表示「即将到达」；Beijing West Railway Station 是到达的地点。",
+            "highlight": [
+              3,
+              15
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我们就要到北京西站了。",
+            "why": "are arriving 译「就要到达」，现在进行时表即将发生的将来，所以译「就要到……了」。",
+            "highlight": [
+              0,
+              47
+            ]
+          }
+        ],
+        "finalZh": "我们就要到北京西站了。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s01-0037",
+      "en": "It is raining in Zhengzhou.",
+      "zh": "郑州正在下雨。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 5,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "it的用法",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "进行时（be + 现在分词）",
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "in",
+          "hint": "介词，在…里（本空填 in）",
+          "gp": "介词"
+        },
+        {
+          "answer": "It",
+          "hint": "代词，可作形式主语/形式宾语（本空填 It）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "It",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "is raining",
+          "role": "谓语",
+          "span": [
+            3,
+            13
+          ]
+        },
+        {
+          "text": "in Zhengzhou",
+          "role": "状语",
+          "span": [
+            14,
+            26
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is raining（现在进行时），It 是形式主语指天气，in Zhengzhou 是地点状语。",
+            "why": "is raining 是「be + 现在分词」的进行时；It 在这里指天气（不是具体某物），in Zhengzhou 说明下雨的地点。",
+            "highlight": [
+              3,
+              13
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "郑州正在下雨。",
+            "why": "It is raining in Zhengzhou 译「郑州正在下雨」，It 指天气不译，in Zhengzhou 提前作主语。",
+            "highlight": [
+              0,
+              26
+            ]
+          }
+        ],
+        "finalZh": "郑州正在下雨。",
+        "orderRules": [
+          "地点状语 in Zhengzhou 提前作主语"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s01-0039",
+      "en": "I will ask a barber to cut my hair.",
+      "zh": "我将请理发师给我剪头发。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "名词",
+          "情态动词",
+          "非谓语动词"
+        ],
+        "fine": [
+          "一般将来时"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "will",
+          "hint": "助动词，一般将来时（本空填 will）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        },
+        {
+          "answer": "a",
+          "hint": "不定冠词，修饰可数名词单数（本空填 a）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "will ask",
+          "role": "谓语",
+          "span": [
+            2,
+            10
+          ]
+        },
+        {
+          "text": "a barber",
+          "role": "宾语",
+          "span": [
+            11,
+            19
+          ]
+        },
+        {
+          "text": "to cut my hair",
+          "role": "状语",
+          "span": [
+            20,
+            34
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 will ask，宾语 a barber，to cut my hair 是不定式作宾补。",
+            "why": "will 是情态动词，后面 ask 用原形；ask 后面 a barber（理发师）是被请的人，to cut my hair（剪头发）是被请做的事。",
+            "highlight": [
+              2,
+              10
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "ask sb to do 结构",
+            "what": "ask a barber to cut my hair = 请理发师剪头发，to cut 是不定式不是谓语。",
+            "why": "ask 的固定用法是「ask + 人 + to + 动词原形」，a barber 是请谁，to cut 是请对方做什么，所以 cut 用不定式。",
+            "how": "中文译「请理发师剪头发」，to cut（剪）直接接在 barber 后面。",
+            "highlight": [
+              7,
+              34
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "order",
+            "title": "不定式宾语前置",
+            "what": "my hair（我的头发）是 cut 的宾语，中文要提到「剪」前面。",
+            "why": "英文 cut my hair 是「动词 + 宾语」，中文说「剪头发」宾语 hair 在 cut 后面即可，但整体是「请理发师剪我的头发」。",
+            "how": "先翻 I will ask a barber（我将请理发师），再翻 to cut my hair（剪我的头发）。",
+            "highlight": [
+              23,
+              34
+            ]
+          },
+          {
+            "step": 4,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我将请理发师给我剪头发。",
+            "why": "will ask a barber to cut my hair 译「将请理发师给我剪头发」，ask sb to do 的使役义译出。",
+            "highlight": [
+              0,
+              34
+            ]
+          }
+        ],
+        "finalZh": "我将请理发师给我剪头发。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOC"
+    },
+    {
+      "id": "s01-0041",
+      "en": "I am a student.",
+      "zh": "我是一名学生。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 4,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "名词",
+          "动词时态",
+          "代词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "am",
+          "hint": "系动词/助动词，第一人称单数（本空填 am）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "a",
+          "hint": "不定冠词，修饰可数名词单数（本空填 a）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "am",
+          "role": "谓语",
+          "span": [
+            2,
+            4
+          ]
+        },
+        {
+          "text": "a student",
+          "role": "表语",
+          "span": [
+            5,
+            14
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 am（系动词），主语 I，表语 a student。",
+            "why": "am 是 be 动词，a student（一名学生）作表语说明主语 I 的身份。",
+            "highlight": [
+              2,
+              4
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我是一名学生。",
+            "why": "I am a student 译「我是一名学生」，be 动词表身份。",
+            "highlight": [
+              0,
+              14
+            ]
+          }
+        ],
+        "finalZh": "我是一名学生。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s01-0042",
+      "en": "The cake tastes delicious.",
+      "zh": "这个蛋糕尝起来很美味。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 4,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "冠词",
+          "形容词与副词",
+          "名词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "The",
+          "hint": "定冠词，特指（本空填 The）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "The cake",
+          "role": "主语",
+          "span": [
+            0,
+            8
+          ]
+        },
+        {
+          "text": "tastes",
+          "role": "谓语",
+          "span": [
+            9,
+            15
+          ]
+        },
+        {
+          "text": "delicious",
+          "role": "表语",
+          "span": [
+            16,
+            25
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 tastes（系动词），主语 The cake，表语 delicious。",
+            "why": "tastes 是 taste 的第三人称单数，这里是系动词「尝起来」，后面 delicious（美味的）作表语说明 The cake（这个蛋糕）的味道。",
+            "highlight": [
+              9,
+              15
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "这个蛋糕尝起来很美味。",
+            "why": "The cake tastes delicious 译「这个蛋糕尝起来很美味」，tastes 系动词义「尝起来」译出。",
+            "highlight": [
+              0,
+              25
+            ]
+          }
+        ],
+        "finalZh": "这个蛋糕尝起来很美味。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s01-0043",
+      "en": "Trees don't grow in the Antarctic.",
+      "zh": "南极不长树。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 6,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "冠词",
+          "介词",
+          "名词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "in",
+          "hint": "介词，在…里（本空填 in）",
+          "gp": "介词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Trees",
+          "role": "主语",
+          "span": [
+            0,
+            5
+          ]
+        },
+        {
+          "text": "don't grow",
+          "role": "谓语",
+          "span": [
+            6,
+            16
+          ]
+        },
+        {
+          "text": "in the Antarctic",
+          "role": "状语",
+          "span": [
+            17,
+            33
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 don't grow，主语 Trees，in the Antarctic 是地点状语。",
+            "why": "don't grow 是否定结构（don't 是 do not 的缩写），grow 是动词原形；Trees（树）是主语，in the Antarctic（在南极）是地点。",
+            "highlight": [
+              6,
+              16
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "南极不长树。",
+            "why": "Trees don't grow in the Antarctic 译「南极不长树」，地点状语 in the Antarctic 提前作主语，don't grow 译「不长」。",
+            "highlight": [
+              0,
+              33
+            ]
+          }
+        ],
+        "finalZh": "南极不长树。",
+        "orderRules": [
+          "地点状语 in the Antarctic 提前"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s01-0044",
+      "en": "My younger brother is growing tall.",
+      "zh": "我弟弟渐渐长高了。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 6,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "非谓语动词",
+          "动词时态",
+          "代词"
+        ],
+        "fine": [
+          "进行时（be + 现在分词）",
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "My younger brother",
+          "role": "主语",
+          "span": [
+            0,
+            18
+          ]
+        },
+        {
+          "text": "is growing",
+          "role": "谓语",
+          "span": [
+            19,
+            29
+          ]
+        },
+        {
+          "text": "tall",
+          "role": "表语",
+          "span": [
+            30,
+            34
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is growing（系动词 grow 的进行时），主语 My younger brother，表语 tall。",
+            "why": "is growing 是「be + 现在分词」的进行时，grow 在这里是系动词「渐渐变得」，tall（高的）作表语说明 brother 的变化。",
+            "highlight": [
+              19,
+              29
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我弟弟渐渐长高了。",
+            "why": "is growing tall 译「渐渐长高」，grow 系动词义「渐渐变得」和进行时「正在」一起译出。",
+            "highlight": [
+              0,
+              34
+            ]
+          }
+        ],
+        "finalZh": "我弟弟渐渐长高了。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s01-0045",
+      "en": "I have kept the dog for five years.",
+      "zh": "我养这条狗已经5年了。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "动词时态",
+          "代词",
+          "冠词"
+        ],
+        "fine": [
+          "for + 时间段，搭配完成时"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "have",
+          "hint": "使役动词，让（have sth done）（本空填 have）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "for",
+          "hint": "介词，为了（本空填 for）",
+          "gp": "介词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "have kept",
+          "role": "谓语",
+          "span": [
+            2,
+            11
+          ]
+        },
+        {
+          "text": "the dog",
+          "role": "表语",
+          "span": [
+            12,
+            19
+          ]
+        },
+        {
+          "text": "for",
+          "role": "状语",
+          "span": [
+            20,
+            23
+          ]
+        },
+        {
+          "text": "five years",
+          "role": "状语",
+          "span": [
+            24,
+            34
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 have kept（现在完成时），宾语 the dog，for five years 是时间状语。",
+            "why": "have kept 是「have + 过去分词」的现在完成时，kept 是 keep 的过去分词；the dog（这条狗）是宾语，for five years（五年）表示持续时间。",
+            "highlight": [
+              2,
+              11
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "现在完成时 + for 时间段",
+            "what": "have kept ... for five years = 已经养了五年，强调从过去持续到现在。",
+            "why": "现在完成时 have kept 表示动作从过去持续到现在，for five years（for + 时间段）强调持续多久，这是完成时的标志。",
+            "how": "中文译「已经养了五年」，「已经……了」体现完成时的持续义。",
+            "highlight": [
+              2,
+              34
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我养这条狗已经5年了。",
+            "why": "have kept the dog for five years 译「养这条狗已经五年了」，完成时 + for 的持续义译出。",
+            "highlight": [
+              0,
+              34
+            ]
+          }
+        ],
+        "finalZh": "我养这条狗已经5年了。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s01-0046",
+      "en": "The house has kept clean for years.",
+      "zh": "这个房子多年来一直保持着整洁。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 7,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "动词时态",
+          "冠词",
+          "介词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "has",
+          "hint": "助动词，第三人称单数（本空填 has）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "for",
+          "hint": "介词，为了（本空填 for）",
+          "gp": "介词"
+        },
+        {
+          "answer": "The",
+          "hint": "定冠词，特指（本空填 The）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "The house",
+          "role": "主语",
+          "span": [
+            0,
+            9
+          ]
+        },
+        {
+          "text": "has kept clean",
+          "role": "谓语",
+          "span": [
+            10,
+            24
+          ]
+        },
+        {
+          "text": "for years",
+          "role": "状语",
+          "span": [
+            25,
+            34
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 has kept，但这里的 kept 不是「养」，而是系动词「保持」，后面 clean 是表语。",
+            "why": "has kept 是「have + 过去分词」的完成时；但 kept 后面跟的是形容词 clean（干净的），不是名词宾语，说明 keep 在这里是系动词。",
+            "highlight": [
+              10,
+              18
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "区分 keep 的实义与系动用法",
+            "what": "对比 s01-0045 的 kept the dog（养狗，keep+名词宾语）和这里的 kept clean（保持干净，keep+形容词表语），同一动词两种用法。",
+            "why": "keep 后面跟名词 the dog 时是实义动词「养、保留」；跟形容词 clean 时是系动词「保持」，clean 说明 The house（房子）的状態。",
+            "how": "中文译「保持整洁」，kept clean 的 clean 是「整洁的」，不是宾语。",
+            "highlight": [
+              10,
+              24
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "order",
+            "title": "时间状语前置",
+            "what": "for years（多年来）是时间状语，中文提到动词前。",
+            "why": "英文把 for years 放句尾，中文习惯把时间状语前置，译「多年来一直」。",
+            "how": "先翻 for years（多年来），再翻 has kept clean（一直保持整洁）。",
+            "highlight": [
+              25,
+              34
+            ]
+          },
+          {
+            "step": 4,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "这个房子多年来一直保持着整洁。",
+            "why": "has kept clean for years 译「多年来一直保持整洁」，kept 系动词义「保持」和完成时「一直」译出。",
+            "highlight": [
+              0,
+              34
+            ]
+          }
+        ],
+        "finalZh": "这个房子多年来一直保持着整洁。",
+        "orderRules": [
+          "时间状语 for years 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    }
+  ]
+}

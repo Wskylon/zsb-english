@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "chapterId": "c02",
+  "cards": [
+    {
+      "id": "gp02-01",
+      "chapterId": "c02",
+      "majorTag": "虚拟语气",
+      "title": "虚拟语气：与事实相反的假设",
+      "rule": "与现在相反：if + 过去式，主句 would/could + 动词原形（be 一律用 were）。与过去相反：if + had done，主句 would have done。wish 后面也用虚拟。",
+      "examples": [
+        "s02-0038",
+        "s10-0068"
+      ],
+      "errors": [
+        {
+          "wrong": "If I was you, I would accept it.",
+          "right": "If I were you, I would accept it.",
+          "note": "虚拟语气里 be 动词一律用 were。"
+        },
+        {
+          "wrong": "If I had known, I would tell you.",
+          "right": "If I had known, I would have told you.",
+          "note": "与过去相反，主句要用 would have done。"
+        }
+      ],
+      "examTips": "浙江专升本考「虚拟语气」集中在三处：if 条件句、wish 从句、suggest/demand/insist 等「一坚持二命令三建议四要求」后的 that 从句用 (should) do。",
+      "method": "识别方法：①句子表达的是「如果…就好了/要是…就…」这类与事实相反的意思；②看时间参照点选现在/过去/将来三套公式；③wish、as if、would rather 后面也走虚拟。"
+    },
+    {
+      "id": "gp02-02",
+      "chapterId": "c02",
+      "majorTag": "定语从句",
+      "title": "定语从句：谁修饰谁，关系词怎么选",
+      "rule": "关系词放在先行词后面，代替先行词在从句里作成分：指人用 who/whom/that，指物用 which/that，表所属用 whose。作宾语时关系词可省略，作主语时不能省。",
+      "examples": [
+        "s02-0045",
+        "s02-0055",
+        "s02-0061"
+      ],
+      "errors": [
+        {
+          "wrong": "The man who I met him is my teacher.",
+          "right": "The man who I met is my teacher.",
+          "note": "关系词已经在从句里作宾语了，不能再加 him。"
+        },
+        {
+          "wrong": "This is the house where I lived in.",
+          "right": "This is the house where I lived.",
+          "note": "where 已含介词义，后面不再加 in。"
+        }
+      ],
+      "examTips": "浙江专升本必考：①介词 + 关系代词（the city in which I was born）；②whose 的两种改写（whose = of which）；③先行词被 the only / 最高级 / all 修饰时只能用 that。",
+      "method": "识别方法：①先找先行词（关系词紧挨着的那个名词）；②把从句单独拎出来看缺什么成分 → 缺主语用 who/which/that，缺宾语用 whom/which/that，缺定语用 whose；③看从句完整不完整，完整就用关系副词（where/when/why）。"
+    },
+    {
+      "id": "gp02-03",
+      "chapterId": "c02",
+      "majorTag": "名词性从句",
+      "title": "名词性从句：主语、宾语、表语、同位语",
+      "rule": "一个句子当作名词用就是名词性从句，能作主语、宾语、表语、同位语。that 只起引导作用不作成分（宾语从句里可省）；whether/if 表「是否」；what 在从句里要作成分。",
+      "examples": [
+        "s02-0072",
+        "s03-0061"
+      ],
+      "errors": [
+        {
+          "wrong": "I don't know that he will come or not.",
+          "right": "I don't know whether he will come or not.",
+          "note": "「是否」用 whether，不用 that。"
+        },
+        {
+          "wrong": "That he said is true.",
+          "right": "What he said is true.",
+          "note": "从句里缺宾语，要用 what（= the thing that）。"
+        }
+      ],
+      "examTips": "浙江专升本高频区分：that（不作成分）vs what（作成分）、whether vs if（介词后、句首、or not 前只能用 whether）、以及从句用陈述语序（不能把助动词提前）。",
+      "method": "识别方法：①先看从句在整个句子里当什么用（主语/宾语/表语/同位语）；②看从句本身缺不缺成分 → 缺就用 what/who 等连接代词，不缺就用 that/whether；③从句内部永远是「主语 + 谓语」的陈述语序。"
+    },
+    {
+      "id": "gp02-04",
+      "chapterId": "c02",
+      "majorTag": "并列结构",
+      "title": "并列句与并列结构：连词要对齐",
+      "rule": "两个或多个地位平等的成分用并列连词连接：and（并列）、but（转折）、or（选择）、so（结果）、for（原因）。not only…but also、either…or、neither…nor 要连接同类型的成分。",
+      "examples": [
+        "s02-0015",
+        "s02-0046",
+        "s02-0078"
+      ],
+      "errors": [
+        {
+          "wrong": "He likes swimming and to run.",
+          "right": "He likes swimming and running.",
+          "note": "并列成分形式要一致。"
+        },
+        {
+          "wrong": "Neither you nor he are right.",
+          "right": "Neither you nor he is right.",
+          "note": "neither…nor 连接主语时，谓语跟最近的主语一致。"
+        }
+      ],
+      "examTips": "浙江专升本考「并列成分形式一致」和「就近一致原则」（either…or、neither…nor、not only…but also 连接主语时谓语看最近的那个）。",
+      "method": "识别方法：①找到并列连词；②看它左右两边的成分是不是同一类型、同一形式；③连词连接主语时，谓语单复数看最近的主语。"
+    },
+    {
+      "id": "gp02-05",
+      "chapterId": "c02",
+      "majorTag": "祈使句与感叹句",
+      "title": "祈使句与感叹句",
+      "rule": "祈使句省略主语 you，用动词原形开头，否定用 Don't；Let's 表示建议。感叹句用 What（+ 名词）或 How（+ 形容词/副词）开头。",
+      "examples": [
+        "s02-0039",
+        "s03-0059"
+      ],
+      "errors": [
+        {
+          "wrong": "Not be late again.",
+          "right": "Don't be late again.",
+          "note": "祈使句的否定用 Don't。"
+        },
+        {
+          "wrong": "What beautiful the flowers are!",
+          "right": "How beautiful the flowers are!",
+          "note": "形容词/副词用 How，名词用 What。"
+        }
+      ],
+      "examTips": "浙江专升本考祈使句的反意疑问句（Let's…, shall we? / Let us…, will you?）和 What/How 感叹句的选择。",
+      "method": "识别方法：①句子没有主语、以动词原形开头 → 祈使句；②感叹句看被感叹的词：名词用 What，形容词/副词用 How。"
+    }
+  ]
+}

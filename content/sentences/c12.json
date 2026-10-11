@@ -1,0 +1,4839 @@
+{
+  "schemaVersion": 1,
+  "chapterId": "c12",
+  "sentences": [
+    {
+      "id": "s12-0002",
+      "en": "There is a dictionary and many books on the table.",
+      "zh": "桌子上有一本词典和许多本书。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "主谓一致",
+          "并列结构",
+          "动词时态"
+        ],
+        "fine": [
+          "there be 存现句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "on",
+          "hint": "介词，在…上（本空填 on）",
+          "gp": "介词"
+        },
+        {
+          "answer": "a",
+          "hint": "不定冠词，修饰可数名词单数（本空填 a）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "There",
+          "role": "主语",
+          "span": [
+            0,
+            5
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            6,
+            8
+          ]
+        },
+        {
+          "text": "a dictionary",
+          "role": "表语",
+          "span": [
+            9,
+            21
+          ]
+        },
+        {
+          "text": "and",
+          "role": "状语",
+          "span": [
+            22,
+            25
+          ]
+        },
+        {
+          "text": "many books on the table",
+          "role": "状语",
+          "span": [
+            26,
+            49
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is（就近原则），There be 句型。",
+            "why": "There is a dictionary and many books 中 be 就近原则，与最近的主语 a dictionary（单数）一致，用 is。",
+            "highlight": [
+              0,
+              8
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "就近原则",
+            "what": "There is a dictionary and many books = 有一本词典和许多书，就近 a dictionary 用 is。",
+            "why": "there be 句型遵循就近原则，be 动词与最近的名词 a dictionary 一致（单数用 is）。",
+            "how": "译「桌子上有一本词典和许多本书」，there be 译「有」。",
+            "highlight": [
+              0,
+              49
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "桌子上有一本词典和许多本书。",
+            "why": "There is a dictionary and many books on the table 译「桌子上有一本词典和许多本书」。",
+            "highlight": [
+              0,
+              49
+            ]
+          }
+        ],
+        "finalZh": "桌子上有一本词典和许多本书。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s12-0003",
+      "en": "There are ten chairs and a table in the room.",
+      "zh": "房间里有十把椅子和一张桌子。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "主谓一致",
+          "被动语态",
+          "并列结构"
+        ],
+        "fine": [
+          "there be 存现句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "are",
+          "hint": "系动词/助动词，复数（本空填 are）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "in",
+          "hint": "介词，在…里（本空填 in）",
+          "gp": "介词"
+        },
+        {
+          "answer": "a",
+          "hint": "不定冠词，修饰可数名词单数（本空填 a）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "There",
+          "role": "主语",
+          "span": [
+            0,
+            5
+          ]
+        },
+        {
+          "text": "are",
+          "role": "谓语",
+          "span": [
+            6,
+            9
+          ]
+        },
+        {
+          "text": "ten chairs",
+          "role": "表语",
+          "span": [
+            10,
+            20
+          ]
+        },
+        {
+          "text": "and",
+          "role": "状语",
+          "span": [
+            21,
+            24
+          ]
+        },
+        {
+          "text": "a table in the room",
+          "role": "状语",
+          "span": [
+            25,
+            44
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 are（就近原则），There be 句型。",
+            "why": "There are ten chairs and a table 中 be 就近原则，与最近的主语 ten chairs（复数）一致，用 are。",
+            "highlight": [
+              0,
+              9
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "就近原则",
+            "what": "There are ten chairs and a table = 有十把椅子和一张桌子，就近 ten chairs 用 are。",
+            "why": "there be 句型遵循就近原则，be 动词与最近的名词 ten chairs 一致（复数用 are）。",
+            "how": "译「房间里有十把椅子和一张桌子」，there be 译「有」。",
+            "highlight": [
+              0,
+              44
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "房间里有十把椅子和一张桌子。",
+            "why": "There are ten chairs and a table in the room 译「房间里有十把椅子和一张桌子」。",
+            "highlight": [
+              0,
+              44
+            ]
+          }
+        ],
+        "finalZh": "房间里有十把椅子和一张桌子。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s12-0004",
+      "en": "Coffee or tea is served in the meeting room.",
+      "zh": "会议室提供咖啡或茶。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "主谓一致",
+          "被动语态",
+          "非谓语动词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "in",
+          "hint": "介词，在…里（本空填 in）",
+          "gp": "介词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Coffee or tea",
+          "role": "主语",
+          "span": [
+            0,
+            13
+          ]
+        },
+        {
+          "text": "is served",
+          "role": "谓语",
+          "span": [
+            14,
+            23
+          ]
+        },
+        {
+          "text": "in the meeting room",
+          "role": "状语",
+          "span": [
+            24,
+            43
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is served（就近原则），or 连接并列主语。",
+            "why": "Coffee or tea is served 中 or 连接并列主语，谓语就近与 tea（单数）一致，用 is。",
+            "highlight": [
+              0,
+              22
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "or 就近原则",
+            "what": "Coffee or tea is served = 提供咖啡或茶，or 连接时就近 tea 用单数。",
+            "why": "or 连接并列主语时，谓语就近与最近的主语 tea 一致（单数用 is）。",
+            "how": "译「会议室提供咖啡或茶」，is served 译「提供」。",
+            "highlight": [
+              0,
+              43
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "会议室提供咖啡或茶。",
+            "why": "Coffee or tea is served in the meeting room 译「会议室提供咖啡或茶」。",
+            "highlight": [
+              0,
+              43
+            ]
+          }
+        ],
+        "finalZh": "会议室提供咖啡或茶。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s12-0005",
+      "en": "Not only the design but also the materials are of high quality.",
+      "zh": "不仅设计，材料也都是高品质的。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 12,
+        "clauses": 0,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "主谓一致",
+          "并列结构",
+          "动词时态"
+        ],
+        "fine": [
+          "not only…but also 连接并列成分"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "are",
+          "hint": "系动词/助动词，复数（本空填 are）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "of",
+          "hint": "介词，…的（本空填 of）",
+          "gp": "介词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Not only the",
+          "role": "主语",
+          "span": [
+            0,
+            12
+          ]
+        },
+        {
+          "text": "design",
+          "role": "谓语",
+          "span": [
+            13,
+            19
+          ]
+        },
+        {
+          "text": "also",
+          "role": "状语",
+          "span": [
+            24,
+            28
+          ]
+        },
+        {
+          "text": "the materials",
+          "role": "主语",
+          "span": [
+            29,
+            42
+          ]
+        },
+        {
+          "text": "are",
+          "role": "谓语",
+          "span": [
+            43,
+            46
+          ]
+        },
+        {
+          "text": "of high quality",
+          "role": "状语",
+          "span": [
+            47,
+            62
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 are（就近原则），not only...but also 连接并列主语。",
+            "why": "Not only the design but also the materials are 中 not only...but also 连接，就近 the materials（复数）用 are。",
+            "highlight": [
+              0,
+              42
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "not only...but also 就近原则",
+            "what": "not only...but also... = 不仅……而且，就近 materials 用复数。",
+            "why": "not only...but also 连接并列主语，谓语就近与最近的主语 materials（复数）一致。",
+            "how": "译「不仅设计，材料也都是高品质的」，are of high quality 译「高品质」。",
+            "highlight": [
+              0,
+              62
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "不仅设计，材料也都是高品质的。",
+            "why": "Not only the design but also the materials are of high quality 译「不仅设计，材料也都是高品质的」。",
+            "highlight": [
+              0,
+              62
+            ]
+          }
+        ],
+        "finalZh": "不仅设计，材料也都是高品质的。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s12-0008",
+      "en": "The old man's sheep is eating grass over there.",
+      "zh": "老人的羊正在那边吃草。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "主谓一致",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "进行时（be + 现在分词）"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "The",
+          "hint": "定冠词，特指（本空填 The）",
+          "gp": "冠词"
+        },
+        {
+          "answer": "there",
+          "hint": "there be 结构的引导词（本空填 there）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "The old man's sheep",
+          "role": "主语",
+          "span": [
+            0,
+            19
+          ]
+        },
+        {
+          "text": "is eating",
+          "role": "谓语",
+          "span": [
+            20,
+            29
+          ]
+        },
+        {
+          "text": "grass",
+          "role": "表语",
+          "span": [
+            30,
+            35
+          ]
+        },
+        {
+          "text": "over there",
+          "role": "状语",
+          "span": [
+            36,
+            46
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is eating，sheep 单复数同形。",
+            "why": "is eating（正在吃）是谓语，sheep（羊）单复数同形，这里是单数（一只羊），用 is。",
+            "highlight": [
+              20,
+              29
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "sheep 单复数同形",
+            "what": "The old man's sheep is eating = 老人的羊（一只）正在吃，sheep 单数。",
+            "why": "sheep 是单复数同形的名词，这里用 is 表单数（一只羊），over there 是地点。",
+            "how": "译「老人的羊正在那边吃草」，sheep 单数译「羊」。",
+            "highlight": [
+              4,
+              46
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "老人的羊正在那边吃草。",
+            "why": "The old man's sheep is eating grass over there 译「老人的羊正在那边吃草」。",
+            "highlight": [
+              0,
+              46
+            ]
+          }
+        ],
+        "finalZh": "老人的羊正在那边吃草。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s12-0009",
+      "en": "The old man's sheep are eating grass over there.",
+      "zh": "老人的羊正在那边吃草。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "主谓一致",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "进行时（be + 现在分词）"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "are",
+          "hint": "系动词/助动词，复数（本空填 are）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "The",
+          "hint": "定冠词，特指（本空填 The）",
+          "gp": "冠词"
+        },
+        {
+          "answer": "there",
+          "hint": "there be 结构的引导词（本空填 there）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "The old man's sheep",
+          "role": "主语",
+          "span": [
+            0,
+            19
+          ]
+        },
+        {
+          "text": "are eating",
+          "role": "谓语",
+          "span": [
+            20,
+            30
+          ]
+        },
+        {
+          "text": "grass",
+          "role": "表语",
+          "span": [
+            31,
+            36
+          ]
+        },
+        {
+          "text": "over there",
+          "role": "状语",
+          "span": [
+            37,
+            47
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 are eating，sheep 单复数同形（复数）。",
+            "why": "are eating（正在吃）是谓语，sheep（羊）单复数同形，这里是复数（多只羊），用 are。",
+            "highlight": [
+              20,
+              30
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "sheep 单复数同形",
+            "what": "The old man's sheep are eating = 老人的羊（多只）正在吃，sheep 复数。",
+            "why": "sheep 是单复数同形的名词，这里用 are 表复数（多只羊）。",
+            "how": "译「老人的羊正在那边吃草」，sheep 复数译「羊群」。",
+            "highlight": [
+              4,
+              47
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "老人的羊正在那边吃草。",
+            "why": "The old man's sheep are eating grass over there 译「老人的羊正在那边吃草」。",
+            "highlight": [
+              0,
+              47
+            ]
+          }
+        ],
+        "finalZh": "老人的羊正在那边吃草。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s12-0010",
+      "en": "My family has lived in this city for over 20 years.",
+      "zh": "我们家在这座城市住了20多年了。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "主谓一致",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "现在完成时或过去完成时"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "has",
+          "hint": "助动词，第三人称单数（本空填 has）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "in",
+          "hint": "介词，在…里（本空填 in）",
+          "gp": "介词"
+        },
+        {
+          "answer": "for",
+          "hint": "介词，为了（本空填 for）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "My family",
+          "role": "主语",
+          "span": [
+            0,
+            9
+          ]
+        },
+        {
+          "text": "has lived",
+          "role": "谓语",
+          "span": [
+            10,
+            19
+          ]
+        },
+        {
+          "text": "in this city for over 20 years",
+          "role": "状语",
+          "span": [
+            20,
+            50
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 has lived，family 作整体（单数）。",
+            "why": "has lived（住了）是谓语，family 作「家庭」整体用单数 has。",
+            "highlight": [
+              10,
+              19
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "family 作整体用单数",
+            "what": "My family has lived = 我们家（整体）住了，family 整体单数。",
+            "why": "family 指「家庭」这个整体时作单数，谓语用 has lived。",
+            "how": "译「我们家在这座城市住了 20 多年了」，family 译「家」。",
+            "highlight": [
+              0,
+              50
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我们家在这座城市住了20多年了。",
+            "why": "My family has lived in this city for over 20 years 译「我们家在这座城市住了20多年了」。",
+            "highlight": [
+              0,
+              50
+            ]
+          }
+        ],
+        "finalZh": "我们家在这座城市住了20多年了。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s12-0011",
+      "en": "My family are all busy with their own work today.",
+      "zh": "我们家每个人今天都在忙自己的工作。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "主谓一致",
+          "动词时态",
+          "代词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "are",
+          "hint": "系动词/助动词，复数（本空填 are）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "with",
+          "hint": "介词，和/带着（本空填 with）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "My family",
+          "role": "主语",
+          "span": [
+            0,
+            9
+          ]
+        },
+        {
+          "text": "are",
+          "role": "谓语",
+          "span": [
+            10,
+            13
+          ]
+        },
+        {
+          "text": "all busy",
+          "role": "表语",
+          "span": [
+            14,
+            22
+          ]
+        },
+        {
+          "text": "with their",
+          "role": "状语",
+          "span": [
+            23,
+            33
+          ]
+        },
+        {
+          "text": "own work",
+          "role": "谓语",
+          "span": [
+            34,
+            42
+          ]
+        },
+        {
+          "text": "today",
+          "role": "宾语",
+          "span": [
+            43,
+            48
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 are，family 作「家人」（复数）。",
+            "why": "are busy（忙）是谓语，family 作「家人」指个体成员用复数 are。",
+            "highlight": [
+              10,
+              13
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "family 作家人用复数",
+            "what": "My family are all busy = 我家人都很忙，family 指家人复数。",
+            "why": "family 指「家人」（个体成员）时作复数，谓语用 are。",
+            "how": "译「我们家每个人今天都在忙自己的工作」，family 译「家人」。",
+            "highlight": [
+              0,
+              48
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我们家每个人今天都在忙自己的工作。",
+            "why": "My family are all busy with their own work today 译「我们家每个人今天都在忙自己的工作」。",
+            "highlight": [
+              0,
+              48
+            ]
+          }
+        ],
+        "finalZh": "我们家每个人今天都在忙自己的工作。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s12-0014",
+      "en": "None of the work was done.",
+      "zh": "那些工作全都没做。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 6,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "主谓一致",
+          "动词时态",
+          "冠词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "was",
+          "hint": "系动词/助动词，过去式单数（本空填 was）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "of",
+          "hint": "介词，…的（本空填 of）",
+          "gp": "介词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "None of the",
+          "role": "主语",
+          "span": [
+            0,
+            11
+          ]
+        },
+        {
+          "text": "work was",
+          "role": "谓语",
+          "span": [
+            12,
+            20
+          ]
+        },
+        {
+          "text": "done",
+          "role": "宾语",
+          "span": [
+            21,
+            25
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 was done，None of the work 是主语（不可数单数）。",
+            "why": "was done（被做）是谓语，None of the work（工作一点都没有）中 work 不可数，谓语用单数。",
+            "highlight": [
+              12,
+              20
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "none of + 不可数",
+            "what": "None of the work was done = 工作全都没做，none of 后不可数用单数。",
+            "why": "none of 后接不可数名词 work，谓语用单数 was done。",
+            "how": "译「那些工作全都没做」，none of the work 译「工作全都没」。",
+            "highlight": [
+              0,
+              25
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "那些工作全都没做。",
+            "why": "None of the work was done 译「那些工作全都没做」。",
+            "highlight": [
+              0,
+              25
+            ]
+          }
+        ],
+        "finalZh": "那些工作全都没做。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s12-0015",
+      "en": "The coach, as well as the team, is ready.",
+      "zh": "教练和球队都已就位。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "主谓一致",
+          "并列结构",
+          "动词时态"
+        ],
+        "fine": [
+          "as…as 原级比较",
+          "多点修饰，注意先断句再翻译"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "as",
+          "hint": "引导时间/原因/方式状语从句（本空填 as）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "as",
+          "hint": "引导时间/原因/方式状语从句（本空填 as）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "The coach",
+          "role": "主语",
+          "span": [
+            0,
+            9
+          ]
+        },
+        {
+          "text": "as well as the team, is ready.",
+          "role": "状语从句",
+          "span": [
+            11,
+            41
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，as well as 连接（谓语跟主语 coach）。",
+            "why": "is ready（就位）是谓语，as well as the team 是插入语，谓语与主语 coach（单数）一致。",
+            "highlight": [
+              32,
+              40
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "as well as 就远原则",
+            "what": "The coach, as well as the team, is ready = 教练和球队就位，as well as 后不参与主谓一致。",
+            "why": "as well as（也）连接时，谓语与前面的主语 coach 一致（单数用 is），the team 不算主语。",
+            "how": "译「教练和球队都已就位」，as well as 译「和」。",
+            "highlight": [
+              0,
+              40
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "教练和球队都已就位。",
+            "why": "The coach, as well as the team, is ready 译「教练和球队都已就位」。",
+            "highlight": [
+              0,
+              40
+            ]
+          }
+        ],
+        "finalZh": "教练和球队都已就位。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s12-0016",
+      "en": "The professor, together with his students, is dining here tonight.",
+      "zh": "教授和他的学生们今晚将在这儿一起用餐。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "主谓一致",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "进行时（be + 现在分词）",
+          "多点修饰，注意先断句再翻译"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "with",
+          "hint": "介词，和/带着（本空填 with）",
+          "gp": "介词"
+        },
+        {
+          "answer": "The",
+          "hint": "定冠词，特指（本空填 The）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "The professor, together with his students",
+          "role": "主语",
+          "span": [
+            0,
+            41
+          ]
+        },
+        {
+          "text": "is dining",
+          "role": "谓语",
+          "span": [
+            43,
+            52
+          ]
+        },
+        {
+          "text": "here tonight",
+          "role": "表语",
+          "span": [
+            53,
+            65
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is dining，together with 连接（谓语跟主语 professor）。",
+            "why": "is dining（用餐）是谓语，together with his students 是插入语，谓语与主语 professor（单数）一致。",
+            "highlight": [
+              43,
+              51
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "together with 就远原则",
+            "what": "The professor, together with his students, is dining = 教授和学生用餐，together with 后不算主语。",
+            "why": "together with（和）连接时，谓语与前面的主语 professor 一致（单数用 is），his students 不算主语。",
+            "how": "译「教授和他的学生们今晚将在这儿一起用餐」，together with 译「和」。",
+            "highlight": [
+              0,
+              65
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "教授和他的学生们今晚将在这儿一起用餐。",
+            "why": "The professor, together with his students, is dining here tonight 译「教授和他的学生们今晚将在这儿一起用餐」。",
+            "highlight": [
+              0,
+              65
+            ]
+          }
+        ],
+        "finalZh": "教授和他的学生们今晚将在这儿一起用餐。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s12-0019",
+      "en": "Such is his nature.",
+      "zh": "他的本性就是如此。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 4,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "主谓一致",
+          "动词时态",
+          "代词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "Such",
+          "role": "主语",
+          "span": [
+            0,
+            4
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            5,
+            7
+          ]
+        },
+        {
+          "text": "his nature",
+          "role": "表语",
+          "span": [
+            8,
+            18
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，Such 作主语（倒装表语）。",
+            "why": "Such is his nature（他的本性如此）是倒装句，Such 作表语提前，his nature 是主语。",
+            "highlight": [
+              0,
+              4
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "such 倒装",
+            "what": "Such is his nature = 他的本性就是如此，Such 倒装表语。",
+            "why": "Such 作表语提前，his nature 是真正主语，is 与 his nature（单数）一致。",
+            "how": "译「他的本性就是如此」，Such 译「如此」。",
+            "highlight": [
+              0,
+              18
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他的本性就是如此。",
+            "why": "Such is his nature 译「他的本性就是如此」。",
+            "highlight": [
+              0,
+              18
+            ]
+          }
+        ],
+        "finalZh": "他的本性就是如此。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s12-0020",
+      "en": "Such were his words.",
+      "zh": "他的话就是这么说的。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 4,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "主谓一致",
+          "动词时态",
+          "代词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "were",
+          "hint": "系动词/助动词，过去式复数（本空填 were）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "Such",
+          "role": "主语",
+          "span": [
+            0,
+            4
+          ]
+        },
+        {
+          "text": "were",
+          "role": "谓语",
+          "span": [
+            5,
+            9
+          ]
+        },
+        {
+          "text": "his words",
+          "role": "表语",
+          "span": [
+            10,
+            19
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 were，Such 作主语（倒装表语）。",
+            "why": "Such were his words（他的话如此）是倒装句，Such 作表语提前，his words 是主语（复数）。",
+            "highlight": [
+              0,
+              4
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "such 倒装",
+            "what": "Such were his words = 他的话就是这么说的，Such 倒装表语。",
+            "why": "Such 作表语提前，his words 是复数主语，were 与之一致。",
+            "how": "译「他的话就是这么说的」，Such 译「如此」。",
+            "highlight": [
+              0,
+              19
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他的话就是这么说的。",
+            "why": "Such were his words 译「他的话就是这么说的」。",
+            "highlight": [
+              0,
+              19
+            ]
+          }
+        ],
+        "finalZh": "他的话就是这么说的。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s12-0023",
+      "en": "My dream school looks like a big garden.",
+      "zh": "我梦想中的学校看起来像一座大花园。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "主谓一致",
+          "代词",
+          "冠词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "a",
+          "hint": "不定冠词，修饰可数名词单数（本空填 a）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "My",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "dream",
+          "role": "谓语",
+          "span": [
+            3,
+            8
+          ]
+        },
+        {
+          "text": "school",
+          "role": "宾语",
+          "span": [
+            9,
+            15
+          ]
+        },
+        {
+          "text": "looks like",
+          "role": "谓语",
+          "span": [
+            16,
+            26
+          ]
+        },
+        {
+          "text": "a big garden",
+          "role": "宾语",
+          "span": [
+            27,
+            39
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 looks like，主语 My dream school。",
+            "why": "looks like（看起来像）是谓语，My dream school（我梦想的学校）是主语，a big garden 是宾语。",
+            "highlight": [
+              16,
+              21
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我梦想中的学校看起来像一座大花园。",
+            "why": "My dream school looks like a big garden 译「我梦想中的学校看起来像一座大花园」。",
+            "highlight": [
+              0,
+              39
+            ]
+          }
+        ],
+        "finalZh": "我梦想中的学校看起来像一座大花园。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOO"
+    },
+    {
+      "id": "s12-0024",
+      "en": "My friends have no intention of going shopping with me.",
+      "zh": "我的朋友们不想和我去购物。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "主谓一致",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "介词 + 动名词"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "have",
+          "hint": "使役动词，让（have sth done）（本空填 have）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "of",
+          "hint": "介词，…的（本空填 of）",
+          "gp": "介词"
+        },
+        {
+          "answer": "with",
+          "hint": "介词，和/带着（本空填 with）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "My friends",
+          "role": "主语",
+          "span": [
+            0,
+            10
+          ]
+        },
+        {
+          "text": "have",
+          "role": "谓语",
+          "span": [
+            11,
+            15
+          ]
+        },
+        {
+          "text": "no intention",
+          "role": "宾语",
+          "span": [
+            16,
+            28
+          ]
+        },
+        {
+          "text": "of going shopping with me",
+          "role": "状语",
+          "span": [
+            29,
+            54
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 have，no intention of 是短语。",
+            "why": "have（有）是谓语，no intention of going shopping（没有购物打算）是宾语。",
+            "highlight": [
+              11,
+              15
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "have no intention of doing",
+            "what": "have no intention of going = 不想做，have no intention of 固定搭配。",
+            "why": "have no intention of（没有……打算）是固定搭配，后接动名词 going shopping。",
+            "how": "译「不想和我去购物」，have no intention of 译「不想」。",
+            "highlight": [
+              11,
+              54
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我的朋友们不想和我去购物。",
+            "why": "My friends have no intention of going shopping with me 译「我的朋友们不想和我去购物」。",
+            "highlight": [
+              0,
+              54
+            ]
+          }
+        ],
+        "finalZh": "我的朋友们不想和我去购物。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOC"
+    },
+    {
+      "id": "s12-0029",
+      "en": "She is an excellent engineer.",
+      "zh": "她是一名出色的工程师。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 5,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "主谓一致",
+          "动词时态",
+          "代词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "an",
+          "hint": "不定冠词，修饰元音音素开头的可数名词单数（本空填 an）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "She",
+          "role": "主语",
+          "span": [
+            0,
+            3
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            4,
+            6
+          ]
+        },
+        {
+          "text": "an excellent engineer",
+          "role": "表语",
+          "span": [
+            7,
+            28
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，表语 an excellent engineer。",
+            "why": "is 是系动词，an excellent engineer（出色的工程师）是表语。",
+            "highlight": [
+              4,
+              6
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "她是一名出色的工程师。",
+            "why": "She is an excellent engineer 译「她是一名出色的工程师」。",
+            "highlight": [
+              0,
+              28
+            ]
+          }
+        ],
+        "finalZh": "她是一名出色的工程师。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s12-0030",
+      "en": "One of the books belongs to me.",
+      "zh": "这些书中的一本是属于我的。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 7,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "主谓一致",
+          "非谓语动词",
+          "代词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "of",
+          "hint": "介词，…的（本空填 of）",
+          "gp": "介词"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 belongs，One of the books 是主语（单数）。",
+            "why": "belongs to（属于）是谓语，One of the books（书中的一本）是主语，one 是单数用 belongs。",
+            "highlight": [
+              17,
+              24
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "one of + 复数名词",
+            "what": "One of the books belongs = 书中的一本属于，one of 后复数但谓语单数。",
+            "why": "one of + 复数名词 表示「……之一」，谓语与 one（单数）一致，用 belongs。",
+            "how": "译「这些书中的一本是属于我的」，one of 译「之一」。",
+            "highlight": [
+              0,
+              30
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "这些书中的一本是属于我的。",
+            "why": "One of the books belongs to me 译「这些书中的一本是属于我的」。",
+            "highlight": [
+              0,
+              30
+            ]
+          }
+        ],
+        "finalZh": "这些书中的一本是属于我的。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s12-0031",
+      "en": "Each (one) of the houses was slightly different.",
+      "zh": "每座房子都稍有不同。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "主谓一致",
+          "动词时态",
+          "冠词"
+        ],
+        "fine": [
+          "each/every 作主语时谓语用单数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "was",
+          "hint": "系动词/助动词，过去式单数（本空填 was）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "of",
+          "hint": "介词，…的（本空填 of）",
+          "gp": "介词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Each (one) of the houses",
+          "role": "主语",
+          "span": [
+            0,
+            24
+          ]
+        },
+        {
+          "text": "was",
+          "role": "谓语",
+          "span": [
+            25,
+            28
+          ]
+        },
+        {
+          "text": "slightly different",
+          "role": "表语",
+          "span": [
+            29,
+            47
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 was，Each of the houses 是主语（单数）。",
+            "why": "was slightly different（稍有不同）是谓语，Each of the houses（每座房子）是主语，each 是单数用 was。",
+            "highlight": [
+              25,
+              28
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "each of + 复数名词",
+            "what": "Each of the houses was = 每座房子都，each 强调个体用单数。",
+            "why": "each of + 复数名词 表示「每一个」，谓语与 each（单数）一致，用 was。",
+            "how": "译「每座房子都稍有不同」，each of 译「每个」。",
+            "highlight": [
+              0,
+              47
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "每座房子都稍有不同。",
+            "why": "Each (one) of the houses was slightly different 译「每座房子都稍有不同」。",
+            "highlight": [
+              0,
+              47
+            ]
+          }
+        ],
+        "finalZh": "每座房子都稍有不同。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s12-0032",
+      "en": "The United States has 50 states.",
+      "zh": "美国有 50 个州。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 5,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "主谓一致",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "has",
+          "hint": "助动词，第三人称单数（本空填 has）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "The",
+          "hint": "定冠词，特指（本空填 The）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "The",
+          "role": "主语",
+          "span": [
+            0,
+            3
+          ]
+        },
+        {
+          "text": "United",
+          "role": "谓语",
+          "span": [
+            4,
+            10
+          ]
+        },
+        {
+          "text": "States",
+          "role": "宾语",
+          "span": [
+            11,
+            17
+          ]
+        },
+        {
+          "text": "has",
+          "role": "谓语",
+          "span": [
+            18,
+            21
+          ]
+        },
+        {
+          "text": "50 states",
+          "role": "宾语",
+          "span": [
+            22,
+            31
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 has，The United States 是专有名词（单数）。",
+            "why": "has（有）是谓语，The United States（美国）是专有名词，作单数用 has。",
+            "highlight": [
+              18,
+              21
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "专有名词单数",
+            "what": "The United States has 50 states = 美国有 50 个州，国家名单数。",
+            "why": "The United States（美国）是专有名词，作单数，谓语用 has。",
+            "how": "译「美国有 50 个州」，The United States 译「美国」。",
+            "highlight": [
+              0,
+              31
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "美国有 50 个州。",
+            "why": "The United States has 50 states 译「美国有 50 个州」。",
+            "highlight": [
+              0,
+              31
+            ]
+          }
+        ],
+        "finalZh": "美国有 50 个州。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOO"
+    },
+    {
+      "id": "s12-0033",
+      "en": "The United Nations was founded in 1945.",
+      "zh": "联合国成立于 1945 年。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 6,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "主谓一致",
+          "被动语态",
+          "非谓语动词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "was",
+          "hint": "系动词/助动词，过去式单数（本空填 was）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "in",
+          "hint": "介词，在…里（本空填 in）",
+          "gp": "介词"
+        },
+        {
+          "answer": "The",
+          "hint": "定冠词，特指（本空填 The）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "The",
+          "role": "主语",
+          "span": [
+            0,
+            3
+          ]
+        },
+        {
+          "text": "United",
+          "role": "谓语",
+          "span": [
+            4,
+            10
+          ]
+        },
+        {
+          "text": "Nations",
+          "role": "宾语",
+          "span": [
+            11,
+            18
+          ]
+        },
+        {
+          "text": "was founded",
+          "role": "谓语",
+          "span": [
+            19,
+            30
+          ]
+        },
+        {
+          "text": "in 1945",
+          "role": "状语",
+          "span": [
+            31,
+            38
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 was founded，The United Nations 是专有名词（单数）。",
+            "why": "was founded（成立）是谓语，The United Nations（联合国）是专有名词，作单数用 was。",
+            "highlight": [
+              19,
+              30
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "专有名词单数",
+            "what": "The United Nations was founded = 联合国成立于，组织名单数。",
+            "why": "The United Nations（联合国）是专有名词，作单数，谓语用 was founded。",
+            "how": "译「联合国成立于 1945 年」，was founded 译「成立于」。",
+            "highlight": [
+              0,
+              38
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "联合国成立于 1945 年。",
+            "why": "The United Nations was founded in 1945 译「联合国成立于 1945 年」。",
+            "highlight": [
+              0,
+              38
+            ]
+          }
+        ],
+        "finalZh": "联合国成立于 1945 年。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s12-0034",
+      "en": "Ten years is a long time.",
+      "zh": "十年是很长的一段时间。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 6,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "主谓一致",
+          "动词时态",
+          "冠词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "a",
+          "hint": "不定冠词，修饰可数名词单数（本空填 a）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Ten years",
+          "role": "主语",
+          "span": [
+            0,
+            9
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            10,
+            12
+          ]
+        },
+        {
+          "text": "a long time",
+          "role": "表语",
+          "span": [
+            13,
+            24
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，Ten years 是时间整体（单数）。",
+            "why": "is（是）是谓语，Ten years（十年）作为一段时间整体，谓语用单数 is。",
+            "highlight": [
+              10,
+              12
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "时间整体单数",
+            "what": "Ten years is a long time = 十年很长，时间段作整体单数。",
+            "why": "Ten years 表示「一段时间」整体，谓语用单数 is，a long time 是表语。",
+            "how": "译「十年是很长的一段时间」，Ten years 译「十年」。",
+            "highlight": [
+              0,
+              24
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "十年是很长的一段时间。",
+            "why": "Ten years is a long time 译「十年是很长的一段时间」。",
+            "highlight": [
+              0,
+              24
+            ]
+          }
+        ],
+        "finalZh": "十年是很长的一段时间。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s12-0035",
+      "en": "Two kilometers is a long way to go on foot.",
+      "zh": "步行两千米是一段很长的路程。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "主谓一致",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        },
+        {
+          "answer": "on",
+          "hint": "介词，在…上（本空填 on）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Two kilometers",
+          "role": "主语",
+          "span": [
+            0,
+            14
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            15,
+            17
+          ]
+        },
+        {
+          "text": "a long way",
+          "role": "表语",
+          "span": [
+            18,
+            28
+          ]
+        },
+        {
+          "text": "to go on foot",
+          "role": "状语",
+          "span": [
+            29,
+            42
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，Two kilometers 是距离整体（单数）。",
+            "why": "is（是）是谓语，Two kilometers（两千米）作为距离整体，谓语用单数 is。",
+            "highlight": [
+              15,
+              17
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "距离整体单数",
+            "what": "Two kilometers is a long way = 两千米很长，距离作整体单数。",
+            "why": "Two kilometers 表示「一段距离」整体，谓语用单数 is。",
+            "how": "译「步行两千米是一段很长的路程」，Two kilometers 译「两千米」。",
+            "highlight": [
+              0,
+              42
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "步行两千米是一段很长的路程。",
+            "why": "Two kilometers is a long way to go on foot 译「步行两千米是一段很长的路程」。",
+            "highlight": [
+              0,
+              42
+            ]
+          }
+        ],
+        "finalZh": "步行两千米是一段很长的路程。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s12-0036",
+      "en": "Each is worse than the one before.",
+      "zh": "一个比一个差。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 7,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "主谓一致",
+          "动词时态"
+        ],
+        "fine": [
+          "each/every 作主语时谓语用单数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "before",
+          "hint": "引导时间状语从句（本空填 before）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Each",
+          "role": "主语",
+          "span": [
+            0,
+            4
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            5,
+            7
+          ]
+        },
+        {
+          "text": "worse",
+          "role": "表语",
+          "span": [
+            8,
+            13
+          ]
+        },
+        {
+          "text": "than the one",
+          "role": "状语",
+          "span": [
+            14,
+            26
+          ]
+        },
+        {
+          "text": "before.",
+          "role": "状语从句",
+          "span": [
+            27,
+            34
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，Each 作主语（单数）。",
+            "why": "is worse（更差）是谓语，Each（每一个）是主语，单数用 is。",
+            "highlight": [
+              5,
+              7
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "each 单数",
+            "what": "Each is worse = 一个比一个差，each 作主语单数。",
+            "why": "Each 作主语表示「每一个」，谓语用单数 is。",
+            "how": "译「一个比一个差」，each 译「每一个」。",
+            "highlight": [
+              0,
+              33
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "一个比一个差。",
+            "why": "Each is worse than the one before 译「一个比一个差」。",
+            "highlight": [
+              0,
+              33
+            ]
+          }
+        ],
+        "finalZh": "一个比一个差。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s12-0037",
+      "en": "Someone is waiting for you outside.",
+      "zh": "有人在外面等你。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 6,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "主谓一致",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "进行时（be + 现在分词）",
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "for",
+          "hint": "介词，为了（本空填 for）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Someone",
+          "role": "主语",
+          "span": [
+            0,
+            7
+          ]
+        },
+        {
+          "text": "is waiting",
+          "role": "谓语",
+          "span": [
+            8,
+            18
+          ]
+        },
+        {
+          "text": "for you outside",
+          "role": "状语",
+          "span": [
+            19,
+            34
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is waiting，Someone 作主语（单数）。",
+            "why": "is waiting（在等）是谓语，Someone（有人）是不定代词作主语，单数用 is。",
+            "highlight": [
+              8,
+              18
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "有人在外面等你。",
+            "why": "Someone is waiting for you outside 译「有人在外面等你」。",
+            "highlight": [
+              0,
+              34
+            ]
+          }
+        ],
+        "finalZh": "有人在外面等你。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s12-0038",
+      "en": "Many a mother tries to act out her unrealized dreams through her daughter.",
+      "zh": "许多母亲都试图在女儿身上实现自己未竟的梦想。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 13,
+        "clauses": 0,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "主谓一致",
+          "非谓语动词",
+          "代词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        },
+        {
+          "answer": "a",
+          "hint": "不定冠词，修饰可数名词单数（本空填 a）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Many a mother",
+          "role": "主语",
+          "span": [
+            0,
+            13
+          ]
+        },
+        {
+          "text": "tries",
+          "role": "谓语",
+          "span": [
+            14,
+            19
+          ]
+        },
+        {
+          "text": "to act out her unrealized dreams through her daughter",
+          "role": "状语",
+          "span": [
+            20,
+            73
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 tries，Many a mother 是主语（单数）。",
+            "why": "tries（试图）是谓语，Many a mother（许多母亲）中 many a + 单数名词表「许多」，谓语用单数 tries。",
+            "highlight": [
+              14,
+              19
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "many a + 单数名词",
+            "what": "Many a mother tries = 许多母亲试图，many a 后单数名词谓语单数。",
+            "why": "many a（许多）+ 单数名词，形式是单数但意义是复数，谓语用单数 tries。",
+            "how": "译「许多母亲都试图」，many a mother 译「许多母亲」。",
+            "highlight": [
+              0,
+              73
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "许多母亲都试图在女儿身上实现自己未竟的梦想。",
+            "why": "Many a mother tries to act out her unrealized dreams through her daughter 译「许多母亲都试图在女儿身上实现自己未竟的梦想」。",
+            "highlight": [
+              0,
+              73
+            ]
+          }
+        ],
+        "finalZh": "许多母亲都试图在女儿身上实现自己未竟的梦想。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s12-0039",
+      "en": "More than one student has said so.",
+      "zh": "不止一个学生这样说。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 7,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "主谓一致",
+          "动词时态",
+          "形容词与副词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "has",
+          "hint": "助动词，第三人称单数（本空填 has）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "More than one student",
+          "role": "主语",
+          "span": [
+            0,
+            21
+          ]
+        },
+        {
+          "text": "has said",
+          "role": "谓语",
+          "span": [
+            22,
+            30
+          ]
+        },
+        {
+          "text": "so",
+          "role": "宾语",
+          "span": [
+            31,
+            33
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 has said，More than one student 是主语（单数）。",
+            "why": "has said（说过）是谓语，More than one student（不止一个学生）中 more than one + 单数名词，谓语用单数。",
+            "highlight": [
+              22,
+              30
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "more than one + 单数",
+            "what": "More than one student has said = 不止一个学生说过，more than one 后单数谓语单数。",
+            "why": "more than one + 单数名词，谓语用单数 has said（形式单数）。",
+            "how": "译「不止一个学生这样说」，more than one 译「不止一个」。",
+            "highlight": [
+              0,
+              33
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "不止一个学生这样说。",
+            "why": "More than one student has said so 译「不止一个学生这样说」。",
+            "highlight": [
+              0,
+              33
+            ]
+          }
+        ],
+        "finalZh": "不止一个学生这样说。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s12-0040",
+      "en": "No news is good news.",
+      "zh": "没有消息就是好消息。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 5,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "主谓一致",
+          "被动语态",
+          "动词时态"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "No news",
+          "role": "主语",
+          "span": [
+            0,
+            7
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            8,
+            10
+          ]
+        },
+        {
+          "text": "good news",
+          "role": "表语",
+          "span": [
+            11,
+            20
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，No news 是主语（不可数单数）。",
+            "why": "is（是）是谓语，No news（没有消息）中 news 是不可数名词，谓语用单数 is。",
+            "highlight": [
+              8,
+              10
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "news 不可数单数",
+            "what": "No news is good news = 没有消息就是好消息，news 不可数单数。",
+            "why": "news（消息）是不可数名词，谓语用单数 is，good news 是表语。",
+            "how": "译「没有消息就是好消息」，no news 译「没有消息」。",
+            "highlight": [
+              0,
+              20
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "没有消息就是好消息。",
+            "why": "No news is good news 译「没有消息就是好消息」。",
+            "highlight": [
+              0,
+              20
+            ]
+          }
+        ],
+        "finalZh": "没有消息就是好消息。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s12-0041",
+      "en": "Reading books improves your knowledge.",
+      "zh": "读书增长知识。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 5,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "主谓一致",
+          "非谓语动词",
+          "代词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "Reading",
+          "hint": "本句关键词，注意它的形式（本空填 Reading）",
+          "gp": "主谓一致"
+        }
+      ],
+      "components": [
+        {
+          "text": "Reading books",
+          "role": "主语",
+          "span": [
+            0,
+            13
+          ]
+        },
+        {
+          "text": "improves",
+          "role": "谓语",
+          "span": [
+            14,
+            22
+          ]
+        },
+        {
+          "text": "your knowledge",
+          "role": "宾语",
+          "span": [
+            23,
+            37
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 improves，Reading books 是动名词主语（单数）。",
+            "why": "improves（提高）是谓语，Reading books（读书）是动名词短语作主语，谓语用单数 improves。",
+            "highlight": [
+              14,
+              22
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "动名词作主语单数",
+            "what": "Reading books improves = 读书提高，动名词主语单数。",
+            "why": "Reading books 是动名词短语作主语，谓语用单数 improves，your knowledge 是宾语。",
+            "how": "译「读书增长知识」，Reading books 译「读书」。",
+            "highlight": [
+              0,
+              37
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "读书增长知识。",
+            "why": "Reading books improves your knowledge 译「读书增长知识」。",
+            "highlight": [
+              0,
+              37
+            ]
+          }
+        ],
+        "finalZh": "读书增长知识。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s12-0042",
+      "en": "What I wanted was a few days' rest.",
+      "zh": "我想要的就是能休息几天。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "主谓一致",
+          "名词性从句",
+          "非谓语动词"
+        ],
+        "fine": [
+          "形容词最高级"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "What",
+          "hint": "引导名词性从句并在从句中作成分（本空填 What）",
+          "gp": "名词性从句"
+        },
+        {
+          "answer": "was",
+          "hint": "系动词/助动词，过去式单数（本空填 was）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "a",
+          "hint": "不定冠词，修饰可数名词单数（本空填 a）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "What I wanted was a few days' rest.",
+          "role": "宾语从句",
+          "span": [
+            0,
+            35
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 was，What I wanted 是主语从句（单数）。",
+            "why": "was（是）是谓语，What I wanted（我想要的）是主语从句，谓语用单数 was。",
+            "highlight": [
+              14,
+              17
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别主语从句",
+            "what": "What I wanted 是主语从句，what 作 wanted 的宾语。",
+            "why": "what 引导主语从句，在从句中作 wanted 的宾语，谓语用单数 was。",
+            "highlight": [
+              0,
+              13
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我想要的就是能休息几天。",
+            "why": "What I wanted was a few days' rest 译「我想要的就是能休息几天」。",
+            "highlight": [
+              0,
+              34
+            ]
+          }
+        ],
+        "finalZh": "我想要的就是能休息几天。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s12-0043",
+      "en": "Law and order is the foundation of society.",
+      "zh": "法律与秩序是社会的基础。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "主谓一致",
+          "并列结构",
+          "动词时态"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "of",
+          "hint": "介词，…的（本空填 of）",
+          "gp": "介词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Law and",
+          "role": "主语",
+          "span": [
+            0,
+            7
+          ]
+        },
+        {
+          "text": "order is",
+          "role": "谓语",
+          "span": [
+            8,
+            16
+          ]
+        },
+        {
+          "text": "the foundation",
+          "role": "宾语",
+          "span": [
+            17,
+            31
+          ]
+        },
+        {
+          "text": "of society",
+          "role": "状语",
+          "span": [
+            32,
+            42
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，Law and order 是整体（单数）。",
+            "why": "is（是）是谓语，Law and order（法律与秩序）是一个整体概念，谓语用单数 is。",
+            "highlight": [
+              14,
+              16
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "and 连接整体概念",
+            "what": "Law and order is = 法律与秩序是，整体概念单数。",
+            "why": "Law and order（法律与秩序）是固定搭配，作整体概念，谓语用单数 is。",
+            "how": "译「法律与秩序是社会的基础」，law and order 译「法律与秩序」。",
+            "highlight": [
+              0,
+              42
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "法律与秩序是社会的基础。",
+            "why": "Law and order is the foundation of society 译「法律与秩序是社会的基础」。",
+            "highlight": [
+              0,
+              42
+            ]
+          }
+        ],
+        "finalZh": "法律与秩序是社会的基础。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s12-0044",
+      "en": "What is the number of applicants?",
+      "zh": "申请者的数量是多少？",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 6,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "主谓一致",
+          "动词时态"
+        ],
+        "fine": [
+          "the number of + 复数名词作主语，谓语用单数",
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "What",
+          "hint": "引导名词性从句并在从句中作成分（本空填 What）",
+          "gp": "名词性从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "of",
+          "hint": "介词，…的（本空填 of）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "What is the number of applicants?",
+          "role": "宾语从句",
+          "span": [
+            0,
+            33
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，the number of 是主语（单数）。",
+            "why": "is（是）是谓语，the number of applicants（申请者的数量）中 the number of 作主语，谓语用单数 is。",
+            "highlight": [
+              5,
+              7
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "the number of + 复数名词",
+            "what": "the number of applicants = 申请者的数量，the number of 后谓语单数。",
+            "why": "the number of（……的数量）后接复数名词，但谓语与 number（单数）一致，用 is。",
+            "how": "译「申请者的数量是多少」，the number of 译「……的数量」。",
+            "highlight": [
+              0,
+              32
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "申请者的数量是多少？",
+            "why": "What is the number of applicants 译「申请者的数量是多少」。",
+            "highlight": [
+              0,
+              32
+            ]
+          }
+        ],
+        "finalZh": "申请者的数量是多少？",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s12-0045",
+      "en": "Half of his time is spent on traveling.",
+      "zh": "他一半的时间都花在旅行上。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "主谓一致",
+          "被动语态",
+          "非谓语动词"
+        ],
+        "fine": [
+          "介词 + 动名词"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "of",
+          "hint": "介词，…的（本空填 of）",
+          "gp": "介词"
+        },
+        {
+          "answer": "on",
+          "hint": "介词，在…上（本空填 on）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Half of his time",
+          "role": "主语",
+          "span": [
+            0,
+            16
+          ]
+        },
+        {
+          "text": "is spent",
+          "role": "谓语",
+          "span": [
+            17,
+            25
+          ]
+        },
+        {
+          "text": "on traveling",
+          "role": "状语",
+          "span": [
+            26,
+            38
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is spent，Half of his time 是主语（不可数单数）。",
+            "why": "is spent（被花）是谓语，Half of his time（他一半的时间）中 time 不可数，谓语用单数。",
+            "highlight": [
+              17,
+              25
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "half of + 不可数",
+            "what": "Half of his time is spent = 一半时间花在，half of 后不可数用单数。",
+            "why": "half of（一半）后接不可数名词 time，谓语用单数 is spent。",
+            "how": "译「他一半的时间都花在旅行上」，half of 译「一半」。",
+            "highlight": [
+              0,
+              38
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他一半的时间都花在旅行上。",
+            "why": "Half of his time is spent on traveling 译「他一半的时间都花在旅行上」。",
+            "highlight": [
+              0,
+              38
+            ]
+          }
+        ],
+        "finalZh": "他一半的时间都花在旅行上。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s12-0046",
+      "en": "Two thirds of the forest was destroyed in the fire.",
+      "zh": "三分之二的森林在大火中被烧毁了。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "主谓一致",
+          "被动语态",
+          "非谓语动词"
+        ],
+        "fine": [
+          "形容词最高级"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "was",
+          "hint": "系动词/助动词，过去式单数（本空填 was）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "of",
+          "hint": "介词，…的（本空填 of）",
+          "gp": "介词"
+        },
+        {
+          "answer": "in",
+          "hint": "介词，在…里（本空填 in）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Two thirds of the forest",
+          "role": "主语",
+          "span": [
+            0,
+            24
+          ]
+        },
+        {
+          "text": "was destroyed",
+          "role": "谓语",
+          "span": [
+            25,
+            38
+          ]
+        },
+        {
+          "text": "in the fire",
+          "role": "状语",
+          "span": [
+            39,
+            50
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 was destroyed，Two thirds of the forest 是主语。",
+            "why": "was destroyed（被毁）是谓语，Two thirds of the forest（森林的三分之二）中 forest 单数，谓语用单数。",
+            "highlight": [
+              25,
+              38
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "分数 + of + 单数名词",
+            "what": "Two thirds of the forest was = 三分之二的森林，of 后单数用单数。",
+            "why": "分数 + of + 名词，谓语与 of 后的名词 forest（单数）一致，用 was destroyed。",
+            "how": "译「三分之二的森林在大火中被烧毁了」，two thirds 译「三分之二」。",
+            "highlight": [
+              0,
+              50
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "三分之二的森林在大火中被烧毁了。",
+            "why": "Two thirds of the forest was destroyed in the fire 译「三分之二的森林在大火中被烧毁了」。",
+            "highlight": [
+              0,
+              50
+            ]
+          }
+        ],
+        "finalZh": "三分之二的森林在大火中被烧毁了。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s12-0047",
+      "en": "Here is a piece of bad news.",
+      "zh": "有个坏消息。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 7,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "主谓一致",
+          "动词时态",
+          "冠词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "of",
+          "hint": "介词，…的（本空填 of）",
+          "gp": "介词"
+        },
+        {
+          "answer": "a",
+          "hint": "不定冠词，修饰可数名词单数（本空填 a）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Here",
+          "role": "主语",
+          "span": [
+            0,
+            4
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            5,
+            7
+          ]
+        },
+        {
+          "text": "a piece",
+          "role": "表语",
+          "span": [
+            8,
+            15
+          ]
+        },
+        {
+          "text": "of bad news",
+          "role": "状语",
+          "span": [
+            16,
+            27
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，Here 引导倒装，a piece of bad news 是主语。",
+            "why": "Here is a piece of bad news（有个坏消息）是 Here 引导的倒装句，主语 a piece of bad news 单数。",
+            "highlight": [
+              0,
+              4
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "here 倒装",
+            "what": "Here is a piece of bad news = 有个坏消息，Here 倒装。",
+            "why": "Here 放句首引导倒装，主语 a piece of bad news（单数）在 is 后面。",
+            "how": "译「有个坏消息」，here is 译「有」。",
+            "highlight": [
+              0,
+              27
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "有个坏消息。",
+            "why": "Here is a piece of bad news 译「有个坏消息」。",
+            "highlight": [
+              0,
+              27
+            ]
+          }
+        ],
+        "finalZh": "有个坏消息。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s12-0048",
+      "en": "Students need enough sleep to concentrate.",
+      "zh": "学生们需要充足的睡眠来集中注意力。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 6,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "主谓一致",
+          "情态动词",
+          "非谓语动词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "need",
+          "hint": "情态动词/实义动词，需要（本空填 need）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Students",
+          "role": "主语",
+          "span": [
+            0,
+            8
+          ]
+        },
+        {
+          "text": "need",
+          "role": "谓语",
+          "span": [
+            9,
+            13
+          ]
+        },
+        {
+          "text": "enough",
+          "role": "宾语",
+          "span": [
+            14,
+            20
+          ]
+        },
+        {
+          "text": "sleep",
+          "role": "谓语",
+          "span": [
+            21,
+            26
+          ]
+        },
+        {
+          "text": "to concentrate",
+          "role": "状语",
+          "span": [
+            27,
+            41
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 need，enough sleep 是宾语，to concentrate 表目的。",
+            "why": "need（需要）是谓语，enough sleep（充足的睡眠）是宾语，to concentrate 是不定式表目的。",
+            "highlight": [
+              9,
+              13
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "不定式表目的",
+            "what": "to concentrate = 为了集中注意力，to do 表目的。",
+            "why": "to concentrate（集中注意力）是不定式作目的状语，说明 need sleep 的目的。",
+            "how": "译「需要充足的睡眠来集中注意力」，to concentrate 译「来集中」。",
+            "highlight": [
+              14,
+              41
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "学生们需要充足的睡眠来集中注意力。",
+            "why": "Students need enough sleep to concentrate 译「学生们需要充足的睡眠来集中注意力」。",
+            "highlight": [
+              0,
+              41
+            ]
+          }
+        ],
+        "finalZh": "学生们需要充足的睡眠来集中注意力。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s12-0049",
+      "en": "You have been a pleasure to work with.",
+      "zh": "与您共事非常开心。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "主谓一致",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "完成时 + be，注意是完成还是被动"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "have",
+          "hint": "使役动词，让（have sth done）（本空填 have）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "been",
+          "hint": "be 的过去分词（本空填 been）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "You",
+          "role": "主语",
+          "span": [
+            0,
+            3
+          ]
+        },
+        {
+          "text": "have been",
+          "role": "谓语",
+          "span": [
+            4,
+            13
+          ]
+        },
+        {
+          "text": "a pleasure",
+          "role": "表语",
+          "span": [
+            14,
+            24
+          ]
+        },
+        {
+          "text": "to work with",
+          "role": "状语",
+          "span": [
+            25,
+            37
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 have been，a pleasure 是表语，to work with 是状语。",
+            "why": "have been（一直是）是谓语，a pleasure（开心的事）是表语，to work with you 是不定式。",
+            "highlight": [
+              4,
+              12
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "a pleasure to work with",
+            "what": "a pleasure to work with = 共事很开心，pleasure 后接 to do。",
+            "why": "a pleasure to work with you 是「与你共事很开心」，to work with 是不定式。",
+            "how": "译「与您共事非常开心」，a pleasure 译「开心」。",
+            "highlight": [
+              9,
+              37
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "与您共事非常开心。",
+            "why": "You have been a pleasure to work with 译「与您共事非常开心」。",
+            "highlight": [
+              0,
+              37
+            ]
+          }
+        ],
+        "finalZh": "与您共事非常开心。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s12-0050",
+      "en": "Both the company and its customers benefit from this policy.",
+      "zh": "公司及其客户都从这项政策中受益。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "并列结构",
+          "主谓一致",
+          "代词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "from",
+          "hint": "介词，从（本空填 from）",
+          "gp": "介词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        },
+        {
+          "answer": "its",
+          "hint": "形容词性物主代词（本空填 its）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 benefit，Both...and 连接并列主语（复数）。",
+            "why": "benefit（受益）是谓语，Both the company and its customers（公司和客户双方）是复数主语，用 benefit。",
+            "highlight": [
+              35,
+              42
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "both...and 复数",
+            "what": "Both the company and its customers benefit = 公司和客户都受益，both...and 复数。",
+            "why": "both...and（两者都）连接并列主语，谓语用复数 benefit，from this policy 是状语。",
+            "how": "译「公司及其客户都从这项政策中受益」，both...and 译「都」。",
+            "highlight": [
+              0,
+              59
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "公司及其客户都从这项政策中受益。",
+            "why": "Both the company and its customers benefit from this policy 译「公司及其客户都从这项政策中受益」。",
+            "highlight": [
+              0,
+              59
+            ]
+          }
+        ],
+        "finalZh": "公司及其客户都从这项政策中受益。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s12-0051",
+      "en": "Police are hunting his killer.",
+      "zh": "警方正在追捕杀害他的凶手。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 5,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "主谓一致",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "进行时（be + 现在分词）",
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "are",
+          "hint": "系动词/助动词，复数（本空填 are）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "Police",
+          "role": "主语",
+          "span": [
+            0,
+            6
+          ]
+        },
+        {
+          "text": "are hunting",
+          "role": "谓语",
+          "span": [
+            7,
+            18
+          ]
+        },
+        {
+          "text": "his",
+          "role": "表语",
+          "span": [
+            19,
+            22
+          ]
+        },
+        {
+          "text": "killer",
+          "role": "谓语",
+          "span": [
+            23,
+            29
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 are hunting，Police 是集合名词（复数）。",
+            "why": "are hunting（正在追捕）是谓语，Police（警察）是集合名词作复数，用 are。",
+            "highlight": [
+              7,
+              18
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "police 集合名词复数",
+            "what": "Police are hunting = 警察正在追捕，police 复数。",
+            "why": "police 是集合名词，本身表复数，谓语用 are hunting。",
+            "how": "译「警方正在追捕杀害他的凶手」，police 译「警方」。",
+            "highlight": [
+              0,
+              29
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "警方正在追捕杀害他的凶手。",
+            "why": "Police are hunting his killer 译「警方正在追捕杀害他的凶手」。",
+            "highlight": [
+              0,
+              29
+            ]
+          }
+        ],
+        "finalZh": "警方正在追捕杀害他的凶手。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s12-0052",
+      "en": "The Greens like the quietness in the countryside.",
+      "zh": "格林一家喜欢乡下的宁静。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "主谓一致",
+          "冠词",
+          "介词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "in",
+          "hint": "介词，在…里（本空填 in）",
+          "gp": "介词"
+        },
+        {
+          "answer": "The",
+          "hint": "定冠词，特指（本空填 The）",
+          "gp": "冠词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "The Greens",
+          "role": "主语",
+          "span": [
+            0,
+            10
+          ]
+        },
+        {
+          "text": "like",
+          "role": "谓语",
+          "span": [
+            11,
+            15
+          ]
+        },
+        {
+          "text": "the quietness",
+          "role": "宾语",
+          "span": [
+            16,
+            29
+          ]
+        },
+        {
+          "text": "in the countryside",
+          "role": "状语",
+          "span": [
+            30,
+            48
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 like，The Greens 是「格林一家」（复数）。",
+            "why": "like（喜欢）是谓语，The Greens（格林一家）是 the + 姓氏复数表一家人，谓语用复数 like。",
+            "highlight": [
+              11,
+              15
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "the + 姓氏复数表一家人",
+            "what": "The Greens = 格林一家，the + 姓氏复数表全家人。",
+            "why": "The Greens（the + 姓氏复数）表示「格林一家人」，谓语用复数 like。",
+            "how": "译「格林一家喜欢乡下的宁静」，The Greens 译「格林一家」。",
+            "highlight": [
+              0,
+              48
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "格林一家喜欢乡下的宁静。",
+            "why": "The Greens like the quietness in the countryside 译「格林一家喜欢乡下的宁静」。",
+            "highlight": [
+              0,
+              48
+            ]
+          }
+        ],
+        "finalZh": "格林一家喜欢乡下的宁静。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s12-0053",
+      "en": "The trousers don't fit me anymore.",
+      "zh": "这条裤子我穿不再合身了。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 6,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "主谓一致",
+          "代词",
+          "冠词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "The",
+          "hint": "定冠词，特指（本空填 The）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "The trousers",
+          "role": "主语",
+          "span": [
+            0,
+            12
+          ]
+        },
+        {
+          "text": "don't fit",
+          "role": "谓语",
+          "span": [
+            13,
+            22
+          ]
+        },
+        {
+          "text": "me anymore",
+          "role": "宾语",
+          "span": [
+            23,
+            33
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 don't fit，The trousers 是复数名词。",
+            "why": "don't fit（不合身）是谓语，The trousers（裤子）是成对名词作复数，用 don't fit。",
+            "highlight": [
+              13,
+              22
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "成对名词复数",
+            "what": "The trousers don't fit = 裤子不合身，trousers 成对名词复数。",
+            "why": "trousers（裤子）是成对名词（两条裤腿），本身复数，谓语用 don't fit。",
+            "how": "译「这条裤子我穿不再合身了」，trousers 译「裤子」。",
+            "highlight": [
+              0,
+              33
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "这条裤子我穿不再合身了。",
+            "why": "The trousers don't fit me anymore 译「这条裤子我穿不再合身了」。",
+            "highlight": [
+              0,
+              33
+            ]
+          }
+        ],
+        "finalZh": "这条裤子我穿不再合身了。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s12-0054",
+      "en": "The scissors are not sharp.",
+      "zh": "这把剪刀不锋利了。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 5,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "主谓一致",
+          "被动语态",
+          "动词时态"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "are",
+          "hint": "系动词/助动词，复数（本空填 are）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "The",
+          "hint": "定冠词，特指（本空填 The）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "The scissors",
+          "role": "主语",
+          "span": [
+            0,
+            12
+          ]
+        },
+        {
+          "text": "are not",
+          "role": "谓语",
+          "span": [
+            13,
+            20
+          ]
+        },
+        {
+          "text": "sharp",
+          "role": "表语",
+          "span": [
+            21,
+            26
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 are not，The scissors 是成对名词（复数）。",
+            "why": "are not sharp（不锋利）是谓语，The scissors（剪刀）是成对名词作复数，用 are。",
+            "highlight": [
+              13,
+              16
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "成对名词复数",
+            "what": "The scissors are not sharp = 剪刀不锋利，scissors 成对名词复数。",
+            "why": "scissors（剪刀）是成对名词（两片刀刃），本身复数，谓语用 are。",
+            "how": "译「这把剪刀不锋利了」，scissors 译「剪刀」。",
+            "highlight": [
+              0,
+              26
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "这把剪刀不锋利了。",
+            "why": "The scissors are not sharp 译「这把剪刀不锋利了」。",
+            "highlight": [
+              0,
+              26
+            ]
+          }
+        ],
+        "finalZh": "这把剪刀不锋利了。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s12-0056",
+      "en": "The rest of the students are in the library.",
+      "zh": "其余的学生在图书馆。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "主谓一致",
+          "动词时态",
+          "冠词"
+        ],
+        "fine": [
+          "形容词最高级"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "are",
+          "hint": "系动词/助动词，复数（本空填 are）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "of",
+          "hint": "介词，…的（本空填 of）",
+          "gp": "介词"
+        },
+        {
+          "answer": "in",
+          "hint": "介词，在…里（本空填 in）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "The",
+          "role": "主语",
+          "span": [
+            0,
+            3
+          ]
+        },
+        {
+          "text": "rest",
+          "role": "谓语",
+          "span": [
+            4,
+            8
+          ]
+        },
+        {
+          "text": "of the students",
+          "role": "状语",
+          "span": [
+            9,
+            24
+          ]
+        },
+        {
+          "text": "are",
+          "role": "谓语",
+          "span": [
+            25,
+            28
+          ]
+        },
+        {
+          "text": "in the library",
+          "role": "状语",
+          "span": [
+            29,
+            43
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 are，The rest of the students 是主语（复数）。",
+            "why": "are（在）是谓语，The rest of the students（其余的学生）中 students 复数，谓语用 are。",
+            "highlight": [
+              25,
+              28
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "the rest of + 复数",
+            "what": "The rest of the students are = 其余的学生在，rest of 后复数用复数。",
+            "why": "the rest of（其余）后接复数名词 students，谓语用复数 are。",
+            "how": "译「其余的学生在图书馆」，the rest of 译「其余的」。",
+            "highlight": [
+              0,
+              43
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "其余的学生在图书馆。",
+            "why": "The rest of the students are in the library 译「其余的学生在图书馆」。",
+            "highlight": [
+              0,
+              43
+            ]
+          }
+        ],
+        "finalZh": "其余的学生在图书馆。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s12-0057",
+      "en": "Many of the participants have already arrived.",
+      "zh": "许多参与者已经抵达。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 7,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "主谓一致",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "have/get sth done 结构"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "have",
+          "hint": "使役动词，让（have sth done）（本空填 have）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "of",
+          "hint": "介词，…的（本空填 of）",
+          "gp": "介词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Many of the participants",
+          "role": "主语",
+          "span": [
+            0,
+            24
+          ]
+        },
+        {
+          "text": "have already arrived",
+          "role": "谓语",
+          "span": [
+            25,
+            45
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 have arrived，Many of the participants 是主语（复数）。",
+            "why": "have arrived（已到达）是谓语，Many of the participants（许多参与者）中 participants 复数，谓语用 have。",
+            "highlight": [
+              25,
+              37
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "many of + 复数",
+            "what": "Many of the participants have arrived = 许多参与者已到，many of 后复数用复数。",
+            "why": "many of（许多）后接复数名词 participants，谓语用复数 have arrived。",
+            "how": "译「许多参与者已经抵达」，many of 译「许多」。",
+            "highlight": [
+              0,
+              45
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "许多参与者已经抵达。",
+            "why": "Many of the participants have already arrived 译「许多参与者已经抵达」。",
+            "highlight": [
+              0,
+              45
+            ]
+          }
+        ],
+        "finalZh": "许多参与者已经抵达。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    }
+  ]
+}

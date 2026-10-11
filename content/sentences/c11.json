@@ -1,0 +1,3579 @@
+{
+  "schemaVersion": 1,
+  "chapterId": "c11",
+  "sentences": [
+    {
+      "id": "s11-0001",
+      "en": "He took his umbrella for fear that it should rain.",
+      "zh": "他带伞是怕下雨。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "倒装",
+          "定语从句",
+          "情态动词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "should",
+          "hint": "情态动词，应该（本空填 should）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "for",
+          "hint": "介词，为了（本空填 for）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "He",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "took",
+          "role": "谓语",
+          "span": [
+            3,
+            7
+          ]
+        },
+        {
+          "text": "his umbrella",
+          "role": "宾语",
+          "span": [
+            8,
+            20
+          ]
+        },
+        {
+          "text": "for",
+          "role": "状语",
+          "span": [
+            21,
+            24
+          ]
+        },
+        {
+          "text": "fear that it",
+          "role": "状语",
+          "span": [
+            25,
+            37
+          ]
+        },
+        {
+          "text": "should",
+          "role": "谓语",
+          "span": [
+            38,
+            44
+          ]
+        },
+        {
+          "text": "rain",
+          "role": "宾语",
+          "span": [
+            45,
+            49
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 took，for fear that 引导目的状语从句（虚拟）。",
+            "why": "took（带）是谓语，for fear that it should rain 是 for fear that 引导的目的状语从句，should 表虚拟。",
+            "highlight": [
+              3,
+              20
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别 for fear that 虚拟",
+            "what": "for fear that it should rain = 恐怕会下雨，should 表虚拟。",
+            "why": "for fear that（恐怕、生怕）引导目的状语从句，从句用 should 表虚拟语气。",
+            "highlight": [
+              21,
+              49
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他带伞是怕下雨。",
+            "why": "He took his umbrella for fear that it should rain 译「他带伞是怕下雨」。",
+            "highlight": [
+              0,
+              49
+            ]
+          }
+        ],
+        "finalZh": "他带伞是怕下雨。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOO"
+    },
+    {
+      "id": "s11-0002",
+      "en": "He didn't dare to move lest he (should) attract attention.",
+      "zh": "他不敢动，惟恐引起注意。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "倒装",
+          "情态动词",
+          "非谓语动词"
+        ],
+        "fine": [
+          "形容词最高级"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "dare",
+          "hint": "情态动词/实义动词，敢（本空填 dare）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "should",
+          "hint": "情态动词，应该（本空填 should）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "He",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "didn't dare",
+          "role": "谓语",
+          "span": [
+            3,
+            14
+          ]
+        },
+        {
+          "text": "to move lest he",
+          "role": "状语",
+          "span": [
+            15,
+            30
+          ]
+        },
+        {
+          "text": "should",
+          "role": "谓语",
+          "span": [
+            32,
+            38
+          ]
+        },
+        {
+          "text": "attract attention",
+          "role": "宾语",
+          "span": [
+            40,
+            57
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 didn't dare，lest 引导目的状语从句（虚拟）。",
+            "why": "didn't dare to move（不敢动）是谓语，lest he should attract attention 是 lest 引导的目的状语从句，should 表虚拟。",
+            "highlight": [
+              3,
+              22
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别 lest 虚拟",
+            "what": "lest he (should) attract attention = 惟恐引起注意，lest 表虚拟。",
+            "why": "lest（惟恐、以免）引导目的状语从句，从句用 should 表虚拟语气。",
+            "highlight": [
+              23,
+              57
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他不敢动，惟恐引起注意。",
+            "why": "He didn't dare to move lest he (should) attract attention 译「他不敢动，惟恐引起注意」。",
+            "highlight": [
+              0,
+              57
+            ]
+          }
+        ],
+        "finalZh": "他不敢动，惟恐引起注意。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s11-0003",
+      "en": "Dayan asked that I (should) lose my weight as quickly as possible.",
+      "zh": "大雁要求我尽快减肥。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 12,
+        "clauses": 0,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "倒装",
+          "情态动词",
+          "非谓语动词"
+        ],
+        "fine": [
+          "as…as 原级比较"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "as",
+          "hint": "引导时间/原因/方式状语从句（本空填 as）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "as",
+          "hint": "引导时间/原因/方式状语从句（本空填 as）",
+          "gp": "状语从句"
+        }
+      ],
+      "components": [
+        {
+          "text": "Dayan",
+          "role": "主语",
+          "span": [
+            0,
+            5
+          ]
+        },
+        {
+          "text": "asked",
+          "role": "谓语",
+          "span": [
+            6,
+            11
+          ]
+        },
+        {
+          "text": "that I",
+          "role": "宾语",
+          "span": [
+            12,
+            18
+          ]
+        },
+        {
+          "text": "should) lose",
+          "role": "谓语",
+          "span": [
+            20,
+            32
+          ]
+        },
+        {
+          "text": "my weight",
+          "role": "宾语",
+          "span": [
+            33,
+            42
+          ]
+        },
+        {
+          "text": "as quickly as possible.",
+          "role": "状语从句",
+          "span": [
+            43,
+            66
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 asked，that 引导宾语从句（should 虚拟）。",
+            "why": "asked（要求）是谓语，that I should lose my weight 是 that 引导的宾语从句，should 表虚拟。",
+            "highlight": [
+              6,
+              11
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别 should 虚拟（命令建议要求）",
+            "what": "asked that I (should) lose = 要求我减肥，ask 后宾语从句用 should 虚拟。",
+            "why": "ask（要求）等表示命令建议的动词，后接 that 宾语从句用 should + 动词原形（should 可省略）。",
+            "highlight": [
+              12,
+              65
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "大雁要求我尽快减肥。",
+            "why": "Dayan asked that I (should) lose my weight as quickly as possible 译「大雁要求我尽快减肥」。",
+            "highlight": [
+              0,
+              65
+            ]
+          }
+        ],
+        "finalZh": "大雁要求我尽快减肥。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOO"
+    },
+    {
+      "id": "s11-0005",
+      "en": "Dayan's proposal is that I (should) take the postgraduate entrance examination.",
+      "zh": "大雁的建议是我应该参加研究生入学考试。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 11,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "倒装",
+          "被动语态",
+          "情态动词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "should",
+          "hint": "情态动词，应该（本空填 should）",
+          "gp": "情态动词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Dayan's proposal",
+          "role": "主语",
+          "span": [
+            0,
+            16
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            17,
+            19
+          ]
+        },
+        {
+          "text": "that I",
+          "role": "表语",
+          "span": [
+            20,
+            26
+          ]
+        },
+        {
+          "text": "should) take",
+          "role": "谓语",
+          "span": [
+            28,
+            40
+          ]
+        },
+        {
+          "text": "the postgraduate entrance examination",
+          "role": "宾语",
+          "span": [
+            41,
+            78
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，that 引导表语从句（should 虚拟）。",
+            "why": "is（是）是系动词，that I should take the postgraduate entrance examination 是 that 引导的表语从句，should 表虚拟。",
+            "highlight": [
+              17,
+              19
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别 should 虚拟（表语从句）",
+            "what": "proposal is that I (should) take = 建议是我参加，proposal 后表语从句用 should 虚拟。",
+            "why": "proposal（建议）等名词后接表语从句，用 should + 动词原形表虚拟（should 可省略）。",
+            "highlight": [
+              20,
+              78
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "大雁的建议是我应该参加研究生入学考试。",
+            "why": "Dayan's proposal is that I (should) take the postgraduate entrance examination 译「大雁的建议是我应该参加研究生入学考试」。",
+            "highlight": [
+              0,
+              78
+            ]
+          }
+        ],
+        "finalZh": "大雁的建议是我应该参加研究生入学考试。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s11-0006",
+      "en": "He made a suggestion that we (should) all go for a picnic.",
+      "zh": "他提议我们都去野餐。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 12,
+        "clauses": 0,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "倒装",
+          "虚拟语气",
+          "情态动词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "should",
+          "hint": "情态动词，应该（本空填 should）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "for",
+          "hint": "介词，为了（本空填 for）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "He",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "made",
+          "role": "谓语",
+          "span": [
+            3,
+            7
+          ]
+        },
+        {
+          "text": "a suggestion",
+          "role": "宾语",
+          "span": [
+            8,
+            20
+          ]
+        },
+        {
+          "text": "that",
+          "role": "状语",
+          "span": [
+            21,
+            25
+          ]
+        },
+        {
+          "text": "we",
+          "role": "状语",
+          "span": [
+            26,
+            28
+          ]
+        },
+        {
+          "text": "should",
+          "role": "谓语",
+          "span": [
+            30,
+            36
+          ]
+        },
+        {
+          "text": "all go",
+          "role": "宾语",
+          "span": [
+            38,
+            44
+          ]
+        },
+        {
+          "text": "for",
+          "role": "状语",
+          "span": [
+            45,
+            48
+          ]
+        },
+        {
+          "text": "a picnic",
+          "role": "状语",
+          "span": [
+            49,
+            57
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 made，that 引导同位语从句（should 虚拟）。",
+            "why": "made（提出）是谓语，a suggestion that we should all go 中 that 引导同位语从句，should 表虚拟。",
+            "highlight": [
+              3,
+              20
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别 should 虚拟（同位语从句）",
+            "what": "suggestion that we (should) go = 建议我们都去，suggestion 后同位语从句用 should 虚拟。",
+            "why": "suggestion（建议）等名词后接同位语从句，用 should + 动词原形表虚拟。",
+            "highlight": [
+              21,
+              57
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他提议我们都去野餐。",
+            "why": "He made a suggestion that we (should) all go for a picnic 译「他提议我们都去野餐」。",
+            "highlight": [
+              0,
+              57
+            ]
+          }
+        ],
+        "finalZh": "他提议我们都去野餐。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOO"
+    },
+    {
+      "id": "s11-0007",
+      "en": "It is quite important that universities (should) pay close attention to the issue of mental health of students.",
+      "zh": "大学应该重视学生的心理健康问题，这很重要。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 18,
+        "clauses": 0,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "倒装",
+          "强调",
+          "情态动词"
+        ],
+        "fine": [
+          "长句，先找谓语再断句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "should",
+          "hint": "情态动词，应该（本空填 should）",
+          "gp": "情态动词"
+        }
+      ],
+      "components": [
+        {
+          "text": "It",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "is quite",
+          "role": "谓语",
+          "span": [
+            3,
+            11
+          ]
+        },
+        {
+          "text": "important",
+          "role": "表语",
+          "span": [
+            12,
+            21
+          ]
+        },
+        {
+          "text": "that",
+          "role": "状语",
+          "span": [
+            22,
+            26
+          ]
+        },
+        {
+          "text": "universities",
+          "role": "状语",
+          "span": [
+            27,
+            39
+          ]
+        },
+        {
+          "text": "should) pay close",
+          "role": "谓语",
+          "span": [
+            41,
+            58
+          ]
+        },
+        {
+          "text": "attention",
+          "role": "宾语",
+          "span": [
+            59,
+            68
+          ]
+        },
+        {
+          "text": "to the issue of mental health of students",
+          "role": "状语",
+          "span": [
+            69,
+            110
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，It 是形式主语，that 引导主语从句（should 虚拟）。",
+            "why": "is important（重要）是谓语，It 是形式主语，that universities should pay attention 是主语从句，should 表虚拟。",
+            "highlight": [
+              3,
+              21
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别 should 虚拟（主语从句）",
+            "what": "It is important that universities (should) pay = 大学应该重视，important 后主语从句用 should 虚拟。",
+            "why": "it is + important 等形容词 + that 主语从句，用 should + 动词原形表虚拟。",
+            "highlight": [
+              22,
+              110
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "大学应该重视学生的心理健康问题，这很重要。",
+            "why": "It is quite important that universities (should) pay close attention to the issue of mental health of students 译「大学应该重视学生的心理健康问题，这很重要」。",
+            "highlight": [
+              0,
+              110
+            ]
+          }
+        ],
+        "finalZh": "大学应该重视学生的心理健康问题，这很重要。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s11-0008",
+      "en": "It is quite necessary that she (should) be in the room with you.",
+      "zh": "她在房间里陪你很有必要。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 13,
+        "clauses": 0,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "倒装",
+          "强调",
+          "情态动词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "should",
+          "hint": "情态动词，应该（本空填 should）",
+          "gp": "情态动词"
+        }
+      ],
+      "components": [
+        {
+          "text": "It",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "is quite",
+          "role": "谓语",
+          "span": [
+            3,
+            11
+          ]
+        },
+        {
+          "text": "necessary",
+          "role": "表语",
+          "span": [
+            12,
+            21
+          ]
+        },
+        {
+          "text": "that",
+          "role": "状语",
+          "span": [
+            22,
+            26
+          ]
+        },
+        {
+          "text": "she",
+          "role": "状语",
+          "span": [
+            27,
+            30
+          ]
+        },
+        {
+          "text": "should) be",
+          "role": "谓语",
+          "span": [
+            32,
+            42
+          ]
+        },
+        {
+          "text": "in the room with you",
+          "role": "状语",
+          "span": [
+            43,
+            63
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，It 是形式主语，that 引导主语从句（should 虚拟）。",
+            "why": "is necessary（必要）是谓语，It 是形式主语，that she should be in the room 是主语从句，should 表虚拟。",
+            "highlight": [
+              3,
+              21
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别 should 虚拟（主语从句）",
+            "what": "It is necessary that she (should) be = 她有必要在，necessary 后主语从句用 should 虚拟。",
+            "why": "it is + necessary 等形容词 + that 主语从句，用 should + 动词原形表虚拟。",
+            "highlight": [
+              22,
+              63
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "她在房间里陪你很有必要。",
+            "why": "It is quite necessary that she (should) be in the room with you 译「她在房间里陪你很有必要」。",
+            "highlight": [
+              0,
+              63
+            ]
+          }
+        ],
+        "finalZh": "她在房间里陪你很有必要。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s11-0018",
+      "en": "It is high time that we took some measures to solve this problem.",
+      "zh": "早就到了我们采取措施解决这个问题的时候了。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 13,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "倒装",
+          "强调",
+          "it的用法"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "It",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            3,
+            5
+          ]
+        },
+        {
+          "text": "high time",
+          "role": "表语",
+          "span": [
+            6,
+            15
+          ]
+        },
+        {
+          "text": "that",
+          "role": "状语",
+          "span": [
+            16,
+            20
+          ]
+        },
+        {
+          "text": "we",
+          "role": "状语",
+          "span": [
+            21,
+            23
+          ]
+        },
+        {
+          "text": "took",
+          "role": "谓语",
+          "span": [
+            24,
+            28
+          ]
+        },
+        {
+          "text": "some measures",
+          "role": "宾语",
+          "span": [
+            29,
+            42
+          ]
+        },
+        {
+          "text": "to solve this problem",
+          "role": "状语",
+          "span": [
+            43,
+            64
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，It is high time that 引导虚拟从句（过去时）。",
+            "why": "is high time（是时候了）是谓语，that we took some measures 是 that 引导的从句，took 用过去式表虚拟。",
+            "highlight": [
+              3,
+              15
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "it is high time + 过去式",
+            "what": "It is high time that we took = 早该采取措施了，从句用过去式表虚拟。",
+            "why": "it is high time + that 从句，从句用过去式（took）表虚拟，表示「早该做（实际还没做）」。",
+            "how": "译「早就到了采取措施的时候了」，it is high time 译「早该」。",
+            "highlight": [
+              16,
+              64
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "早就到了我们采取措施解决这个问题的时候了。",
+            "why": "It is high time that we took some measures to solve this problem 译「早就到了我们采取措施解决这个问题的时候了」。",
+            "highlight": [
+              0,
+              64
+            ]
+          }
+        ],
+        "finalZh": "早就到了我们采取措施解决这个问题的时候了。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s11-0024",
+      "en": "It is obvious that you should make friends with those who can keep you optimistic.",
+      "zh": "很明显，你应该和那些能让你保持乐观的人交朋友。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 15,
+        "clauses": 2,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "倒装",
+          "定语从句",
+          "强调"
+        ],
+        "fine": [
+          "关系代词 who 在从句中作主语",
+          "长句，先找谓语再断句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "who",
+          "hint": "关系代词，指人（本空填 who）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "It",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            3,
+            5
+          ]
+        },
+        {
+          "text": "obvious",
+          "role": "表语",
+          "span": [
+            6,
+            13
+          ]
+        },
+        {
+          "text": "that",
+          "role": "状语",
+          "span": [
+            14,
+            18
+          ]
+        },
+        {
+          "text": "you",
+          "role": "状语",
+          "span": [
+            19,
+            22
+          ]
+        },
+        {
+          "text": "should make",
+          "role": "谓语",
+          "span": [
+            23,
+            34
+          ]
+        },
+        {
+          "text": "friends",
+          "role": "宾语",
+          "span": [
+            35,
+            42
+          ]
+        },
+        {
+          "text": "with those",
+          "role": "状语",
+          "span": [
+            43,
+            53
+          ]
+        },
+        {
+          "text": "who can keep you optimistic.",
+          "role": "定语从句",
+          "span": [
+            54,
+            82
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，It 是形式主语，that 引导主语从句，who 引导定语从句。",
+            "why": "is obvious（明显）是谓语，It 是形式主语，that you should make friends with those 是主语从句，who can keep you optimistic 是定语从句。",
+            "highlight": [
+              3,
+              13
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别主语从句 + 定语从句",
+            "what": "that you should make friends with those who... 是主语从句，内含 who 定语从句。",
+            "why": "that 引导主语从句，who can keep you optimistic 是定语从句修饰 those。",
+            "highlight": [
+              14,
+              81
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "很明显，你应该和那些能让你保持乐观的人交朋友。",
+            "why": "It is obvious that you should make friends with those who can keep you optimistic 译「很明显，你应该和那些能让你保持乐观的人交朋友」。",
+            "highlight": [
+              0,
+              81
+            ]
+          }
+        ],
+        "finalZh": "很明显，你应该和那些能让你保持乐观的人交朋友。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s11-0025",
+      "en": "It is since I met you that I have been in love with you.",
+      "zh": "自从遇见你，我就爱上了你。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 14,
+        "clauses": 2,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "倒装",
+          "定语从句",
+          "状语从句"
+        ],
+        "fine": [
+          "完成时 + be，注意是完成还是被动"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "since",
+          "hint": "引导时间状语从句（本空填 since）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "It",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            3,
+            5
+          ]
+        },
+        {
+          "text": "since I met you that I have been in love with you.",
+          "role": "状语从句",
+          "span": [
+            6,
+            56
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，It is since...that 是强调句结构。",
+            "why": "is 是系动词，It is since I met you that... 是「It is + 强调部分 + that」的强调句型。",
+            "highlight": [
+              3,
+              5
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "强调句 it is...that",
+            "what": "It is since I met you that = 正是自从遇见你，强调时间。",
+            "why": "It is...that 是强调句型，强调时间状语 since I met you，去掉 It is...that 句子仍完整。",
+            "how": "译「自从遇见你，我就爱上了你」，it is...that 强调结构。",
+            "highlight": [
+              0,
+              55
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "自从遇见你，我就爱上了你。",
+            "why": "It is since I met you that I have been in love with you 译「自从遇见你，我就爱上了你」。",
+            "highlight": [
+              0,
+              55
+            ]
+          }
+        ],
+        "finalZh": "自从遇见你，我就爱上了你。",
+        "orderRules": [
+          "强调句 it is...that 还原"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s11-0030",
+      "en": "Do you love Dayan?",
+      "zh": "你爱大雁吗？",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 4,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "倒装",
+          "祈使句与感叹句",
+          "代词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "Do",
+          "hint": "助动词/实义动词（本空填 Do）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "Do",
+          "role": "谓语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "you",
+          "role": "宾语",
+          "span": [
+            3,
+            6
+          ]
+        },
+        {
+          "text": "love",
+          "role": "谓语",
+          "span": [
+            7,
+            11
+          ]
+        },
+        {
+          "text": "Dayan",
+          "role": "宾语",
+          "span": [
+            12,
+            17
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 Do...love（一般疑问句）。",
+            "why": "Do 提前构成一般疑问句，love（爱）是动词原形，Dayan 是宾语。",
+            "highlight": [
+              0,
+              11
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "你爱大雁吗？",
+            "why": "Do you love Dayan 译「你爱大雁吗」。",
+            "highlight": [
+              0,
+              17
+            ]
+          }
+        ],
+        "finalZh": "你爱大雁吗？",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOO"
+    },
+    {
+      "id": "s11-0031",
+      "en": "Is Dayan a good teacher?",
+      "zh": "大雁是好老师吗？",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 5,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "倒装",
+          "动词时态",
+          "冠词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "Is",
+          "hint": "系动词/助动词，第三人称单数（本空填 Is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "a",
+          "hint": "不定冠词，修饰可数名词单数（本空填 a）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Is",
+          "role": "谓语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "Dayan a good teacher",
+          "role": "表语",
+          "span": [
+            3,
+            23
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 Is（一般疑问句）。",
+            "why": "Is 提前构成一般疑问句，Dayan 是主语，a good teacher 是表语。",
+            "highlight": [
+              0,
+              2
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "大雁是好老师吗？",
+            "why": "Is Dayan a good teacher 译「大雁是好老师吗」。",
+            "highlight": [
+              0,
+              23
+            ]
+          }
+        ],
+        "finalZh": "大雁是好老师吗？",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s11-0032",
+      "en": "Have you ever seen Dayan?",
+      "zh": "你见过大雁吗？",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 5,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "倒装",
+          "动词时态",
+          "代词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "Have",
+          "hint": "使役动词，让（have sth done）（本空填 Have）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "Have",
+          "role": "谓语",
+          "span": [
+            0,
+            4
+          ]
+        },
+        {
+          "text": "you ever",
+          "role": "宾语",
+          "span": [
+            5,
+            13
+          ]
+        },
+        {
+          "text": "seen",
+          "role": "谓语",
+          "span": [
+            14,
+            18
+          ]
+        },
+        {
+          "text": "Dayan",
+          "role": "宾语",
+          "span": [
+            19,
+            24
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 Have...seen（完成时疑问句）。",
+            "why": "Have 提前构成完成时疑问句，seen（见过）是过去分词。",
+            "highlight": [
+              0,
+              13
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "你见过大雁吗？",
+            "why": "Have you ever seen Dayan 译「你见过大雁吗」。",
+            "highlight": [
+              0,
+              24
+            ]
+          }
+        ],
+        "finalZh": "你见过大雁吗？",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOO"
+    },
+    {
+      "id": "s11-0033",
+      "en": "I have never been to other countries except Japan.",
+      "zh": "除了日本，我从未去过其他国家。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "倒装",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "have/get sth done 结构"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "have",
+          "hint": "使役动词，让（have sth done）（本空填 have）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "been",
+          "hint": "be 的过去分词（本空填 been）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "have never been",
+          "role": "谓语",
+          "span": [
+            2,
+            17
+          ]
+        },
+        {
+          "text": "to other countries except Japan",
+          "role": "状语",
+          "span": [
+            18,
+            49
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 have been，except Japan 是介词短语。",
+            "why": "have never been（从未去过）是谓语，except Japan（除了日本）是介词短语。",
+            "highlight": [
+              2,
+              17
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "except 表排除",
+            "what": "except Japan = 除了日本，except 表「除……之外」。",
+            "why": "except（除了）是介词，后接 Japan，表示「除日本之外」。",
+            "how": "译「除了日本」，except 译「除了」。",
+            "highlight": [
+              18,
+              49
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "除了日本，我从未去过其他国家。",
+            "why": "I have never been to other countries except Japan 译「除了日本，我从未去过其他国家」。",
+            "highlight": [
+              0,
+              49
+            ]
+          }
+        ],
+        "finalZh": "除了日本，我从未去过其他国家。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s11-0035",
+      "en": "She seldom takes a shower in winter.",
+      "zh": "她冬天很少洗澡。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 7,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "倒装",
+          "代词",
+          "冠词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "in",
+          "hint": "介词，在…里（本空填 in）",
+          "gp": "介词"
+        },
+        {
+          "answer": "a",
+          "hint": "不定冠词，修饰可数名词单数（本空填 a）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "She seldom",
+          "role": "主语",
+          "span": [
+            0,
+            10
+          ]
+        },
+        {
+          "text": "takes",
+          "role": "谓语",
+          "span": [
+            11,
+            16
+          ]
+        },
+        {
+          "text": "a",
+          "role": "宾语",
+          "span": [
+            17,
+            18
+          ]
+        },
+        {
+          "text": "shower",
+          "role": "谓语",
+          "span": [
+            19,
+            25
+          ]
+        },
+        {
+          "text": "in winter",
+          "role": "状语",
+          "span": [
+            26,
+            35
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 takes，seldom 是否定副词。",
+            "why": "takes（洗澡）是谓语，seldom（很少）是否定频率副词，in winter 是时间状语。",
+            "highlight": [
+              11,
+              16
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "seldom 否定副词",
+            "what": "seldom takes a shower = 很少洗澡，seldom 表否定。",
+            "why": "seldom（很少）是否定副词，放在谓语前，表「很少」。",
+            "how": "译「冬天很少洗澡」，seldom 译「很少」。",
+            "highlight": [
+              0,
+              35
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "她冬天很少洗澡。",
+            "why": "She seldom takes a shower in winter 译「她冬天很少洗澡」。",
+            "highlight": [
+              0,
+              35
+            ]
+          }
+        ],
+        "finalZh": "她冬天很少洗澡。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s11-0037",
+      "en": "She knew little about the real situation.",
+      "zh": "她对真实情况知之甚少。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 7,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "倒装",
+          "代词",
+          "冠词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "about",
+          "hint": "介词，关于（本空填 about）",
+          "gp": "介词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "She",
+          "role": "主语",
+          "span": [
+            0,
+            3
+          ]
+        },
+        {
+          "text": "knew",
+          "role": "谓语",
+          "span": [
+            4,
+            8
+          ]
+        },
+        {
+          "text": "little",
+          "role": "宾语",
+          "span": [
+            9,
+            15
+          ]
+        },
+        {
+          "text": "about the real situation",
+          "role": "状语",
+          "span": [
+            16,
+            40
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 knew，little 表否定。",
+            "why": "knew（知道）是谓语，little about the real situation（对真实情况知之甚少）中 little 表否定。",
+            "highlight": [
+              4,
+              9
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "little 表否定",
+            "what": "knew little = 知之甚少，little 表「几乎没有」。",
+            "why": "little（几乎没有）修饰 knew，表否定含义，about the real situation 是状语。",
+            "how": "译「对真实情况知之甚少」，little 译「很少」。",
+            "highlight": [
+              9,
+              40
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "她对真实情况知之甚少。",
+            "why": "She knew little about the real situation 译「她对真实情况知之甚少」。",
+            "highlight": [
+              0,
+              40
+            ]
+          }
+        ],
+        "finalZh": "她对真实情况知之甚少。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s11-0039",
+      "en": "I am in no way like my father.",
+      "zh": "我一点也不像我父亲。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "倒装",
+          "动词时态",
+          "代词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "am",
+          "hint": "系动词/助动词，第一人称单数（本空填 am）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "in",
+          "hint": "介词，在…里（本空填 in）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "am",
+          "role": "谓语",
+          "span": [
+            2,
+            4
+          ]
+        },
+        {
+          "text": "in no way",
+          "role": "状语",
+          "span": [
+            5,
+            14
+          ]
+        },
+        {
+          "text": "like",
+          "role": "谓语",
+          "span": [
+            15,
+            19
+          ]
+        },
+        {
+          "text": "my father",
+          "role": "宾语",
+          "span": [
+            20,
+            29
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 am，in no way 是否定状语。",
+            "why": "am（是）是系动词，in no way（绝不）是否定状语，like my father 是表语。",
+            "highlight": [
+              2,
+              4
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "in no way 表否定",
+            "what": "in no way = 绝不，表强烈否定。",
+            "why": "in no way（绝不）是否定状语，like my father 是「像我父亲」。",
+            "how": "译「一点也不像我父亲」，in no way 译「一点也不」。",
+            "highlight": [
+              5,
+              29
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我一点也不像我父亲。",
+            "why": "I am in no way like my father 译「我一点也不像我父亲」。",
+            "highlight": [
+              0,
+              29
+            ]
+          }
+        ],
+        "finalZh": "我一点也不像我父亲。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s11-0041",
+      "en": "You can expect to get a promotion only with hard work.",
+      "zh": "只有努力工作，你才能指望升职。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 11,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "倒装",
+          "情态动词",
+          "非谓语动词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "can",
+          "hint": "情态动词，能/可以（本空填 can）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        },
+        {
+          "answer": "with",
+          "hint": "介词，和/带着（本空填 with）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "You",
+          "role": "主语",
+          "span": [
+            0,
+            3
+          ]
+        },
+        {
+          "text": "can expect",
+          "role": "谓语",
+          "span": [
+            4,
+            14
+          ]
+        },
+        {
+          "text": "to get a promotion only with hard",
+          "role": "状语",
+          "span": [
+            15,
+            48
+          ]
+        },
+        {
+          "text": "work",
+          "role": "谓语",
+          "span": [
+            49,
+            53
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 can expect，only with hard work 是 only 状语。",
+            "why": "can expect（能指望）是谓语，only with hard work（只有努力工作）是 only 引导的状语。",
+            "highlight": [
+              4,
+              21
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "only + 介词短语",
+            "what": "only with hard work = 只有努力工作，only 强调条件。",
+            "why": "only（只有）强调 with hard work 这个条件，get a promotion 是「升职」。",
+            "how": "译「只有努力工作」，only with hard work 译「只有努力工作」。",
+            "highlight": [
+              22,
+              53
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "只有努力工作，你才能指望升职。",
+            "why": "You can expect to get a promotion only with hard work 译「只有努力工作，你才能指望升职」。",
+            "highlight": [
+              0,
+              53
+            ]
+          }
+        ],
+        "finalZh": "只有努力工作，你才能指望升职。",
+        "orderRules": [
+          "only 状语前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s11-0043",
+      "en": "You will call your mother only when you need extra pocket money.",
+      "zh": "只有当你需要额外的零花钱时，你才会给你妈妈打电话。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 12,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "倒装",
+          "状语从句",
+          "情态动词"
+        ],
+        "fine": [
+          "一般将来时"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "when",
+          "hint": "关系副词/时间状语从句引导词（本空填 when）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "will",
+          "hint": "助动词，一般将来时（本空填 will）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "need",
+          "hint": "情态动词/实义动词，需要（本空填 need）",
+          "gp": "情态动词"
+        }
+      ],
+      "components": [
+        {
+          "text": "You",
+          "role": "主语",
+          "span": [
+            0,
+            3
+          ]
+        },
+        {
+          "text": "will call",
+          "role": "谓语",
+          "span": [
+            4,
+            13
+          ]
+        },
+        {
+          "text": "your mother only",
+          "role": "宾语",
+          "span": [
+            14,
+            30
+          ]
+        },
+        {
+          "text": "when you need extra pocket money.",
+          "role": "状语从句",
+          "span": [
+            31,
+            64
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 will call，only when 引导时间状语从句。",
+            "why": "will call（将打电话）是谓语，only when you need extra pocket money 是 only when 引导的时间状语从句。",
+            "highlight": [
+              4,
+              13
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别 only when 时间从句",
+            "what": "only when you need extra pocket money = 只有当你需要零花钱时。",
+            "why": "only when（只有当）引导时间状语从句，you need extra pocket money 是从句内容。",
+            "highlight": [
+              26,
+              63
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "只有当你需要额外的零花钱时，你才会给你妈妈打电话。",
+            "why": "You will call your mother only when you need extra pocket money 译「只有当你需要额外的零花钱时，你才会给你妈妈打电话」。",
+            "highlight": [
+              0,
+              63
+            ]
+          }
+        ],
+        "finalZh": "只有当你需要额外的零花钱时，你才会给你妈妈打电话。",
+        "orderRules": [
+          "only when 从句前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOC"
+    },
+    {
+      "id": "s11-0045",
+      "en": "The problem could be resolved only in this way.",
+      "zh": "这个问题只有用这种方式才能解决。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "倒装",
+          "被动语态",
+          "情态动词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "could",
+          "hint": "情态动词，能（过去）/可以（本空填 could）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "be",
+          "hint": "系动词/助动词原形（本空填 be）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "in",
+          "hint": "介词，在…里（本空填 in）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "The problem",
+          "role": "主语",
+          "span": [
+            0,
+            11
+          ]
+        },
+        {
+          "text": "could be",
+          "role": "谓语",
+          "span": [
+            12,
+            20
+          ]
+        },
+        {
+          "text": "resolved only",
+          "role": "表语",
+          "span": [
+            21,
+            34
+          ]
+        },
+        {
+          "text": "in this way",
+          "role": "状语",
+          "span": [
+            35,
+            46
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 could be resolved，only in this way 是 only 状语。",
+            "why": "could be resolved（能被解决）是谓语，only in this way（只有用这种方式）是 only 引导的状语。",
+            "highlight": [
+              12,
+              29
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "only + 介词短语",
+            "what": "only in this way = 只有用这种方式，only 强调方式。",
+            "why": "only（只有）强调 in this way 这个方式。",
+            "how": "译「只有用这种方式」，only in this way 译「只有用这种方式」。",
+            "highlight": [
+              30,
+              46
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "这个问题只有用这种方式才能解决。",
+            "why": "The problem could be resolved only in this way 译「这个问题只有用这种方式才能解决」。",
+            "highlight": [
+              0,
+              46
+            ]
+          }
+        ],
+        "finalZh": "这个问题只有用这种方式才能解决。",
+        "orderRules": [
+          "only 状语前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s11-0047",
+      "en": "You cannot go outside until you finish your homework.",
+      "zh": "你完成作业后才能出去。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "倒装",
+          "状语从句",
+          "代词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "until",
+          "hint": "引导时间状语从句（本空填 until）",
+          "gp": "状语从句"
+        }
+      ],
+      "components": [
+        {
+          "text": "You",
+          "role": "主语",
+          "span": [
+            0,
+            3
+          ]
+        },
+        {
+          "text": "cannot go",
+          "role": "谓语",
+          "span": [
+            4,
+            13
+          ]
+        },
+        {
+          "text": "outside",
+          "role": "宾语",
+          "span": [
+            14,
+            21
+          ]
+        },
+        {
+          "text": "until you finish your homework.",
+          "role": "状语从句",
+          "span": [
+            22,
+            53
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 cannot go，until 引导时间状语从句。",
+            "why": "cannot go（不能出去）是谓语，until you finish your homework 是 until 引导的时间状语从句。",
+            "highlight": [
+              4,
+              21
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别 until 时间从句",
+            "what": "until you finish your homework = 直到你完成作业。",
+            "why": "until（直到）引导时间状语从句，you finish your homework 是从句内容。",
+            "highlight": [
+              22,
+              52
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "你完成作业后才能出去。",
+            "why": "You cannot go outside until you finish your homework 译「你完成作业后才能出去」。",
+            "highlight": [
+              0,
+              52
+            ]
+          }
+        ],
+        "finalZh": "你完成作业后才能出去。",
+        "orderRules": [
+          "until 从句前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s11-0049",
+      "en": "She had no sooner said it than she burst into tears.",
+      "zh": "【译】她刚一说完，泪水便夺眶而出。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 11,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "倒装",
+          "动词时态",
+          "代词"
+        ],
+        "fine": [
+          "no sooner…than 刚…就…"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "had",
+          "hint": "使役/助动词过去式（本空填 had）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "into",
+          "hint": "介词，进入（本空填 into）",
+          "gp": "介词"
+        },
+        {
+          "answer": "it",
+          "hint": "代词，可作形式主语/形式宾语（本空填 it）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "She",
+          "role": "主语",
+          "span": [
+            0,
+            3
+          ]
+        },
+        {
+          "text": "had",
+          "role": "谓语",
+          "span": [
+            4,
+            7
+          ]
+        },
+        {
+          "text": "no sooner",
+          "role": "宾语",
+          "span": [
+            8,
+            17
+          ]
+        },
+        {
+          "text": "said",
+          "role": "谓语",
+          "span": [
+            18,
+            22
+          ]
+        },
+        {
+          "text": "it",
+          "role": "宾语",
+          "span": [
+            23,
+            25
+          ]
+        },
+        {
+          "text": "than she burst into tears",
+          "role": "状语",
+          "span": [
+            26,
+            51
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 had said，no sooner...than 引导时间状语从句。",
+            "why": "had no sooner said（刚说完）是谓语，than she burst into tears 是 no sooner...than 引导的时间状语从句。",
+            "highlight": [
+              4,
+              18
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "no sooner...than...",
+            "what": "no sooner...than = 刚……就，表「一……就」。",
+            "why": "no sooner...than（刚……就）引导时间状语从句，had said 是过去完成时。",
+            "how": "译「她刚一说完，泪水便夺眶而出」，no sooner...than 译「刚……就」。",
+            "highlight": [
+              0,
+              51
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "她刚一说完，泪水便夺眶而出。",
+            "why": "She had no sooner said it than she burst into tears 译「她刚一说完，泪水便夺眶而出」。",
+            "highlight": [
+              0,
+              51
+            ]
+          }
+        ],
+        "finalZh": "她刚一说完，泪水便夺眶而出。",
+        "orderRules": [
+          "no sooner...than 译「刚……就」"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOO"
+    },
+    {
+      "id": "s11-0051",
+      "en": "My husband can speak Japanese. I can speak Japanese, too.",
+      "zh": "我丈夫会说日语。我也会说日语。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "倒装",
+          "情态动词",
+          "代词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "can",
+          "hint": "情态动词，能/可以（本空填 can）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "can",
+          "hint": "情态动词，能/可以（本空填 can）",
+          "gp": "情态动词"
+        }
+      ],
+      "components": [
+        {
+          "text": "My husband",
+          "role": "主语",
+          "span": [
+            0,
+            10
+          ]
+        },
+        {
+          "text": "can speak",
+          "role": "谓语",
+          "span": [
+            11,
+            20
+          ]
+        },
+        {
+          "text": "Japanese",
+          "role": "宾语",
+          "span": [
+            21,
+            29
+          ]
+        },
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            31,
+            32
+          ]
+        },
+        {
+          "text": "can speak",
+          "role": "谓语",
+          "span": [
+            33,
+            42
+          ]
+        },
+        {
+          "text": "Japanese, too",
+          "role": "宾语",
+          "span": [
+            43,
+            56
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 can speak，too 表「也」。",
+            "why": "can speak（会说）是谓语，Japanese 是宾语，too（也）是副词。",
+            "highlight": [
+              11,
+              21
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我丈夫会说日语。我也会说日语。",
+            "why": "My husband can speak Japanese. I can speak Japanese, too 译「我丈夫会说日语。我也会说日语」。",
+            "highlight": [
+              0,
+              56
+            ]
+          }
+        ],
+        "finalZh": "我丈夫会说日语。我也会说日语。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOO"
+    },
+    {
+      "id": "s11-0053",
+      "en": "He was so excited that he couldn't help laughing at midnight.",
+      "zh": "他兴奋得半夜忍不住大笑。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 11,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "倒装",
+          "定语从句",
+          "情态动词"
+        ],
+        "fine": [
+          "so + 形容词/副词 + that 结果状语从句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "was",
+          "hint": "系动词/助动词，过去式单数（本空填 was）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "at",
+          "hint": "介词，在（本空填 at）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "He",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "was",
+          "role": "谓语",
+          "span": [
+            3,
+            6
+          ]
+        },
+        {
+          "text": "so",
+          "role": "表语",
+          "span": [
+            7,
+            9
+          ]
+        },
+        {
+          "text": "excited",
+          "role": "谓语",
+          "span": [
+            10,
+            17
+          ]
+        },
+        {
+          "text": "that he couldn't help laughing",
+          "role": "宾语",
+          "span": [
+            18,
+            48
+          ]
+        },
+        {
+          "text": "at midnight",
+          "role": "状语",
+          "span": [
+            49,
+            60
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 was，so excited that 引导结果状语从句。",
+            "why": "was so excited（太兴奋）是谓语，that he couldn't help laughing 是 so...that 引导的结果状语从句。",
+            "highlight": [
+              3,
+              17
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别结果状语从句",
+            "what": "so excited that he couldn't help laughing = 兴奋得忍不住笑。",
+            "why": "so...that（如此……以至于）引导结果状语从句，couldn't help laughing 是「忍不住笑」。",
+            "highlight": [
+              18,
+              60
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他兴奋得半夜忍不住大笑。",
+            "why": "He was so excited that he couldn't help laughing at midnight 译「他兴奋得半夜忍不住大笑」。",
+            "highlight": [
+              0,
+              60
+            ]
+          }
+        ],
+        "finalZh": "他兴奋得半夜忍不住大笑。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s11-0055",
+      "en": "He is giving a speech so forcefully that everyone is convinced.",
+      "zh": "他演讲如此有力，以致每个人都信服了。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 11,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "倒装",
+          "定语从句",
+          "被动语态"
+        ],
+        "fine": [
+          "进行时（be + 现在分词）",
+          "so + 形容词/副词 + that 结果状语从句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "He",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "is giving",
+          "role": "谓语",
+          "span": [
+            3,
+            12
+          ]
+        },
+        {
+          "text": "a speech",
+          "role": "表语",
+          "span": [
+            13,
+            21
+          ]
+        },
+        {
+          "text": "forcefully that everyone",
+          "role": "主语",
+          "span": [
+            25,
+            49
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            50,
+            52
+          ]
+        },
+        {
+          "text": "convinced",
+          "role": "表语",
+          "span": [
+            53,
+            62
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is giving，so forcefully that 引导结果状语从句。",
+            "why": "is giving（正在演讲）是谓语，so forcefully that everyone is convinced 是 so...that 引导的结果状语从句。",
+            "highlight": [
+              3,
+              35
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别结果状语从句",
+            "what": "so forcefully that everyone is convinced = 如此有力以至于每个人都信服。",
+            "why": "so...that（如此……以至于）引导结果状语从句，giving a speech forcefully 导致 everyone is convinced。",
+            "highlight": [
+              36,
+              62
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他演讲如此有力，以致每个人都信服了。",
+            "why": "He is giving a speech so forcefully that everyone is convinced 译「他演讲如此有力，以致每个人都信服了」。",
+            "highlight": [
+              0,
+              62
+            ]
+          }
+        ],
+        "finalZh": "他演讲如此有力，以致每个人都信服了。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s11-0057",
+      "en": "She looked so gorgeous that she caught the eyes of everyone at the party.",
+      "zh": "她看起来如此美丽，吸引了聚会上每个人的目光。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 14,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "倒装",
+          "非谓语动词",
+          "代词"
+        ],
+        "fine": [
+          "so + 形容词/副词 + that 结果状语从句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "of",
+          "hint": "介词，…的（本空填 of）",
+          "gp": "介词"
+        },
+        {
+          "answer": "at",
+          "hint": "介词，在（本空填 at）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "She",
+          "role": "主语",
+          "span": [
+            0,
+            3
+          ]
+        },
+        {
+          "text": "looked",
+          "role": "谓语",
+          "span": [
+            4,
+            10
+          ]
+        },
+        {
+          "text": "gorgeous that she",
+          "role": "主语",
+          "span": [
+            14,
+            31
+          ]
+        },
+        {
+          "text": "caught",
+          "role": "谓语",
+          "span": [
+            32,
+            38
+          ]
+        },
+        {
+          "text": "the eyes",
+          "role": "宾语",
+          "span": [
+            39,
+            47
+          ]
+        },
+        {
+          "text": "of everyone at the party",
+          "role": "状语",
+          "span": [
+            48,
+            72
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 looked，so gorgeous that 引导结果状语从句。",
+            "why": "looked so gorgeous（看起来很美）是谓语，that she caught the eyes of everyone 是 so...that 引导的结果状语从句。",
+            "highlight": [
+              4,
+              27
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别结果状语从句",
+            "what": "so gorgeous that she caught the eyes = 太美以至于吸引了目光。",
+            "why": "so...that（如此……以至于）引导结果状语从句，looked gorgeous 导致 she caught the eyes of everyone。",
+            "highlight": [
+              28,
+              72
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "她看起来如此美丽，吸引了聚会上每个人的目光。",
+            "why": "She looked so gorgeous that she caught the eyes of everyone at the party 译「她看起来如此美丽，吸引了聚会上每个人的目光」。",
+            "highlight": [
+              0,
+              72
+            ]
+          }
+        ],
+        "finalZh": "她看起来如此美丽，吸引了聚会上每个人的目光。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s11-0059",
+      "en": "She is such a good girl that we all like her.",
+      "zh": "她是个这么好的女孩，我们都喜欢她。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 11,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "倒装",
+          "主谓一致",
+          "动词时态"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "a",
+          "hint": "不定冠词，修饰可数名词单数（本空填 a）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "She",
+          "role": "主语",
+          "span": [
+            0,
+            3
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            4,
+            6
+          ]
+        },
+        {
+          "text": "such a good girl",
+          "role": "表语",
+          "span": [
+            7,
+            23
+          ]
+        },
+        {
+          "text": "that",
+          "role": "状语",
+          "span": [
+            24,
+            28
+          ]
+        },
+        {
+          "text": "we all",
+          "role": "状语",
+          "span": [
+            29,
+            35
+          ]
+        },
+        {
+          "text": "like",
+          "role": "谓语",
+          "span": [
+            36,
+            40
+          ]
+        },
+        {
+          "text": "her",
+          "role": "宾语",
+          "span": [
+            41,
+            44
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，such a good girl that 引导结果状语从句。",
+            "why": "is such a good girl（是这么好的女孩）是谓语，that we all like her 是 such...that 引导的结果状语从句。",
+            "highlight": [
+              4,
+              23
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别结果状语从句",
+            "what": "such a good girl that we all like = 这么好的女孩，我们都喜欢。",
+            "why": "such...that（如此……以至于）引导结果状语从句。",
+            "highlight": [
+              24,
+              44
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "她是个这么好的女孩，我们都喜欢她。",
+            "why": "She is such a good girl that we all like her 译「她是个这么好的女孩，我们都喜欢她」。",
+            "highlight": [
+              0,
+              44
+            ]
+          }
+        ],
+        "finalZh": "她是个这么好的女孩，我们都喜欢她。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s11-0061",
+      "en": "If I had prepared well, I couldn't have lost the job.",
+      "zh": "如果我准备充分，就不会失去这份工作了。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 11,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "倒装",
+          "状语从句",
+          "情态动词"
+        ],
+        "fine": [
+          "现在完成时或过去完成时"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "If",
+          "hint": "引导条件状语从句或宾语从句（本空填 If）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "had",
+          "hint": "使役/助动词过去式（本空填 had）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "have",
+          "hint": "使役动词，让（have sth done）（本空填 have）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "If I had prepared well",
+          "role": "状语从句",
+          "span": [
+            0,
+            22
+          ]
+        },
+        {
+          "text": "I",
+          "role": "宾语",
+          "span": [
+            24,
+            25
+          ]
+        },
+        {
+          "text": "couldn't have lost",
+          "role": "谓语",
+          "span": [
+            26,
+            44
+          ]
+        },
+        {
+          "text": "the job",
+          "role": "宾语",
+          "span": [
+            45,
+            52
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 had prepared 和 couldn't have lost，If 引导虚拟条件句。",
+            "why": "If I had prepared well 是 If 引导的虚拟条件句（对过去虚拟），couldn't have lost 是主句虚拟结果。",
+            "highlight": [
+              0,
+              22
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "虚拟语气（对过去）",
+            "what": "If I had prepared well, I couldn't have lost = 如果我准备充分，就不会失去（实际没准备，已失去）。",
+            "why": "对过去的虚拟，条件句用 had prepared well，主句用 couldn't have lost the job，表示与过去事实相反。",
+            "how": "译「如果我准备充分，就不会失去这份工作了」，had prepared 译「准备充分」。",
+            "highlight": [
+              0,
+              52
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "如果我准备充分，就不会失去这份工作了。",
+            "why": "If I had prepared well, I couldn't have lost the job 译「如果我准备充分，就不会失去这份工作了」。",
+            "highlight": [
+              0,
+              52
+            ]
+          }
+        ],
+        "finalZh": "如果我准备充分，就不会失去这份工作了。",
+        "orderRules": [
+          "虚拟条件句 If... 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOO"
+    }
+  ]
+}

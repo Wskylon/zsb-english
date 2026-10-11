@@ -1,0 +1,4665 @@
+{
+  "schemaVersion": 1,
+  "chapterId": "c07",
+  "sentences": [
+    {
+      "id": "s07-0001",
+      "en": "She is able to cook delicious food. At the same time, she is a good teacher.",
+      "zh": "她能够烹饪美味的食物。同时，她是一名好老师。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 16,
+        "clauses": 0,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "并列结构",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "长句，先找谓语再断句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "She",
+          "role": "主语",
+          "span": [
+            0,
+            3
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            4,
+            6
+          ]
+        },
+        {
+          "text": "able",
+          "role": "表语",
+          "span": [
+            7,
+            11
+          ]
+        },
+        {
+          "text": "to cook delicious food",
+          "role": "状语",
+          "span": [
+            12,
+            34
+          ]
+        },
+        {
+          "text": "At the same time, she",
+          "role": "主语",
+          "span": [
+            36,
+            57
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            58,
+            60
+          ]
+        },
+        {
+          "text": "a good teacher",
+          "role": "表语",
+          "span": [
+            61,
+            75
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is able to cook 和 is，At the same time 是连接词。",
+            "why": "is able to cook（能够烹饪）是第一句，is a good teacher 是第二句，At the same time（同时）表并列。",
+            "highlight": [
+              4,
+              29
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "at the same time 表并列",
+            "what": "At the same time = 同时，连接两个并列的事实。",
+            "why": "at the same time（同时）是连接词，连接「会做饭」和「是好老师」两个并列事实。",
+            "how": "译「同时」，at the same time 译「同时」。",
+            "highlight": [
+              36,
+              52
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "她能够烹饪美味的食物。同时，她是一名好老师。",
+            "why": "She is able to cook delicious food 译「她能烹饪美味的食物」，At the same time, she is a good teacher 译「同时，她是一名好老师」。",
+            "highlight": [
+              0,
+              75
+            ]
+          }
+        ],
+        "finalZh": "她能够烹饪美味的食物。同时，她是一名好老师。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s07-0002",
+      "en": "I am a poor talker. In the same way, she is not talkative, either.",
+      "zh": "我不善言辞。同样，她也不爱说话。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 14,
+        "clauses": 0,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "被动语态",
+          "并列结构",
+          "主谓一致"
+        ],
+        "fine": [
+          "多点修饰，注意先断句再翻译"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "am",
+          "hint": "系动词/助动词，第一人称单数（本空填 am）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "In",
+          "hint": "介词，在…里（本空填 In）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "am",
+          "role": "谓语",
+          "span": [
+            2,
+            4
+          ]
+        },
+        {
+          "text": "a poor talker",
+          "role": "表语",
+          "span": [
+            5,
+            18
+          ]
+        },
+        {
+          "text": "In the same way, she",
+          "role": "主语",
+          "span": [
+            20,
+            40
+          ]
+        },
+        {
+          "text": "is not",
+          "role": "谓语",
+          "span": [
+            41,
+            47
+          ]
+        },
+        {
+          "text": "talkative, either",
+          "role": "表语",
+          "span": [
+            48,
+            65
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 am 和 is，In the same way 是连接词。",
+            "why": "am a poor talker（不善言辞）是第一句，is not talkative 是第二句，In the same way（同样）表类比。",
+            "highlight": [
+              2,
+              17
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "in the same way 表类比",
+            "what": "In the same way = 同样，表类比连接。",
+            "why": "in the same way（以同样的方式）是连接词，表示「同样地」，连接两个类比的事实。",
+            "how": "译「同样」，in the same way 译「同样」。",
+            "highlight": [
+              20,
+              35
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我不善言辞。同样，她也不爱说话。",
+            "why": "I am a poor talker 译「我不善言辞」，In the same way, she is not talkative 译「同样，她也不爱说话」。",
+            "highlight": [
+              0,
+              65
+            ]
+          }
+        ],
+        "finalZh": "我不善言辞。同样，她也不爱说话。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s07-0003",
+      "en": "Cars must stop at red traffic lights; similarly, bicycles have to stop, too.",
+      "zh": "汽车必须在红灯处停车；同样，自行车也必须停下来。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 13,
+        "clauses": 0,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "并列结构",
+          "情态动词",
+          "非谓语动词"
+        ],
+        "fine": [
+          "多点修饰，注意先断句再翻译"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "must",
+          "hint": "情态动词，必须/一定（本空填 must）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "have",
+          "hint": "使役动词，让（have sth done）（本空填 have）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "at",
+          "hint": "介词，在（本空填 at）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Cars",
+          "role": "主语",
+          "span": [
+            0,
+            4
+          ]
+        },
+        {
+          "text": "must stop",
+          "role": "谓语",
+          "span": [
+            5,
+            14
+          ]
+        },
+        {
+          "text": "at red traffic",
+          "role": "状语",
+          "span": [
+            15,
+            29
+          ]
+        },
+        {
+          "text": "lights",
+          "role": "谓语",
+          "span": [
+            30,
+            36
+          ]
+        },
+        {
+          "text": "similarly, bicycles have",
+          "role": "宾语",
+          "span": [
+            38,
+            62
+          ]
+        },
+        {
+          "text": "to stop, too",
+          "role": "状语",
+          "span": [
+            63,
+            75
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 must stop 和 have to stop，similarly 是连接词。",
+            "why": "must stop（必须停）是第一句，have to stop 是第二句，similarly（同样）表类比。",
+            "highlight": [
+              5,
+              14
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "similarly 表类比",
+            "what": "similarly = 同样地，表类比连接。",
+            "why": "similarly（同样地）是连接副词，表示「同样」，连接两个类比事实。",
+            "how": "译「同样」，similarly 译「同样」。",
+            "highlight": [
+              38,
+              47
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "汽车必须在红灯处停车；同样，自行车也必须停下来。",
+            "why": "Cars must stop at red traffic lights 译「汽车必须在红灯处停车」，similarly, bicycles have to stop 译「同样，自行车也必须停下来」。",
+            "highlight": [
+              0,
+              75
+            ]
+          }
+        ],
+        "finalZh": "汽车必须在红灯处停车；同样，自行车也必须停下来。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s07-0004",
+      "en": "He is poor now. However, when he was young he was the richest in this town.",
+      "zh": "他现在很穷。然而，他年轻的时候是这个镇上最富有的人。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 16,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "并列结构",
+          "状语从句",
+          "动词时态"
+        ],
+        "fine": [
+          "形容词最高级",
+          "however 引导让步状语从句",
+          "长句，先找谓语再断句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "when",
+          "hint": "关系副词/时间状语从句引导词（本空填 when）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "was",
+          "hint": "系动词/助动词，过去式单数（本空填 was）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "He",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            3,
+            5
+          ]
+        },
+        {
+          "text": "poor now",
+          "role": "表语",
+          "span": [
+            6,
+            14
+          ]
+        },
+        {
+          "text": "However",
+          "role": "主语",
+          "span": [
+            16,
+            23
+          ]
+        },
+        {
+          "text": "when he was young he was the richest in this town.",
+          "role": "状语从句",
+          "span": [
+            25,
+            75
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is 和 was，However 是转折连接词，when 引导时间从句。",
+            "why": "is poor（穷）是第一句，was the richest 是第二句，However（然而）表转折，when he was young 是时间从句。",
+            "highlight": [
+              3,
+              5
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "however 表转折",
+            "what": "However = 然而，表转折连接。",
+            "why": "however（然而）是转折连接词，连接「现在穷」和「年轻时最富」的对比。",
+            "how": "译「然而」，however 译「然而」。",
+            "highlight": [
+              16,
+              23
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他现在很穷。然而，他年轻的时候是这个镇上最富有的人。",
+            "why": "He is poor now 译「他现在很穷」，However, when he was young he was the richest in this town 译「然而，他年轻的时候是这个镇上最富有的人」。",
+            "highlight": [
+              0,
+              74
+            ]
+          }
+        ],
+        "finalZh": "他现在很穷。然而，他年轻的时候是这个镇上最富有的人。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s07-0005",
+      "en": "Some of the crops failed. On the contrary, the cotton did quite well.",
+      "zh": "有些农作物歉收。相反，棉花的收成相当不错。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 13,
+        "clauses": 0,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "并列结构",
+          "非谓语动词",
+          "主谓一致"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "did",
+          "hint": "助动词，过去式（本空填 did）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "of",
+          "hint": "介词，…的（本空填 of）",
+          "gp": "介词"
+        },
+        {
+          "answer": "On",
+          "hint": "介词，在…上（本空填 On）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Some of the crops",
+          "role": "主语",
+          "span": [
+            0,
+            17
+          ]
+        },
+        {
+          "text": "failed",
+          "role": "谓语",
+          "span": [
+            18,
+            24
+          ]
+        },
+        {
+          "text": "On the contrary, the cotton",
+          "role": "主语",
+          "span": [
+            26,
+            53
+          ]
+        },
+        {
+          "text": "did quite",
+          "role": "谓语",
+          "span": [
+            54,
+            63
+          ]
+        },
+        {
+          "text": "well",
+          "role": "宾语",
+          "span": [
+            64,
+            68
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 failed 和 did，On the contrary 是连接词。",
+            "why": "failed（歉收）是第一句，did quite well 是第二句，On the contrary（相反）表对照。",
+            "highlight": [
+              12,
+              24
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "on the contrary 表相反",
+            "what": "On the contrary = 相反，表对照连接。",
+            "why": "on the contrary（相反）是连接词，连接「歉收」和「收成好」的对照。",
+            "how": "译「相反」，on the contrary 译「相反」。",
+            "highlight": [
+              26,
+              41
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "有些农作物歉收。相反，棉花的收成相当不错。",
+            "why": "Some of the crops failed 译「有些农作物歉收」，On the contrary, the cotton did quite well 译「相反，棉花的收成相当不错」。",
+            "highlight": [
+              0,
+              68
+            ]
+          }
+        ],
+        "finalZh": "有些农作物歉收。相反，棉花的收成相当不错。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s07-0006",
+      "en": "I'd like to go to the cinema with you. Unfortunately, I am too busy now.",
+      "zh": "我想和你一起去看电影。可惜，我现在太忙了。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 15,
+        "clauses": 0,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "并列结构",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "长句，先找谓语再断句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "am",
+          "hint": "系动词/助动词，第一人称单数（本空填 am）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "I'd like",
+          "role": "谓语",
+          "span": [
+            0,
+            8
+          ]
+        },
+        {
+          "text": "to go to the cinema with you",
+          "role": "状语",
+          "span": [
+            9,
+            37
+          ]
+        },
+        {
+          "text": "Unfortunately",
+          "role": "状语",
+          "span": [
+            39,
+            52
+          ]
+        },
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            54,
+            55
+          ]
+        },
+        {
+          "text": "am",
+          "role": "谓语",
+          "span": [
+            56,
+            58
+          ]
+        },
+        {
+          "text": "too busy now",
+          "role": "表语",
+          "span": [
+            59,
+            71
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 would like 和 am，Unfortunately 是连接词。",
+            "why": "would like to go（想去看）是第一句，am too busy 是第二句，Unfortunately（可惜）表转折。",
+            "highlight": [
+              2,
+              28
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "unfortunately 表转折",
+            "what": "Unfortunately = 可惜，表转折连接。",
+            "why": "unfortunately（不幸地）是连接副词，表示「可惜」，连接转折的事实。",
+            "how": "译「可惜」，unfortunately 译「可惜」。",
+            "highlight": [
+              39,
+              52
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我想和你一起去看电影。可惜，我现在太忙了。",
+            "why": "I'd like to go to the cinema with you 译「我想和你一起去看电影」，Unfortunately, I am too busy now 译「可惜，我现在太忙了」。",
+            "highlight": [
+              0,
+              71
+            ]
+          }
+        ],
+        "finalZh": "我想和你一起去看电影。可惜，我现在太忙了。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s07-0007",
+      "en": "I used to be a poet. Besides, I have dreamed of being a singer.",
+      "zh": "我曾经是一名诗人。此外，我还梦想成为一名歌手。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 14,
+        "clauses": 0,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "并列结构",
+          "情态动词",
+          "非谓语动词"
+        ],
+        "fine": [
+          "现在完成时或过去完成时",
+          "used to 表示过去常常（现在不了）",
+          "介词 + 动名词"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "be",
+          "hint": "系动词/助动词原形（本空填 be）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "have",
+          "hint": "使役动词，让（have sth done）（本空填 have）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "being",
+          "hint": "be 的现在分词（本空填 being）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "used to",
+          "role": "谓语",
+          "span": [
+            2,
+            9
+          ]
+        },
+        {
+          "text": "be a poet",
+          "role": "宾语",
+          "span": [
+            10,
+            19
+          ]
+        },
+        {
+          "text": "Besides, I",
+          "role": "主语",
+          "span": [
+            21,
+            31
+          ]
+        },
+        {
+          "text": "have dreamed",
+          "role": "谓语",
+          "span": [
+            32,
+            44
+          ]
+        },
+        {
+          "text": "of being a singer",
+          "role": "状语",
+          "span": [
+            45,
+            62
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 used to be 和 have dreamed，Besides 是连接词。",
+            "why": "used to be a poet（曾是诗人）是第一句，have dreamed of being a singer 是第二句，Besides（此外）表递进。",
+            "highlight": [
+              2,
+              19
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "besides 表递进",
+            "what": "Besides = 此外，表递进连接。",
+            "why": "besides（此外）是连接副词，表示「此外、还有」，连接递进的事实。",
+            "how": "译「此外」，besides 译「此外」。",
+            "highlight": [
+              21,
+              28
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我曾经是一名诗人。此外，我还梦想成为一名歌手。",
+            "why": "I used to be a poet 译「我曾经是一名诗人」，Besides, I have dreamed of being a singer 译「此外，我还梦想成为一名歌手」。",
+            "highlight": [
+              0,
+              62
+            ]
+          }
+        ],
+        "finalZh": "我曾经是一名诗人。此外，我还梦想成为一名歌手。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s07-0008",
+      "en": "Tiechui has a lot of good qualities. He's very warm. Moreover, he's helpful.",
+      "zh": "铁锤有很多优点。他特别热情。此外，他还乐于助人。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 13,
+        "clauses": 0,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "并列结构",
+          "动词时态",
+          "代词"
+        ],
+        "fine": [
+          "have/get sth done 结构"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "has",
+          "hint": "助动词，第三人称单数（本空填 has）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "of",
+          "hint": "介词，…的（本空填 of）",
+          "gp": "介词"
+        },
+        {
+          "answer": "a",
+          "hint": "不定冠词，修饰可数名词单数（本空填 a）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Tiechui",
+          "role": "主语",
+          "span": [
+            0,
+            7
+          ]
+        },
+        {
+          "text": "has",
+          "role": "谓语",
+          "span": [
+            8,
+            11
+          ]
+        },
+        {
+          "text": "a lot",
+          "role": "宾语",
+          "span": [
+            12,
+            17
+          ]
+        },
+        {
+          "text": "of good qualities",
+          "role": "状语",
+          "span": [
+            18,
+            35
+          ]
+        },
+        {
+          "text": "He's",
+          "role": "谓语",
+          "span": [
+            37,
+            41
+          ]
+        },
+        {
+          "text": "very warm",
+          "role": "宾语",
+          "span": [
+            42,
+            51
+          ]
+        },
+        {
+          "text": "Moreover",
+          "role": "主语",
+          "span": [
+            53,
+            61
+          ]
+        },
+        {
+          "text": "he's",
+          "role": "谓语",
+          "span": [
+            63,
+            67
+          ]
+        },
+        {
+          "text": "helpful",
+          "role": "宾语",
+          "span": [
+            68,
+            75
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 has、is、is，Moreover 是连接词。",
+            "why": "has a lot of good qualities（有很多优点）是第一句，He's very warm 和 he's helpful 是后续，Moreover（此外）表递进。",
+            "highlight": [
+              8,
+              12
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "moreover 表递进",
+            "what": "Moreover = 此外，表递进连接。",
+            "why": "moreover（此外）是连接副词，表示「而且」，连接递进的事实。",
+            "how": "译「此外」，moreover 译「此外」。",
+            "highlight": [
+              53,
+              61
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "铁锤有很多优点。他特别热情。此外，他还乐于助人。",
+            "why": "Tiechui has a lot of good qualities 译「铁锤有很多优点」，He's very warm 译「他特别热情」，Moreover, he's helpful 译「此外，他还乐于助人」。",
+            "highlight": [
+              0,
+              75
+            ]
+          }
+        ],
+        "finalZh": "铁锤有很多优点。他特别热情。此外，他还乐于助人。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOO"
+    },
+    {
+      "id": "s07-0009",
+      "en": "We could drive all the way. Alternatively, we could fly.",
+      "zh": "我们可以一路驾车。或者，我们可以乘飞机。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "并列结构",
+          "情态动词",
+          "主谓一致"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "could",
+          "hint": "情态动词，能（过去）/可以（本空填 could）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "could",
+          "hint": "情态动词，能（过去）/可以（本空填 could）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "We",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "could drive",
+          "role": "谓语",
+          "span": [
+            3,
+            14
+          ]
+        },
+        {
+          "text": "all the way",
+          "role": "宾语",
+          "span": [
+            15,
+            26
+          ]
+        },
+        {
+          "text": "Alternatively, we",
+          "role": "主语",
+          "span": [
+            28,
+            45
+          ]
+        },
+        {
+          "text": "could fly",
+          "role": "谓语",
+          "span": [
+            46,
+            55
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 could drive 和 could fly，Alternatively 是连接词。",
+            "why": "could drive（能驾车）是第一句，could fly（能飞）是第二句，Alternatively（或者）表选择。",
+            "highlight": [
+              3,
+              14
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "alternatively 表选择",
+            "what": "Alternatively = 或者，表选择连接。",
+            "why": "alternatively（或者）是连接副词，表示「另一种选择」，连接两个选项。",
+            "how": "译「或者」，alternatively 译「或者」。",
+            "highlight": [
+              28,
+              41
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我们可以一路驾车。或者，我们可以乘飞机。",
+            "why": "We could drive all the way 译「我们可以一路驾车」，Alternatively, we could fly 译「或者，我们可以乘飞机」。",
+            "highlight": [
+              0,
+              55
+            ]
+          }
+        ],
+        "finalZh": "我们可以一路驾车。或者，我们可以乘飞机。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s07-0010",
+      "en": "All my plans have gone wrong because of your presence.",
+      "zh": "因为你的出现，我所有的计划都出问题了。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "并列结构",
+          "状语从句",
+          "主谓一致"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "because",
+          "hint": "引导原因状语从句（本空填 because）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "have",
+          "hint": "使役动词，让（have sth done）（本空填 have）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "of",
+          "hint": "介词，…的（本空填 of）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "All my",
+          "role": "主语",
+          "span": [
+            0,
+            6
+          ]
+        },
+        {
+          "text": "plans have gone",
+          "role": "谓语",
+          "span": [
+            7,
+            22
+          ]
+        },
+        {
+          "text": "wrong",
+          "role": "宾语",
+          "span": [
+            23,
+            28
+          ]
+        },
+        {
+          "text": "because of your presence.",
+          "role": "状语从句",
+          "span": [
+            29,
+            54
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 have gone wrong，because of 是介词短语表原因。",
+            "why": "have gone wrong（出问题）是谓语，because of your presence（因为你的出现）是原因状语。",
+            "highlight": [
+              13,
+              28
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "because of + 名词",
+            "what": "because of your presence = 因为你的出现，because of 后接名词。",
+            "why": "because of（因为）是介词短语，后接名词 your presence，表原因。",
+            "how": "译「因为你的出现」，because of 译「因为」。",
+            "highlight": [
+              29,
+              53
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "因为你的出现，我所有的计划都出问题了。",
+            "why": "All my plans have gone wrong because of your presence 译「因为你的出现，我所有的计划都出问题了」。",
+            "highlight": [
+              0,
+              53
+            ]
+          }
+        ],
+        "finalZh": "因为你的出现，我所有的计划都出问题了。",
+        "orderRules": [
+          "原因状语 because of 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s07-0011",
+      "en": "Owing to the help of Dayan, I successfully passed the exam.",
+      "zh": "因为大雁的帮助，我成功地通过了考试。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 11,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "并列结构",
+          "非谓语动词",
+          "代词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        },
+        {
+          "answer": "of",
+          "hint": "介词，…的（本空填 of）",
+          "gp": "介词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Owing to the help of Dayan, I successfully",
+          "role": "主语",
+          "span": [
+            0,
+            42
+          ]
+        },
+        {
+          "text": "passed",
+          "role": "谓语",
+          "span": [
+            43,
+            49
+          ]
+        },
+        {
+          "text": "the exam",
+          "role": "宾语",
+          "span": [
+            50,
+            58
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 passed，Owing to 是介词短语表原因。",
+            "why": "passed（通过）是谓语，Owing to the help of Dayan（因为大雁的帮助）是原因状语。",
+            "highlight": [
+              28,
+              34
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "owing to + 名词",
+            "what": "Owing to the help of Dayan = 因为大雁的帮助，owing to 后接名词。",
+            "why": "owing to（因为）是介词短语，后接 the help of Dayan，表原因。",
+            "how": "译「因为大雁的帮助」，owing to 译「因为」。",
+            "highlight": [
+              0,
+              26
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "因为大雁的帮助，我成功地通过了考试。",
+            "why": "Owing to the help of Dayan, I successfully passed the exam 译「因为大雁的帮助，我成功地通过了考试」。",
+            "highlight": [
+              0,
+              58
+            ]
+          }
+        ],
+        "finalZh": "因为大雁的帮助，我成功地通过了考试。",
+        "orderRules": [
+          "原因状语 owing to 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s07-0012",
+      "en": "Sally studied hard; thus she received high marks.",
+      "zh": "萨莉用功读书，因此她获得了高分。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "并列结构",
+          "非谓语动词",
+          "代词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "Sally",
+          "hint": "本句关键词，注意它的形式（本空填 Sally）",
+          "gp": "并列结构"
+        }
+      ],
+      "components": [
+        {
+          "text": "Sally",
+          "role": "主语",
+          "span": [
+            0,
+            5
+          ]
+        },
+        {
+          "text": "studied",
+          "role": "谓语",
+          "span": [
+            6,
+            13
+          ]
+        },
+        {
+          "text": "hard; thus she",
+          "role": "宾语",
+          "span": [
+            14,
+            28
+          ]
+        },
+        {
+          "text": "received",
+          "role": "谓语",
+          "span": [
+            29,
+            37
+          ]
+        },
+        {
+          "text": "high marks",
+          "role": "宾语",
+          "span": [
+            38,
+            48
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 studied 和 received，thus 是连接词表结果。",
+            "why": "studied hard（用功读书）是第一句，received high marks 是第二句，thus（因此）表结果。",
+            "highlight": [
+              6,
+              13
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "thus 表结果",
+            "what": "thus = 因此，表结果连接。",
+            "why": "thus（因此）是连接副词，表示「结果」，连接因果。",
+            "how": "译「因此」，thus 译「因此」。",
+            "highlight": [
+              20,
+              24
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "萨莉用功读书，因此她获得了高分。",
+            "why": "Sally studied hard 译「萨莉用功读书」，thus she received high marks 译「因此她获得了高分」。",
+            "highlight": [
+              0,
+              48
+            ]
+          }
+        ],
+        "finalZh": "萨莉用功读书，因此她获得了高分。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOO"
+    },
+    {
+      "id": "s07-0013",
+      "en": "People generally search for information on the Internet. As a result, the Internet does make our life very convenient.",
+      "zh": "人们通常在网上搜索信息。因此，网络的确使我们的生活变得很方便。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 19,
+        "clauses": 0,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "并列结构",
+          "动词时态",
+          "代词"
+        ],
+        "fine": [
+          "长句，先找谓语再断句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "As",
+          "hint": "引导时间/原因/方式状语从句（本空填 As）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "does",
+          "hint": "助动词，第三人称单数（本空填 does）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "for",
+          "hint": "介词，为了（本空填 for）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "People generally",
+          "role": "主语",
+          "span": [
+            0,
+            16
+          ]
+        },
+        {
+          "text": "search",
+          "role": "谓语",
+          "span": [
+            17,
+            23
+          ]
+        },
+        {
+          "text": "for information on the Internet",
+          "role": "状语",
+          "span": [
+            24,
+            55
+          ]
+        },
+        {
+          "text": "As a result",
+          "role": "状语从句",
+          "span": [
+            57,
+            68
+          ]
+        },
+        {
+          "text": "the Internet does make our life very convenient",
+          "role": "宾语",
+          "span": [
+            70,
+            117
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 search 和 does make，As a result 是连接词表结果。",
+            "why": "search for information（搜信息）是第一句，does make our life convenient 是第二句，As a result（因此）表结果。",
+            "highlight": [
+              17,
+              23
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "as a result 表结果 + do 强调",
+            "what": "As a result = 因此；does make 中 does 表强调「的确」。",
+            "why": "as a result（因此）是连接词表结果，does make 中 does 是强调「的确」。",
+            "how": "译「因此」，as a result 译「因此」，does make 译「的确使」。",
+            "highlight": [
+              57,
+              116
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "人们通常在网上搜索信息。因此，网络的确使我们的生活变得很方便。",
+            "why": "People generally search for information on the Internet 译「人们通常在网上搜索信息」，As a result, the Internet does make our life very convenient 译「因此，网络的确使我们的生活变得很方便」。",
+            "highlight": [
+              0,
+              117
+            ]
+          }
+        ],
+        "finalZh": "人们通常在网上搜索信息。因此，网络的确使我们的生活变得很方便。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s07-0014",
+      "en": "On the whole, pollution has indeed influenced the normal growth of many creatures.",
+      "zh": "总的来说，污染确实影响了许多生物的正常生长。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 13,
+        "clauses": 0,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "并列结构",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "现在完成时或过去完成时",
+          "have/get sth done 结构"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "has",
+          "hint": "助动词，第三人称单数（本空填 has）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "On",
+          "hint": "介词，在…上（本空填 On）",
+          "gp": "介词"
+        },
+        {
+          "answer": "of",
+          "hint": "介词，…的（本空填 of）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "On the whole, pollution",
+          "role": "主语",
+          "span": [
+            0,
+            23
+          ]
+        },
+        {
+          "text": "has indeed influenced",
+          "role": "谓语",
+          "span": [
+            24,
+            45
+          ]
+        },
+        {
+          "text": "the normal growth",
+          "role": "宾语",
+          "span": [
+            46,
+            63
+          ]
+        },
+        {
+          "text": "of many creatures",
+          "role": "状语",
+          "span": [
+            64,
+            81
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 has influenced，On the whole 是总结连接词。",
+            "why": "has influenced（影响）是谓语，On the whole（总的来说）是总结连接词。",
+            "highlight": [
+              14,
+              45
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "on the whole 表总结",
+            "what": "On the whole = 总的来说，表总结。",
+            "why": "on the whole（总的来说）是连接词，表示「总体上」，引导总结。",
+            "how": "译「总的来说」，on the whole 译「总的来说」。",
+            "highlight": [
+              0,
+              12
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "总的来说，污染确实影响了许多生物的正常生长。",
+            "why": "On the whole, pollution has indeed influenced the normal growth of many creatures 译「总的来说，污染确实影响了许多生物的正常生长」。",
+            "highlight": [
+              0,
+              81
+            ]
+          }
+        ],
+        "finalZh": "总的来说，污染确实影响了许多生物的正常生长。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s07-0015",
+      "en": "Substantially, measures should be taken to solve the problem.",
+      "zh": "总之，应该采取措施解决这个问题。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "并列结构",
+          "被动语态",
+          "情态动词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "should",
+          "hint": "情态动词，应该（本空填 should）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "be",
+          "hint": "系动词/助动词原形（本空填 be）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Substantially, measures",
+          "role": "主语",
+          "span": [
+            0,
+            23
+          ]
+        },
+        {
+          "text": "should be taken",
+          "role": "谓语",
+          "span": [
+            24,
+            39
+          ]
+        },
+        {
+          "text": "to solve the problem",
+          "role": "状语",
+          "span": [
+            40,
+            60
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 should be taken，Substantially 是总结连接词。",
+            "why": "should be taken（应该被采取）是谓语，Substantially（总之）是总结连接词。",
+            "highlight": [
+              15,
+              42
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "substantially 表总结",
+            "what": "Substantially = 总之，表总结。",
+            "why": "substantially（大体上、总之）是连接词，引导总结。",
+            "how": "译「总之」，substantially 译「总之」。",
+            "highlight": [
+              0,
+              13
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "总之，应该采取措施解决这个问题。",
+            "why": "Substantially, measures should be taken to solve the problem 译「总之，应该采取措施解决这个问题」。",
+            "highlight": [
+              0,
+              60
+            ]
+          }
+        ],
+        "finalZh": "总之，应该采取措施解决这个问题。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s07-0016",
+      "en": "In a word, the Internet is indeed a double-edged sword in our life.",
+      "zh": "总之，网络在我们的生活中的确是一把双刃剑。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 14,
+        "clauses": 0,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "并列结构",
+          "被动语态",
+          "非谓语动词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "In",
+          "hint": "介词，在…里（本空填 In）",
+          "gp": "介词"
+        },
+        {
+          "answer": "in",
+          "hint": "介词，在…里（本空填 in）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "In a word, the Internet",
+          "role": "主语",
+          "span": [
+            0,
+            23
+          ]
+        },
+        {
+          "text": "is indeed",
+          "role": "谓语",
+          "span": [
+            24,
+            33
+          ]
+        },
+        {
+          "text": "a double-edged sword",
+          "role": "宾语",
+          "span": [
+            34,
+            54
+          ]
+        },
+        {
+          "text": "in our life",
+          "role": "状语",
+          "span": [
+            55,
+            66
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，In a word 是总结连接词。",
+            "why": "is（是）是谓语，In a word（总之）是总结连接词，a double-edged sword 是表语。",
+            "highlight": [
+              24,
+              26
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "in a word 表总结",
+            "what": "In a word = 总之，表总结。",
+            "why": "in a word（总之）是连接词，引导总结。",
+            "how": "译「总之」，in a word 译「总之」。",
+            "highlight": [
+              0,
+              9
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "总之，网络在我们的生活中的确是一把双刃剑。",
+            "why": "In a word, the Internet is indeed a double-edged sword in our life 译「总之，网络在我们的生活中的确是一把双刃剑」。",
+            "highlight": [
+              0,
+              66
+            ]
+          }
+        ],
+        "finalZh": "总之，网络在我们的生活中的确是一把双刃剑。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s07-0017",
+      "en": "Different people have different opinions regarding the problem.",
+      "zh": "关于这个问题，不同的人有不同的看法。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "并列结构",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "have",
+          "hint": "使役动词，让（have sth done）（本空填 have）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Different people",
+          "role": "主语",
+          "span": [
+            0,
+            16
+          ]
+        },
+        {
+          "text": "have",
+          "role": "谓语",
+          "span": [
+            17,
+            21
+          ]
+        },
+        {
+          "text": "different opinions regarding the problem",
+          "role": "宾语",
+          "span": [
+            22,
+            62
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 have，regarding the problem 是介词短语。",
+            "why": "have different opinions（有不同看法）是谓语，regarding the problem（关于这个问题）是介词短语。",
+            "highlight": [
+              17,
+              39
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "regarding 表关于",
+            "what": "regarding the problem = 关于这个问题，regarding 是介词。",
+            "why": "regarding（关于）是介词，后接 the problem，表话题。",
+            "how": "译「关于这个问题」，regarding 译「关于」。",
+            "highlight": [
+              41,
+              62
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "关于这个问题，不同的人有不同的看法。",
+            "why": "Different people have different opinions regarding the problem 译「关于这个问题，不同的人有不同的看法」。",
+            "highlight": [
+              0,
+              62
+            ]
+          }
+        ],
+        "finalZh": "关于这个问题，不同的人有不同的看法。",
+        "orderRules": [
+          "介词短语 regarding 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOC"
+    },
+    {
+      "id": "s07-0018",
+      "en": "In respect of online shopping, it is generally believed that it has become the main form of consumption at present.",
+      "zh": "在网上购物方面，人们普遍认为它已经成为当前的主要消费形式了。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 20,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "并列结构",
+          "定语从句",
+          "强调"
+        ],
+        "fine": [
+          "长句，先找谓语再断句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "has",
+          "hint": "助动词，第三人称单数（本空填 has）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "In",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "respect",
+          "role": "谓语",
+          "span": [
+            3,
+            10
+          ]
+        },
+        {
+          "text": "of online shopping, it",
+          "role": "状语",
+          "span": [
+            11,
+            33
+          ]
+        },
+        {
+          "text": "is generally believed",
+          "role": "谓语",
+          "span": [
+            34,
+            55
+          ]
+        },
+        {
+          "text": "that it has become the main form",
+          "role": "宾语",
+          "span": [
+            56,
+            88
+          ]
+        },
+        {
+          "text": "of consumption at present",
+          "role": "状语",
+          "span": [
+            89,
+            114
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is believed，In respect of 是介词短语，that 引导主语从句。",
+            "why": "is believed（被认为）是谓语，In respect of online shopping 是介词短语，that it has become... 是主语从句。",
+            "highlight": [
+              31,
+              114
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "in respect of + it is believed that",
+            "what": "In respect of = 在……方面；it is believed that = 人们认为。",
+            "why": "in respect of（在……方面）是介词短语，it is believed that 是固定句型。",
+            "how": "译「在网上购物方面」，in respect of 译「在……方面」。",
+            "highlight": [
+              0,
+              29
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "在网上购物方面，人们普遍认为它已经成为当前的主要消费形式了。",
+            "why": "In respect of online shopping, it is generally believed that it has become the main form of consumption at present 译「在网上购物方面，人们普遍认为它已经成为当前的主要消费形式了」。",
+            "highlight": [
+              0,
+              114
+            ]
+          }
+        ],
+        "finalZh": "在网上购物方面，人们普遍认为它已经成为当前的主要消费形式了。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s07-0019",
+      "en": "In terms of the key to success, everyone's opinion is different.",
+      "zh": "就成功的关键而论，每个人的看法都不一样。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 11,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "并列结构",
+          "被动语态",
+          "非谓语动词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "In",
+          "hint": "介词，在…里（本空填 In）",
+          "gp": "介词"
+        },
+        {
+          "answer": "of",
+          "hint": "介词，…的（本空填 of）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "In terms",
+          "role": "状语",
+          "span": [
+            0,
+            8
+          ]
+        },
+        {
+          "text": "of the key to success, everyone's opinion",
+          "role": "主语",
+          "span": [
+            9,
+            50
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            51,
+            53
+          ]
+        },
+        {
+          "text": "different",
+          "role": "表语",
+          "span": [
+            54,
+            63
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，In terms of 是介词短语。",
+            "why": "is different 是谓语，In terms of the key to success（就成功的关键而论）是介词短语。",
+            "highlight": [
+              51,
+              53
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "in terms of 表就...而论",
+            "what": "In terms of = 就……而论，表话题范围。",
+            "why": "in terms of（就……而论）是介词短语，后接 the key to success，表话题。",
+            "how": "译「就成功的关键而论」，in terms of 译「就……而论」。",
+            "highlight": [
+              0,
+              30
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "就成功的关键而论，每个人的看法都不一样。",
+            "why": "In terms of the key to success, everyone's opinion is different 译「就成功的关键而论，每个人的看法都不一样」。",
+            "highlight": [
+              0,
+              63
+            ]
+          }
+        ],
+        "finalZh": "就成功的关键而论，每个人的看法都不一样。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s07-0020",
+      "en": "When it comes to live streaming, everyone is already very familiar with this topic.",
+      "zh": "说到直播，大家已经非常熟悉这个话题了。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 14,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "并列结构",
+          "状语从句",
+          "非谓语动词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "When",
+          "hint": "关系副词/时间状语从句引导词（本空填 When）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "When it comes to live streaming",
+          "role": "状语从句",
+          "span": [
+            0,
+            31
+          ]
+        },
+        {
+          "text": "everyone",
+          "role": "宾语",
+          "span": [
+            33,
+            41
+          ]
+        },
+        {
+          "text": "is already",
+          "role": "谓语",
+          "span": [
+            42,
+            52
+          ]
+        },
+        {
+          "text": "very familiar",
+          "role": "表语",
+          "span": [
+            53,
+            66
+          ]
+        },
+        {
+          "text": "with this topic",
+          "role": "状语",
+          "span": [
+            67,
+            82
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，When it comes to 是固定结构。",
+            "why": "is familiar（熟悉）是谓语，When it comes to live streaming（说到直播）是固定结构。",
+            "highlight": [
+              42,
+              52
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "when it comes to 说到",
+            "what": "When it comes to = 说到，表话题。",
+            "why": "when it comes to（说到……）是固定结构，后接 live streaming，表话题。",
+            "how": "译「说到直播」，when it comes to 译「说到」。",
+            "highlight": [
+              0,
+              31
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "说到直播，大家已经非常熟悉这个话题了。",
+            "why": "When it comes to live streaming, everyone is already very familiar with this topic 译「说到直播，大家已经非常熟悉这个话题了」。",
+            "highlight": [
+              0,
+              82
+            ]
+          }
+        ],
+        "finalZh": "说到直播，大家已经非常熟悉这个话题了。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s07-0025",
+      "en": "Love is gone. However, he still misses the past.",
+      "zh": "爱已逝。然而，他仍然怀念过去。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "并列结构",
+          "动词时态",
+          "代词"
+        ],
+        "fine": [
+          "however 引导让步状语从句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Love is gone",
+          "role": "谓语",
+          "span": [
+            0,
+            12
+          ]
+        },
+        {
+          "text": "However",
+          "role": "状语",
+          "span": [
+            14,
+            21
+          ]
+        },
+        {
+          "text": "he still",
+          "role": "主语",
+          "span": [
+            23,
+            31
+          ]
+        },
+        {
+          "text": "misses",
+          "role": "谓语",
+          "span": [
+            32,
+            38
+          ]
+        },
+        {
+          "text": "the past",
+          "role": "宾语",
+          "span": [
+            39,
+            47
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is gone 和 misses，However 是转折连接词。",
+            "why": "is gone（已逝）是第一句，misses the past（怀念过去）是第二句，However（然而）表转折。",
+            "highlight": [
+              5,
+              12
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "however 表转折",
+            "what": "However = 然而，表转折连接。",
+            "why": "however（然而）是转折连接词，连接「爱已逝」和「仍怀念」的对比。",
+            "how": "译「然而」，however 译「然而」。",
+            "highlight": [
+              14,
+              21
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "爱已逝。然而，他仍然怀念过去。",
+            "why": "Love is gone 译「爱已逝」，However, he still misses the past 译「然而，他仍然怀念过去」。",
+            "highlight": [
+              0,
+              47
+            ]
+          }
+        ],
+        "finalZh": "爱已逝。然而，他仍然怀念过去。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s07-0027",
+      "en": "I am very optimistic and outgoing. At the same time, I am very good at English.",
+      "zh": "我很乐观外向，同时我非常擅长英语。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 16,
+        "clauses": 0,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "非谓语动词",
+          "并列结构",
+          "动词时态"
+        ],
+        "fine": [
+          "长句，先找谓语再断句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "am",
+          "hint": "系动词/助动词，第一人称单数（本空填 am）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "am",
+          "hint": "系动词/助动词，第一人称单数（本空填 am）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "At",
+          "hint": "介词，在（本空填 At）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "am",
+          "role": "谓语",
+          "span": [
+            2,
+            4
+          ]
+        },
+        {
+          "text": "very optimistic",
+          "role": "表语",
+          "span": [
+            5,
+            20
+          ]
+        },
+        {
+          "text": "and",
+          "role": "状语",
+          "span": [
+            21,
+            24
+          ]
+        },
+        {
+          "text": "outgoing",
+          "role": "状语",
+          "span": [
+            25,
+            33
+          ]
+        },
+        {
+          "text": "At the same time, I",
+          "role": "主语",
+          "span": [
+            35,
+            54
+          ]
+        },
+        {
+          "text": "am",
+          "role": "谓语",
+          "span": [
+            55,
+            57
+          ]
+        },
+        {
+          "text": "very good",
+          "role": "表语",
+          "span": [
+            58,
+            67
+          ]
+        },
+        {
+          "text": "at English",
+          "role": "状语",
+          "span": [
+            68,
+            78
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 am 和 am，At the same time 是连接词。",
+            "why": "am very optimistic and outgoing（乐观外向）是第一句，am good at English 是第二句，At the same time（同时）表并列。",
+            "highlight": [
+              2,
+              20
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "at the same time 表并列",
+            "what": "At the same time = 同时，表并列连接。",
+            "why": "at the same time（同时）是连接词，连接两个并列的品质。",
+            "how": "译「同时」，at the same time 译「同时」。",
+            "highlight": [
+              35,
+              51
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我很乐观外向，同时我非常擅长英语。",
+            "why": "I am very optimistic and outgoing 译「我很乐观外向」，At the same time, I am very good at English 译「同时，我非常擅长英语」。",
+            "highlight": [
+              0,
+              78
+            ]
+          }
+        ],
+        "finalZh": "我很乐观外向，同时我非常擅长英语。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s07-0037",
+      "en": "There was no taxi, we had to walk.",
+      "zh": "没有出租车，我们只好步行。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "并列结构",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "there be 存现句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "was",
+          "hint": "系动词/助动词，过去式单数（本空填 was）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "had",
+          "hint": "使役/助动词过去式（本空填 had）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "There",
+          "role": "主语",
+          "span": [
+            0,
+            5
+          ]
+        },
+        {
+          "text": "was",
+          "role": "谓语",
+          "span": [
+            6,
+            9
+          ]
+        },
+        {
+          "text": "no taxi, we",
+          "role": "表语",
+          "span": [
+            10,
+            21
+          ]
+        },
+        {
+          "text": "had",
+          "role": "谓语",
+          "span": [
+            22,
+            25
+          ]
+        },
+        {
+          "text": "to walk",
+          "role": "状语",
+          "span": [
+            26,
+            33
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 was 和 had to walk，两个分句用逗号连接。",
+            "why": "was no taxi（没有出租车）是第一分句，had to walk（不得不走）是第二分句。",
+            "highlight": [
+              6,
+              9
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "无连词并列（run-on）",
+            "what": "There was no taxi, we had to walk = 没有出租车，我们只好步行（口语省略连词）。",
+            "why": "两个分句用逗号连接，口语中省略了 so，正式应写 There was no taxi, so we had to walk。",
+            "how": "译「没有出租车，我们只好步行」。",
+            "highlight": [
+              0,
+              33
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "没有出租车，我们只好步行。",
+            "why": "There was no taxi, we had to walk 译「没有出租车，我们只好步行」。",
+            "highlight": [
+              0,
+              33
+            ]
+          }
+        ],
+        "finalZh": "没有出租车，我们只好步行。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s07-0038",
+      "en": "In autumn, the weather gets cooler and the green leaves start to turn gold.",
+      "zh": "秋天，天气转凉，绿叶开始变成金色。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 14,
+        "clauses": 0,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "非谓语动词",
+          "并列结构",
+          "冠词"
+        ],
+        "fine": [
+          "have/get sth done 结构"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "In",
+          "hint": "介词，在…里（本空填 In）",
+          "gp": "介词"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "In autumn, the weather",
+          "role": "主语",
+          "span": [
+            0,
+            22
+          ]
+        },
+        {
+          "text": "gets",
+          "role": "谓语",
+          "span": [
+            23,
+            27
+          ]
+        },
+        {
+          "text": "cooler",
+          "role": "表语",
+          "span": [
+            28,
+            34
+          ]
+        },
+        {
+          "text": "the green",
+          "role": "主语",
+          "span": [
+            39,
+            48
+          ]
+        },
+        {
+          "text": "leaves start",
+          "role": "谓语",
+          "span": [
+            49,
+            61
+          ]
+        },
+        {
+          "text": "to turn gold",
+          "role": "状语",
+          "span": [
+            62,
+            74
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 gets 和 start，and 连接两个并列分句。",
+            "why": "gets cooler（转凉）和 start to turn gold（开始变金）是 and 连接的两个分句，In autumn 是时间状语。",
+            "highlight": [
+              15,
+              33
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "and 表并列",
+            "what": "and = 并且，连接两个并列的动作。",
+            "why": "and 连接「weather gets cooler」和「leaves start to turn gold」两个并列分句。",
+            "how": "译「并且」，and 译「并且」。",
+            "highlight": [
+              35,
+              38
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "秋天，天气转凉，绿叶开始变成金色。",
+            "why": "In autumn, the weather gets cooler and the green leaves start to turn gold 译「秋天，天气转凉，绿叶开始变成金色」。",
+            "highlight": [
+              0,
+              74
+            ]
+          }
+        ],
+        "finalZh": "秋天，天气转凉，绿叶开始变成金色。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s07-0040",
+      "en": "He always works hard at everything, so my mother asks me to learn from him.",
+      "zh": "他做任何事情总是很努力，因此我妈妈要求我向他学习。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 15,
+        "clauses": 0,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "并列结构",
+          "非谓语动词",
+          "代词"
+        ],
+        "fine": [
+          "介词 + 动名词",
+          "长句，先找谓语再断句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "at",
+          "hint": "介词，在（本空填 at）",
+          "gp": "介词"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        },
+        {
+          "answer": "from",
+          "hint": "介词，从（本空填 from）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "He always",
+          "role": "主语",
+          "span": [
+            0,
+            9
+          ]
+        },
+        {
+          "text": "works",
+          "role": "谓语",
+          "span": [
+            10,
+            15
+          ]
+        },
+        {
+          "text": "hard",
+          "role": "宾语",
+          "span": [
+            16,
+            20
+          ]
+        },
+        {
+          "text": "at everything",
+          "role": "状语",
+          "span": [
+            21,
+            34
+          ]
+        },
+        {
+          "text": "my mother",
+          "role": "主语",
+          "span": [
+            39,
+            48
+          ]
+        },
+        {
+          "text": "asks",
+          "role": "谓语",
+          "span": [
+            49,
+            53
+          ]
+        },
+        {
+          "text": "me",
+          "role": "宾语",
+          "span": [
+            54,
+            56
+          ]
+        },
+        {
+          "text": "to learn from him",
+          "role": "状语",
+          "span": [
+            57,
+            74
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 works 和 asks，so 是因果连接词。",
+            "why": "works hard（努力工作）是第一分句，asks me to learn（要求我学习）是第二分句，so（因此）表因果。",
+            "highlight": [
+              10,
+              15
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "so 表因果",
+            "what": "so = 因此，表因果连接。",
+            "why": "so（因此）是连词，连接「he works hard」和「mother asks me to learn」的因果。",
+            "how": "译「因此」，so 译「因此」。",
+            "highlight": [
+              36,
+              38
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他做任何事情总是很努力，因此我妈妈要求我向他学习。",
+            "why": "He always works hard at everything, so my mother asks me to learn from him 译「他做任何事情总是很努力，因此我妈妈要求我向他学习」。",
+            "highlight": [
+              0,
+              74
+            ]
+          }
+        ],
+        "finalZh": "他做任何事情总是很努力，因此我妈妈要求我向他学习。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOO"
+    },
+    {
+      "id": "s07-0041",
+      "en": "Tom's very good at science; his brother is absolutely hopeless.",
+      "zh": "汤姆很擅长理科，他的哥哥绝对是不可救药。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "并列结构",
+          "动词时态",
+          "代词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "at",
+          "hint": "介词，在（本空填 at）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Tom's very good at science; his brother",
+          "role": "主语",
+          "span": [
+            0,
+            39
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            40,
+            42
+          ]
+        },
+        {
+          "text": "absolutely hopeless",
+          "role": "表语",
+          "span": [
+            43,
+            62
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is 和 is，分号连接两个分句。",
+            "why": "is very good at science（擅长理科）是第一分句，is hopeless（无可救药）是第二分句，分号连接。",
+            "highlight": [
+              6,
+              15
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "分号表对照",
+            "what": "Tom's good at science; his brother is hopeless = 汤姆擅长理科，哥哥却不行。",
+            "why": "分号连接两个对照的分句，形成「Tom 擅长 science」vs「brother 不行（hopeless）」的对比。",
+            "how": "译「汤姆很擅长理科，他的哥哥绝对是不可救药」，分号译「而」。",
+            "highlight": [
+              26,
+              62
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "汤姆很擅长理科，他的哥哥绝对是不可救药。",
+            "why": "Tom's very good at science; his brother is absolutely hopeless 译「汤姆很擅长理科，他的哥哥绝对是不可救药」。",
+            "highlight": [
+              0,
+              62
+            ]
+          }
+        ],
+        "finalZh": "汤姆很擅长理科，他的哥哥绝对是不可救药。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s07-0042",
+      "en": "He decided to remain at home: it was raining outside.",
+      "zh": "他决定待在家里，因为外面正在下雨。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "并列结构",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "进行时（be + 现在分词）"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "was",
+          "hint": "系动词/助动词，过去式单数（本空填 was）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        },
+        {
+          "answer": "at",
+          "hint": "介词，在（本空填 at）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "He",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "decided",
+          "role": "谓语",
+          "span": [
+            3,
+            10
+          ]
+        },
+        {
+          "text": "to remain at home: it",
+          "role": "状语",
+          "span": [
+            11,
+            32
+          ]
+        },
+        {
+          "text": "was raining",
+          "role": "谓语",
+          "span": [
+            33,
+            44
+          ]
+        },
+        {
+          "text": "outside",
+          "role": "表语",
+          "span": [
+            45,
+            52
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 decided 和 was raining，冒号连接因果。",
+            "why": "decided to remain（决定待着）是第一分句，it was raining outside（外面下雨）是第二分句，冒号表原因。",
+            "highlight": [
+              3,
+              10
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "冒号表原因",
+            "what": "remain at home: it was raining = 待在家，因为下雨，冒号表原因。",
+            "why": "冒号连接两个分句，后面 it was raining outside 解释前面 remain at home 的原因。",
+            "how": "译「他决定待在家里，因为外面正在下雨」，冒号译「因为」。",
+            "highlight": [
+              28,
+              52
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他决定待在家里，因为外面正在下雨。",
+            "why": "He decided to remain at home: it was raining outside 译「他决定待在家里，因为外面正在下雨」。",
+            "highlight": [
+              0,
+              52
+            ]
+          }
+        ],
+        "finalZh": "他决定待在家里，因为外面正在下雨。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s07-0043",
+      "en": "There are 50 students in my class and we are all good friends.",
+      "zh": "我们班有 50 名学生，我们都是好朋友。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 12,
+        "clauses": 0,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "并列结构",
+          "主谓一致",
+          "动词时态"
+        ],
+        "fine": [
+          "there be 存现句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "are",
+          "hint": "系动词/助动词，复数（本空填 are）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "are",
+          "hint": "系动词/助动词，复数（本空填 are）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "in",
+          "hint": "介词，在…里（本空填 in）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "There",
+          "role": "主语",
+          "span": [
+            0,
+            5
+          ]
+        },
+        {
+          "text": "are",
+          "role": "谓语",
+          "span": [
+            6,
+            9
+          ]
+        },
+        {
+          "text": "50 students",
+          "role": "表语",
+          "span": [
+            10,
+            21
+          ]
+        },
+        {
+          "text": "in my class",
+          "role": "状语",
+          "span": [
+            22,
+            33
+          ]
+        },
+        {
+          "text": "we",
+          "role": "主语",
+          "span": [
+            38,
+            40
+          ]
+        },
+        {
+          "text": "are",
+          "role": "谓语",
+          "span": [
+            41,
+            44
+          ]
+        },
+        {
+          "text": "all good friends",
+          "role": "表语",
+          "span": [
+            45,
+            61
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 are 和 are，and 连接两个并列分句。",
+            "why": "There are 50 students（有 50 名学生）是第一分句，we are all good friends 是第二分句，and 连接。",
+            "highlight": [
+              6,
+              9
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "and 表并列",
+            "what": "and = 并且，连接两个并列分句。",
+            "why": "and 连接「有 50 名学生」和「都是好朋友」两个并列分句。",
+            "how": "译「并且」，and 译「并且」。",
+            "highlight": [
+              34,
+              37
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我们班有 50 名学生，我们都是好朋友。",
+            "why": "There are 50 students in my class and we are all good friends 译「我们班有 50 名学生，我们都是好朋友」。",
+            "highlight": [
+              0,
+              61
+            ]
+          }
+        ],
+        "finalZh": "我们班有 50 名学生，我们都是好朋友。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s07-0044",
+      "en": "The boy not only enjoys playing soccer but also is good at playing the piano.",
+      "zh": "这个男孩不仅喜欢踢足球，而且擅长弹钢琴。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 15,
+        "clauses": 0,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "被动语态",
+          "非谓语动词",
+          "并列结构"
+        ],
+        "fine": [
+          "not only…but also 连接并列成分",
+          "介词 + 动名词",
+          "长句，先找谓语再断句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "at",
+          "hint": "介词，在（本空填 at）",
+          "gp": "介词"
+        },
+        {
+          "answer": "The",
+          "hint": "定冠词，特指（本空填 The）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "The boy not only",
+          "role": "主语",
+          "span": [
+            0,
+            16
+          ]
+        },
+        {
+          "text": "enjoys playing",
+          "role": "谓语",
+          "span": [
+            17,
+            31
+          ]
+        },
+        {
+          "text": "soccer",
+          "role": "宾语",
+          "span": [
+            32,
+            38
+          ]
+        },
+        {
+          "text": "also",
+          "role": "主语",
+          "span": [
+            43,
+            47
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            48,
+            50
+          ]
+        },
+        {
+          "text": "good",
+          "role": "表语",
+          "span": [
+            51,
+            55
+          ]
+        },
+        {
+          "text": "at playing the piano",
+          "role": "状语",
+          "span": [
+            56,
+            76
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 enjoys 和 is，not only...but also 连接并列。",
+            "why": "enjoys playing soccer（喜欢踢球）和 is good at playing the piano（擅长弹琴）是 not only...but also 连接的并列结构。",
+            "highlight": [
+              17,
+              38
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "not only...but also...",
+            "what": "not only...but also = 不仅……而且，表递进并列。",
+            "why": "not only...but also（不仅……而且）是并列连词，连接两个并列的谓语。",
+            "how": "译「不仅喜欢踢足球，而且擅长弹钢琴」，not only...but also 译「不仅……而且」。",
+            "highlight": [
+              8,
+              76
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "这个男孩不仅喜欢踢足球，而且擅长弹钢琴。",
+            "why": "The boy not only enjoys playing soccer but also is good at playing the piano 译「这个男孩不仅喜欢踢足球，而且擅长弹钢琴」。",
+            "highlight": [
+              0,
+              76
+            ]
+          }
+        ],
+        "finalZh": "这个男孩不仅喜欢踢足球，而且擅长弹钢琴。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s07-0045",
+      "en": "His mother won't be there, but his father might.",
+      "zh": "他母亲不会去那里，但他父亲也许会去。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "情态动词",
+          "并列结构",
+          "代词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "be",
+          "hint": "系动词/助动词原形（本空填 be）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "might",
+          "hint": "情态动词，可能（本空填 might）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "there",
+          "hint": "there be 结构的引导词（本空填 there）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "His mother",
+          "role": "主语",
+          "span": [
+            0,
+            10
+          ]
+        },
+        {
+          "text": "won't be",
+          "role": "谓语",
+          "span": [
+            11,
+            19
+          ]
+        },
+        {
+          "text": "there",
+          "role": "宾语",
+          "span": [
+            20,
+            25
+          ]
+        },
+        {
+          "text": "his father",
+          "role": "主语",
+          "span": [
+            31,
+            41
+          ]
+        },
+        {
+          "text": "might",
+          "role": "谓语",
+          "span": [
+            42,
+            47
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 won't be 和 might，but 是转折连接词，might 后省略。",
+            "why": "won't be there（不会去）是第一分句，might（也许去）是第二分句，but 表转折，might 后省略 be there。",
+            "highlight": [
+              11,
+              25
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "but + 省略",
+            "what": "his father might = 他父亲也许（会去），might 后省略 be there。",
+            "why": "but 表转折，might 后省略了 be there（避免重复），这是并列句的省略。",
+            "how": "译「但他父亲也许会去」，might 省略补全「会去」。",
+            "highlight": [
+              27,
+              47
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他母亲不会去那里，但他父亲也许会去。",
+            "why": "His mother won't be there, but his father might 译「他母亲不会去那里，但他父亲也许会去」。",
+            "highlight": [
+              0,
+              47
+            ]
+          }
+        ],
+        "finalZh": "他母亲不会去那里，但他父亲也许会去。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s07-0046",
+      "en": "He said he would be late, yet he arrived on time.",
+      "zh": "他说他可能会迟到，但是他却准时到达了。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 11,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "并列结构",
+          "情态动词",
+          "非谓语动词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "would",
+          "hint": "助动词，过去将来时/虚拟（本空填 would）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "be",
+          "hint": "系动词/助动词原形（本空填 be）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "on",
+          "hint": "介词，在…上（本空填 on）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "He",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "said",
+          "role": "谓语",
+          "span": [
+            3,
+            7
+          ]
+        },
+        {
+          "text": "he would be late",
+          "role": "宾语",
+          "span": [
+            8,
+            24
+          ]
+        },
+        {
+          "text": "he",
+          "role": "主语",
+          "span": [
+            30,
+            32
+          ]
+        },
+        {
+          "text": "arrived",
+          "role": "谓语",
+          "span": [
+            33,
+            40
+          ]
+        },
+        {
+          "text": "on time",
+          "role": "状语",
+          "span": [
+            41,
+            48
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 said 和 arrived，yet 是转折连接词。",
+            "why": "said he would be late（说会迟到）是第一分句，arrived on time（准时到）是第二分句，yet（却）表转折。",
+            "highlight": [
+              3,
+              24
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "yet 表转折",
+            "what": "yet = 却，表转折连接。",
+            "why": "yet（然而、却）是转折连词，连接「说迟到」和「准时到」的对比。",
+            "how": "译「但是他却准时到达了」，yet 译「却」。",
+            "highlight": [
+              26,
+              29
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他说他可能会迟到，但是他却准时到达了。",
+            "why": "He said he would be late, yet he arrived on time 译「他说他可能会迟到，但是他却准时到达了」。",
+            "highlight": [
+              0,
+              48
+            ]
+          }
+        ],
+        "finalZh": "他说他可能会迟到，但是他却准时到达了。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s07-0047",
+      "en": "He is thin while his wife is overweight.",
+      "zh": "他很瘦，而他的妻子体重超标。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "并列结构",
+          "状语从句",
+          "被动语态"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "while",
+          "hint": "引导时间/让步状语从句（本空填 while）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "He",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            3,
+            5
+          ]
+        },
+        {
+          "text": "thin",
+          "role": "表语",
+          "span": [
+            6,
+            10
+          ]
+        },
+        {
+          "text": "while his wife is overweight.",
+          "role": "状语从句",
+          "span": [
+            11,
+            40
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is 和 is，while 是转折连接词。",
+            "why": "is thin（瘦）是第一分句，is overweight（超重）是第二分句，while（而）表对照。",
+            "highlight": [
+              3,
+              5
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "while 表对照",
+            "what": "while = 而，表对照连接。",
+            "why": "while（而）是连词，连接「他瘦」和「妻子超重」的对照。",
+            "how": "译「而」，while 译「而」。",
+            "highlight": [
+              11,
+              16
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他很瘦，而他的妻子体重超标。",
+            "why": "He is thin while his wife is overweight 译「他很瘦，而他的妻子体重超标」。",
+            "highlight": [
+              0,
+              39
+            ]
+          }
+        ],
+        "finalZh": "他很瘦，而他的妻子体重超标。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s07-0048",
+      "en": "You can leave or you can stay here.",
+      "zh": "你可以离开，或者你可以待在这里。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "情态动词",
+          "并列结构",
+          "代词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "can",
+          "hint": "情态动词，能/可以（本空填 can）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "can",
+          "hint": "情态动词，能/可以（本空填 can）",
+          "gp": "情态动词"
+        }
+      ],
+      "components": [
+        {
+          "text": "You",
+          "role": "主语",
+          "span": [
+            0,
+            3
+          ]
+        },
+        {
+          "text": "can leave",
+          "role": "谓语",
+          "span": [
+            4,
+            13
+          ]
+        },
+        {
+          "text": "you",
+          "role": "主语",
+          "span": [
+            17,
+            20
+          ]
+        },
+        {
+          "text": "can stay",
+          "role": "谓语",
+          "span": [
+            21,
+            29
+          ]
+        },
+        {
+          "text": "here",
+          "role": "表语",
+          "span": [
+            30,
+            34
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 can leave 和 can stay，or 是选择连接词。",
+            "why": "can leave（能离开）和 can stay（能待着）是 or 连接的两个选择。",
+            "highlight": [
+              4,
+              13
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "or 表选择",
+            "what": "or = 或者，表选择连接。",
+            "why": "or（或者）是连词，连接 leave 和 stay 两个选择。",
+            "how": "译「或者」，or 译「或者」。",
+            "highlight": [
+              14,
+              16
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "你可以离开，或者你可以待在这里。",
+            "why": "You can leave or you can stay here 译「你可以离开，或者你可以待在这里」。",
+            "highlight": [
+              0,
+              34
+            ]
+          }
+        ],
+        "finalZh": "你可以离开，或者你可以待在这里。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s07-0049",
+      "en": "Either he apologizes, or I will leave.",
+      "zh": "要么他道歉，要么我离开。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 7,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "情态动词",
+          "并列结构",
+          "主谓一致"
+        ],
+        "fine": [
+          "either…or 就近一致",
+          "一般将来时"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "will",
+          "hint": "助动词，一般将来时（本空填 will）",
+          "gp": "情态动词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Either he apologizes, or I",
+          "role": "主语",
+          "span": [
+            0,
+            26
+          ]
+        },
+        {
+          "text": "will leave",
+          "role": "谓语",
+          "span": [
+            27,
+            37
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 apologizes 和 will leave，either...or 连接并列。",
+            "why": "Either he apologizes（要么他道歉）和 or I will leave（要么我离开）是 either...or 连接的并列。",
+            "highlight": [
+              0,
+              20
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "either...or...",
+            "what": "either...or = 要么……要么，表二选一。",
+            "why": "either...or（要么……要么）是并列连词，连接两个选择，主谓一致遵循就近原则。",
+            "how": "译「要么他道歉，要么我离开」，either...or 译「要么……要么」。",
+            "highlight": [
+              0,
+              37
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "要么他道歉，要么我离开。",
+            "why": "Either he apologizes, or I will leave 译「要么他道歉，要么我离开」。",
+            "highlight": [
+              0,
+              37
+            ]
+          }
+        ],
+        "finalZh": "要么他道歉，要么我离开。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s07-0050",
+      "en": "He has to work hard, for he wants to take good care of his parents.",
+      "zh": "他必须努力工作，因为他想好好照顾他的父母。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 15,
+        "clauses": 0,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "并列结构",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "长句，先找谓语再断句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "has",
+          "hint": "助动词，第三人称单数（本空填 has）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        },
+        {
+          "answer": "for",
+          "hint": "介词，为了（本空填 for）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "He",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "has",
+          "role": "谓语",
+          "span": [
+            3,
+            6
+          ]
+        },
+        {
+          "text": "to work hard, for he",
+          "role": "状语",
+          "span": [
+            7,
+            27
+          ]
+        },
+        {
+          "text": "wants",
+          "role": "谓语",
+          "span": [
+            28,
+            33
+          ]
+        },
+        {
+          "text": "to take good care of his parents",
+          "role": "状语",
+          "span": [
+            34,
+            66
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 has to work 和 wants，for 是原因连接词。",
+            "why": "has to work hard（必须努力工作）是第一分句，wants to take care（想照顾）是第二分句，for（因为）表原因。",
+            "highlight": [
+              3,
+              19
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "for 表原因",
+            "what": "for = 因为，表原因连接。",
+            "why": "for（因为）是连词，连接「work hard」和「wants to take care of parents」的因果。",
+            "how": "译「因为他想好好照顾他的父母」，for 译「因为」。",
+            "highlight": [
+              21,
+              24
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他必须努力工作，因为他想好好照顾他的父母。",
+            "why": "He has to work hard, for he wants to take good care of his parents 译「他必须努力工作，因为他想好好照顾他的父母」。",
+            "highlight": [
+              0,
+              66
+            ]
+          }
+        ],
+        "finalZh": "他必须努力工作，因为他想好好照顾他的父母。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s07-0051",
+      "en": "I didn't feel good so I went to see a doctor.",
+      "zh": "我感觉不舒服，所以我去看了医生。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 11,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "并列结构",
+          "非谓语动词",
+          "代词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        },
+        {
+          "answer": "a",
+          "hint": "不定冠词，修饰可数名词单数（本空填 a）",
+          "gp": "冠词"
+        },
+        {
+          "answer": "feel",
+          "hint": "感官动词，感觉（本空填 feel）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "didn't feel",
+          "role": "谓语",
+          "span": [
+            2,
+            13
+          ]
+        },
+        {
+          "text": "good",
+          "role": "表语",
+          "span": [
+            14,
+            18
+          ]
+        },
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            22,
+            23
+          ]
+        },
+        {
+          "text": "went",
+          "role": "谓语",
+          "span": [
+            24,
+            28
+          ]
+        },
+        {
+          "text": "to see a doctor",
+          "role": "状语",
+          "span": [
+            29,
+            44
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 didn't feel 和 went，so 是因果连接词。",
+            "why": "didn't feel good（不舒服）是第一分句，went to see a doctor（去看医生）是第二分句，so（所以）表因果。",
+            "highlight": [
+              2,
+              17
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "so 表因果",
+            "what": "so = 所以，表因果连接。",
+            "why": "so（所以）是连词，连接「didn't feel good」和「went to see a doctor」的因果。",
+            "how": "译「所以」，so 译「所以」。",
+            "highlight": [
+              19,
+              21
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我感觉不舒服，所以我去看了医生。",
+            "why": "I didn't feel good so I went to see a doctor 译「我感觉不舒服，所以我去看了医生」。",
+            "highlight": [
+              0,
+              44
+            ]
+          }
+        ],
+        "finalZh": "我感觉不舒服，所以我去看了医生。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    }
+  ]
+}

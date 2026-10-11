@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "chapterId": "c06",
+  "cards": [
+    {
+      "id": "gp06-01",
+      "chapterId": "c06",
+      "majorTag": "反意疑问句",
+      "title": "反意疑问句：前肯后否",
+      "rule": "前面肯定，后面就用否定形式；前面否定，后面就用肯定形式。时态和助动词要和主句一致，主语要变成代词。",
+      "examples": [
+        "s06-0041",
+        "s01-0043"
+      ],
+      "errors": [
+        {
+          "wrong": "He is a teacher, isn't he?",
+          "right": "He is a teacher, isn't he?",
+          "note": "此句正确，注意「前肯后否」。"
+        }
+      ],
+      "examTips": "浙江专升本考特殊情况：Let's…, shall we?；I am…, aren't I?；含有 never/hardly 等否定词的句子后面用肯定。",
+      "method": "识别方法：①看主句的助动词和时态；②主句肯定 → 后面否定，主句否定 → 后面肯定；③主语换成对应的代词。"
+    }
+  ]
+}

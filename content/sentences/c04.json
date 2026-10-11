@@ -1,0 +1,5778 @@
+{
+  "schemaVersion": 1,
+  "chapterId": "c04",
+  "sentences": [
+    {
+      "id": "s04-0001",
+      "en": "Indeed. But somehow she was not herself on the stage just now.",
+      "zh": "确实如此。但不知怎么的，她刚才在舞台上状态不佳。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 12,
+        "clauses": 0,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "被动语态",
+          "非谓语动词",
+          "并列结构"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "was",
+          "hint": "系动词/助动词，过去式单数（本空填 was）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "on",
+          "hint": "介词，在…上（本空填 on）",
+          "gp": "介词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Indeed",
+          "role": "谓语",
+          "span": [
+            0,
+            6
+          ]
+        },
+        {
+          "text": "somehow she",
+          "role": "主语",
+          "span": [
+            12,
+            23
+          ]
+        },
+        {
+          "text": "was not",
+          "role": "谓语",
+          "span": [
+            24,
+            31
+          ]
+        },
+        {
+          "text": "herself",
+          "role": "表语",
+          "span": [
+            32,
+            39
+          ]
+        },
+        {
+          "text": "on the stage just now",
+          "role": "状语",
+          "span": [
+            40,
+            61
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 was not herself，herself 是反身代词作表语。",
+            "why": "was not herself（状态不佳）中 herself 是反身代词，表示「她自己正常的状态」，not herself 即「状态不佳」。",
+            "highlight": [
+              24,
+              40
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "确实如此。但不知怎么的，她刚才在舞台上状态不佳。",
+            "why": "Indeed 译「确实如此」，But somehow she was not herself on the stage just now 译「但不知怎么的她刚才在舞台上状态不佳」。",
+            "highlight": [
+              0,
+              61
+            ]
+          }
+        ],
+        "finalZh": "确实如此。但不知怎么的，她刚才在舞台上状态不佳。",
+        "orderRules": [
+          "时间状语 just now 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s04-0002",
+      "en": "All beginnings are hard.",
+      "zh": "万事开头难。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 4,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "被动语态",
+          "主谓一致",
+          "动词时态"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "are",
+          "hint": "系动词/助动词，复数（本空填 are）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "All beginnings",
+          "role": "主语",
+          "span": [
+            0,
+            14
+          ]
+        },
+        {
+          "text": "are",
+          "role": "谓语",
+          "span": [
+            15,
+            18
+          ]
+        },
+        {
+          "text": "hard",
+          "role": "表语",
+          "span": [
+            19,
+            23
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 are（系动词），主语 All beginnings，表语 hard。",
+            "why": "are 是系动词，All beginnings（万事开头）是主语，hard（难的）是表语。",
+            "highlight": [
+              15,
+              18
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "万事开头难。",
+            "why": "All beginnings are hard 意译「万事开头难」。",
+            "highlight": [
+              0,
+              23
+            ]
+          }
+        ],
+        "finalZh": "万事开头难。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s04-0003",
+      "en": "They call on people to think about how they could make better use of rubbish.",
+      "zh": "他们呼吁人们思考如何更好地利用垃圾。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 15,
+        "clauses": 0,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "动词时态",
+          "情态动词",
+          "非谓语动词"
+        ],
+        "fine": [
+          "长句，先找谓语再断句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "could",
+          "hint": "情态动词，能（过去）/可以（本空填 could）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "on",
+          "hint": "介词，在…上（本空填 on）",
+          "gp": "介词"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "They",
+          "role": "主语",
+          "span": [
+            0,
+            4
+          ]
+        },
+        {
+          "text": "call on",
+          "role": "谓语",
+          "span": [
+            5,
+            12
+          ]
+        },
+        {
+          "text": "people",
+          "role": "宾语",
+          "span": [
+            13,
+            19
+          ]
+        },
+        {
+          "text": "how",
+          "role": "状语",
+          "span": [
+            35,
+            38
+          ]
+        },
+        {
+          "text": "could make",
+          "role": "谓语",
+          "span": [
+            44,
+            54
+          ]
+        },
+        {
+          "text": "better use",
+          "role": "宾语",
+          "span": [
+            55,
+            65
+          ]
+        },
+        {
+          "text": "of rubbish",
+          "role": "状语",
+          "span": [
+            66,
+            76
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "主句谓语是 call on，从句谓语是 could make，how 引导宾语从句。",
+            "why": "call on（呼吁）是主句谓语，how they could make better use of rubbish 是 how 引导的宾语从句。",
+            "highlight": [
+              5,
+              12
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别宾语从句",
+            "what": "how they could make better use of rubbish 是宾语从句，作 think about 的宾语。",
+            "why": "how 引导宾语从句，they could make better use of rubbish 是从句内容，作 think about 的宾语。",
+            "highlight": [
+              23,
+              76
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "trap",
+            "title": "make use of 短语",
+            "what": "make better use of rubbish = 更好地利用垃圾，make use of 是「利用」。",
+            "why": "make use of 是固定短语「利用」，better 修饰 use，rubbish 是 of 的宾语。",
+            "how": "译「更好地利用垃圾」，make better use of 译「更好地利用」。",
+            "highlight": [
+              44,
+              76
+            ]
+          },
+          {
+            "step": 4,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他们呼吁人们思考如何更好地利用垃圾。",
+            "why": "call on people to think about how they could make better use of rubbish 译「呼吁人们思考如何更好地利用垃圾」。",
+            "highlight": [
+              0,
+              76
+            ]
+          }
+        ],
+        "finalZh": "他们呼吁人们思考如何更好地利用垃圾。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOO"
+    },
+    {
+      "id": "s04-0004",
+      "en": "She is leaving for America early tomorrow morning.",
+      "zh": "她明天一早就要动身去美国。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "非谓语动词",
+          "动词时态",
+          "代词"
+        ],
+        "fine": [
+          "进行时（be + 现在分词）"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "for",
+          "hint": "介词，为了（本空填 for）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "She",
+          "role": "主语",
+          "span": [
+            0,
+            3
+          ]
+        },
+        {
+          "text": "is leaving",
+          "role": "谓语",
+          "span": [
+            4,
+            14
+          ]
+        },
+        {
+          "text": "for America early tomorrow morning",
+          "role": "状语",
+          "span": [
+            15,
+            49
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is leaving（现在进行时表将来），for America 是方向。",
+            "why": "is leaving 是进行时，但表示「即将动身」的将来，early tomorrow morning 是时间状语。",
+            "highlight": [
+              4,
+              14
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "进行时表将来",
+            "what": "is leaving for America = 将动身去美国，进行时表计划好的将来。",
+            "why": "leave 这类位移动词的进行时表示「计划好即将发生」的将来，early tomorrow morning 是未来时间。",
+            "how": "译「明天一早就要动身去美国」，is leaving 译「就要动身」。",
+            "highlight": [
+              4,
+              49
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "她明天一早就要动身去美国。",
+            "why": "She is leaving for America early tomorrow morning 译「她明天一早就要动身去美国」。",
+            "highlight": [
+              0,
+              49
+            ]
+          }
+        ],
+        "finalZh": "她明天一早就要动身去美国。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s04-0005",
+      "en": "Sounds great! We will be able to see many beautiful places.",
+      "zh": "听起来太棒了！我们将能看到许多美丽的地方。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 11,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "情态动词",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "一般将来时"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "will",
+          "hint": "助动词，一般将来时（本空填 will）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "be",
+          "hint": "系动词/助动词原形（本空填 be）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Sounds",
+          "role": "谓语",
+          "span": [
+            0,
+            6
+          ]
+        },
+        {
+          "text": "great",
+          "role": "表语",
+          "span": [
+            7,
+            12
+          ]
+        },
+        {
+          "text": "We",
+          "role": "主语",
+          "span": [
+            14,
+            16
+          ]
+        },
+        {
+          "text": "will be",
+          "role": "谓语",
+          "span": [
+            17,
+            24
+          ]
+        },
+        {
+          "text": "able",
+          "role": "表语",
+          "span": [
+            25,
+            29
+          ]
+        },
+        {
+          "text": "to see many beautiful places",
+          "role": "状语",
+          "span": [
+            30,
+            58
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 will be able to see，will be able to 表将来能力。",
+            "why": "will be able to（将能够）后面 see 用原形，many beautiful places 是宾语。",
+            "highlight": [
+              17,
+              30
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "听起来太棒了！我们将能看到许多美丽的地方。",
+            "why": "Sounds great 译「听起来太棒了」，We will be able to see many beautiful places 译「我们将能看到许多美丽的地方」。",
+            "highlight": [
+              0,
+              58
+            ]
+          }
+        ],
+        "finalZh": "听起来太棒了！我们将能看到许多美丽的地方。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s04-0006",
+      "en": "It will take up some of my free time, but this friendship is worth my extra time and effort.",
+      "zh": "这会占用我一部分空闲时间，但这段友谊值得我付出额外的时间和精力。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 19,
+        "clauses": 0,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "情态动词",
+          "并列结构",
+          "主谓一致"
+        ],
+        "fine": [
+          "一般将来时",
+          "take up 占用",
+          "长句，先找谓语再断句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "will",
+          "hint": "助动词，一般将来时（本空填 will）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "of",
+          "hint": "介词，…的（本空填 of）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "It",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "will take up",
+          "role": "谓语",
+          "span": [
+            3,
+            15
+          ]
+        },
+        {
+          "text": "some",
+          "role": "宾语",
+          "span": [
+            16,
+            20
+          ]
+        },
+        {
+          "text": "of my free time",
+          "role": "状语",
+          "span": [
+            21,
+            36
+          ]
+        },
+        {
+          "text": "this friendship",
+          "role": "主语",
+          "span": [
+            42,
+            57
+          ]
+        },
+        {
+          "text": "is worth",
+          "role": "谓语",
+          "span": [
+            58,
+            66
+          ]
+        },
+        {
+          "text": "my extra time",
+          "role": "宾语",
+          "span": [
+            67,
+            80
+          ]
+        },
+        {
+          "text": "and",
+          "role": "状语",
+          "span": [
+            81,
+            84
+          ]
+        },
+        {
+          "text": "effort",
+          "role": "状语",
+          "span": [
+            85,
+            91
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 will take up 和 is worth，but 连接两个分句。",
+            "why": "will take up（将占用）是第一分句，is worth（值得）是第二分句，but 表转折。",
+            "highlight": [
+              3,
+              12
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "take up + worth",
+            "what": "take up some of my free time = 占用空闲时间；is worth my time = 值得我的时间。",
+            "why": "take up 是「占用」，worth 是「值得」，this friendship is worth my extra time and effort 表「友谊值得付出」。",
+            "how": "译「占用我一部分空闲时间」「值得付出额外的时间和精力」，worth 译「值得」。",
+            "highlight": [
+              3,
+              91
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "这会占用我一部分空闲时间，但这段友谊值得我付出额外的时间和精力。",
+            "why": "It will take up some of my free time 译「会占用空闲时间」，but this friendship is worth my extra time and effort 译「但这段友谊值得付出额外时间和精力」。",
+            "highlight": [
+              0,
+              91
+            ]
+          }
+        ],
+        "finalZh": "这会占用我一部分空闲时间，但这段友谊值得我付出额外的时间和精力。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOO"
+    },
+    {
+      "id": "s04-0007",
+      "en": "Linda is not coming for the party tonight.",
+      "zh": "琳达今晚不来参加聚会。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "被动语态",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "for",
+          "hint": "介词，为了（本空填 for）",
+          "gp": "介词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Linda",
+          "role": "主语",
+          "span": [
+            0,
+            5
+          ]
+        },
+        {
+          "text": "is not coming",
+          "role": "谓语",
+          "span": [
+            6,
+            19
+          ]
+        },
+        {
+          "text": "for the party tonight",
+          "role": "状语",
+          "span": [
+            20,
+            41
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is not coming（进行时表将来否定），for the party 是方向。",
+            "why": "is not coming 是进行时否定，表示「不来」，tonight 是时间状语。",
+            "highlight": [
+              6,
+              19
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "进行时表将来",
+            "what": "is not coming for the party = 不来参加聚会，进行时表计划。",
+            "why": "come 的进行时 is coming 表「即将来」，is not coming 即「不来」，tonight 是未来时间。",
+            "how": "译「今晚不来参加聚会」，is not coming 译「不来」。",
+            "highlight": [
+              6,
+              41
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "琳达今晚不来参加聚会。",
+            "why": "Linda is not coming for the party tonight 译「琳达今晚不来参加聚会」。",
+            "highlight": [
+              0,
+              41
+            ]
+          }
+        ],
+        "finalZh": "琳达今晚不来参加聚会。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s04-0008",
+      "en": "It doesn't matter. I will finish it by myself.",
+      "zh": "没关系。我会自己完成它。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "情态动词",
+          "动词时态",
+          "代词"
+        ],
+        "fine": [
+          "一般将来时"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "will",
+          "hint": "助动词，一般将来时（本空填 will）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "by",
+          "hint": "介词，被/通过（本空填 by）",
+          "gp": "介词"
+        },
+        {
+          "answer": "It",
+          "hint": "代词，可作形式主语/形式宾语（本空填 It）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "It",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "doesn't matter",
+          "role": "谓语",
+          "span": [
+            3,
+            17
+          ]
+        },
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            19,
+            20
+          ]
+        },
+        {
+          "text": "will finish",
+          "role": "谓语",
+          "span": [
+            21,
+            32
+          ]
+        },
+        {
+          "text": "it",
+          "role": "宾语",
+          "span": [
+            33,
+            35
+          ]
+        },
+        {
+          "text": "by myself",
+          "role": "状语",
+          "span": [
+            36,
+            45
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 doesn't matter 和 will finish，by myself 是状语。",
+            "why": "doesn't matter（没关系）是第一句，will finish（将完成）是第二句，by myself 是「靠自己」。",
+            "highlight": [
+              3,
+              16
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "没关系。我会自己完成它。",
+            "why": "It doesn't matter 译「没关系」，I will finish it by myself 译「我会自己完成它」。",
+            "highlight": [
+              0,
+              45
+            ]
+          }
+        ],
+        "finalZh": "没关系。我会自己完成它。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s04-0009",
+      "en": "Why is Tom in such a hurry?",
+      "zh": "汤姆为什么这么着急？",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 7,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "动词时态",
+          "冠词",
+          "介词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "in",
+          "hint": "介词，在…里（本空填 in）",
+          "gp": "介词"
+        },
+        {
+          "answer": "a",
+          "hint": "不定冠词，修饰可数名词单数（本空填 a）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Why is Tom in such a hurry?",
+          "role": "状语从句",
+          "span": [
+            0,
+            27
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is（系动词疑问句），in such a hurry 是表语。",
+            "why": "Why 提前构成特殊疑问句，is 是系动词，in such a hurry（这么着急）是表语。",
+            "highlight": [
+              4,
+              6
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "汤姆为什么这么着急？",
+            "why": "Why is Tom in such a hurry 译「汤姆为什么这么着急」。",
+            "highlight": [
+              0,
+              26
+            ]
+          }
+        ],
+        "finalZh": "汤姆为什么这么着急？",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s04-0010",
+      "en": "The boy who lay in bed just now was lying; he didn't tell the truth.",
+      "zh": "刚才躺在床上的那个男孩在撒谎，他没说实话。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 15,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "关系代词 who 在从句中作主语",
+          "进行时（be + 现在分词）",
+          "长句，先找谓语再断句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "who",
+          "hint": "关系代词，指人（本空填 who）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "was",
+          "hint": "系动词/助动词，过去式单数（本空填 was）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "in",
+          "hint": "介词，在…里（本空填 in）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "The boy",
+          "role": "主语",
+          "span": [
+            0,
+            7
+          ]
+        },
+        {
+          "text": "who lay in bed just now was lying",
+          "role": "定语从句",
+          "span": [
+            8,
+            41
+          ]
+        },
+        {
+          "text": "he didn't tell the truth",
+          "role": "表语",
+          "span": [
+            43,
+            67
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "主句谓语是 was lying，从句谓语是 lay，who 引导定语从句。",
+            "why": "was lying（在撒谎）是主句，who lay in bed just now 是 who 引导的定语从句修饰 The boy。",
+            "highlight": [
+              32,
+              41
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别定语从句",
+            "what": "who lay in bed just now 是定语从句，修饰 The boy。",
+            "why": "who 是关系代词指代 The boy，lay in bed（躺在床上）是从句内容。",
+            "highlight": [
+              8,
+              31
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "trap",
+            "title": "lie 的两种过去式",
+            "what": "lay（躺）和 lying（撒谎），lie 表「躺」过去式是 lay，表「撒谎」现在分词是 lying。",
+            "why": "lay in bed（躺在床上）的 lay 是 lie（躺）的过去式；was lying 的 lying 是 lie（撒谎）的现在分词，两个词形相近易混。",
+            "how": "译「刚才躺在床上的那个男孩在撒谎」，lay 译「躺」、lying 译「撒谎」。",
+            "highlight": [
+              8,
+              41
+            ]
+          },
+          {
+            "step": 4,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "刚才躺在床上的那个男孩在撒谎，他没说实话。",
+            "why": "The boy who lay in bed just now was lying 译「刚才躺在床上的那个男孩在撒谎」，he didn't tell the truth 译「他没说实话」。",
+            "highlight": [
+              0,
+              67
+            ]
+          }
+        ],
+        "finalZh": "刚才躺在床上的那个男孩在撒谎，他没说实话。",
+        "orderRules": [
+          "定语从句 who lay in bed 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s04-0011",
+      "en": "She packed her things and left the issue quietly.",
+      "zh": "她收拾好自己的东西，静静地离开了。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "动词时态",
+          "非谓语动词",
+          "并列结构"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "She",
+          "role": "主语",
+          "span": [
+            0,
+            3
+          ]
+        },
+        {
+          "text": "packed",
+          "role": "谓语",
+          "span": [
+            4,
+            10
+          ]
+        },
+        {
+          "text": "her things",
+          "role": "宾语",
+          "span": [
+            11,
+            21
+          ]
+        },
+        {
+          "text": "left",
+          "role": "谓语",
+          "span": [
+            26,
+            30
+          ]
+        },
+        {
+          "text": "the issue quietly",
+          "role": "宾语",
+          "span": [
+            31,
+            48
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 packed 和 left，and 连接两个并列动作。",
+            "why": "packed her things（收拾东西）和 left the issue（离开）是 and 连接的两个谓语，quietly 是状语。",
+            "highlight": [
+              4,
+              10
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "她收拾好自己的东西，静静地离开了。",
+            "why": "She packed her things and left the issue quietly 译「她收拾好自己的东西，静静地离开了」。",
+            "highlight": [
+              0,
+              48
+            ]
+          }
+        ],
+        "finalZh": "她收拾好自己的东西，静静地离开了。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOO"
+    },
+    {
+      "id": "s04-0012",
+      "en": "Professor Wang of Peking University has devoted all his life to protecting our natural environment.",
+      "zh": "北京大学的王教授毕生致力于保护我们的自然环境。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 15,
+        "clauses": 0,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "非谓语动词",
+          "主谓一致",
+          "动词时态"
+        ],
+        "fine": [
+          "现在完成时或过去完成时",
+          "介词 + 动名词",
+          "长句，先找谓语再断句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "has",
+          "hint": "助动词，第三人称单数（本空填 has）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "of",
+          "hint": "介词，…的（本空填 of）",
+          "gp": "介词"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Professor Wang of Peking University",
+          "role": "主语",
+          "span": [
+            0,
+            35
+          ]
+        },
+        {
+          "text": "has devoted",
+          "role": "谓语",
+          "span": [
+            36,
+            47
+          ]
+        },
+        {
+          "text": "all his life",
+          "role": "宾语",
+          "span": [
+            48,
+            60
+          ]
+        },
+        {
+          "text": "to protecting our natural environment",
+          "role": "状语",
+          "span": [
+            61,
+            98
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 has devoted，to protecting 是 devote 的固定搭配。",
+            "why": "has devoted 是完成时，devote...to（致力于）是固定搭配，to 后接动名词 protecting。",
+            "highlight": [
+              40,
+              52
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "devote...to + 动名词",
+            "what": "devoted all his life to protecting = 毕生致力于保护，to 是介词接动名词。",
+            "why": "devote...to 中 to 是介词，后面接动名词 protecting（不是不定式 to protect），our natural environment 是宾语。",
+            "how": "译「毕生致力于保护」，devoted...to 译「致力于」。",
+            "highlight": [
+              40,
+              98
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "北京大学的王教授毕生致力于保护我们的自然环境。",
+            "why": "Professor Wang of Peking University has devoted all his life to protecting our natural environment 译「北京大学的王教授毕生致力于保护我们的自然环境」。",
+            "highlight": [
+              0,
+              98
+            ]
+          }
+        ],
+        "finalZh": "北京大学的王教授毕生致力于保护我们的自然环境。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s04-0013",
+      "en": "What are you doing, Mom?",
+      "zh": "妈妈，你在做什么？",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 5,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "What",
+          "hint": "引导名词性从句并在从句中作成分（本空填 What）",
+          "gp": "名词性从句"
+        },
+        {
+          "answer": "are",
+          "hint": "系动词/助动词，复数（本空填 are）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "What are you doing, Mom?",
+          "role": "宾语从句",
+          "span": [
+            0,
+            24
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 are...doing（现在进行时），What 提问。",
+            "why": "What are you doing 是特殊疑问句，are doing 是进行时。",
+            "highlight": [
+              5,
+              17
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "妈妈，你在做什么？",
+            "why": "What are you doing, Mom 译「妈妈，你在做什么」。",
+            "highlight": [
+              0,
+              23
+            ]
+          }
+        ],
+        "finalZh": "妈妈，你在做什么？",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s04-0014",
+      "en": "Previously, water quality in the Li River had suffered greatly from an increasing volume of tourists.",
+      "zh": "以前，由于游客数量不断增加，漓江的水质受到了很大的破坏。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 16,
+        "clauses": 0,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "非谓语动词",
+          "动词时态",
+          "冠词"
+        ],
+        "fine": [
+          "现在完成时或过去完成时",
+          "长句，先找谓语再断句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "had",
+          "hint": "使役/助动词过去式（本空填 had）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "in",
+          "hint": "介词，在…里（本空填 in）",
+          "gp": "介词"
+        },
+        {
+          "answer": "from",
+          "hint": "介词，从（本空填 from）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Previously, water quality in the Li River",
+          "role": "主语",
+          "span": [
+            0,
+            41
+          ]
+        },
+        {
+          "text": "had suffered greatly",
+          "role": "谓语",
+          "span": [
+            42,
+            62
+          ]
+        },
+        {
+          "text": "from an increasing volume of tourists",
+          "role": "状语",
+          "span": [
+            63,
+            100
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 had suffered（过去完成时），from 引出原因。",
+            "why": "had suffered 是过去完成时，表示「之前已受到」，from an increasing volume of tourists 引出原因。",
+            "highlight": [
+              42,
+              54
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "过去完成时 + suffer from",
+            "what": "had suffered greatly from = 受到了很大的破坏，suffer from 是「遭受」。",
+            "why": "had suffered 是过去完成时，suffer from（遭受）是固定短语，an increasing volume of tourists 是原因。",
+            "how": "译「受到了很大的破坏」，suffered from 译「遭受」。",
+            "highlight": [
+              42,
+              100
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "以前，由于游客数量不断增加，漓江的水质受到了很大的破坏。",
+            "why": "Previously 译「以前」，water quality had suffered greatly from an increasing volume of tourists 译「由于游客数量增加，漓江水质受到了很大破坏」。",
+            "highlight": [
+              0,
+              100
+            ]
+          }
+        ],
+        "finalZh": "以前，由于游客数量不断增加，漓江的水质受到了很大的破坏。",
+        "orderRules": [
+          "原因状语 from... 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s04-0015",
+      "en": "The king watched all day as many people complained about the stone, but he found nobody making an attempt to move it.",
+      "zh": "国王观察了一整天，发现很多人都在抱怨这块石头，却没有人试着把它挪开。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 22,
+        "clauses": 0,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "动词时态",
+          "非谓语动词",
+          "并列结构"
+        ],
+        "fine": [
+          "长句，先找谓语再断句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "as",
+          "hint": "引导时间/原因/方式状语从句（本空填 as）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "about",
+          "hint": "介词，关于（本空填 about）",
+          "gp": "介词"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "The king",
+          "role": "主语",
+          "span": [
+            0,
+            8
+          ]
+        },
+        {
+          "text": "watched",
+          "role": "谓语",
+          "span": [
+            9,
+            16
+          ]
+        },
+        {
+          "text": "all day",
+          "role": "宾语",
+          "span": [
+            17,
+            24
+          ]
+        },
+        {
+          "text": "as many people complained about the stone",
+          "role": "状语从句",
+          "span": [
+            25,
+            66
+          ]
+        },
+        {
+          "text": "he",
+          "role": "主语",
+          "span": [
+            72,
+            74
+          ]
+        },
+        {
+          "text": "found",
+          "role": "谓语",
+          "span": [
+            75,
+            80
+          ]
+        },
+        {
+          "text": "nobody making an attempt",
+          "role": "宾语",
+          "span": [
+            81,
+            105
+          ]
+        },
+        {
+          "text": "to move it",
+          "role": "状语",
+          "span": [
+            106,
+            116
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 watched 和 found，but 连接两个分句。",
+            "why": "watched（观察）和 found（发现）是 but 连接的两个谓语，as 引导时间状语从句。",
+            "highlight": [
+              9,
+              16
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别时间状语从句",
+            "what": "as many people complained about the stone 是时间状语从句。",
+            "why": "as（当……时）引导时间状语从句，many people complained about the stone 是从句内容。",
+            "highlight": [
+              17,
+              66
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "trap",
+            "title": "find + 宾语 + 现在分词",
+            "what": "found nobody making an attempt to move it = 发现没人试着搬它，making 是现在分词宾补。",
+            "why": "find 后 nobody 是宾语，making an attempt 是现在分词作宾补，to move it 是不定式表目的。",
+            "how": "译「发现没有人试着把它挪开」，making an attempt 译「试着」。",
+            "highlight": [
+              72,
+              116
+            ]
+          },
+          {
+            "step": 4,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "国王观察了一整天，发现很多人都在抱怨这块石头，却没有人试着把它挪开。",
+            "why": "The king watched all day as many people complained about the stone 译「国王观察了一整天，很多人抱怨石头」，but he found nobody making an attempt to move it 译「却没人试着把它挪开」。",
+            "highlight": [
+              0,
+              116
+            ]
+          }
+        ],
+        "finalZh": "国王观察了一整天，发现很多人都在抱怨这块石头，却没有人试着把它挪开。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOO"
+    },
+    {
+      "id": "s04-0016",
+      "en": "Festivals are becoming more and more commercial, with businesses taking advantage of the celebrations.",
+      "zh": "随着商家利用庆祝活动牟利，节日正变得越来越商业化。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 14,
+        "clauses": 0,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "非谓语动词",
+          "并列结构",
+          "动词时态"
+        ],
+        "fine": [
+          "进行时（be + 现在分词）"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "are",
+          "hint": "系动词/助动词，复数（本空填 are）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "with",
+          "hint": "介词，和/带着（本空填 with）",
+          "gp": "介词"
+        },
+        {
+          "answer": "of",
+          "hint": "介词，…的（本空填 of）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Festivals",
+          "role": "主语",
+          "span": [
+            0,
+            9
+          ]
+        },
+        {
+          "text": "are becoming",
+          "role": "谓语",
+          "span": [
+            10,
+            22
+          ]
+        },
+        {
+          "text": "more",
+          "role": "表语",
+          "span": [
+            23,
+            27
+          ]
+        },
+        {
+          "text": "and",
+          "role": "状语",
+          "span": [
+            28,
+            31
+          ]
+        },
+        {
+          "text": "more commercial, with businesses taking advantage of the celebrations",
+          "role": "状语",
+          "span": [
+            32,
+            101
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 are becoming，with businesses taking advantage 是 with 复合结构。",
+            "why": "are becoming（正变得）是谓语，with businesses taking advantage of the celebrations 是 with 复合结构作状语。",
+            "highlight": [
+              10,
+              22
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "with 复合结构",
+            "what": "with businesses taking advantage = 随着商家利用，taking 是现在分词。",
+            "why": "with 后面 businesses 是逻辑主语，taking advantage 是现在分词说明 businesses 的动作。",
+            "how": "译「随着商家利用庆祝活动牟利」，with 结构译「随着」。",
+            "highlight": [
+              49,
+              101
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "随着商家利用庆祝活动牟利，节日正变得越来越商业化。",
+            "why": "Festivals are becoming more and more commercial 译「节日变得越来越商业化」，with businesses taking advantage of the celebrations 译「随着商家利用庆祝活动牟利」。",
+            "highlight": [
+              0,
+              101
+            ]
+          }
+        ],
+        "finalZh": "随着商家利用庆祝活动牟利，节日正变得越来越商业化。",
+        "orderRules": [
+          "with 复合结构前置译「随着」"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s04-0017",
+      "en": "The dress looks very beautiful.",
+      "zh": "这条裙子看起来很漂亮。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 5,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "动词时态",
+          "冠词",
+          "形容词与副词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "The",
+          "hint": "定冠词，特指（本空填 The）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "The",
+          "role": "主语",
+          "span": [
+            0,
+            3
+          ]
+        },
+        {
+          "text": "dress looks",
+          "role": "谓语",
+          "span": [
+            4,
+            15
+          ]
+        },
+        {
+          "text": "very beautiful",
+          "role": "表语",
+          "span": [
+            16,
+            30
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 looks（系动词），表语 very beautiful。",
+            "why": "looks 是 look 作系动词「看起来」，very beautiful 是表语。",
+            "highlight": [
+              10,
+              15
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "这条裙子看起来很漂亮。",
+            "why": "The dress looks very beautiful 译「这条裙子看起来很漂亮」。",
+            "highlight": [
+              0,
+              30
+            ]
+          }
+        ],
+        "finalZh": "这条裙子看起来很漂亮。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s04-0018",
+      "en": "The shop usually opens at eight o'clock every day.",
+      "zh": "这家店通常每天八点钟开门。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "动词时态",
+          "主谓一致",
+          "冠词"
+        ],
+        "fine": [
+          "each/every 作主语时谓语用单数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "at",
+          "hint": "介词，在（本空填 at）",
+          "gp": "介词"
+        },
+        {
+          "answer": "The",
+          "hint": "定冠词，特指（本空填 The）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "The",
+          "role": "主语",
+          "span": [
+            0,
+            3
+          ]
+        },
+        {
+          "text": "shop usually opens",
+          "role": "谓语",
+          "span": [
+            4,
+            22
+          ]
+        },
+        {
+          "text": "at eight o'clock every day",
+          "role": "状语",
+          "span": [
+            23,
+            49
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 opens（一般现在时），at eight o'clock 是时间。",
+            "why": "opens（开门）是一般现在时，表示习惯性动作，at eight o'clock every day 是时间状语。",
+            "highlight": [
+              17,
+              22
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "这家店通常每天八点钟开门。",
+            "why": "The shop usually opens at eight o'clock every day 译「这家店通常每天八点钟开门」。",
+            "highlight": [
+              0,
+              49
+            ]
+          }
+        ],
+        "finalZh": "这家店通常每天八点钟开门。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s04-0019",
+      "en": "The earth moves round the sun.",
+      "zh": "地球围绕太阳旋转。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 6,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "动词时态",
+          "冠词",
+          "名词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "The",
+          "hint": "定冠词，特指（本空填 The）",
+          "gp": "冠词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "The earth",
+          "role": "主语",
+          "span": [
+            0,
+            9
+          ]
+        },
+        {
+          "text": "moves",
+          "role": "谓语",
+          "span": [
+            10,
+            15
+          ]
+        },
+        {
+          "text": "round the sun",
+          "role": "宾语",
+          "span": [
+            16,
+            29
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 moves（一般现在时），round the sun 是状语。",
+            "why": "moves（移动）是一般现在时，表示客观真理，round the sun（围绕太阳）是状语。",
+            "highlight": [
+              10,
+              15
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "地球围绕太阳旋转。",
+            "why": "The earth moves round the sun 译「地球围绕太阳旋转」，一般现在时表真理。",
+            "highlight": [
+              0,
+              29
+            ]
+          }
+        ],
+        "finalZh": "地球围绕太阳旋转。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s04-0020",
+      "en": "If he has time this evening, he will play basketball.",
+      "zh": "如果他今晚有时间，他会去打篮球。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "情态动词",
+          "非谓语动词"
+        ],
+        "fine": [
+          "一般将来时"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "If",
+          "hint": "引导条件状语从句或宾语从句（本空填 If）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "has",
+          "hint": "助动词，第三人称单数（本空填 has）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "will",
+          "hint": "助动词，一般将来时（本空填 will）",
+          "gp": "情态动词"
+        }
+      ],
+      "components": [
+        {
+          "text": "If he has time this evening",
+          "role": "状语从句",
+          "span": [
+            0,
+            27
+          ]
+        },
+        {
+          "text": "he",
+          "role": "宾语",
+          "span": [
+            29,
+            31
+          ]
+        },
+        {
+          "text": "will play",
+          "role": "谓语",
+          "span": [
+            32,
+            41
+          ]
+        },
+        {
+          "text": "basketball",
+          "role": "宾语",
+          "span": [
+            42,
+            52
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "主句谓语是 will play，if 引导条件状语从句（一般现在表将来）。",
+            "why": "will play（将打篮球）是主句，if he has time this evening 是 if 引导的条件状语从句，用一般现在时表将来。",
+            "highlight": [
+              32,
+              41
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别条件状语从句",
+            "what": "if he has time this evening 是条件状语从句，用一般现在时表将来。",
+            "why": "if 引导条件状语从句，用一般现在时 has 表示将来的条件（主将从现），this evening 是时间。",
+            "highlight": [
+              0,
+              27
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "如果他今晚有时间，他会去打篮球。",
+            "why": "If he has time this evening 译「如果他今晚有时间」，he will play basketball 译「他会去打篮球」。",
+            "highlight": [
+              0,
+              52
+            ]
+          }
+        ],
+        "finalZh": "如果他今晚有时间，他会去打篮球。",
+        "orderRules": [
+          "条件状语从句 if... 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOO"
+    },
+    {
+      "id": "s04-0021",
+      "en": "She will get married.",
+      "zh": "她要结婚了。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 4,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "被动语态",
+          "情态动词",
+          "非谓语动词"
+        ],
+        "fine": [
+          "一般将来时",
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "will",
+          "hint": "助动词，一般将来时（本空填 will）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "get",
+          "hint": "使役动词，使（get sth done）（本空填 get）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "She",
+          "role": "主语",
+          "span": [
+            0,
+            3
+          ]
+        },
+        {
+          "text": "will get married",
+          "role": "谓语",
+          "span": [
+            4,
+            20
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 will get married（将来时）。",
+            "why": "will get married（将结婚）是将来时，get married 是「结婚」。",
+            "highlight": [
+              4,
+              19
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "她要结婚了。",
+            "why": "She will get married 译「她要结婚了」。",
+            "highlight": [
+              0,
+              20
+            ]
+          }
+        ],
+        "finalZh": "她要结婚了。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s04-0022",
+      "en": "I am going to finish my homework tomorrow.",
+      "zh": "我打算明天完成家庭作业。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "非谓语动词",
+          "动词时态",
+          "代词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "am",
+          "hint": "系动词/助动词，第一人称单数（本空填 am）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "am going to finish",
+          "role": "谓语",
+          "span": [
+            2,
+            20
+          ]
+        },
+        {
+          "text": "my homework tomorrow",
+          "role": "宾语",
+          "span": [
+            21,
+            41
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 am going to finish，be going to 表打算。",
+            "why": "am going to finish（打算完成）是 be going to 结构，表计划打算，tomorrow 是时间。",
+            "highlight": [
+              2,
+              20
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "be going to 表打算",
+            "what": "am going to finish = 打算完成，be going to 表计划。",
+            "why": "be going to 表示「打算做」，my homework 是宾语，tomorrow 是未来时间。",
+            "how": "译「打算明天完成家庭作业」，be going to 译「打算」。",
+            "highlight": [
+              2,
+              41
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我打算明天完成家庭作业。",
+            "why": "I am going to finish my homework tomorrow 译「我打算明天完成家庭作业」。",
+            "highlight": [
+              0,
+              41
+            ]
+          }
+        ],
+        "finalZh": "我打算明天完成家庭作业。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s04-0023",
+      "en": "Look at the black clouds. It is going to rain.",
+      "zh": "看那些乌云。要下雨了。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "非谓语动词",
+          "动词时态",
+          "代词"
+        ],
+        "fine": [
+          "进行时（be + 现在分词）",
+          "it 作形式主语，真正的主语是后面的不定式"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "at",
+          "hint": "介词，在（本空填 at）",
+          "gp": "介词"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Look at",
+          "role": "谓语",
+          "span": [
+            0,
+            7
+          ]
+        },
+        {
+          "text": "the black clouds",
+          "role": "表语",
+          "span": [
+            8,
+            24
+          ]
+        },
+        {
+          "text": "It",
+          "role": "主语",
+          "span": [
+            26,
+            28
+          ]
+        },
+        {
+          "text": "is going to rain",
+          "role": "谓语",
+          "span": [
+            29,
+            45
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is going to rain，be going to 表根据迹象推测。",
+            "why": "is going to rain（要下雨）是 be going to 结构，根据乌云迹象推测即将下雨。",
+            "highlight": [
+              26,
+              44
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "be going to 表迹象推测",
+            "what": "It is going to rain = 要下雨了，be going to 表根据迹象的推测。",
+            "why": "be going to 表示根据现有迹象推测即将发生，Look at the black clouds（看乌云）是判断依据。",
+            "how": "译「要下雨了」，is going to rain 译「要下雨」。",
+            "highlight": [
+              26,
+              45
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "看那些乌云。要下雨了。",
+            "why": "Look at the black clouds 译「看那些乌云」，It is going to rain 译「要下雨了」。",
+            "highlight": [
+              0,
+              45
+            ]
+          }
+        ],
+        "finalZh": "看那些乌云。要下雨了。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s04-0024",
+      "en": "Everyone is to hand in the paper on time.",
+      "zh": "每个人都要按时交卷。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "非谓语动词",
+          "动词时态",
+          "冠词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        },
+        {
+          "answer": "in",
+          "hint": "介词，在…里（本空填 in）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Everyone",
+          "role": "主语",
+          "span": [
+            0,
+            8
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            9,
+            11
+          ]
+        },
+        {
+          "text": "to hand in the paper on time",
+          "role": "状语",
+          "span": [
+            12,
+            40
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is to hand in，be to do 表义务。",
+            "why": "is to hand in（要交）是 be to do 结构，表示按计划或义务要做，the paper 是宾语。",
+            "highlight": [
+              9,
+              15
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "be to do 表义务",
+            "what": "is to hand in the paper = 要交卷，be to do 表义务安排。",
+            "why": "be to do 表示「按安排/义务要做」，Everyone 是主语，on time 是时间状语。",
+            "how": "译「都要按时交卷」，is to hand in 译「要交」。",
+            "highlight": [
+              9,
+              32
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "每个人都要按时交卷。",
+            "why": "Everyone is to hand in the paper on time 译「每个人都要按时交卷」。",
+            "highlight": [
+              0,
+              40
+            ]
+          }
+        ],
+        "finalZh": "每个人都要按时交卷。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s04-0025",
+      "en": "The water is about to boil.",
+      "zh": "水马上就要开了。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 6,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "被动语态",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "about",
+          "hint": "介词，关于（本空填 about）",
+          "gp": "介词"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "The water",
+          "role": "主语",
+          "span": [
+            0,
+            9
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            10,
+            12
+          ]
+        },
+        {
+          "text": "about to boil",
+          "role": "状语",
+          "span": [
+            13,
+            26
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is about to boil，be about to 表即将。",
+            "why": "is about to boil（即将沸腾）是 be about to 结构，表示马上要发生。",
+            "highlight": [
+              10,
+              26
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "be about to 表即将",
+            "what": "is about to boil = 马上就要开，be about to 表「即将」。",
+            "why": "be about to 表示「马上就要（做）」，比 be going to 更强调立刻发生。",
+            "how": "译「水马上就要开了」，is about to boil 译「马上就要开」。",
+            "highlight": [
+              10,
+              26
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "水马上就要开了。",
+            "why": "The water is about to boil 译「水马上就要开了」。",
+            "highlight": [
+              0,
+              26
+            ]
+          }
+        ],
+        "finalZh": "水马上就要开了。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s04-0026",
+      "en": "I saw him yesterday.",
+      "zh": "我昨天看见他了。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 4,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "动词时态",
+          "代词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "saw",
+          "hint": "see 的过去式（本空填 saw）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "saw",
+          "role": "谓语",
+          "span": [
+            2,
+            5
+          ]
+        },
+        {
+          "text": "him yesterday",
+          "role": "宾语",
+          "span": [
+            6,
+            19
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 saw（过去式），yesterday 是时间状语。",
+            "why": "saw 是 see 的过去式，yesterday（昨天）是时间状语。",
+            "highlight": [
+              2,
+              5
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我昨天看见他了。",
+            "why": "I saw him yesterday 译「我昨天看见他了」。",
+            "highlight": [
+              0,
+              19
+            ]
+          }
+        ],
+        "finalZh": "我昨天看见他了。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOC"
+    },
+    {
+      "id": "s04-0027",
+      "en": "I bought it a few weeks ago.",
+      "zh": "这是我几周前买的。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 7,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "动词时态",
+          "代词",
+          "冠词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "a",
+          "hint": "不定冠词，修饰可数名词单数（本空填 a）",
+          "gp": "冠词"
+        },
+        {
+          "answer": "it",
+          "hint": "代词，可作形式主语/形式宾语（本空填 it）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "bought",
+          "role": "谓语",
+          "span": [
+            2,
+            8
+          ]
+        },
+        {
+          "text": "it a few weeks ago",
+          "role": "宾语",
+          "span": [
+            9,
+            27
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 bought（过去式），a few weeks ago 是时间状语。",
+            "why": "bought 是 buy 的过去式，a few weeks ago（几周前）是时间状语。",
+            "highlight": [
+              2,
+              8
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "这是我几周前买的。",
+            "why": "I bought it a few weeks ago 译「这是我几周前买的」。",
+            "highlight": [
+              0,
+              27
+            ]
+          }
+        ],
+        "finalZh": "这是我几周前买的。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s04-0028",
+      "en": "We often played basketball together when we were children.",
+      "zh": "我们小时候经常一起打篮球。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "被动语态",
+          "非谓语动词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "when",
+          "hint": "关系副词/时间状语从句引导词（本空填 when）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "were",
+          "hint": "系动词/助动词，过去式复数（本空填 were）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "We often",
+          "role": "主语",
+          "span": [
+            0,
+            8
+          ]
+        },
+        {
+          "text": "played",
+          "role": "谓语",
+          "span": [
+            9,
+            15
+          ]
+        },
+        {
+          "text": "basketball together",
+          "role": "宾语",
+          "span": [
+            16,
+            35
+          ]
+        },
+        {
+          "text": "when we were children.",
+          "role": "状语从句",
+          "span": [
+            36,
+            58
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "主句谓语是 played，when 引导时间状语从句。",
+            "why": "played（打）是主句，when we were children 是 when 引导的时间状语从句。",
+            "highlight": [
+              9,
+              16
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别时间状语从句",
+            "what": "when we were children 是时间状语从句，说明 played 的时间。",
+            "why": "when（当……时）引导时间状语从句，we were children 是过去的时间背景。",
+            "highlight": [
+              36,
+              57
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我们小时候经常一起打篮球。",
+            "why": "We often played basketball together when we were children 译「我们小时候经常一起打篮球」。",
+            "highlight": [
+              0,
+              57
+            ]
+          }
+        ],
+        "finalZh": "我们小时候经常一起打篮球。",
+        "orderRules": [
+          "时间状语从句 when... 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s04-0029",
+      "en": "I stayed in Beijing for two years.",
+      "zh": "我在北京待了两年。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 7,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "动词时态",
+          "非谓语动词",
+          "代词"
+        ],
+        "fine": [
+          "介词 + 动名词",
+          "for + 时间段，搭配完成时"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "in",
+          "hint": "介词，在…里（本空填 in）",
+          "gp": "介词"
+        },
+        {
+          "answer": "for",
+          "hint": "介词，为了（本空填 for）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "stayed",
+          "role": "谓语",
+          "span": [
+            2,
+            8
+          ]
+        },
+        {
+          "text": "in Beijing for two years",
+          "role": "状语",
+          "span": [
+            9,
+            33
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 stayed（过去式），for two years 是时间段。",
+            "why": "stayed（待）是过去式，in Beijing 是地点，for two years（两年）是时间段。",
+            "highlight": [
+              2,
+              8
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我在北京待了两年。",
+            "why": "I stayed in Beijing for two years 译「我在北京待了两年」。",
+            "highlight": [
+              0,
+              33
+            ]
+          }
+        ],
+        "finalZh": "我在北京待了两年。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s04-0030",
+      "en": "I am playing games on the playground now.",
+      "zh": "我现在正在操场上玩游戏。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "非谓语动词",
+          "动词时态",
+          "代词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "am",
+          "hint": "系动词/助动词，第一人称单数（本空填 am）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "on",
+          "hint": "介词，在…上（本空填 on）",
+          "gp": "介词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "am playing",
+          "role": "谓语",
+          "span": [
+            2,
+            12
+          ]
+        },
+        {
+          "text": "games",
+          "role": "表语",
+          "span": [
+            13,
+            18
+          ]
+        },
+        {
+          "text": "on the playground now",
+          "role": "状语",
+          "span": [
+            19,
+            40
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 am playing（现在进行时），on the playground 是地点。",
+            "why": "am playing 是进行时，表示「正在玩」，on the playground 是地点，now 是时间。",
+            "highlight": [
+              2,
+              12
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我现在正在操场上玩游戏。",
+            "why": "I am playing games on the playground now 译「我现在正在操场上玩游戏」。",
+            "highlight": [
+              0,
+              40
+            ]
+          }
+        ],
+        "finalZh": "我现在正在操场上玩游戏。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s04-0031",
+      "en": "My brother is writing a novel these days.",
+      "zh": "我哥哥这些天正在写一部小说。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "非谓语动词",
+          "动词时态",
+          "代词"
+        ],
+        "fine": [
+          "进行时（be + 现在分词）"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "a",
+          "hint": "不定冠词，修饰可数名词单数（本空填 a）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "My brother",
+          "role": "主语",
+          "span": [
+            0,
+            10
+          ]
+        },
+        {
+          "text": "is writing",
+          "role": "谓语",
+          "span": [
+            11,
+            21
+          ]
+        },
+        {
+          "text": "a novel these days",
+          "role": "表语",
+          "span": [
+            22,
+            40
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is writing（现在进行时），these days 是时间。",
+            "why": "is writing 是进行时，表示「正在写」，these days（这些天）是时间状语。",
+            "highlight": [
+              11,
+              20
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我哥哥这些天正在写一部小说。",
+            "why": "My brother is writing a novel these days 译「我哥哥这些天正在写一部小说」。",
+            "highlight": [
+              0,
+              40
+            ]
+          }
+        ],
+        "finalZh": "我哥哥这些天正在写一部小说。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s04-0032",
+      "en": "He is always thinking of others instead of himself.",
+      "zh": "他总是想着别人而不是他自己。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "非谓语动词",
+          "动词时态",
+          "代词"
+        ],
+        "fine": [
+          "instead of 介词短语"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "of",
+          "hint": "介词，…的（本空填 of）",
+          "gp": "介词"
+        },
+        {
+          "answer": "of",
+          "hint": "介词，…的（本空填 of）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "He",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "is always thinking",
+          "role": "谓语",
+          "span": [
+            3,
+            21
+          ]
+        },
+        {
+          "text": "of others instead of himself",
+          "role": "状语",
+          "span": [
+            22,
+            50
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is always thinking（进行时 + always），instead of himself 是状语。",
+            "why": "is always thinking 是「进行时 + always」表示反复动作，instead of himself 是「而不是他自己」。",
+            "highlight": [
+              3,
+              21
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "进行时 + always 表感情",
+            "what": "is always thinking of others = 总是想着别人，进行时 + always 表赞叹。",
+            "why": "进行时 + always 表示反复发生的动作，带有感情色彩，instead of himself 是「而不是自己」。",
+            "how": "译「总是想着别人而不是他自己」，always thinking 译「总是想着」。",
+            "highlight": [
+              3,
+              50
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他总是想着别人而不是他自己。",
+            "why": "He is always thinking of others instead of himself 译「他总是想着别人而不是他自己」。",
+            "highlight": [
+              0,
+              50
+            ]
+          }
+        ],
+        "finalZh": "他总是想着别人而不是他自己。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s04-0033",
+      "en": "We're leaving by air tonight.",
+      "zh": "我们今晚坐飞机走。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 5,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "动词时态",
+          "非谓语动词",
+          "代词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "by",
+          "hint": "介词，被/通过（本空填 by）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "We're leaving",
+          "role": "谓语",
+          "span": [
+            0,
+            13
+          ]
+        },
+        {
+          "text": "by air tonight",
+          "role": "状语",
+          "span": [
+            14,
+            28
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 are leaving（进行时表将来），by air 是方式。",
+            "why": "are leaving 是进行时表「即将动身」，by air（坐飞机）是方式状语，tonight 是时间。",
+            "highlight": [
+              6,
+              13
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我们今晚坐飞机走。",
+            "why": "We're leaving by air tonight 译「我们今晚坐飞机走」。",
+            "highlight": [
+              0,
+              28
+            ]
+          }
+        ],
+        "finalZh": "我们今晚坐飞机走。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s04-0034",
+      "en": "I was reading a book when he came.",
+      "zh": "他来的时候我正在看书。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "进行时（be + 现在分词）"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "when",
+          "hint": "关系副词/时间状语从句引导词（本空填 when）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "was",
+          "hint": "系动词/助动词，过去式单数（本空填 was）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "a",
+          "hint": "不定冠词，修饰可数名词单数（本空填 a）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "was reading",
+          "role": "谓语",
+          "span": [
+            2,
+            13
+          ]
+        },
+        {
+          "text": "a book",
+          "role": "表语",
+          "span": [
+            14,
+            20
+          ]
+        },
+        {
+          "text": "when he came.",
+          "role": "状语从句",
+          "span": [
+            21,
+            34
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "主句谓语是 was reading，when 引导时间状语从句。",
+            "why": "was reading（正在读）是主句进行时，when he came 是 when 引导的时间状语从句。",
+            "highlight": [
+              2,
+              13
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别时间状语从句",
+            "what": "when he came 是时间状语从句，说明 reading 的时间。",
+            "why": "when（当……时）引导时间状语从句，he came（他来）是读书时发生的动作。",
+            "highlight": [
+              21,
+              33
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他来的时候我正在看书。",
+            "why": "I was reading a book when he came 译「他来的时候我正在看书」。",
+            "highlight": [
+              0,
+              33
+            ]
+          }
+        ],
+        "finalZh": "他来的时候我正在看书。",
+        "orderRules": [
+          "时间状语从句 when... 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s04-0035",
+      "en": "She was staying in the lab last week.",
+      "zh": "她上周一直待在实验室。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "非谓语动词",
+          "动词时态",
+          "代词"
+        ],
+        "fine": [
+          "进行时（be + 现在分词）"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "was",
+          "hint": "系动词/助动词，过去式单数（本空填 was）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "in",
+          "hint": "介词，在…里（本空填 in）",
+          "gp": "介词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "She",
+          "role": "主语",
+          "span": [
+            0,
+            3
+          ]
+        },
+        {
+          "text": "was staying",
+          "role": "谓语",
+          "span": [
+            4,
+            15
+          ]
+        },
+        {
+          "text": "in the lab",
+          "role": "状语",
+          "span": [
+            16,
+            26
+          ]
+        },
+        {
+          "text": "last",
+          "role": "谓语",
+          "span": [
+            27,
+            31
+          ]
+        },
+        {
+          "text": "week",
+          "role": "宾语",
+          "span": [
+            32,
+            36
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 was staying（过去进行时），in the lab 是地点。",
+            "why": "was staying 是过去进行时，表示「过去一段时间一直待」，in the lab 是地点，last week 是时间。",
+            "highlight": [
+              4,
+              15
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "她上周一直待在实验室。",
+            "why": "She was staying in the lab last week 译「她上周一直待在实验室」。",
+            "highlight": [
+              0,
+              36
+            ]
+          }
+        ],
+        "finalZh": "她上周一直待在实验室。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s04-0036",
+      "en": "I was doing my homework when the rainstorm came.",
+      "zh": "暴风雨来临时，我正在做作业。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "进行时（be + 现在分词）"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "when",
+          "hint": "关系副词/时间状语从句引导词（本空填 when）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "was",
+          "hint": "系动词/助动词，过去式单数（本空填 was）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "was doing",
+          "role": "谓语",
+          "span": [
+            2,
+            11
+          ]
+        },
+        {
+          "text": "my homework",
+          "role": "表语",
+          "span": [
+            12,
+            23
+          ]
+        },
+        {
+          "text": "when the rainstorm came.",
+          "role": "状语从句",
+          "span": [
+            24,
+            48
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "主句谓语是 was doing，when 引导时间状语从句。",
+            "why": "was doing（正在做）是主句进行时，when the rainstorm came 是 when 引导的时间状语从句。",
+            "highlight": [
+              2,
+              11
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别时间状语从句",
+            "what": "when the rainstorm came 是时间状语从句，说明 doing 的时间。",
+            "why": "when（当……时）引导时间状语从句，the rainstorm came（暴风雨来）是做作业时发生。",
+            "highlight": [
+              24,
+              47
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "暴风雨来临时，我正在做作业。",
+            "why": "I was doing my homework when the rainstorm came 译「暴风雨来临时，我正在做作业」。",
+            "highlight": [
+              0,
+              47
+            ]
+          }
+        ],
+        "finalZh": "暴风雨来临时，我正在做作业。",
+        "orderRules": [
+          "时间状语从句 when... 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s04-0037",
+      "en": "I was leaving for Paris that day.",
+      "zh": "那天我正要去巴黎。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 7,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "非谓语动词",
+          "动词时态",
+          "代词"
+        ],
+        "fine": [
+          "进行时（be + 现在分词）"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "was",
+          "hint": "系动词/助动词，过去式单数（本空填 was）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "for",
+          "hint": "介词，为了（本空填 for）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "was leaving",
+          "role": "谓语",
+          "span": [
+            2,
+            13
+          ]
+        },
+        {
+          "text": "for Paris that day",
+          "role": "状语",
+          "span": [
+            14,
+            32
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 was leaving（过去进行时表过去将来）。",
+            "why": "was leaving 是过去进行时，表示「当时正要去」，for Paris 是方向，that day 是时间。",
+            "highlight": [
+              2,
+              13
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "过去进行时表过去将来",
+            "what": "was leaving for Paris = 那天正要去巴黎，过去进行时表计划。",
+            "why": "was leaving 用过去进行时表示「当时计划要去」，that day 是过去时间。",
+            "how": "译「那天我正要去巴黎」，was leaving 译「正要去」。",
+            "highlight": [
+              2,
+              32
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "那天我正要去巴黎。",
+            "why": "I was leaving for Paris that day 译「那天我正要去巴黎」。",
+            "highlight": [
+              0,
+              32
+            ]
+          }
+        ],
+        "finalZh": "那天我正要去巴黎。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s04-0038",
+      "en": "Yesterday, I didn't know whether she was coming.",
+      "zh": "昨天，我不知道她是否会来。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "名词性从句",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "进行时（be + 现在分词）"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "whether",
+          "hint": "引导名词性从句，表示是否（本空填 whether）",
+          "gp": "名词性从句"
+        },
+        {
+          "answer": "was",
+          "hint": "系动词/助动词，过去式单数（本空填 was）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "Yesterday, I",
+          "role": "主语",
+          "span": [
+            0,
+            12
+          ]
+        },
+        {
+          "text": "didn't know",
+          "role": "谓语",
+          "span": [
+            13,
+            24
+          ]
+        },
+        {
+          "text": "whether she was coming.",
+          "role": "宾语从句",
+          "span": [
+            25,
+            48
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "主句谓语是 didn't know，whether 引导宾语从句。",
+            "why": "didn't know（不知道）是主句，whether she was coming 是 whether 引导的宾语从句。",
+            "highlight": [
+              11,
+              24
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别宾语从句",
+            "what": "whether she was coming 是宾语从句，作 know 的宾语。",
+            "why": "whether（是否）引导宾语从句，she was coming 是从句内容。",
+            "highlight": [
+              25,
+              47
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "昨天，我不知道她是否会来。",
+            "why": "Yesterday, I didn't know whether she was coming 译「昨天，我不知道她是否会来」。",
+            "highlight": [
+              0,
+              47
+            ]
+          }
+        ],
+        "finalZh": "昨天，我不知道她是否会来。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s04-0039",
+      "en": "Dayan has just left. If only you had come a moment earlier.",
+      "zh": "大雁刚离开。你要是能早来一会儿就好了。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 12,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "动词时态",
+          "代词"
+        ],
+        "fine": [
+          "have/get sth done 结构"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "If",
+          "hint": "引导条件状语从句或宾语从句（本空填 If）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "has",
+          "hint": "助动词，第三人称单数（本空填 has）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "had",
+          "hint": "使役/助动词过去式（本空填 had）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "Dayan",
+          "role": "主语",
+          "span": [
+            0,
+            5
+          ]
+        },
+        {
+          "text": "has just left",
+          "role": "谓语",
+          "span": [
+            6,
+            19
+          ]
+        },
+        {
+          "text": "If only you had come a moment earlier.",
+          "role": "状语从句",
+          "span": [
+            21,
+            59
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 has left 和 had come，If only 引导虚拟语气。",
+            "why": "has just left（刚离开）是完成时，If only you had come 是 If only 引导的虚拟语气（对过去虚拟）。",
+            "highlight": [
+              6,
+              19
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "if only 虚拟语气",
+            "what": "If only you had come a moment earlier = 要是你早来一会儿就好了，had come 对过去虚拟。",
+            "why": "if only 引导虚拟语气，had come 是过去完成时表「对过去的虚拟」，a moment earlier 是「早一会儿」。",
+            "how": "译「你要是能早来一会儿就好了」，if only 译「要是……就好了」。",
+            "highlight": [
+              21,
+              58
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "大雁刚离开。你要是能早来一会儿就好了。",
+            "why": "Dayan has just left 译「大雁刚离开」，If only you had come a moment earlier 译「你要是能早来一会儿就好了」。",
+            "highlight": [
+              0,
+              58
+            ]
+          }
+        ],
+        "finalZh": "大雁刚离开。你要是能早来一会儿就好了。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s04-0040",
+      "en": "Have you heard the news yet?",
+      "zh": "你听说这个消息了吗。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 6,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "动词时态",
+          "代词",
+          "冠词"
+        ],
+        "fine": [
+          "have/get sth done 结构",
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "Have",
+          "hint": "使役动词，让（have sth done）（本空填 Have）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        },
+        {
+          "answer": "heard",
+          "hint": "hear 的过去式（本空填 heard）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "Have",
+          "role": "谓语",
+          "span": [
+            0,
+            4
+          ]
+        },
+        {
+          "text": "you",
+          "role": "宾语",
+          "span": [
+            5,
+            8
+          ]
+        },
+        {
+          "text": "heard",
+          "role": "谓语",
+          "span": [
+            9,
+            14
+          ]
+        },
+        {
+          "text": "the news",
+          "role": "宾语",
+          "span": [
+            15,
+            23
+          ]
+        },
+        {
+          "text": "yet",
+          "role": "状语",
+          "span": [
+            24,
+            27
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 Have...heard（现在完成时疑问句），yet 是时间状语。",
+            "why": "Have heard 是完成时疑问句，yet（已经）用于完成时疑问句。",
+            "highlight": [
+              0,
+              14
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "你听说这个消息了吗？",
+            "why": "Have you heard the news yet 译「你听说这个消息了吗」。",
+            "highlight": [
+              0,
+              27
+            ]
+          }
+        ],
+        "finalZh": "你听说这个消息了吗？",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOO"
+    },
+    {
+      "id": "s04-0041",
+      "en": "I have lived here for 30 years.",
+      "zh": "我已经在此住了 30 年了。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 6,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "非谓语动词",
+          "动词时态",
+          "代词"
+        ],
+        "fine": [
+          "现在完成时或过去完成时",
+          "for + 时间段，搭配完成时"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "have",
+          "hint": "使役动词，让（have sth done）（本空填 have）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "for",
+          "hint": "介词，为了（本空填 for）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "have lived",
+          "role": "谓语",
+          "span": [
+            2,
+            12
+          ]
+        },
+        {
+          "text": "here",
+          "role": "宾语",
+          "span": [
+            13,
+            17
+          ]
+        },
+        {
+          "text": "for",
+          "role": "状语",
+          "span": [
+            18,
+            21
+          ]
+        },
+        {
+          "text": "30 years",
+          "role": "状语",
+          "span": [
+            22,
+            30
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 have lived（现在完成时），for 30 years 是时间段。",
+            "why": "have lived 是完成时，for 30 years（30 年）是时间段，表示持续到现在。",
+            "highlight": [
+              2,
+              12
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "完成时 + for 时间段",
+            "what": "have lived here for 30 years = 已在这里住 30 年，for 表持续。",
+            "why": "have lived 完成时 + for 30 years 表示「从过去持续到现在」，here 是地点。",
+            "how": "译「已经在此住了 30 年」，have lived for 译「已住……」。",
+            "highlight": [
+              2,
+              30
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我已经在此住了 30 年了。",
+            "why": "I have lived here for 30 years 译「我已经在此住了 30 年了」。",
+            "highlight": [
+              0,
+              30
+            ]
+          }
+        ],
+        "finalZh": "我已经在此住了 30 年了。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s04-0042",
+      "en": "It can't be Lin Tao. He has gone to Jinan.",
+      "zh": "那不可能是林涛。他去济南了。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "情态动词",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "be",
+          "hint": "系动词/助动词原形（本空填 be）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "has",
+          "hint": "助动词，第三人称单数（本空填 has）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "It",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "can't be",
+          "role": "谓语",
+          "span": [
+            3,
+            11
+          ]
+        },
+        {
+          "text": "Lin Tao",
+          "role": "宾语",
+          "span": [
+            12,
+            19
+          ]
+        },
+        {
+          "text": "He",
+          "role": "主语",
+          "span": [
+            21,
+            23
+          ]
+        },
+        {
+          "text": "has gone",
+          "role": "谓语",
+          "span": [
+            24,
+            32
+          ]
+        },
+        {
+          "text": "to Jinan",
+          "role": "状语",
+          "span": [
+            33,
+            41
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 can't be 和 has gone，can't be 表否定推测。",
+            "why": "can't be Lin Tao（不可能是林涛）表否定推测，has gone to Jinan（去了济南）是完成时。",
+            "highlight": [
+              3,
+              11
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "has gone to 表去而未归",
+            "what": "has gone to Jinan = 去了济南（还没回来），has gone to 表去而未归。",
+            "why": "has gone to 表示「去了（人还在那里）」，区别于 has been to（去过已回来）。",
+            "how": "译「他去济南了」，has gone to 译「去了」。",
+            "highlight": [
+              24,
+              41
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "那不可能是林涛。他去济南了。",
+            "why": "It can't be Lin Tao 译「那不可能是林涛」，He has gone to Jinan 译「他去济南了」。",
+            "highlight": [
+              0,
+              41
+            ]
+          }
+        ],
+        "finalZh": "那不可能是林涛。他去济南了。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s04-0043",
+      "en": "Lin Tao knows Jinan well. He has been to the city twice.",
+      "zh": "林涛很熟悉济南。他去过这个城市两次。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 12,
+        "clauses": 0,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "非谓语动词",
+          "动词时态",
+          "代词"
+        ],
+        "fine": [
+          "完成时 + be，注意是完成还是被动"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "has",
+          "hint": "助动词，第三人称单数（本空填 has）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "been",
+          "hint": "be 的过去分词（本空填 been）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Lin Tao",
+          "role": "主语",
+          "span": [
+            0,
+            7
+          ]
+        },
+        {
+          "text": "knows",
+          "role": "谓语",
+          "span": [
+            8,
+            13
+          ]
+        },
+        {
+          "text": "Jinan well",
+          "role": "宾语",
+          "span": [
+            14,
+            24
+          ]
+        },
+        {
+          "text": "He",
+          "role": "主语",
+          "span": [
+            26,
+            28
+          ]
+        },
+        {
+          "text": "has been",
+          "role": "谓语",
+          "span": [
+            29,
+            37
+          ]
+        },
+        {
+          "text": "to the city twice",
+          "role": "状语",
+          "span": [
+            38,
+            55
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 knows 和 has been to，has been to 表去过。",
+            "why": "knows Jinan well（很熟悉济南）是第一句，has been to the city twice（去过两次）是完成时。",
+            "highlight": [
+              8,
+              13
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "has been to 表去过已回",
+            "what": "has been to the city twice = 去过这个城市两次（已回来），been to 表去过已回。",
+            "why": "has been to 表示「去过（已回来）」，twice 是「两次」，区别于 has gone to（去了没回）。",
+            "how": "译「去过这个城市两次」，has been to 译「去过」。",
+            "highlight": [
+              26,
+              55
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "林涛很熟悉济南。他去过这个城市两次。",
+            "why": "Lin Tao knows Jinan well 译「林涛很熟悉济南」，He has been to the city twice 译「他去过这个城市两次」。",
+            "highlight": [
+              0,
+              55
+            ]
+          }
+        ],
+        "finalZh": "林涛很熟悉济南。他去过这个城市两次。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s04-0044",
+      "en": "Lin Tao has been in Jinan for two years.",
+      "zh": "林涛已经在济南住了两年了。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "动词时态",
+          "介词",
+          "名词"
+        ],
+        "fine": [
+          "完成时 + be，注意是完成还是被动",
+          "for + 时间段，搭配完成时"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "has",
+          "hint": "助动词，第三人称单数（本空填 has）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "been",
+          "hint": "be 的过去分词（本空填 been）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "in",
+          "hint": "介词，在…里（本空填 in）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Lin Tao",
+          "role": "主语",
+          "span": [
+            0,
+            7
+          ]
+        },
+        {
+          "text": "has been",
+          "role": "谓语",
+          "span": [
+            8,
+            16
+          ]
+        },
+        {
+          "text": "in Jinan for two years",
+          "role": "状语",
+          "span": [
+            17,
+            39
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 has been in（现在完成时），for two years 是时间段。",
+            "why": "has been in 是完成时，表示「已经在（持续）」，for two years 是时间段。",
+            "highlight": [
+              8,
+              16
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "has been in 表持续在",
+            "what": "has been in Jinan for two years = 已经在济南住两年，been in 表持续在某地。",
+            "why": "has been in 表示「一直在某地（持续）」，for two years 表时长，区别于 been to（去过）和 gone to（去了）。",
+            "how": "译「已经在济南住了两年」，has been in for 译「已住……」。",
+            "highlight": [
+              8,
+              39
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "林涛已经在济南住了两年了。",
+            "why": "Lin Tao has been in Jinan for two years 译「林涛已经在济南住了两年了」。",
+            "highlight": [
+              0,
+              39
+            ]
+          }
+        ],
+        "finalZh": "林涛已经在济南住了两年了。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s04-0045",
+      "en": "Li Hua has been abroad for six months.",
+      "zh": "李华已经在国外待了六个月了。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "被动语态",
+          "动词时态",
+          "介词"
+        ],
+        "fine": [
+          "完成时 + be，注意是完成还是被动",
+          "have/get sth done 结构",
+          "for + 时间段，搭配完成时"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "has",
+          "hint": "助动词，第三人称单数（本空填 has）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "been",
+          "hint": "be 的过去分词（本空填 been）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "for",
+          "hint": "介词，为了（本空填 for）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Li Hua",
+          "role": "主语",
+          "span": [
+            0,
+            6
+          ]
+        },
+        {
+          "text": "has been",
+          "role": "谓语",
+          "span": [
+            7,
+            15
+          ]
+        },
+        {
+          "text": "abroad",
+          "role": "表语",
+          "span": [
+            16,
+            22
+          ]
+        },
+        {
+          "text": "for",
+          "role": "状语",
+          "span": [
+            23,
+            26
+          ]
+        },
+        {
+          "text": "six months",
+          "role": "状语",
+          "span": [
+            27,
+            37
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 has been abroad（现在完成时），for six months 是时间段。",
+            "why": "has been abroad 是完成时，表示「已经在国外」，for six months 是时间段。",
+            "highlight": [
+              7,
+              21
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "李华已经在国外待了六个月了。",
+            "why": "Li Hua has been abroad for six months 译「李华已经在国外待了六个月了」。",
+            "highlight": [
+              0,
+              37
+            ]
+          }
+        ],
+        "finalZh": "李华已经在国外待了六个月了。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s04-0046",
+      "en": "My mother had slept when I got home yesterday.",
+      "zh": "昨天我到家的时候，我妈妈已经睡了。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "动词时态",
+          "代词"
+        ],
+        "fine": [
+          "have/get sth done 结构"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "when",
+          "hint": "关系副词/时间状语从句引导词（本空填 when）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "had",
+          "hint": "使役/助动词过去式（本空填 had）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "got",
+          "hint": "get 的过去式（本空填 got）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "My mother",
+          "role": "主语",
+          "span": [
+            0,
+            9
+          ]
+        },
+        {
+          "text": "had slept",
+          "role": "谓语",
+          "span": [
+            10,
+            19
+          ]
+        },
+        {
+          "text": "when I got home yesterday.",
+          "role": "状语从句",
+          "span": [
+            20,
+            46
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "主句谓语是 had slept（过去完成时），when 引导时间状语从句。",
+            "why": "had slept（已经睡了）是过去完成时，when I got home 是 when 引导的时间状语从句。",
+            "highlight": [
+              10,
+              19
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别时间状语从句",
+            "what": "when I got home yesterday 是时间状语从句。",
+            "why": "when（当……时）引导时间状语从句，I got home（我到家）是过去的时间点。",
+            "highlight": [
+              20,
+              45
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "trap",
+            "title": "过去完成时 had slept",
+            "what": "had slept = 已经睡了（在到家之前），过去完成时表「过去的过去」。",
+            "why": "had slept 是过去完成时，表示「在 got home 之前已经发生」，强调先后顺序。",
+            "how": "译「我妈妈已经睡了」，had slept 译「已经睡了」。",
+            "highlight": [
+              10,
+              19
+            ]
+          },
+          {
+            "step": 4,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "昨天我到家的时候，我妈妈已经睡了。",
+            "why": "My mother had slept when I got home yesterday 译「昨天我到家的时候，我妈妈已经睡了」。",
+            "highlight": [
+              0,
+              45
+            ]
+          }
+        ],
+        "finalZh": "昨天我到家的时候，我妈妈已经睡了。",
+        "orderRules": [
+          "时间状语从句 when... 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s04-0047",
+      "en": "She said she had never been to England.",
+      "zh": "她说了她从未去过英格兰。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "非谓语动词",
+          "动词时态",
+          "代词"
+        ],
+        "fine": [
+          "have/get sth done 结构"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "had",
+          "hint": "使役/助动词过去式（本空填 had）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "been",
+          "hint": "be 的过去分词（本空填 been）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "She",
+          "role": "主语",
+          "span": [
+            0,
+            3
+          ]
+        },
+        {
+          "text": "said",
+          "role": "谓语",
+          "span": [
+            4,
+            8
+          ]
+        },
+        {
+          "text": "she",
+          "role": "宾语",
+          "span": [
+            9,
+            12
+          ]
+        },
+        {
+          "text": "had never been",
+          "role": "谓语",
+          "span": [
+            13,
+            27
+          ]
+        },
+        {
+          "text": "to England",
+          "role": "状语",
+          "span": [
+            28,
+            38
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "主句谓语是 said，宾语从句谓语是 had never been。",
+            "why": "said（说）是主句，she had never been to England 是宾语从句，had never been 是过去完成时。",
+            "highlight": [
+              4,
+              8
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别宾语从句",
+            "what": "she had never been to England 是宾语从句，作 said 的宾语。",
+            "why": "said 后接宾语从句，had never been to England（从未去过英格兰）是说的内容，用过去完成时。",
+            "highlight": [
+              9,
+              38
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "她说了她从未去过英格兰。",
+            "why": "She said she had never been to England 译「她说了她从未去过英格兰」。",
+            "highlight": [
+              0,
+              38
+            ]
+          }
+        ],
+        "finalZh": "她说了她从未去过英格兰。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s04-0048",
+      "en": "We had hardly arrived when we had to go back.",
+      "zh": "我们刚到就不得不返回。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "have/get sth done 结构",
+          "hardly…when 刚…就…"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "when",
+          "hint": "关系副词/时间状语从句引导词（本空填 when）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "had",
+          "hint": "使役/助动词过去式（本空填 had）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "had",
+          "hint": "使役/助动词过去式（本空填 had）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "We",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "had hardly arrived",
+          "role": "谓语",
+          "span": [
+            3,
+            21
+          ]
+        },
+        {
+          "text": "when we had to go back.",
+          "role": "状语从句",
+          "span": [
+            22,
+            45
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 had arrived 和 had to go back，when 引导时间状语从句。",
+            "why": "had hardly arrived（刚到）是主句，when we had to go back 是 when 引导的时间状语从句。",
+            "highlight": [
+              3,
+              21
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "hardly...when...",
+            "what": "had hardly arrived when... = 刚到就……，hardly...when 表「一……就」。",
+            "why": "hardly...when 表示「一……就……」，had hardly arrived（刚到）和 had to go back（不得不返回）前后紧接。",
+            "how": "译「我们刚到就不得不返回」，hardly...when 译「刚……就」。",
+            "highlight": [
+              3,
+              44
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我们刚到就不得不返回。",
+            "why": "We had hardly arrived when we had to go back 译「我们刚到就不得不返回」。",
+            "highlight": [
+              0,
+              44
+            ]
+          }
+        ],
+        "finalZh": "我们刚到就不得不返回。",
+        "orderRules": [
+          "hardly...when 译「刚……就」"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s04-0049",
+      "en": "Hardly had we arrived when we had to go back.",
+      "zh": "我们刚到就不得不返回。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "倒装",
+          "非谓语动词"
+        ],
+        "fine": [
+          "have/get sth done 结构",
+          "hardly…when 刚…就…"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "when",
+          "hint": "关系副词/时间状语从句引导词（本空填 when）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "had",
+          "hint": "使役/助动词过去式（本空填 had）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "had",
+          "hint": "使役/助动词过去式（本空填 had）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "Hardly",
+          "role": "主语",
+          "span": [
+            0,
+            6
+          ]
+        },
+        {
+          "text": "had",
+          "role": "谓语",
+          "span": [
+            7,
+            10
+          ]
+        },
+        {
+          "text": "we",
+          "role": "宾语",
+          "span": [
+            11,
+            13
+          ]
+        },
+        {
+          "text": "arrived",
+          "role": "谓语",
+          "span": [
+            14,
+            21
+          ]
+        },
+        {
+          "text": "when we had to go back.",
+          "role": "状语从句",
+          "span": [
+            22,
+            45
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 had...arrived（倒装），Hardly 放句首引起部分倒装。",
+            "why": "Hardly had we arrived 是 Hardly 放句首引起的部分倒装（had 提前），when 引导时间状语从句。",
+            "highlight": [
+              0,
+              21
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "hardly 倒装",
+            "what": "Hardly had we arrived = 我们刚到，Hardly 放句首部分倒装。",
+            "why": "Hardly 是否定副词放句首，主句部分倒装（had we arrived 而非 we had arrived）。",
+            "how": "译「我们刚到就不得不返回」，倒装 had we 恢复「我们」。",
+            "highlight": [
+              0,
+              21
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "order",
+            "title": "倒装还原",
+            "what": "倒装 had we arrived 还原为 we had arrived。",
+            "why": "hardly 引起的倒装只在英语，中文无倒装，译时恢复正常语序。",
+            "how": "先译 Hardly had we arrived（我们刚到），再译 when we had to go back（就不得不返回）。",
+            "highlight": [
+              0,
+              44
+            ]
+          },
+          {
+            "step": 4,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我们刚到就不得不返回。",
+            "why": "Hardly had we arrived when we had to go back 译「我们刚到就不得不返回」。",
+            "highlight": [
+              0,
+              44
+            ]
+          }
+        ],
+        "finalZh": "我们刚到就不得不返回。",
+        "orderRules": [
+          "hardly 倒装还原",
+          "hardly...when 译「刚……就」"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOC"
+    },
+    {
+      "id": "s04-0050",
+      "en": "No sooner had he sat down than the phone rang.",
+      "zh": "他刚坐下，电话铃就响了。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "倒装",
+          "动词时态",
+          "代词"
+        ],
+        "fine": [
+          "have/get sth done 结构",
+          "no sooner…than 刚…就…"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "had",
+          "hint": "使役/助动词过去式（本空填 had）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "No sooner",
+          "role": "主语",
+          "span": [
+            0,
+            9
+          ]
+        },
+        {
+          "text": "had",
+          "role": "谓语",
+          "span": [
+            10,
+            13
+          ]
+        },
+        {
+          "text": "he",
+          "role": "宾语",
+          "span": [
+            14,
+            16
+          ]
+        },
+        {
+          "text": "sat",
+          "role": "谓语",
+          "span": [
+            17,
+            20
+          ]
+        },
+        {
+          "text": "down",
+          "role": "宾语",
+          "span": [
+            21,
+            25
+          ]
+        },
+        {
+          "text": "than the phone rang",
+          "role": "状语",
+          "span": [
+            26,
+            45
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 had...sat down（倒装），No sooner 放句首引起倒装。",
+            "why": "No sooner had he sat down 是 No sooner 放句首引起的部分倒装（had 提前），than 引导时间状语从句。",
+            "highlight": [
+              0,
+              25
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "no sooner...than...",
+            "what": "No sooner had he sat down than... = 他刚坐下，电话就……，no sooner...than 表「一……就」。",
+            "why": "no sooner...than 表示「一……就……」，No sooner 放句首部分倒装（had he sat down）。",
+            "how": "译「他刚坐下，电话铃就响了」，no sooner...than 译「刚……就」。",
+            "highlight": [
+              0,
+              45
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "order",
+            "title": "倒装还原",
+            "what": "倒装 had he sat down 还原为 he had sat down。",
+            "why": "no sooner 引起的倒装只在英语，中文译时恢复正常语序。",
+            "how": "先译 No sooner had he sat down（他刚坐下），再译 than the phone rang（电话铃就响了）。",
+            "highlight": [
+              0,
+              45
+            ]
+          },
+          {
+            "step": 4,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他刚坐下，电话铃就响了。",
+            "why": "No sooner had he sat down than the phone rang 译「他刚坐下，电话铃就响了」。",
+            "highlight": [
+              0,
+              45
+            ]
+          }
+        ],
+        "finalZh": "他刚坐下，电话铃就响了。",
+        "orderRules": [
+          "no sooner 倒装还原",
+          "no sooner...than 译「刚……就」"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOO"
+    }
+  ]
+}

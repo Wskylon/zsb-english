@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "chapterId": "c03",
+  "cards": [
+    {
+      "id": "gp03-01",
+      "chapterId": "c03",
+      "majorTag": "倒装",
+      "title": "倒装：否定词与 only 提前",
+      "rule": "否定词（never、hardly、seldom、little、not until）或 only + 状语放在句首时，后面的主句要部分倒装：把助动词提到主语前面。",
+      "examples": [
+        "s03-0065",
+        "s04-0049"
+      ],
+      "errors": [
+        {
+          "wrong": "Never I have seen such a film.",
+          "right": "Never have I seen such a film.",
+          "note": "never 提前后必须把 have 提到 I 前面。"
+        },
+        {
+          "wrong": "Only then I realized my mistake.",
+          "right": "Only then did I realize my mistake.",
+          "note": "only + 状语提前后，主句要借助动词 did 倒装。"
+        }
+      ],
+      "examTips": "浙江专升本考「否定词提前的部分倒装」和「only + 状语提前的倒装」；另外 as/though 引导让步从句时表语或状语提前也构成倒装。",
+      "method": "识别方法：①看句首是不是否定词或 only + 状语；②倒装只倒主句，从句不倒；③没有助动词时借 do/does/did。"
+    },
+    {
+      "id": "gp03-02",
+      "chapterId": "c03",
+      "majorTag": "强调",
+      "title": "强调句：It is … that/who …",
+      "rule": "要强调句子的某个成分，用 It is/was + 被强调部分 + that（人也可以用 who）+ 其余部分。把 It is 和 that 去掉，句子依然完整通顺。",
+      "examples": [
+        "s03-0141",
+        "s05-0019"
+      ],
+      "errors": [
+        {
+          "wrong": "It was in Beijing where I met him.",
+          "right": "It was in Beijing that I met him.",
+          "note": "强调句用 that，不是 where。"
+        }
+      ],
+      "examTips": "浙江专升本考「It is/was … that …」结构的识别，以及它与定语从句的区分：去掉 It is 和 that 后句子是否完整。",
+      "method": "识别方法：去掉 It is/was 和后面的 that/who，剩下的部分若是一条完整的句子，就是强调句。"
+    }
+  ]
+}

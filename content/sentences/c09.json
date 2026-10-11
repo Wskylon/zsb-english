@@ -1,0 +1,6073 @@
+{
+  "schemaVersion": 1,
+  "chapterId": "c09",
+  "sentences": [
+    {
+      "id": "s09-0011",
+      "en": "That kind nightingale lost her life.",
+      "zh": "那只善良的夜莺失去了生命。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 6,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "代词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "That",
+          "hint": "关系代词/从句引导词（本空填 That）",
+          "gp": "定语从句"
+        }
+      ],
+      "components": [
+        {
+          "text": "That kind nightingale",
+          "role": "主语",
+          "span": [
+            0,
+            21
+          ]
+        },
+        {
+          "text": "lost",
+          "role": "谓语",
+          "span": [
+            22,
+            26
+          ]
+        },
+        {
+          "text": "her life",
+          "role": "宾语",
+          "span": [
+            27,
+            35
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 lost，That kind nightingale 是主语，her life 是宾语。",
+            "why": "lost（失去）是谓语，That kind nightingale（那只善良的夜莺）是主语，her life 是宾语。",
+            "highlight": [
+              22,
+              26
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "那只善良的夜莺失去了生命。",
+            "why": "That kind nightingale lost her life 译「那只善良的夜莺失去了生命」。",
+            "highlight": [
+              0,
+              35
+            ]
+          }
+        ],
+        "finalZh": "那只善良的夜莺失去了生命。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s09-0014",
+      "en": "Her favorite star is Dayan who is good at singing as well as dancing.",
+      "zh": "她最喜欢的明星是既擅长唱歌又擅长跳舞的大雁。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 14,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "被动语态",
+          "非谓语动词"
+        ],
+        "fine": [
+          "关系代词 who 在从句中作主语",
+          "介词 + 动名词",
+          "as…as 原级比较"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "who",
+          "hint": "关系代词，指人（本空填 who）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "as",
+          "hint": "引导时间/原因/方式状语从句（本空填 as）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "as",
+          "hint": "引导时间/原因/方式状语从句（本空填 as）",
+          "gp": "状语从句"
+        }
+      ],
+      "components": [
+        {
+          "text": "Her favorite star",
+          "role": "主语",
+          "span": [
+            0,
+            17
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            18,
+            20
+          ]
+        },
+        {
+          "text": "Dayan",
+          "role": "表语",
+          "span": [
+            21,
+            26
+          ]
+        },
+        {
+          "text": "who is good at singing as well as dancing.",
+          "role": "定语从句",
+          "span": [
+            27,
+            69
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is（系动词），who 引导定语从句修饰 Dayan。",
+            "why": "is 是系动词，who is good at singing as well as dancing 是 who 引导的定语从句修饰 Dayan。",
+            "highlight": [
+              18,
+              20
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别定语从句",
+            "what": "who is good at singing as well as dancing 是定语从句，修饰 Dayan。",
+            "why": "who 是关系代词指代 Dayan，在从句中作主语，as well as 表「也」。",
+            "highlight": [
+              27,
+              68
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "她最喜欢的明星是既擅长唱歌又擅长跳舞的大雁。",
+            "why": "Her favorite star is Dayan who is good at singing as well as dancing 译「她最喜欢的明星是既擅长唱歌又擅长跳舞的大雁」。",
+            "highlight": [
+              0,
+              68
+            ]
+          }
+        ],
+        "finalZh": "她最喜欢的明星是既擅长唱歌又擅长跳舞的大雁。",
+        "orderRules": [
+          "定语从句 who... 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s09-0017",
+      "en": "I enjoy the movie (that) we saw yesterday.",
+      "zh": "我喜欢我们昨天看的那部电影。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "代词",
+          "冠词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        },
+        {
+          "answer": "saw",
+          "hint": "see 的过去式（本空填 saw）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "enjoy",
+          "role": "谓语",
+          "span": [
+            2,
+            7
+          ]
+        },
+        {
+          "text": "the movie",
+          "role": "宾语",
+          "span": [
+            8,
+            17
+          ]
+        },
+        {
+          "text": "that",
+          "role": "状语",
+          "span": [
+            19,
+            23
+          ]
+        },
+        {
+          "text": "we",
+          "role": "状语",
+          "span": [
+            25,
+            27
+          ]
+        },
+        {
+          "text": "saw",
+          "role": "谓语",
+          "span": [
+            28,
+            31
+          ]
+        },
+        {
+          "text": "yesterday",
+          "role": "宾语",
+          "span": [
+            32,
+            41
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 enjoy，(that) 引导定语从句（that 可省略）。",
+            "why": "enjoy（喜欢）是谓语，the movie (that) we saw yesterday 中 (that) 引导定语从句修饰 movie。",
+            "highlight": [
+              2,
+              7
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别定语从句",
+            "what": "(that) we saw yesterday 是定语从句，that 作 saw 的宾语可省略。",
+            "why": "that 是关系代词，在从句中作 saw 的宾语，所以可省略。",
+            "highlight": [
+              18,
+              41
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我喜欢我们昨天看的那部电影。",
+            "why": "I enjoy the movie (that) we saw yesterday 译「我喜欢我们昨天看的那部电影」。",
+            "highlight": [
+              0,
+              41
+            ]
+          }
+        ],
+        "finalZh": "我喜欢我们昨天看的那部电影。",
+        "orderRules": [
+          "定语从句 (that) we saw 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOO"
+    },
+    {
+      "id": "s09-0018",
+      "en": "I ate the bread (that) my mother cooked.",
+      "zh": "我吃了我妈妈做的面包。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "非谓语动词",
+          "代词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "ate",
+          "role": "谓语",
+          "span": [
+            2,
+            5
+          ]
+        },
+        {
+          "text": "the bread",
+          "role": "宾语",
+          "span": [
+            6,
+            15
+          ]
+        },
+        {
+          "text": "that",
+          "role": "状语",
+          "span": [
+            17,
+            21
+          ]
+        },
+        {
+          "text": "my mother",
+          "role": "状语",
+          "span": [
+            23,
+            32
+          ]
+        },
+        {
+          "text": "cooked",
+          "role": "谓语",
+          "span": [
+            33,
+            39
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 ate，(that) 引导定语从句（that 可省略）。",
+            "why": "ate（吃）是谓语，the bread (that) my mother cooked 中 (that) 引导定语从句修饰 bread。",
+            "highlight": [
+              2,
+              5
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别定语从句",
+            "what": "(that) my mother cooked 是定语从句，that 作 cooked 的宾语可省略。",
+            "why": "that 是关系代词，在从句中作 cooked 的宾语，所以可省略。",
+            "highlight": [
+              16,
+              39
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我吃了我妈妈做的面包。",
+            "why": "I ate the bread (that) my mother cooked 译「我吃了我妈妈做的面包」。",
+            "highlight": [
+              0,
+              39
+            ]
+          }
+        ],
+        "finalZh": "我吃了我妈妈做的面包。",
+        "orderRules": [
+          "定语从句 (that) my mother cooked 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s09-0019",
+      "en": "I admire Teacher Liu who is intelligent and beautiful.",
+      "zh": "我钦佩既聪明又漂亮的刘老师。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "被动语态",
+          "并列结构"
+        ],
+        "fine": [
+          "关系代词 who 在从句中作主语"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "who",
+          "hint": "关系代词，指人（本空填 who）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "I admire Teacher Liu",
+          "role": "主语",
+          "span": [
+            0,
+            20
+          ]
+        },
+        {
+          "text": "who is intelligent and beautiful.",
+          "role": "定语从句",
+          "span": [
+            21,
+            54
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 admire，who 引导定语从句修饰 Teacher Liu。",
+            "why": "admire（钦佩）是谓语，who is intelligent and beautiful 是 who 引导的定语从句修饰 Teacher Liu。",
+            "highlight": [
+              2,
+              8
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别定语从句",
+            "what": "who is intelligent and beautiful 是定语从句，who 作主语。",
+            "why": "who 是关系代词指代 Teacher Liu，在从句中作主语。",
+            "highlight": [
+              21,
+              53
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我钦佩既聪明又漂亮的刘老师。",
+            "why": "I admire Teacher Liu who is intelligent and beautiful 译「我钦佩既聪明又漂亮的刘老师」。",
+            "highlight": [
+              0,
+              53
+            ]
+          }
+        ],
+        "finalZh": "我钦佩既聪明又漂亮的刘老师。",
+        "orderRules": [
+          "定语从句 who... 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s09-0020",
+      "en": "A nurse is a person who looks after patients.",
+      "zh": "护士是照顾病人的人。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 2,
+        "level": 3
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "状语从句",
+          "动词时态"
+        ],
+        "fine": [
+          "关系代词 who 在从句中作主语"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "who",
+          "hint": "关系代词，指人（本空填 who）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "after",
+          "hint": "引导时间状语从句（本空填 after）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "A nurse",
+          "role": "主语",
+          "span": [
+            0,
+            7
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            8,
+            10
+          ]
+        },
+        {
+          "text": "a person",
+          "role": "表语",
+          "span": [
+            11,
+            19
+          ]
+        },
+        {
+          "text": "who looks after patients.",
+          "role": "定语从句",
+          "span": [
+            20,
+            45
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is（系动词），who 引导定语从句修饰 person。",
+            "why": "is 是系动词，a person who looks after patients 中 who 引导定语从句修饰 person。",
+            "highlight": [
+              8,
+              10
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别定语从句",
+            "what": "who looks after patients 是定语从句，who 作主语。",
+            "why": "who 是关系代词指代 person，在从句中作主语，looks after 是谓语。",
+            "highlight": [
+              20,
+              44
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "护士是照顾病人的人。",
+            "why": "A nurse is a person who looks after patients 译「护士是照顾病人的人」。",
+            "highlight": [
+              0,
+              44
+            ]
+          }
+        ],
+        "finalZh": "护士是照顾病人的人。",
+        "orderRules": [
+          "定语从句 who... 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s09-0021",
+      "en": "My father, who is over 60, still works very hard.",
+      "zh": "我父亲已经六十多岁了，仍然很努力地工作。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "动词时态",
+          "代词"
+        ],
+        "fine": [
+          "关系代词 who 在从句中作主语",
+          "多点修饰，注意先断句再翻译"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "who",
+          "hint": "关系代词，指人（本空填 who）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "My father",
+          "role": "主语",
+          "span": [
+            0,
+            9
+          ]
+        },
+        {
+          "text": "who is over 60",
+          "role": "定语从句",
+          "span": [
+            11,
+            25
+          ]
+        },
+        {
+          "text": "still",
+          "role": "表语",
+          "span": [
+            27,
+            32
+          ]
+        },
+        {
+          "text": "works",
+          "role": "谓语",
+          "span": [
+            33,
+            38
+          ]
+        },
+        {
+          "text": "very hard",
+          "role": "宾语",
+          "span": [
+            39,
+            48
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 works，who 引导非限制性定语从句修饰 My father。",
+            "why": "works（工作）是谓语，who is over 60 是 who 引导的非限制性定语从句（逗号隔开）。",
+            "highlight": [
+              33,
+              38
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别非限制性定语从句",
+            "what": "who is over 60 是非限制性定语从句，补充说明 My father。",
+            "why": "who is over 60 用逗号隔开，是非限制性定语从句，补充说明父亲的年龄。",
+            "highlight": [
+              11,
+              25
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我父亲已经六十多岁了，仍然很努力地工作。",
+            "why": "My father, who is over 60, still works very hard 译「我父亲已经六十多岁了，仍然很努力地工作」。",
+            "highlight": [
+              0,
+              48
+            ]
+          }
+        ],
+        "finalZh": "我父亲已经六十多岁了，仍然很努力地工作。",
+        "orderRules": [
+          "非限制性定语从句 who... 拆成小句"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s09-0022",
+      "en": "My doctor, who is very patient, always listens carefully.",
+      "zh": "我的医生很有耐心，总是认真倾听。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "动词时态",
+          "代词"
+        ],
+        "fine": [
+          "关系代词 who 在从句中作主语",
+          "多点修饰，注意先断句再翻译"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "who",
+          "hint": "关系代词，指人（本空填 who）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "My doctor",
+          "role": "主语",
+          "span": [
+            0,
+            9
+          ]
+        },
+        {
+          "text": "who is very patient",
+          "role": "定语从句",
+          "span": [
+            11,
+            30
+          ]
+        },
+        {
+          "text": "always",
+          "role": "表语",
+          "span": [
+            32,
+            38
+          ]
+        },
+        {
+          "text": "listens",
+          "role": "谓语",
+          "span": [
+            39,
+            46
+          ]
+        },
+        {
+          "text": "carefully",
+          "role": "宾语",
+          "span": [
+            47,
+            56
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 listens，who 引导非限制性定语从句修饰 My doctor。",
+            "why": "listens（倾听）是谓语，who is very patient 是 who 引导的非限制性定语从句。",
+            "highlight": [
+              39,
+              46
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别非限制性定语从句",
+            "what": "who is very patient 是非限制性定语从句，补充说明 My doctor。",
+            "why": "who is very patient 用逗号隔开，是非限制性定语从句。",
+            "highlight": [
+              11,
+              30
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我的医生很有耐心，总是认真倾听。",
+            "why": "My doctor, who is very patient, always listens carefully 译「我的医生很有耐心，总是认真倾听」。",
+            "highlight": [
+              0,
+              56
+            ]
+          }
+        ],
+        "finalZh": "我的医生很有耐心，总是认真倾听。",
+        "orderRules": [
+          "非限制性定语从句 who... 拆成小句"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s09-0023",
+      "en": "The author, whom we admire greatly, will give a lecture.",
+      "zh": "我们非常钦佩的那位作家将做讲座。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "情态动词",
+          "动词时态"
+        ],
+        "fine": [
+          "关系代词 whom 在从句中作宾语",
+          "一般将来时",
+          "多点修饰，注意先断句再翻译"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "whom",
+          "hint": "关系代词，指人（宾格）（本空填 whom）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "will",
+          "hint": "助动词，一般将来时（本空填 will）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "The",
+          "hint": "定冠词，特指（本空填 The）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "The author",
+          "role": "主语",
+          "span": [
+            0,
+            10
+          ]
+        },
+        {
+          "text": "whom we admire greatly",
+          "role": "定语从句",
+          "span": [
+            12,
+            34
+          ]
+        },
+        {
+          "text": "will give",
+          "role": "谓语",
+          "span": [
+            36,
+            45
+          ]
+        },
+        {
+          "text": "a lecture",
+          "role": "宾语",
+          "span": [
+            46,
+            55
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 will give，whom 引导非限制性定语从句修饰 The author。",
+            "why": "will give（将做讲座）是谓语，whom we admire greatly 是 whom 引导的非限制性定语从句。",
+            "highlight": [
+              41,
+              55
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别定语从句（whom）",
+            "what": "whom we admire greatly 是定语从句，whom 作 admire 的宾语。",
+            "why": "whom 是关系代词指代 The author，在从句中作 admire 的宾语（正式用法）。",
+            "highlight": [
+              12,
+              34
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我们非常钦佩的那位作家将做讲座。",
+            "why": "The author, whom we admire greatly, will give a lecture 译「我们非常钦佩的那位作家将做讲座」。",
+            "highlight": [
+              0,
+              55
+            ]
+          }
+        ],
+        "finalZh": "我们非常钦佩的那位作家将做讲座。",
+        "orderRules": [
+          "定语从句 whom we admire 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s09-0024",
+      "en": "The artist, whose paintings are famous worldwide, lives in Paris.",
+      "zh": "那位画作闻名世界的艺术家住在巴黎。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "动词时态",
+          "冠词"
+        ],
+        "fine": [
+          "关系代词 whose 表示所属关系",
+          "多点修饰，注意先断句再翻译"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "whose",
+          "hint": "关系代词，表示所属（本空填 whose）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "are",
+          "hint": "系动词/助动词，复数（本空填 are）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "in",
+          "hint": "介词，在…里（本空填 in）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "The artist",
+          "role": "主语",
+          "span": [
+            0,
+            10
+          ]
+        },
+        {
+          "text": "whose paintings are famous worldwide",
+          "role": "定语从句",
+          "span": [
+            12,
+            48
+          ]
+        },
+        {
+          "text": "lives",
+          "role": "谓语",
+          "span": [
+            50,
+            55
+          ]
+        },
+        {
+          "text": "in Paris",
+          "role": "状语",
+          "span": [
+            56,
+            64
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 lives，whose 引导非限制性定语从句修饰 The artist。",
+            "why": "lives（住在）是谓语，whose paintings are famous 是 whose 引导的非限制性定语从句。",
+            "highlight": [
+              50,
+              55
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别定语从句（whose）",
+            "what": "whose paintings are famous worldwide 是定语从句，whose 表所有格。",
+            "why": "whose 是关系代词表所有格，指代 artist 的（画作），在从句中作定语。",
+            "highlight": [
+              12,
+              48
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "那位画作闻名世界的艺术家住在巴黎。",
+            "why": "The artist, whose paintings are famous worldwide, lives in Paris 译「那位画作闻名世界的艺术家住在巴黎」。",
+            "highlight": [
+              0,
+              64
+            ]
+          }
+        ],
+        "finalZh": "那位画作闻名世界的艺术家住在巴黎。",
+        "orderRules": [
+          "定语从句 whose... 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s09-0025",
+      "en": "He said he had climbed to the top of Mount Qomolangma, which I suspect very much.",
+      "zh": "他说他爬上了珠穆朗玛峰顶，这一点我很怀疑。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 16,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "关系代词 which 指物",
+          "现在完成时或过去完成时",
+          "长句，先找谓语再断句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "which",
+          "hint": "关系代词，指物（本空填 which）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "had",
+          "hint": "使役/助动词过去式（本空填 had）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "He",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "said",
+          "role": "谓语",
+          "span": [
+            3,
+            7
+          ]
+        },
+        {
+          "text": "he",
+          "role": "宾语",
+          "span": [
+            8,
+            10
+          ]
+        },
+        {
+          "text": "had",
+          "role": "谓语",
+          "span": [
+            11,
+            14
+          ]
+        },
+        {
+          "text": "climbed",
+          "role": "宾语",
+          "span": [
+            15,
+            22
+          ]
+        },
+        {
+          "text": "to the top of Mount Qomolangma",
+          "role": "状语",
+          "span": [
+            23,
+            53
+          ]
+        },
+        {
+          "text": "which I suspect very much.",
+          "role": "定语从句",
+          "span": [
+            55,
+            81
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 said，which 引导非限制性定语从句。",
+            "why": "said（说）是谓语，which I suspect very much 是 which 引导的非限制性定语从句，指代整个主句。",
+            "highlight": [
+              3,
+              7
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别 which 指代主句",
+            "what": "which I suspect very much 是定语从句，which 指代前面整件事。",
+            "why": "which 指代前面「他说爬上了珠峰」这整件事，作 suspect 的宾语。",
+            "highlight": [
+              55,
+              80
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他说他爬上了珠穆朗玛峰顶，这一点我很怀疑。",
+            "why": "He said he had climbed to the top of Mount Qomolangma, which I suspect very much 译「他说他爬上了珠穆朗玛峰顶，这一点我很怀疑」。",
+            "highlight": [
+              0,
+              80
+            ]
+          }
+        ],
+        "finalZh": "他说他爬上了珠穆朗玛峰顶，这一点我很怀疑。",
+        "orderRules": [
+          "which 指代整句译「这一点」"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOO"
+    },
+    {
+      "id": "s09-0026",
+      "en": "The year 2008, when the Olympics were held in Beijing, was unforgettable.",
+      "zh": "2008 年，奥运会在北京举行，那一年令人难忘。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 11,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "状语从句",
+          "被动语态"
+        ],
+        "fine": [
+          "介词 + 动名词",
+          "多点修饰，注意先断句再翻译"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "when",
+          "hint": "关系副词/时间状语从句引导词（本空填 when）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "were",
+          "hint": "系动词/助动词，过去式复数（本空填 were）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "was",
+          "hint": "系动词/助动词，过去式单数（本空填 was）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "The year 2008",
+          "role": "主语",
+          "span": [
+            0,
+            13
+          ]
+        },
+        {
+          "text": "when the Olympics were held in Beijing, was unforgettable.",
+          "role": "状语从句",
+          "span": [
+            15,
+            73
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 was，when 引导非限制性定语从句修饰 The year 2008。",
+            "why": "was unforgettable（难忘）是谓语，when the Olympics were held 是 when 引导的定语从句修饰 The year 2008。",
+            "highlight": [
+              55,
+              58
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别定语从句（when）",
+            "what": "when the Olympics were held in Beijing 是定语从句，when 表时间。",
+            "why": "when 是关系副词，在从句中作时间状语，修饰 The year 2008。",
+            "highlight": [
+              15,
+              53
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "2008 年，奥运会在北京举行，那一年令人难忘。",
+            "why": "The year 2008, when the Olympics were held in Beijing, was unforgettable 译「2008 年，奥运会在北京举行，那一年令人难忘」。",
+            "highlight": [
+              0,
+              72
+            ]
+          }
+        ],
+        "finalZh": "2008 年，奥运会在北京举行，那一年令人难忘。",
+        "orderRules": [
+          "定语从句 when... 拆成小句"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s09-0027",
+      "en": "Paris, where the Eiffel Tower is located, is a romantic city.",
+      "zh": "巴黎，埃菲尔铁塔所在地，是一座浪漫的城市。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 11,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "被动语态",
+          "非谓语动词"
+        ],
+        "fine": [
+          "多点修饰，注意先断句再翻译"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "where",
+          "hint": "关系副词，表示地点（本空填 where）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "Paris",
+          "role": "主语",
+          "span": [
+            0,
+            5
+          ]
+        },
+        {
+          "text": "where the Eiffel Tower is located",
+          "role": "状语从句",
+          "span": [
+            7,
+            40
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            42,
+            44
+          ]
+        },
+        {
+          "text": "a romantic city",
+          "role": "表语",
+          "span": [
+            45,
+            60
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，where 引导非限制性定语从句修饰 Paris。",
+            "why": "is a romantic city 是谓语，where the Eiffel Tower is located 是 where 引导的定语从句修饰 Paris。",
+            "highlight": [
+              42,
+              60
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别定语从句（where）",
+            "what": "where the Eiffel Tower is located 是定语从句，where 表地点。",
+            "why": "where 是关系副词，在从句中作地点状语，修饰 Paris。",
+            "highlight": [
+              7,
+              40
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "巴黎，埃菲尔铁塔所在地，是一座浪漫的城市。",
+            "why": "Paris, where the Eiffel Tower is located, is a romantic city 译「巴黎，埃菲尔铁塔所在地，是一座浪漫的城市」。",
+            "highlight": [
+              0,
+              60
+            ]
+          }
+        ],
+        "finalZh": "巴黎，埃菲尔铁塔所在地，是一座浪漫的城市。",
+        "orderRules": [
+          "定语从句 where... 拆成小句"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s09-0029",
+      "en": "Man struggles upwards and water flows downwards, which is known to all.",
+      "zh": "众所周知，人往高处走，水往低处流。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 12,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "非谓语动词",
+          "并列结构"
+        ],
+        "fine": [
+          "关系代词 which 指物"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "which",
+          "hint": "关系代词，指物（本空填 which）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Man struggles upwards and water flows downwards",
+          "role": "主语",
+          "span": [
+            0,
+            47
+          ]
+        },
+        {
+          "text": "which is known to all.",
+          "role": "定语从句",
+          "span": [
+            49,
+            71
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 struggles 和 flows，which 引导非限制性定语从句。",
+            "why": "struggles（奋斗）和 flows（流动）是两个分句谓语，which is known to all 是 which 引导的定语从句指代整个主句。",
+            "highlight": [
+              4,
+              46
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别 which 指代主句",
+            "what": "which is known to all 是定语从句，which 指代前面整件事。",
+            "why": "which 指代「人往高处走，水往低处流」这整件事，is known to all 表「众所周知」。",
+            "highlight": [
+              49,
+              70
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "众所周知，人往高处走，水往低处流。",
+            "why": "Man struggles upwards and water flows downwards, which is known to all 译「众所周知，人往高处走，水往低处流」。",
+            "highlight": [
+              0,
+              70
+            ]
+          }
+        ],
+        "finalZh": "众所周知，人往高处走，水往低处流。",
+        "orderRules": [
+          "which is known to all 前置译「众所周知」"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s09-0030",
+      "en": "The project failed, as was expected.",
+      "zh": "项目失败了，正如预料的那样。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 6,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "被动语态",
+          "非谓语动词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "as",
+          "hint": "引导时间/原因/方式状语从句（本空填 as）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "was",
+          "hint": "系动词/助动词，过去式单数（本空填 was）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "The",
+          "hint": "定冠词，特指（本空填 The）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "The project",
+          "role": "主语",
+          "span": [
+            0,
+            11
+          ]
+        },
+        {
+          "text": "failed",
+          "role": "谓语",
+          "span": [
+            12,
+            18
+          ]
+        },
+        {
+          "text": "as was expected.",
+          "role": "状语从句",
+          "span": [
+            20,
+            36
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 failed，as 引导定语从句。",
+            "why": "failed（失败）是谓语，as was expected 是 as 引导的定语从句，指代主句。",
+            "highlight": [
+              12,
+              18
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别 as 引导定语从句",
+            "what": "as was expected = 正如预料，as 指代主句。",
+            "why": "as 是关系代词，指代「项目失败」这件事，was expected 是被动。",
+            "how": "译「正如预料的那样」，as was expected 译「正如预料」。",
+            "highlight": [
+              20,
+              35
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "项目失败了，正如预料的那样。",
+            "why": "The project failed, as was expected 译「项目失败了，正如预料的那样」。",
+            "highlight": [
+              0,
+              35
+            ]
+          }
+        ],
+        "finalZh": "项目失败了，正如预料的那样。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s09-0031",
+      "en": "He changed his mind, which made me very angry.",
+      "zh": "他改变了主意，这使我很生气。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "非谓语动词",
+          "代词"
+        ],
+        "fine": [
+          "关系代词 which 指物"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "which",
+          "hint": "关系代词，指物（本空填 which）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "made",
+          "hint": "make 的过去式/过去分词（本空填 made）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "He",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "changed",
+          "role": "谓语",
+          "span": [
+            3,
+            10
+          ]
+        },
+        {
+          "text": "his",
+          "role": "宾语",
+          "span": [
+            11,
+            14
+          ]
+        },
+        {
+          "text": "mind",
+          "role": "谓语",
+          "span": [
+            15,
+            19
+          ]
+        },
+        {
+          "text": "which made me very angry.",
+          "role": "定语从句",
+          "span": [
+            21,
+            46
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 changed，which 引导非限制性定语从句。",
+            "why": "changed（改变）是谓语，which made me very angry 是 which 引导的定语从句指代主句。",
+            "highlight": [
+              3,
+              10
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别 which 指代主句",
+            "what": "which made me very angry = 这使我很生气，which 指代整件事。",
+            "why": "which 指代「他改变主意」这件事，made me very angry 是结果。",
+            "how": "译「这使我很生气」，which 译「这」。",
+            "highlight": [
+              21,
+              45
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他改变了主意，这使我很生气。",
+            "why": "He changed his mind, which made me very angry 译「他改变了主意，这使我很生气」。",
+            "highlight": [
+              0,
+              45
+            ]
+          }
+        ],
+        "finalZh": "他改变了主意，这使我很生气。",
+        "orderRules": [
+          "which 指代整句译「这」"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s09-0032",
+      "en": "Edison, whose inventions have been over 2.000, is a great scientist.",
+      "zh": "爱迪生，其发明超过 2000 项，是一位伟大的科学家。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "动词时态",
+          "冠词"
+        ],
+        "fine": [
+          "关系代词 whose 表示所属关系",
+          "完成时 + be，注意是完成还是被动",
+          "多点修饰，注意先断句再翻译"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "whose",
+          "hint": "关系代词，表示所属（本空填 whose）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "have",
+          "hint": "使役动词，让（have sth done）（本空填 have）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "been",
+          "hint": "be 的过去分词（本空填 been）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "Edison",
+          "role": "主语",
+          "span": [
+            0,
+            6
+          ]
+        },
+        {
+          "text": "whose inventions have been over 2.000",
+          "role": "定语从句",
+          "span": [
+            8,
+            45
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            47,
+            49
+          ]
+        },
+        {
+          "text": "a great scientist",
+          "role": "表语",
+          "span": [
+            50,
+            67
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，whose 引导非限制性定语从句修饰 Edison。",
+            "why": "is a great scientist 是谓语，whose inventions have been over 2000 是 whose 引导的定语从句修饰 Edison。",
+            "highlight": [
+              47,
+              49
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别定语从句（whose）",
+            "what": "whose inventions have been over 2000 是定语从句，whose 表所有格。",
+            "why": "whose 是关系代词表所有格，指代 Edison 的（发明），在从句中作定语。",
+            "highlight": [
+              8,
+              45
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "爱迪生，其发明超过 2000 项，是一位伟大的科学家。",
+            "why": "Edison, whose inventions have been over 2000, is a great scientist 译「爱迪生，其发明超过 2000 项，是一位伟大的科学家」。",
+            "highlight": [
+              0,
+              67
+            ]
+          }
+        ],
+        "finalZh": "爱迪生，其发明超过 2000 项，是一位伟大的科学家。",
+        "orderRules": [
+          "定语从句 whose... 拆成小句"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s09-0033",
+      "en": "These apple trees, which I planted three years ago, have not borne any fruit.",
+      "zh": "这些三年前我种的苹果树还没有结任何果实。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 14,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "关系代词 which 指物",
+          "多点修饰，注意先断句再翻译"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "which",
+          "hint": "关系代词，指物（本空填 which）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "have",
+          "hint": "使役动词，让（have sth done）（本空填 have）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "These apple trees",
+          "role": "主语",
+          "span": [
+            0,
+            17
+          ]
+        },
+        {
+          "text": "which I planted three years ago",
+          "role": "定语从句",
+          "span": [
+            19,
+            50
+          ]
+        },
+        {
+          "text": "have not",
+          "role": "谓语",
+          "span": [
+            52,
+            60
+          ]
+        },
+        {
+          "text": "borne any fruit",
+          "role": "宾语",
+          "span": [
+            61,
+            76
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 have not borne，which 引导非限制性定语从句修饰 apple trees。",
+            "why": "have not borne（未结果）是谓语，which I planted three years ago 是 which 引导的定语从句修饰 apple trees。",
+            "highlight": [
+              52,
+              76
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别定语从句（which）",
+            "what": "which I planted three years ago 是定语从句，which 作 planted 的宾语。",
+            "why": "which 是关系代词指代 apple trees，在从句中作 planted 的宾语。",
+            "highlight": [
+              19,
+              50
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "这些三年前我种的苹果树还没有结任何果实。",
+            "why": "These apple trees, which I planted three years ago, have not borne any fruit 译「这些三年前我种的苹果树还没有结任何果实」。",
+            "highlight": [
+              0,
+              76
+            ]
+          }
+        ],
+        "finalZh": "这些三年前我种的苹果树还没有结任何果实。",
+        "orderRules": [
+          "定语从句 which I planted 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s09-0034",
+      "en": "My house, which I bought last year, has got a lovely garden.",
+      "zh": "我去年买的房子有一个漂亮的花园。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 12,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "动词时态",
+          "代词"
+        ],
+        "fine": [
+          "关系代词 which 指物",
+          "多点修饰，注意先断句再翻译"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "which",
+          "hint": "关系代词，指物（本空填 which）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "has",
+          "hint": "助动词，第三人称单数（本空填 has）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "a",
+          "hint": "不定冠词，修饰可数名词单数（本空填 a）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "My house",
+          "role": "主语",
+          "span": [
+            0,
+            8
+          ]
+        },
+        {
+          "text": "which I bought last year",
+          "role": "定语从句",
+          "span": [
+            10,
+            34
+          ]
+        },
+        {
+          "text": "has got",
+          "role": "谓语",
+          "span": [
+            36,
+            43
+          ]
+        },
+        {
+          "text": "a lovely garden",
+          "role": "表语",
+          "span": [
+            44,
+            59
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 has got，which 引导非限制性定语从句修饰 My house。",
+            "why": "has got（有）是谓语，which I bought last year 是 which 引导的定语从句修饰 My house。",
+            "highlight": [
+              36,
+              43
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别定语从句（which）",
+            "what": "which I bought last year 是定语从句，which 作 bought 的宾语。",
+            "why": "which 是关系代词指代 My house，在从句中作 bought 的宾语。",
+            "highlight": [
+              10,
+              34
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我去年买的房子有一个漂亮的花园。",
+            "why": "My house, which I bought last year, has got a lovely garden 译「我去年买的房子有一个漂亮的花园」。",
+            "highlight": [
+              0,
+              59
+            ]
+          }
+        ],
+        "finalZh": "我去年买的房子有一个漂亮的花园。",
+        "orderRules": [
+          "定语从句 which I bought 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s09-0035",
+      "en": "He is the student with whom my teacher talked.",
+      "zh": "他是和我老师谈过话的那个学生。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "关系代词 whom 在从句中作宾语"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "whom",
+          "hint": "关系代词，指人（宾格）（本空填 whom）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "with",
+          "hint": "介词，和/带着（本空填 with）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "He",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            3,
+            5
+          ]
+        },
+        {
+          "text": "the student",
+          "role": "表语",
+          "span": [
+            6,
+            17
+          ]
+        },
+        {
+          "text": "with",
+          "role": "状语",
+          "span": [
+            18,
+            22
+          ]
+        },
+        {
+          "text": "whom my teacher talked.",
+          "role": "定语从句",
+          "span": [
+            23,
+            46
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，with whom 引导定语从句修饰 student。",
+            "why": "is the student（是学生）是谓语，with whom my teacher talked 是「介词 + 关系代词」引导的定语从句。",
+            "highlight": [
+              3,
+              5
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别介词 + 关系代词",
+            "what": "with whom my teacher talked 是定语从句，with whom 表「和……谈话」。",
+            "why": "with whom 是「介词 + 关系代词」，whom 指代 student，talk with 是「和……谈话」。",
+            "highlight": [
+              18,
+              45
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他是和我老师谈过话的那个学生。",
+            "why": "He is the student with whom my teacher talked 译「他是和我老师谈过话的那个学生」。",
+            "highlight": [
+              0,
+              45
+            ]
+          }
+        ],
+        "finalZh": "他是和我老师谈过话的那个学生。",
+        "orderRules": [
+          "介词 + 关系代词 with whom 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s09-0036",
+      "en": "This is the hotel at which Dayan likes to stay.",
+      "zh": "这是大雁喜欢住的那家旅馆。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "关系代词 which 指物"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "which",
+          "hint": "关系代词，指物（本空填 which）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "at",
+          "hint": "介词，在（本空填 at）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "This",
+          "role": "主语",
+          "span": [
+            0,
+            4
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            5,
+            7
+          ]
+        },
+        {
+          "text": "the hotel",
+          "role": "表语",
+          "span": [
+            8,
+            17
+          ]
+        },
+        {
+          "text": "at",
+          "role": "状语",
+          "span": [
+            18,
+            20
+          ]
+        },
+        {
+          "text": "which Dayan likes to stay.",
+          "role": "定语从句",
+          "span": [
+            21,
+            47
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，at which 引导定语从句修饰 hotel。",
+            "why": "is the hotel（是旅馆）是谓语，at which Dayan likes to stay 是「介词 + 关系代词」引导的定语从句。",
+            "highlight": [
+              5,
+              7
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别介词 + 关系代词",
+            "what": "at which Dayan likes to stay 是定语从句，at which 表「在……住」。",
+            "why": "at which 是「介词 + 关系代词」，which 指代 hotel，stay at 是「住在」。",
+            "highlight": [
+              18,
+              46
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "这是大雁喜欢住的那家旅馆。",
+            "why": "This is the hotel at which Dayan likes to stay 译「这是大雁喜欢住的那家旅馆」。",
+            "highlight": [
+              0,
+              46
+            ]
+          }
+        ],
+        "finalZh": "这是大雁喜欢住的那家旅馆。",
+        "orderRules": [
+          "介词 + 关系代词 at which 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s09-0037",
+      "en": "This is the city in which I have lived for 20 years.",
+      "zh": "这是我已经住了 20 年的城市。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 11,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "关系代词 which 指物",
+          "「介词 + 关系代词」引导定语从句",
+          "现在完成时或过去完成时",
+          "for + 时间段，搭配完成时"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "which",
+          "hint": "关系代词，指物（本空填 which）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "have",
+          "hint": "使役动词，让（have sth done）（本空填 have）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "This",
+          "role": "主语",
+          "span": [
+            0,
+            4
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            5,
+            7
+          ]
+        },
+        {
+          "text": "the city",
+          "role": "表语",
+          "span": [
+            8,
+            16
+          ]
+        },
+        {
+          "text": "in",
+          "role": "状语",
+          "span": [
+            17,
+            19
+          ]
+        },
+        {
+          "text": "which I have lived for 20 years.",
+          "role": "定语从句",
+          "span": [
+            20,
+            52
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，in which 引导定语从句修饰 city。",
+            "why": "is the city（是城市）是谓语，in which I have lived for 20 years 是「介词 + 关系代词」引导的定语从句。",
+            "highlight": [
+              5,
+              7
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别介词 + 关系代词",
+            "what": "in which I have lived for 20 years 是定语从句，in which 表「在……住」。",
+            "why": "in which 是「介词 + 关系代词」，which 指代 city，live in 是「住在」。",
+            "highlight": [
+              17,
+              51
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "这是我已经住了 20 年的城市。",
+            "why": "This is the city in which I have lived for 20 years 译「这是我已经住了 20 年的城市」。",
+            "highlight": [
+              0,
+              51
+            ]
+          }
+        ],
+        "finalZh": "这是我已经住了 20 年的城市。",
+        "orderRules": [
+          "介词 + 关系代词 in which 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s09-0038",
+      "en": "Playing basketball is a beneficial exercise from which we can obtain many benefits.",
+      "zh": "打篮球是一项有益的运动，我们可以从中获得许多好处。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 13,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "情态动词",
+          "非谓语动词"
+        ],
+        "fine": [
+          "关系代词 which 指物"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "which",
+          "hint": "关系代词，指物（本空填 which）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "can",
+          "hint": "情态动词，能/可以（本空填 can）",
+          "gp": "情态动词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Playing basketball",
+          "role": "主语",
+          "span": [
+            0,
+            18
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            19,
+            21
+          ]
+        },
+        {
+          "text": "a beneficial exercise",
+          "role": "表语",
+          "span": [
+            22,
+            43
+          ]
+        },
+        {
+          "text": "from",
+          "role": "状语",
+          "span": [
+            44,
+            48
+          ]
+        },
+        {
+          "text": "which we can obtain many benefits.",
+          "role": "定语从句",
+          "span": [
+            49,
+            83
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，from which 引导定语从句修饰 exercise。",
+            "why": "is a beneficial exercise（是有益运动）是谓语，from which we can obtain many benefits 是「介词 + 关系代词」引导的定语从句。",
+            "highlight": [
+              19,
+              43
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别介词 + 关系代词",
+            "what": "from which we can obtain many benefits 是定语从句，from which 表「从中」。",
+            "why": "from which 是「介词 + 关系代词」，which 指代 exercise，obtain from 是「从中获得」。",
+            "highlight": [
+              44,
+              82
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "打篮球是一项有益的运动，我们可以从中获得许多好处。",
+            "why": "Playing basketball is a beneficial exercise from which we can obtain many benefits 译「打篮球是一项有益的运动，我们可以从中获得许多好处」。",
+            "highlight": [
+              0,
+              82
+            ]
+          }
+        ],
+        "finalZh": "打篮球是一项有益的运动，我们可以从中获得许多好处。",
+        "orderRules": [
+          "介词 + 关系代词 from which 拆成小句"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s09-0039",
+      "en": "He gave me some reference books with which I was not very familiar.",
+      "zh": "他给了我一些我不是很熟悉的参考书。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 13,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "被动语态",
+          "主谓一致"
+        ],
+        "fine": [
+          "关系代词 which 指物"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "which",
+          "hint": "关系代词，指物（本空填 which）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "was",
+          "hint": "系动词/助动词，过去式单数（本空填 was）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "with",
+          "hint": "介词，和/带着（本空填 with）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "He",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "gave",
+          "role": "谓语",
+          "span": [
+            3,
+            7
+          ]
+        },
+        {
+          "text": "me some reference books",
+          "role": "宾语",
+          "span": [
+            8,
+            31
+          ]
+        },
+        {
+          "text": "with",
+          "role": "状语",
+          "span": [
+            32,
+            36
+          ]
+        },
+        {
+          "text": "which I was not very familiar.",
+          "role": "定语从句",
+          "span": [
+            37,
+            67
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 gave，with which 引导定语从句修饰 books。",
+            "why": "gave（给）是谓语，with which I was not very familiar 是「介词 + 关系代词」引导的定语从句。",
+            "highlight": [
+              3,
+              7
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别介词 + 关系代词",
+            "what": "with which I was not very familiar 是定语从句，with which 表「对……熟悉」。",
+            "why": "with which 是「介词 + 关系代词」，which 指代 books，be familiar with 是「熟悉」。",
+            "highlight": [
+              32,
+              66
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他给了我一些我不是很熟悉的参考书。",
+            "why": "He gave me some reference books with which I was not very familiar 译「他给了我一些我不是很熟悉的参考书」。",
+            "highlight": [
+              0,
+              66
+            ]
+          }
+        ],
+        "finalZh": "他给了我一些我不是很熟悉的参考书。",
+        "orderRules": [
+          "介词 + 关系代词 with which 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s09-0040",
+      "en": "Mr. Darcy is the same man as I love.",
+      "zh": "达西先生正是我爱的那个人。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "动词时态",
+          "代词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "as",
+          "hint": "引导时间/原因/方式状语从句（本空填 as）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Darcy",
+          "role": "主语",
+          "span": [
+            4,
+            9
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            10,
+            12
+          ]
+        },
+        {
+          "text": "the same man",
+          "role": "表语",
+          "span": [
+            13,
+            25
+          ]
+        },
+        {
+          "text": "as I love.",
+          "role": "状语从句",
+          "span": [
+            26,
+            36
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，the same...as 引导定语从句。",
+            "why": "is the same man（是同一个人）是谓语，as I love 是 the same...as 引导的定语从句。",
+            "highlight": [
+              10,
+              12
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别 the same...as",
+            "what": "the same man as I love = 正是我爱的人，the same...as 固定搭配。",
+            "why": "the same...as（和……一样）是固定搭配，as 引导定语从句，指代 man。",
+            "highlight": [
+              13,
+              35
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "达西先生正是我爱的那个人。",
+            "why": "Mr. Darcy is the same man as I love 译「达西先生正是我爱的那个人」。",
+            "highlight": [
+              0,
+              35
+            ]
+          }
+        ],
+        "finalZh": "达西先生正是我爱的那个人。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s09-0041",
+      "en": "Mr. Darcy is the same man that I love.",
+      "zh": "达西先生正是我爱的那个人。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "动词时态",
+          "代词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Darcy",
+          "role": "主语",
+          "span": [
+            4,
+            9
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            10,
+            12
+          ]
+        },
+        {
+          "text": "the same man",
+          "role": "表语",
+          "span": [
+            13,
+            25
+          ]
+        },
+        {
+          "text": "that",
+          "role": "状语",
+          "span": [
+            26,
+            30
+          ]
+        },
+        {
+          "text": "I love",
+          "role": "状语",
+          "span": [
+            31,
+            37
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，the same...that 引导定语从句。",
+            "why": "is the same man（是同一个人）是谓语，that I love 是 the same...that 引导的定语从句。",
+            "highlight": [
+              10,
+              12
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别 the same...that",
+            "what": "the same man that I love = 正是我爱的人，the same...that 固定搭配。",
+            "why": "the same...that 是固定搭配，that 引导定语从句，指代 man（强调同一人）。",
+            "highlight": [
+              13,
+              37
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "达西先生正是我爱的那个人。",
+            "why": "Mr. Darcy is the same man that I love 译「达西先生正是我爱的那个人」。",
+            "highlight": [
+              0,
+              37
+            ]
+          }
+        ],
+        "finalZh": "达西先生正是我爱的那个人。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s09-0042",
+      "en": "The current, which is very rapid, makes the river dangerous.",
+      "zh": "湍急的水流使这条河变得危险。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "动词时态",
+          "冠词"
+        ],
+        "fine": [
+          "关系代词 which 指物",
+          "多点修饰，注意先断句再翻译"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "which",
+          "hint": "关系代词，指物（本空填 which）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "The",
+          "hint": "定冠词，特指（本空填 The）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "The current",
+          "role": "主语",
+          "span": [
+            0,
+            11
+          ]
+        },
+        {
+          "text": "which is very rapid",
+          "role": "定语从句",
+          "span": [
+            13,
+            32
+          ]
+        },
+        {
+          "text": "makes",
+          "role": "谓语",
+          "span": [
+            34,
+            39
+          ]
+        },
+        {
+          "text": "the river dangerous",
+          "role": "宾语",
+          "span": [
+            40,
+            59
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 makes，which 引导非限制性定语从句修饰 current。",
+            "why": "makes（使）是谓语，which is very rapid 是 which 引导的定语从句修饰 The current。",
+            "highlight": [
+              34,
+              39
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别非限制性定语从句",
+            "what": "which is very rapid 是定语从句，which 指代 current。",
+            "why": "which 是关系代词指代 The current，在从句中作主语，is very rapid 是从句内容。",
+            "highlight": [
+              13,
+              32
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "湍急的水流使这条河变得危险。",
+            "why": "The current, which is very rapid, makes the river dangerous 译「湍急的水流使这条河变得危险」。",
+            "highlight": [
+              0,
+              59
+            ]
+          }
+        ],
+        "finalZh": "湍急的水流使这条河变得危险。",
+        "orderRules": [
+          "定语从句 which is rapid 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s09-0043",
+      "en": "The book, which was published in 2020, became a bestseller.",
+      "zh": "这本 2020 年出版的书成了畅销书。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "被动语态",
+          "非谓语动词"
+        ],
+        "fine": [
+          "关系代词 which 指物",
+          "多点修饰，注意先断句再翻译"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "which",
+          "hint": "关系代词，指物（本空填 which）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "was",
+          "hint": "系动词/助动词，过去式单数（本空填 was）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "in",
+          "hint": "介词，在…里（本空填 in）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "The book",
+          "role": "主语",
+          "span": [
+            0,
+            8
+          ]
+        },
+        {
+          "text": "which was published in 2020",
+          "role": "定语从句",
+          "span": [
+            10,
+            37
+          ]
+        },
+        {
+          "text": "became",
+          "role": "谓语",
+          "span": [
+            39,
+            45
+          ]
+        },
+        {
+          "text": "a bestseller",
+          "role": "表语",
+          "span": [
+            46,
+            58
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 became，which 引导非限制性定语从句修饰 book。",
+            "why": "became a bestseller（成为畅销书）是谓语，which was published in 2020 是 which 引导的定语从句修饰 The book。",
+            "highlight": [
+              39,
+              45
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别非限制性定语从句",
+            "what": "which was published in 2020 是定语从句，which 指代 book。",
+            "why": "which 是关系代词指代 The book，在从句中作主语，was published 是被动。",
+            "highlight": [
+              10,
+              37
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "这本 2020 年出版的书成了畅销书。",
+            "why": "The book, which was published in 2020, became a bestseller 译「这本 2020 年出版的书成了畅销书」。",
+            "highlight": [
+              0,
+              58
+            ]
+          }
+        ],
+        "finalZh": "这本 2020 年出版的书成了畅销书。",
+        "orderRules": [
+          "定语从句 which was published 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s09-0044",
+      "en": "The documents for which they were searching have been discovered.",
+      "zh": "他们一直在寻找的那些文件已经被发现了。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "被动语态",
+          "非谓语动词"
+        ],
+        "fine": [
+          "关系代词 which 指物",
+          "完成时 + be，注意是完成还是被动",
+          "进行时（be + 现在分词）",
+          "have/get sth done 结构"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "which",
+          "hint": "关系代词，指物（本空填 which）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "were",
+          "hint": "系动词/助动词，过去式复数（本空填 were）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "have",
+          "hint": "使役动词，让（have sth done）（本空填 have）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "The documents for",
+          "role": "主语",
+          "span": [
+            0,
+            17
+          ]
+        },
+        {
+          "text": "which they were searching have been discovered.",
+          "role": "定语从句",
+          "span": [
+            18,
+            65
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 have been discovered，for which 引导定语从句修饰 documents。",
+            "why": "have been discovered（被发现）是谓语，for which they were searching 是「介词 + 关系代词」引导的定语从句。",
+            "highlight": [
+              44,
+              63
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别介词 + 关系代词",
+            "what": "for which they were searching 是定语从句，for which 表「寻找的」。",
+            "why": "for which 是「介词 + 关系代词」，which 指代 documents，search for 是「寻找」。",
+            "highlight": [
+              13,
+              43
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他们一直在寻找的那些文件已经被发现了。",
+            "why": "The documents for which they were searching have been discovered 译「他们一直在寻找的那些文件已经被发现了」。",
+            "highlight": [
+              0,
+              64
+            ]
+          }
+        ],
+        "finalZh": "他们一直在寻找的那些文件已经被发现了。",
+        "orderRules": [
+          "介词 + 关系代词 for which 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s09-0045",
+      "en": "He had only the long nights in which he could study.",
+      "zh": "他只有那些可以用来学习的漫漫长夜。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 11,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "情态动词",
+          "动词时态"
+        ],
+        "fine": [
+          "关系代词 which 指物",
+          "「介词 + 关系代词」引导定语从句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "which",
+          "hint": "关系代词，指物（本空填 which）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "had",
+          "hint": "使役/助动词过去式（本空填 had）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "could",
+          "hint": "情态动词，能（过去）/可以（本空填 could）",
+          "gp": "情态动词"
+        }
+      ],
+      "components": [
+        {
+          "text": "He",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "had only",
+          "role": "谓语",
+          "span": [
+            3,
+            11
+          ]
+        },
+        {
+          "text": "the long nights",
+          "role": "宾语",
+          "span": [
+            12,
+            27
+          ]
+        },
+        {
+          "text": "in",
+          "role": "状语",
+          "span": [
+            28,
+            30
+          ]
+        },
+        {
+          "text": "which he could study.",
+          "role": "定语从句",
+          "span": [
+            31,
+            52
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 had，in which 引导定语从句修饰 nights。",
+            "why": "had（有）是谓语，the long nights in which he could study 中 in which 引导定语从句修饰 nights。",
+            "highlight": [
+              3,
+              6
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别介词 + 关系代词",
+            "what": "in which he could study 是定语从句，in which 表「在其中」。",
+            "why": "in which 是「介词 + 关系代词」，which 指代 nights，study in 是「在其中学习」。",
+            "highlight": [
+              28,
+              51
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他只有那些可以用来学习的漫漫长夜。",
+            "why": "He had only the long nights in which he could study 译「他只有那些可以用来学习的漫漫长夜」。",
+            "highlight": [
+              0,
+              51
+            ]
+          }
+        ],
+        "finalZh": "他只有那些可以用来学习的漫漫长夜。",
+        "orderRules": [
+          "介词 + 关系代词 in which 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOC"
+    },
+    {
+      "id": "s09-0046",
+      "en": "She likes to take pictures of people and things that she is interested in.",
+      "zh": "她喜欢给她感兴趣的人和事物拍照。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 14,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "被动语态",
+          "非谓语动词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "She",
+          "role": "主语",
+          "span": [
+            0,
+            3
+          ]
+        },
+        {
+          "text": "likes",
+          "role": "谓语",
+          "span": [
+            4,
+            9
+          ]
+        },
+        {
+          "text": "to take pictures of people",
+          "role": "状语",
+          "span": [
+            10,
+            36
+          ]
+        },
+        {
+          "text": "things that she",
+          "role": "主语",
+          "span": [
+            41,
+            56
+          ]
+        },
+        {
+          "text": "is interested",
+          "role": "谓语",
+          "span": [
+            57,
+            70
+          ]
+        },
+        {
+          "text": "in",
+          "role": "状语",
+          "span": [
+            71,
+            73
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 likes，that 引导定语从句修饰 people and things。",
+            "why": "likes（喜欢）是谓语，that she is interested in 是 that 引导的定语从句修饰 people and things。",
+            "highlight": [
+              4,
+              26
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别定语从句（that）",
+            "what": "that she is interested in 是定语从句，that 作 in 的宾语。",
+            "why": "that 是关系代词指代 people and things，在从句中作 interested in 的宾语。",
+            "highlight": [
+              48,
+              73
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "她喜欢给她感兴趣的人和事物拍照。",
+            "why": "She likes to take pictures of people and things that she is interested in 译「她喜欢给她感兴趣的人和事物拍照」。",
+            "highlight": [
+              0,
+              73
+            ]
+          }
+        ],
+        "finalZh": "她喜欢给她感兴趣的人和事物拍照。",
+        "orderRules": [
+          "定语从句 that she is interested in 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s09-0047",
+      "en": "They are talking of the scientists and their deeds that interest them.",
+      "zh": "他们在谈论他们感兴趣的科学家及其事迹。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 12,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "非谓语动词",
+          "并列结构"
+        ],
+        "fine": [
+          "进行时（be + 现在分词）",
+          "形容词最高级"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "are",
+          "hint": "系动词/助动词，复数（本空填 are）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "of",
+          "hint": "介词，…的（本空填 of）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "They",
+          "role": "主语",
+          "span": [
+            0,
+            4
+          ]
+        },
+        {
+          "text": "are talking",
+          "role": "谓语",
+          "span": [
+            5,
+            16
+          ]
+        },
+        {
+          "text": "of the scientists and their deeds that interest them",
+          "role": "状语",
+          "span": [
+            17,
+            69
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 are talking，that 引导定语从句修饰 scientists and deeds。",
+            "why": "are talking（谈论）是谓语，that interest them 是 that 引导的定语从句修饰 scientists and their deeds。",
+            "highlight": [
+              5,
+              34
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别定语从句（that）",
+            "what": "that interest them 是定语从句，that 作主语。",
+            "why": "that 是关系代词指代 scientists and their deeds，在从句中作主语（人和物混合用 that）。",
+            "highlight": [
+              51,
+              69
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他们在谈论他们感兴趣的科学家及其事迹。",
+            "why": "They are talking of the scientists and their deeds that interest them 译「他们在谈论他们感兴趣的科学家及其事迹」。",
+            "highlight": [
+              0,
+              69
+            ]
+          }
+        ],
+        "finalZh": "他们在谈论他们感兴趣的科学家及其事迹。",
+        "orderRules": [
+          "定语从句 that interest 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s09-0048",
+      "en": "Here is the hotel that you've been looking for.",
+      "zh": "这就是你一直在找的那家旅馆。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "been",
+          "hint": "be 的过去分词（本空填 been）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "Here",
+          "role": "主语",
+          "span": [
+            0,
+            4
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            5,
+            7
+          ]
+        },
+        {
+          "text": "the hotel",
+          "role": "表语",
+          "span": [
+            8,
+            17
+          ]
+        },
+        {
+          "text": "that you've been looking for.",
+          "role": "宾语从句",
+          "span": [
+            18,
+            47
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，that 引导定语从句修饰 hotel。",
+            "why": "Here is the hotel（这是旅馆）是谓语，that you've been looking for 是 that 引导的定语从句。",
+            "highlight": [
+              5,
+              7
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别定语从句（that）",
+            "what": "that you've been looking for 是定语从句，that 作 for 的宾语。",
+            "why": "that 是关系代词指代 hotel，在从句中作 looking for 的宾语。",
+            "highlight": [
+              18,
+              46
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "这就是你一直在找的那家旅馆。",
+            "why": "Here is the hotel that you've been looking for 译「这就是你一直在找的那家旅馆」。",
+            "highlight": [
+              0,
+              46
+            ]
+          }
+        ],
+        "finalZh": "这就是你一直在找的那家旅馆。",
+        "orderRules": [
+          "定语从句 that you've been looking for 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s09-0049",
+      "en": "There's a dish that is simple and quick to make.",
+      "zh": "有一道简单快捷的菜。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "非谓语动词",
+          "并列结构"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "There's a dish",
+          "role": "主语",
+          "span": [
+            0,
+            14
+          ]
+        },
+        {
+          "text": "that is simple and quick to make.",
+          "role": "宾语从句",
+          "span": [
+            15,
+            48
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，that 引导定语从句修饰 dish。",
+            "why": "There's a dish（有一道菜）是谓语，that is simple and quick 是 that 引导的定语从句。",
+            "highlight": [
+              5,
+              9
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别定语从句（that）",
+            "what": "that is simple and quick to make 是定语从句，that 作主语。",
+            "why": "that 是关系代词指代 dish，在从句中作主语，is simple and quick 是从句内容。",
+            "highlight": [
+              15,
+              47
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "有一道简单快捷的菜。",
+            "why": "There's a dish that is simple and quick to make 译「有一道简单快捷的菜」。",
+            "highlight": [
+              0,
+              47
+            ]
+          }
+        ],
+        "finalZh": "有一道简单快捷的菜。",
+        "orderRules": [
+          "定语从句 that is simple 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s09-0050",
+      "en": "I did nothing that might hurt you.",
+      "zh": "我没做任何可能伤害你的事。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 7,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "情态动词",
+          "非谓语动词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "did",
+          "hint": "助动词，过去式（本空填 did）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "might",
+          "hint": "情态动词，可能（本空填 might）",
+          "gp": "情态动词"
+        }
+      ],
+      "components": [
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "did nothing",
+          "role": "谓语",
+          "span": [
+            2,
+            13
+          ]
+        },
+        {
+          "text": "that might hurt you.",
+          "role": "宾语从句",
+          "span": [
+            14,
+            34
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 did，that 引导定语从句修饰 nothing。",
+            "why": "did nothing（没做任何事）是谓语，that might hurt you 是 that 引导的定语从句修饰 nothing。",
+            "highlight": [
+              2,
+              13
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别定语从句（that）",
+            "what": "that might hurt you 是定语从句，that 作主语。",
+            "why": "先行词是 nothing（不定代词），定语从句用 that 不用 which，that 作主语。",
+            "highlight": [
+              14,
+              33
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我没做任何可能伤害你的事。",
+            "why": "I did nothing that might hurt you 译「我没做任何可能伤害你的事」。",
+            "highlight": [
+              0,
+              33
+            ]
+          }
+        ],
+        "finalZh": "我没做任何可能伤害你的事。",
+        "orderRules": [
+          "定语从句 that might hurt 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s09-0052",
+      "en": "When people talk about Chongqing, the very thing that comes to mind is hot pot.",
+      "zh": "当人们谈到重庆时，首先想到的就是火锅。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 15,
+        "clauses": 2,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "状语从句",
+          "被动语态"
+        ],
+        "fine": [
+          "长句，先找谓语再断句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "When",
+          "hint": "关系副词/时间状语从句引导词（本空填 When）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "When people talk about Chongqing",
+          "role": "状语从句",
+          "span": [
+            0,
+            32
+          ]
+        },
+        {
+          "text": "the very thing",
+          "role": "宾语",
+          "span": [
+            34,
+            48
+          ]
+        },
+        {
+          "text": "that comes to mind is hot pot.",
+          "role": "宾语从句",
+          "span": [
+            49,
+            79
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，that 引导定语从句修饰 thing，when 引导时间从句。",
+            "why": "is hot pot 是谓语，the very thing that comes to mind 中 that 引导定语从句，When people talk 是时间从句。",
+            "highlight": [
+              68,
+              70
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别 the very + that",
+            "what": "the very thing that comes to mind = 首先想到的东西，the very 强调。",
+            "why": "the very（正是）强调，that comes to mind 是 that 引导的定语从句修饰 thing。",
+            "highlight": [
+              34,
+              67
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "当人们谈到重庆时，首先想到的就是火锅。",
+            "why": "When people talk about Chongqing, the very thing that comes to mind is hot pot 译「当人们谈到重庆时，首先想到的就是火锅」。",
+            "highlight": [
+              0,
+              78
+            ]
+          }
+        ],
+        "finalZh": "当人们谈到重庆时，首先想到的就是火锅。",
+        "orderRules": [
+          "时间从句 When... 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s09-0053",
+      "en": "This is the only film that has been shown in our school this term.",
+      "zh": "这是本学期我们学校放映的唯一一部电影。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 14,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "动词时态",
+          "代词"
+        ],
+        "fine": [
+          "完成时 + be，注意是完成还是被动"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "has",
+          "hint": "助动词，第三人称单数（本空填 has）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "This",
+          "role": "主语",
+          "span": [
+            0,
+            4
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            5,
+            7
+          ]
+        },
+        {
+          "text": "the only film",
+          "role": "表语",
+          "span": [
+            8,
+            21
+          ]
+        },
+        {
+          "text": "that has been shown in our school this term.",
+          "role": "宾语从句",
+          "span": [
+            22,
+            66
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，that 引导定语从句修饰 film（the only 后）。",
+            "why": "is the only film（是唯一的电影）是谓语，that has been shown 是 that 引导的定语从句。",
+            "highlight": [
+              5,
+              7
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别 the only + that",
+            "what": "the only film that has been shown = 唯一放映的电影，the only 后用 that。",
+            "why": "先行词被 the only 修饰时，定语从句用 that 不用 which，that 作主语。",
+            "highlight": [
+              17,
+              65
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "这是本学期我们学校放映的唯一一部电影。",
+            "why": "This is the only film that has been shown in our school this term 译「这是本学期我们学校放映的唯一一部电影」。",
+            "highlight": [
+              0,
+              65
+            ]
+          }
+        ],
+        "finalZh": "这是本学期我们学校放映的唯一一部电影。",
+        "orderRules": [
+          "定语从句 that has been shown 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s09-0054",
+      "en": "You can take any seat that is free.",
+      "zh": "你可以坐任何空着的座位。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "情态动词",
+          "动词时态"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "can",
+          "hint": "情态动词，能/可以（本空填 can）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "You",
+          "role": "主语",
+          "span": [
+            0,
+            3
+          ]
+        },
+        {
+          "text": "can take",
+          "role": "谓语",
+          "span": [
+            4,
+            12
+          ]
+        },
+        {
+          "text": "any seat",
+          "role": "宾语",
+          "span": [
+            13,
+            21
+          ]
+        },
+        {
+          "text": "that is free.",
+          "role": "宾语从句",
+          "span": [
+            22,
+            35
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 can take，that 引导定语从句修饰 seat。",
+            "why": "can take（能坐）是谓语，any seat that is free 中 that 引导定语从句修饰 seat。",
+            "highlight": [
+              4,
+              12
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别定语从句（that）",
+            "what": "that is free 是定语从句，that 作主语。",
+            "why": "that 是关系代词指代 seat，在从句中作主语，is free 是从句内容。",
+            "highlight": [
+              17,
+              34
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "你可以坐任何空着的座位。",
+            "why": "You can take any seat that is free 译「你可以坐任何空着的座位」。",
+            "highlight": [
+              0,
+              34
+            ]
+          }
+        ],
+        "finalZh": "你可以坐任何空着的座位。",
+        "orderRules": [
+          "定语从句 that is free 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s09-0055",
+      "en": "There is little work that fits you.",
+      "zh": "几乎没有适合你的工作。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 7,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "动词时态",
+          "代词"
+        ],
+        "fine": [
+          "there be 存现句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "There",
+          "hint": "there be 结构的引导词（本空填 There）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "There",
+          "role": "主语",
+          "span": [
+            0,
+            5
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            6,
+            8
+          ]
+        },
+        {
+          "text": "little",
+          "role": "表语",
+          "span": [
+            9,
+            15
+          ]
+        },
+        {
+          "text": "work",
+          "role": "谓语",
+          "span": [
+            16,
+            20
+          ]
+        },
+        {
+          "text": "that fits you.",
+          "role": "宾语从句",
+          "span": [
+            21,
+            35
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，that 引导定语从句修饰 work。",
+            "why": "There is little work（几乎没有工作）是谓语，that fits you 是 that 引导的定语从句。",
+            "highlight": [
+              6,
+              8
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别定语从句（that）",
+            "what": "that fits you 是定语从句，that 作主语。",
+            "why": "先行词是 little（否定意义），定语从句用 that，that 作主语。",
+            "highlight": [
+              21,
+              34
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "几乎没有适合你的工作。",
+            "why": "There is little work that fits you 译「几乎没有适合你的工作」。",
+            "highlight": [
+              0,
+              34
+            ]
+          }
+        ],
+        "finalZh": "几乎没有适合你的工作。",
+        "orderRules": [
+          "定语从句 that fits 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s09-0056",
+      "en": "This is the first novel that he wrote.",
+      "zh": "这是他写的第一部小说。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "动词时态",
+          "代词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "This",
+          "role": "主语",
+          "span": [
+            0,
+            4
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            5,
+            7
+          ]
+        },
+        {
+          "text": "the first novel",
+          "role": "表语",
+          "span": [
+            8,
+            23
+          ]
+        },
+        {
+          "text": "that",
+          "role": "状语",
+          "span": [
+            24,
+            28
+          ]
+        },
+        {
+          "text": "he",
+          "role": "状语",
+          "span": [
+            29,
+            31
+          ]
+        },
+        {
+          "text": "wrote",
+          "role": "谓语",
+          "span": [
+            32,
+            37
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，that 引导定语从句修饰 novel（序数词后）。",
+            "why": "is the first novel（是第一部小说）是谓语，that he wrote 是 that 引导的定语从句。",
+            "highlight": [
+              5,
+              7
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别序数词 + that",
+            "what": "the first novel that he wrote = 他写的第一部小说，序数词后用 that。",
+            "why": "先行词被序数词 first 修饰时，定语从句用 that 不用 which，that 作 wrote 的宾语。",
+            "highlight": [
+              8,
+              37
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "这是他写的第一部小说。",
+            "why": "This is the first novel that he wrote 译「这是他写的第一部小说」。",
+            "highlight": [
+              0,
+              37
+            ]
+          }
+        ],
+        "finalZh": "这是他写的第一部小说。",
+        "orderRules": [
+          "定语从句 that he wrote 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s09-0057",
+      "en": "This is the most interesting storybook that I have ever read.",
+      "zh": "这是我读过的最有趣的故事书。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 11,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "非谓语动词",
+          "主谓一致"
+        ],
+        "fine": [
+          "形容词最高级",
+          "have/get sth done 结构"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "have",
+          "hint": "使役动词，让（have sth done）（本空填 have）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "This",
+          "role": "主语",
+          "span": [
+            0,
+            4
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            5,
+            7
+          ]
+        },
+        {
+          "text": "the most interesting storybook",
+          "role": "表语",
+          "span": [
+            8,
+            38
+          ]
+        },
+        {
+          "text": "that",
+          "role": "状语",
+          "span": [
+            39,
+            43
+          ]
+        },
+        {
+          "text": "I",
+          "role": "状语",
+          "span": [
+            44,
+            45
+          ]
+        },
+        {
+          "text": "have ever read",
+          "role": "谓语",
+          "span": [
+            46,
+            60
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，that 引导定语从句修饰 storybook（最高级后）。",
+            "why": "is the most interesting storybook（是最有趣的故事书）是谓语，that I have ever read 是 that 引导的定语从句。",
+            "highlight": [
+              5,
+              7
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别最高级 + that",
+            "what": "the most interesting storybook that I have ever read = 我读过的最有趣的，最高级后用 that。",
+            "why": "先行词被最高级 most interesting 修饰时，定语从句用 that 不用 which，that 作 read 的宾语。",
+            "highlight": [
+              8,
+              60
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "这是我读过的最有趣的故事书。",
+            "why": "This is the most interesting storybook that I have ever read 译「这是我读过的最有趣的故事书」。",
+            "highlight": [
+              0,
+              60
+            ]
+          }
+        ],
+        "finalZh": "这是我读过的最有趣的故事书。",
+        "orderRules": [
+          "定语从句 that I have ever read 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s09-0058",
+      "en": "Who that has ever worked together with him doesn't admire him?",
+      "zh": "和他一起工作过的人谁会不钦佩他呢？",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 11,
+        "clauses": 2,
+        "level": 3
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "关系代词 who 在从句中作主语",
+          "have/get sth done 结构"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "Who",
+          "hint": "关系代词，指人（本空填 Who）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "has",
+          "hint": "助动词，第三人称单数（本空填 has）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "Who that has ever worked together with him doesn't admire him?",
+          "role": "定语从句",
+          "span": [
+            0,
+            62
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 doesn't admire，that 引导定语从句修饰 Who。",
+            "why": "doesn't admire（不钦佩）是谓语，Who that has ever worked together with him 中 that 引导定语从句修饰 Who。",
+            "highlight": [
+              43,
+              56
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别 Who + that",
+            "what": "Who that has ever worked = 谁（曾一起工作过），先行词是 who 时用 that。",
+            "why": "先行词是 Who 时，为避免重复用 that 不用 who，that 作主语。",
+            "highlight": [
+              0,
+              42
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "和他一起工作过的人谁会不钦佩他呢？",
+            "why": "Who that has ever worked together with him doesn't admire him 译「和他一起工作过的人谁会不钦佩他呢」。",
+            "highlight": [
+              0,
+              61
+            ]
+          }
+        ],
+        "finalZh": "和他一起工作过的人谁会不钦佩他呢？",
+        "orderRules": [
+          "定语从句 that has ever worked 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s09-0059",
+      "en": "Who is the student that won the competition?",
+      "zh": "赢得比赛的那个学生是谁？",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 2,
+        "level": 3
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "动词时态",
+          "冠词"
+        ],
+        "fine": [
+          "关系代词 who 在从句中作主语"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "Who",
+          "hint": "关系代词，指人（本空填 Who）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "Who is the student that won the competition?",
+          "role": "定语从句",
+          "span": [
+            0,
+            44
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，that 引导定语从句修饰 student。",
+            "why": "Who is the student（谁是学生）是谓语，that won the competition 是 that 引导的定语从句。",
+            "highlight": [
+              4,
+              6
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别定语从句（that）",
+            "what": "that won the competition 是定语从句，that 作主语。",
+            "why": "that 是关系代词指代 student，在从句中作主语，won 是谓语。",
+            "highlight": [
+              19,
+              43
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "赢得比赛的那个学生是谁？",
+            "why": "Who is the student that won the competition 译「赢得比赛的那个学生是谁」。",
+            "highlight": [
+              0,
+              43
+            ]
+          }
+        ],
+        "finalZh": "赢得比赛的那个学生是谁？",
+        "orderRules": [
+          "定语从句 that won 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s09-0060",
+      "en": "She is the most talented person that I have ever met.",
+      "zh": "她是我遇到过的最有才华的人。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 11,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "非谓语动词",
+          "主谓一致"
+        ],
+        "fine": [
+          "形容词最高级",
+          "have/get sth done 结构"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "have",
+          "hint": "使役动词，让（have sth done）（本空填 have）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "She",
+          "role": "主语",
+          "span": [
+            0,
+            3
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            4,
+            6
+          ]
+        },
+        {
+          "text": "the most",
+          "role": "表语",
+          "span": [
+            7,
+            15
+          ]
+        },
+        {
+          "text": "talented",
+          "role": "谓语",
+          "span": [
+            16,
+            24
+          ]
+        },
+        {
+          "text": "person",
+          "role": "宾语",
+          "span": [
+            25,
+            31
+          ]
+        },
+        {
+          "text": "that",
+          "role": "状语",
+          "span": [
+            32,
+            36
+          ]
+        },
+        {
+          "text": "I have ever met",
+          "role": "状语",
+          "span": [
+            37,
+            52
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，that 引导定语从句修饰 person（最高级后）。",
+            "why": "is the most talented person（是最有才华的人）是谓语，that I have ever met 是 that 引导的定语从句。",
+            "highlight": [
+              4,
+              6
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别最高级 + that",
+            "what": "the most talented person that I have ever met = 我遇到的最有才华的，最高级后用 that。",
+            "why": "先行词被最高级 most talented 修饰，定语从句用 that，that 作 met 的宾语。",
+            "highlight": [
+              7,
+              52
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "她是我遇到过的最有才华的人。",
+            "why": "She is the most talented person that I have ever met 译「她是我遇到过的最有才华的人」。",
+            "highlight": [
+              0,
+              52
+            ]
+          }
+        ],
+        "finalZh": "她是我遇到过的最有才华的人。",
+        "orderRules": [
+          "定语从句 that I have ever met 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s09-0061",
+      "en": "Is there any person that can solve this problem?",
+      "zh": "有人能解决这个问题吗？",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "情态动词",
+          "动词时态"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "Is",
+          "hint": "系动词/助动词，第三人称单数（本空填 Is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "can",
+          "hint": "情态动词，能/可以（本空填 can）",
+          "gp": "情态动词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Is",
+          "role": "谓语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "there any person",
+          "role": "表语",
+          "span": [
+            3,
+            19
+          ]
+        },
+        {
+          "text": "that can solve this problem?",
+          "role": "宾语从句",
+          "span": [
+            20,
+            48
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 Is，that 引导定语从句修饰 person。",
+            "why": "Is there any person（有人吗）是谓语，that can solve this problem 是 that 引导的定语从句。",
+            "highlight": [
+              0,
+              19
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别定语从句（that）",
+            "what": "that can solve this problem 是定语从句，that 作主语。",
+            "why": "that 是关系代词指代 person，在从句中作主语，can solve 是从句谓语。",
+            "highlight": [
+              20,
+              47
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "有人能解决这个问题吗？",
+            "why": "Is there any person that can solve this problem 译「有人能解决这个问题吗」。",
+            "highlight": [
+              0,
+              47
+            ]
+          }
+        ],
+        "finalZh": "有人能解决这个问题吗？",
+        "orderRules": [
+          "定语从句 that can solve 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s09-0062",
+      "en": "My neighbor, who is a doctor, helped me with my wound.",
+      "zh": "我的邻居是医生，帮我处理了伤口。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 11,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "关系代词 who 在从句中作主语",
+          "多点修饰，注意先断句再翻译"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "who",
+          "hint": "关系代词，指人（本空填 who）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "with",
+          "hint": "介词，和/带着（本空填 with）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "My neighbor",
+          "role": "主语",
+          "span": [
+            0,
+            11
+          ]
+        },
+        {
+          "text": "who is a doctor",
+          "role": "定语从句",
+          "span": [
+            13,
+            28
+          ]
+        },
+        {
+          "text": "helped",
+          "role": "谓语",
+          "span": [
+            30,
+            36
+          ]
+        },
+        {
+          "text": "me",
+          "role": "宾语",
+          "span": [
+            37,
+            39
+          ]
+        },
+        {
+          "text": "with my wound",
+          "role": "状语",
+          "span": [
+            40,
+            53
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 helped，who 引导非限制性定语从句修饰 neighbor。",
+            "why": "helped（帮助）是谓语，who is a doctor 是 who 引导的非限制性定语从句修饰 My neighbor。",
+            "highlight": [
+              30,
+              36
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别非限制性定语从句",
+            "what": "who is a doctor 是非限制性定语从句，补充说明 neighbor。",
+            "why": "who is a doctor 用逗号隔开，是非限制性定语从句，补充说明邻居的职业。",
+            "highlight": [
+              13,
+              28
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我的邻居是医生，帮我处理了伤口。",
+            "why": "My neighbor, who is a doctor, helped me with my wound 译「我的邻居是医生，帮我处理了伤口」。",
+            "highlight": [
+              0,
+              53
+            ]
+          }
+        ],
+        "finalZh": "我的邻居是医生，帮我处理了伤口。",
+        "orderRules": [
+          "非限制性定语从句 who... 拆成小句"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s09-0063",
+      "en": "There are many students who need financial aid.",
+      "zh": "有许多需要经济援助的学生。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "情态动词",
+          "非谓语动词"
+        ],
+        "fine": [
+          "关系代词 who 在从句中作主语",
+          "there be 存现句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "who",
+          "hint": "关系代词，指人（本空填 who）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "are",
+          "hint": "系动词/助动词，复数（本空填 are）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "need",
+          "hint": "情态动词/实义动词，需要（本空填 need）",
+          "gp": "情态动词"
+        }
+      ],
+      "components": [
+        {
+          "text": "There",
+          "role": "主语",
+          "span": [
+            0,
+            5
+          ]
+        },
+        {
+          "text": "are",
+          "role": "谓语",
+          "span": [
+            6,
+            9
+          ]
+        },
+        {
+          "text": "many students",
+          "role": "表语",
+          "span": [
+            10,
+            23
+          ]
+        },
+        {
+          "text": "who need financial aid.",
+          "role": "定语从句",
+          "span": [
+            24,
+            47
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 are，who 引导定语从句修饰 students。",
+            "why": "There are many students（有许多学生）是谓语，who need financial aid 是 who 引导的定语从句。",
+            "highlight": [
+              6,
+              9
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别定语从句（who）",
+            "what": "who need financial aid 是定语从句，who 作主语。",
+            "why": "who 是关系代词指代 students，在从句中作主语，need 是从句谓语。",
+            "highlight": [
+              24,
+              46
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "有许多需要经济援助的学生。",
+            "why": "There are many students who need financial aid 译「有许多需要经济援助的学生」。",
+            "highlight": [
+              0,
+              46
+            ]
+          }
+        ],
+        "finalZh": "有许多需要经济援助的学生。",
+        "orderRules": [
+          "定语从句 who need 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s09-0064",
+      "en": "The girl in the red dress who is singing is my cousin.",
+      "zh": "穿着红裙子正在唱歌的那个女孩是我表妹。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 12,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "关系代词 who 在从句中作主语",
+          "进行时（be + 现在分词）"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "who",
+          "hint": "关系代词，指人（本空填 who）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "The girl in the red",
+          "role": "主语",
+          "span": [
+            0,
+            19
+          ]
+        },
+        {
+          "text": "dress",
+          "role": "谓语",
+          "span": [
+            20,
+            25
+          ]
+        },
+        {
+          "text": "who is singing is my cousin.",
+          "role": "定语从句",
+          "span": [
+            26,
+            54
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，who 引导定语从句修饰 girl。",
+            "why": "is my cousin（是我表妹）是谓语，who is singing 是 who 引导的定语从句修饰 The girl。",
+            "highlight": [
+              41,
+              53
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别定语从句（who）",
+            "what": "who is singing 是定语从句，who 作主语，in the red dress 是介词短语。",
+            "why": "who 是关系代词指代 The girl，在从句中作主语，in the red dress 是修饰 girl 的介词短语。",
+            "highlight": [
+              26,
+              40
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "穿着红裙子正在唱歌的那个女孩是我表妹。",
+            "why": "The girl in the red dress who is singing is my cousin 译「穿着红裙子正在唱歌的那个女孩是我表妹」。",
+            "highlight": [
+              0,
+              53
+            ]
+          }
+        ],
+        "finalZh": "穿着红裙子正在唱歌的那个女孩是我表妹。",
+        "orderRules": [
+          "定语从句 who is singing 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s09-0065",
+      "en": "Those who desire to pass the examination must spare more time to study English.",
+      "zh": "那些想通过考试的人必须多花时间学英语。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 14,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "情态动词",
+          "非谓语动词"
+        ],
+        "fine": [
+          "关系代词 who 在从句中作主语"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "who",
+          "hint": "关系代词，指人（本空填 who）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "must",
+          "hint": "情态动词，必须/一定（本空填 must）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Those",
+          "role": "主语",
+          "span": [
+            0,
+            5
+          ]
+        },
+        {
+          "text": "who desire to pass the examination must spare more time to study English.",
+          "role": "定语从句",
+          "span": [
+            6,
+            79
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 must spare，who 引导定语从句修饰 Those。",
+            "why": "must spare（必须腾出）是谓语，who desire to pass the examination 是 who 引导的定语从句修饰 Those。",
+            "highlight": [
+              41,
+              56
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别定语从句（who）",
+            "what": "who desire to pass the examination 是定语从句，who 作主语。",
+            "why": "who 是关系代词指代 Those，在从句中作主语，desire to pass 是从句谓语。",
+            "highlight": [
+              6,
+              40
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "那些想通过考试的人必须多花时间学英语。",
+            "why": "Those who desire to pass the examination must spare more time to study English 译「那些想通过考试的人必须多花时间学英语」。",
+            "highlight": [
+              0,
+              78
+            ]
+          }
+        ],
+        "finalZh": "那些想通过考试的人必须多花时间学英语。",
+        "orderRules": [
+          "定语从句 who desire 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s09-0066",
+      "en": "Anyone who breaks the rules will be punished.",
+      "zh": "任何违反规则的人都会受到惩罚。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "定语从句",
+          "被动语态",
+          "情态动词"
+        ],
+        "fine": [
+          "关系代词 who 在从句中作主语",
+          "一般将来时"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "who",
+          "hint": "关系代词，指人（本空填 who）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "will",
+          "hint": "助动词，一般将来时（本空填 will）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "be",
+          "hint": "系动词/助动词原形（本空填 be）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "Anyone",
+          "role": "主语",
+          "span": [
+            0,
+            6
+          ]
+        },
+        {
+          "text": "who breaks the rules will be punished.",
+          "role": "定语从句",
+          "span": [
+            7,
+            45
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 will be punished，who 引导定语从句修饰 Anyone。",
+            "why": "will be punished（将被惩罚）是谓语，who breaks the rules 是 who 引导的定语从句修饰 Anyone。",
+            "highlight": [
+              28,
+              44
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别定语从句（who）",
+            "what": "who breaks the rules 是定语从句，who 作主语。",
+            "why": "who 是关系代词指代 Anyone，在从句中作主语，breaks 是从句谓语。",
+            "highlight": [
+              7,
+              27
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "任何违反规则的人都会受到惩罚。",
+            "why": "Anyone who breaks the rules will be punished 译「任何违反规则的人都会受到惩罚」。",
+            "highlight": [
+              0,
+              44
+            ]
+          }
+        ],
+        "finalZh": "任何违反规则的人都会受到惩罚。",
+        "orderRules": [
+          "定语从句 who breaks 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    }
+  ]
+}

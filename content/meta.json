@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "batch": "batch-1",
+  "generatedAt": "2026-10-11",
+  "sentenceCount": 763,
+  "chapterCount": 12,
+  "grammarCardCount": 20,
+  "source": "《不就是专升本英语语法吗》MinerU 云端 OCR 转录（transcript_A + transcript_B）",
+  "firstBatchChapters": [
+    "c03",
+    "c04"
+  ],
+  "note": "sentenceCount 等统计字段由 pipeline/07_build_pack.py 写入",
+  "sentencesByChapter": {
+    "c01": 38,
+    "c02": 87,
+    "c03": 217,
+    "c04": 50,
+    "c05": 31,
+    "c06": 70,
+    "c07": 36,
+    "c08": 58,
+    "c09": 50,
+    "c10": 55,
+    "c11": 28,
+    "c12": 43,
+    "c13": 0,
+    "c14": 0,
+    "c15": 0,
+    "c16": 0,
+    "c17": 0,
+    "c18": 0,
+    "c19": 0,
+    "c20": 0,
+    "c21": 0,
+    "c22": 0,
+    "c23": 0,
+    "c24": 0
+  },
+  "builtAt": "2026-10-11"
+}

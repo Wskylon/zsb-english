@@ -1,0 +1,3430 @@
+{
+  "schemaVersion": 1,
+  "chapterId": "c05",
+  "sentences": [
+    {
+      "id": "s05-0005",
+      "en": "Our house is cleaned by my mother every day.",
+      "zh": "我妈妈每天都打扫我们的房子。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "被动语态",
+          "非谓语动词",
+          "主谓一致"
+        ],
+        "fine": [
+          "each/every 作主语时谓语用单数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "by",
+          "hint": "介词，被/通过（本空填 by）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Our house",
+          "role": "主语",
+          "span": [
+            0,
+            9
+          ]
+        },
+        {
+          "text": "is cleaned",
+          "role": "谓语",
+          "span": [
+            10,
+            20
+          ]
+        },
+        {
+          "text": "by my mother every day",
+          "role": "状语",
+          "span": [
+            21,
+            43
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is cleaned（一般现在被动），by my mother 是施动者。",
+            "why": "is cleaned 是「be + 过去分词」的被动，cleaned 是 clean 的过去分词，by my mother 引出施动者。",
+            "highlight": [
+              10,
+              20
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "被动语态",
+            "what": "Our house is cleaned by my mother = 房子被妈妈打扫，被动强调受动者。",
+            "why": "被动语态强调 Our house（房子）是动作承受者，by my mother 说明是谁做的。",
+            "how": "中文译「我妈妈每天都打扫我们的房子」，被动还原成主动。",
+            "highlight": [
+              0,
+              43
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我妈妈每天都打扫我们的房子。",
+            "why": "Our house is cleaned by my mother every day 被动还原成「我妈妈每天都打扫我们的房子」。",
+            "highlight": [
+              0,
+              43
+            ]
+          }
+        ],
+        "finalZh": "我妈妈每天都打扫我们的房子。",
+        "orderRules": [
+          "被动还原主动"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s05-0006",
+      "en": "Our house was cleaned by my mother yesterday.",
+      "zh": "我妈妈昨天打扫了我们的房子。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "被动语态",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "was",
+          "hint": "系动词/助动词，过去式单数（本空填 was）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "by",
+          "hint": "介词，被/通过（本空填 by）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Our house",
+          "role": "主语",
+          "span": [
+            0,
+            9
+          ]
+        },
+        {
+          "text": "was cleaned",
+          "role": "谓语",
+          "span": [
+            10,
+            21
+          ]
+        },
+        {
+          "text": "by my mother yesterday",
+          "role": "状语",
+          "span": [
+            22,
+            44
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 was cleaned（一般过去被动），by my mother 是施动者。",
+            "why": "was cleaned 是过去被动，cleaned 是 clean 的过去分词，yesterday 是时间状语。",
+            "highlight": [
+              10,
+              21
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "过去被动",
+            "what": "was cleaned by my mother yesterday = 昨天被妈妈打扫，过去时被动。",
+            "why": "was cleaned 是过去被动，by my mother 引出施动者，yesterday 是过去时间。",
+            "how": "译「我妈妈昨天打扫了我们的房子」，被动还原主动。",
+            "highlight": [
+              0,
+              44
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我妈妈昨天打扫了我们的房子。",
+            "why": "Our house was cleaned by my mother yesterday 译「我妈妈昨天打扫了我们的房子」。",
+            "highlight": [
+              0,
+              44
+            ]
+          }
+        ],
+        "finalZh": "我妈妈昨天打扫了我们的房子。",
+        "orderRules": [
+          "被动还原主动"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s05-0007",
+      "en": "Our house will be cleaned by my mother tomorrow.",
+      "zh": "我妈妈明天将打扫我们的房子。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "被动语态",
+          "情态动词",
+          "非谓语动词"
+        ],
+        "fine": [
+          "一般将来时"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "will",
+          "hint": "助动词，一般将来时（本空填 will）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "be",
+          "hint": "系动词/助动词原形（本空填 be）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "by",
+          "hint": "介词，被/通过（本空填 by）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Our house",
+          "role": "主语",
+          "span": [
+            0,
+            9
+          ]
+        },
+        {
+          "text": "will be cleaned",
+          "role": "谓语",
+          "span": [
+            10,
+            25
+          ]
+        },
+        {
+          "text": "by my mother tomorrow",
+          "role": "状语",
+          "span": [
+            26,
+            47
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 will be cleaned（一般将来被动），by my mother 是施动者。",
+            "why": "will be cleaned 是「will + be + 过去分词」的将来被动，tomorrow 是时间状语。",
+            "highlight": [
+              10,
+              25
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "将来被动",
+            "what": "will be cleaned by my mother tomorrow = 明天将被妈妈打扫，将来时被动。",
+            "why": "will be cleaned 是将来被动，by my mother 引出施动者。",
+            "how": "译「我妈妈明天将打扫我们的房子」，被动还原主动。",
+            "highlight": [
+              0,
+              47
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我妈妈明天将打扫我们的房子。",
+            "why": "Our house will be cleaned by my mother tomorrow 译「我妈妈明天将打扫我们的房子」。",
+            "highlight": [
+              0,
+              47
+            ]
+          }
+        ],
+        "finalZh": "我妈妈明天将打扫我们的房子。",
+        "orderRules": [
+          "被动还原主动"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s05-0008",
+      "en": "Our house is being cleaned by my mother now.",
+      "zh": "我妈妈现在正在打扫我们的房子。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "被动语态",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "进行时（be + 现在分词）"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "being",
+          "hint": "be 的现在分词（本空填 being）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "by",
+          "hint": "介词，被/通过（本空填 by）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Our house",
+          "role": "主语",
+          "span": [
+            0,
+            9
+          ]
+        },
+        {
+          "text": "is being cleaned",
+          "role": "谓语",
+          "span": [
+            10,
+            26
+          ]
+        },
+        {
+          "text": "by my mother now",
+          "role": "状语",
+          "span": [
+            27,
+            43
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is being cleaned（现在进行被动），by my mother 是施动者。",
+            "why": "is being cleaned 是「be + being + 过去分词」的进行被动，now 是时间。",
+            "highlight": [
+              10,
+              26
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "进行时被动",
+            "what": "is being cleaned by my mother now = 正在被妈妈打扫，进行被动。",
+            "why": "is being cleaned 是进行时被动，表示「正在被」，by my mother 引出施动者。",
+            "how": "译「我妈妈现在正在打扫我们的房子」，被动还原主动。",
+            "highlight": [
+              0,
+              43
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我妈妈现在正在打扫我们的房子。",
+            "why": "Our house is being cleaned by my mother now 译「我妈妈现在正在打扫我们的房子」。",
+            "highlight": [
+              0,
+              43
+            ]
+          }
+        ],
+        "finalZh": "我妈妈现在正在打扫我们的房子。",
+        "orderRules": [
+          "被动还原主动"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s05-0009",
+      "en": "Our house was being cleaned by my mother at that time.",
+      "zh": "我妈妈那时正在打扫我们的房子。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 11,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "被动语态",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "进行时（be + 现在分词）"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "was",
+          "hint": "系动词/助动词，过去式单数（本空填 was）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "being",
+          "hint": "be 的现在分词（本空填 being）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "Our house",
+          "role": "主语",
+          "span": [
+            0,
+            9
+          ]
+        },
+        {
+          "text": "was being cleaned",
+          "role": "谓语",
+          "span": [
+            10,
+            27
+          ]
+        },
+        {
+          "text": "by my mother at that time",
+          "role": "状语",
+          "span": [
+            28,
+            53
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 was being cleaned（过去进行被动），at that time 是时间。",
+            "why": "was being cleaned 是过去进行被动，at that time 是时间状语。",
+            "highlight": [
+              10,
+              27
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "过去进行被动",
+            "what": "was being cleaned by my mother = 那时正在被妈妈打扫，过去进行被动。",
+            "why": "was being cleaned 是过去进行被动，表示「过去某时正在被」。",
+            "how": "译「我妈妈那时正在打扫我们的房子」，被动还原主动。",
+            "highlight": [
+              0,
+              53
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我妈妈那时正在打扫我们的房子。",
+            "why": "Our house was being cleaned by my mother at that time 译「我妈妈那时正在打扫我们的房子」。",
+            "highlight": [
+              0,
+              53
+            ]
+          }
+        ],
+        "finalZh": "我妈妈那时正在打扫我们的房子。",
+        "orderRules": [
+          "被动还原主动"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s05-0010",
+      "en": "Our house has already been cleaned by my mother.",
+      "zh": "我妈妈已经打扫完了我们的房子。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "被动语态",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "have/get sth done 结构"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "has",
+          "hint": "助动词，第三人称单数（本空填 has）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "been",
+          "hint": "be 的过去分词（本空填 been）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "by",
+          "hint": "介词，被/通过（本空填 by）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Our house",
+          "role": "主语",
+          "span": [
+            0,
+            9
+          ]
+        },
+        {
+          "text": "has already been cleaned",
+          "role": "谓语",
+          "span": [
+            10,
+            34
+          ]
+        },
+        {
+          "text": "by my mother",
+          "role": "状语",
+          "span": [
+            35,
+            47
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 has already been cleaned（现在完成被动）。",
+            "why": "has been cleaned 是「has + been + 过去分词」的完成被动，already 是「已经」。",
+            "highlight": [
+              10,
+              34
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "完成时被动",
+            "what": "has already been cleaned = 已经打扫完了，完成被动。",
+            "why": "has been cleaned 是完成被动，表示「已经完成」，already 强调已经。",
+            "how": "译「我妈妈已经打扫完了我们的房子」，被动还原主动。",
+            "highlight": [
+              0,
+              47
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我妈妈已经打扫完了我们的房子。",
+            "why": "Our house has already been cleaned by my mother 译「我妈妈已经打扫完了我们的房子」。",
+            "highlight": [
+              0,
+              47
+            ]
+          }
+        ],
+        "finalZh": "我妈妈已经打扫完了我们的房子。",
+        "orderRules": [
+          "被动还原主动"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s05-0011",
+      "en": "Our house had already been cleaned by my mother when I got home.",
+      "zh": "当我到家时，我妈妈已经打扫完了我们的房子。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 13,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "被动语态",
+          "非谓语动词"
+        ],
+        "fine": [
+          "have/get sth done 结构"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "when",
+          "hint": "关系副词/时间状语从句引导词（本空填 when）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "had",
+          "hint": "使役/助动词过去式（本空填 had）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "been",
+          "hint": "be 的过去分词（本空填 been）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "Our house",
+          "role": "主语",
+          "span": [
+            0,
+            9
+          ]
+        },
+        {
+          "text": "had already been cleaned",
+          "role": "谓语",
+          "span": [
+            10,
+            34
+          ]
+        },
+        {
+          "text": "by my mother",
+          "role": "状语",
+          "span": [
+            35,
+            47
+          ]
+        },
+        {
+          "text": "when I got home.",
+          "role": "状语从句",
+          "span": [
+            48,
+            64
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "主句谓语是 had been cleaned（过去完成被动），when 引导时间状语从句。",
+            "why": "had been cleaned 是过去完成被动，when I got home 是 when 引导的时间状语从句。",
+            "highlight": [
+              10,
+              34
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "过去完成被动",
+            "what": "had already been cleaned = 已经打扫完了（在我到家之前），过去完成被动。",
+            "why": "had been cleaned 是过去完成被动，表示「在 got home 之前已经完成」。",
+            "how": "译「我妈妈已经打扫完了」，被动还原主动。",
+            "highlight": [
+              10,
+              34
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "clause",
+            "title": "识别时间状语从句",
+            "what": "when I got home 是时间状语从句，说明 had been cleaned 的时间。",
+            "why": "when（当……时）引导时间状语从句，I got home 是过去的时间点。",
+            "highlight": [
+              48,
+              63
+            ]
+          },
+          {
+            "step": 4,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "当我到家时，我妈妈已经打扫完了我们的房子。",
+            "why": "Our house had already been cleaned by my mother when I got home 译「当我到家时，我妈妈已经打扫完了我们的房子」。",
+            "highlight": [
+              0,
+              63
+            ]
+          }
+        ],
+        "finalZh": "当我到家时，我妈妈已经打扫完了我们的房子。",
+        "orderRules": [
+          "被动还原主动",
+          "时间状语从句 when... 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s05-0012",
+      "en": "Money should be spent in the right way.",
+      "zh": "应该正确花钱。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "被动语态",
+          "情态动词",
+          "冠词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "should",
+          "hint": "情态动词，应该（本空填 should）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "be",
+          "hint": "系动词/助动词原形（本空填 be）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "in",
+          "hint": "介词，在…里（本空填 in）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Money",
+          "role": "主语",
+          "span": [
+            0,
+            5
+          ]
+        },
+        {
+          "text": "should be spent",
+          "role": "谓语",
+          "span": [
+            6,
+            21
+          ]
+        },
+        {
+          "text": "in the right way",
+          "role": "状语",
+          "span": [
+            22,
+            38
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 should be spent（情态动词被动），in the right way 是方式。",
+            "why": "should be spent 是「情态动词 + be + 过去分词」的被动，spent 是 spend 的过去分词。",
+            "highlight": [
+              6,
+              21
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "情态动词被动",
+            "what": "should be spent in the right way = 应该正确花（钱），被动。",
+            "why": "should be spent 是情态动词被动，Money 是主语（被花），in the right way 是方式。",
+            "how": "译「应该正确花钱」，被动还原成无主句。",
+            "highlight": [
+              0,
+              38
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "应该正确花钱。",
+            "why": "Money should be spent in the right way 译「应该正确花钱」。",
+            "highlight": [
+              0,
+              38
+            ]
+          }
+        ],
+        "finalZh": "应该正确花钱。",
+        "orderRules": [
+          "被动还原无主句"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s05-0013",
+      "en": "Waste paper should not be thrown here.",
+      "zh": "废纸不应该被扔在这里。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 7,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "被动语态",
+          "情态动词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "should",
+          "hint": "情态动词，应该（本空填 should）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "be",
+          "hint": "系动词/助动词原形（本空填 be）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "Waste paper",
+          "role": "主语",
+          "span": [
+            0,
+            11
+          ]
+        },
+        {
+          "text": "should not be thrown",
+          "role": "谓语",
+          "span": [
+            12,
+            32
+          ]
+        },
+        {
+          "text": "here",
+          "role": "宾语",
+          "span": [
+            33,
+            37
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 should not be thrown（情态动词否定被动）。",
+            "why": "should not be thrown 是「should not + be + 过去分词」的被动否定，thrown 是 throw 的过去分词。",
+            "highlight": [
+              12,
+              32
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "情态动词否定被动",
+            "what": "should not be thrown here = 不应该被扔在这里，否定被动。",
+            "why": "should not be thrown 是被动否定，here 是地点状语。",
+            "how": "译「废纸不应该被扔在这里」，被动 thrown 译「被扔」。",
+            "highlight": [
+              0,
+              37
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "废纸不应该被扔在这里。",
+            "why": "Waste paper should not be thrown here 译「废纸不应该被扔在这里」。",
+            "highlight": [
+              0,
+              37
+            ]
+          }
+        ],
+        "finalZh": "废纸不应该被扔在这里。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s05-0014",
+      "en": "Should it be done by Li Ming?",
+      "zh": "这件事应该由李明干吗？",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 7,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "被动语态",
+          "情态动词",
+          "非谓语动词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "Should",
+          "hint": "情态动词，应该（本空填 Should）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "be",
+          "hint": "系动词/助动词原形（本空填 be）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "by",
+          "hint": "介词，被/通过（本空填 by）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Should",
+          "role": "谓语",
+          "span": [
+            0,
+            6
+          ]
+        },
+        {
+          "text": "it",
+          "role": "宾语",
+          "span": [
+            7,
+            9
+          ]
+        },
+        {
+          "text": "be",
+          "role": "谓语",
+          "span": [
+            10,
+            12
+          ]
+        },
+        {
+          "text": "done",
+          "role": "表语",
+          "span": [
+            13,
+            17
+          ]
+        },
+        {
+          "text": "by Li Ming",
+          "role": "状语",
+          "span": [
+            18,
+            28
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 Should...be done（情态动词被动疑问句）。",
+            "why": "Should 提前构成疑问句，be done 是被动，by Li Ming 是施动者。",
+            "highlight": [
+              0,
+              17
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "情态动词被动疑问",
+            "what": "Should it be done by Li Ming = 应该由李明做吗，被动疑问。",
+            "why": "Should 提前构成疑问句，it be done 是被动，by Li Ming 引出施动者。",
+            "how": "译「这件事应该由李明干吗」，被动 done 还原「做」。",
+            "highlight": [
+              0,
+              28
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "这件事应该由李明干吗？",
+            "why": "Should it be done by Li Ming 译「这件事应该由李明干吗」。",
+            "highlight": [
+              0,
+              28
+            ]
+          }
+        ],
+        "finalZh": "这件事应该由李明干吗？",
+        "orderRules": [
+          "被动还原主动"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s05-0019",
+      "en": "It is reported that...",
+      "zh": "据报道。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 4,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "强调",
+          "被动语态",
+          "it的用法"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "It",
+          "hint": "代词，可作形式主语/形式宾语（本空填 It）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "It",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "is reported",
+          "role": "谓语",
+          "span": [
+            3,
+            14
+          ]
+        },
+        {
+          "text": "that...",
+          "role": "宾语从句",
+          "span": [
+            15,
+            22
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is reported（被动），It 是形式主语，that 引导主语从句。",
+            "why": "is reported 是被动「被报道」，It 是形式主语，that... 是真正主语从句。",
+            "highlight": [
+              3,
+              14
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "it is reported that",
+            "what": "It is reported that... = 据报道，固定句型。",
+            "why": "It is reported that 是固定句型，表示「据报道」，It 是形式主语。",
+            "how": "译「据报道」，it is reported that 译「据报道」。",
+            "highlight": [
+              0,
+              19
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "据报道。",
+            "why": "It is reported that... 译「据报道」。",
+            "highlight": [
+              0,
+              21
+            ]
+          }
+        ],
+        "finalZh": "据报道。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s05-0020",
+      "en": "It is believed that...",
+      "zh": "人们相信。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 4,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "强调",
+          "被动语态",
+          "it的用法"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "It",
+          "hint": "代词，可作形式主语/形式宾语（本空填 It）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "It",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "is believed",
+          "role": "谓语",
+          "span": [
+            3,
+            14
+          ]
+        },
+        {
+          "text": "that...",
+          "role": "宾语从句",
+          "span": [
+            15,
+            22
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is believed（被动），It 是形式主语，that 引导主语从句。",
+            "why": "is believed 是被动「被相信」，It 是形式主语，that... 是真正主语从句。",
+            "highlight": [
+              3,
+              14
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "it is believed that",
+            "what": "It is believed that... = 人们相信，固定句型。",
+            "why": "It is believed that 是固定句型，表示「人们相信」，It 是形式主语。",
+            "how": "译「人们相信」，it is believed that 译「人们相信」。",
+            "highlight": [
+              0,
+              19
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "人们相信。",
+            "why": "It is believed that... 译「人们相信」。",
+            "highlight": [
+              0,
+              21
+            ]
+          }
+        ],
+        "finalZh": "人们相信。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s05-0021",
+      "en": "It is well-known that...",
+      "zh": "众所周知。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 5,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "被动语态",
+          "强调",
+          "it的用法"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "It",
+          "hint": "代词，可作形式主语/形式宾语（本空填 It）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "It",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            3,
+            5
+          ]
+        },
+        {
+          "text": "well",
+          "role": "表语",
+          "span": [
+            6,
+            10
+          ]
+        },
+        {
+          "text": "known",
+          "role": "谓语",
+          "span": [
+            11,
+            16
+          ]
+        },
+        {
+          "text": "that...",
+          "role": "宾语从句",
+          "span": [
+            17,
+            24
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is well-known（被动），It 是形式主语，that 引导主语从句。",
+            "why": "is well-known 是被动「众所周知」，It 是形式主语，that... 是真正主语从句。",
+            "highlight": [
+              3,
+              16
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "it is well-known that",
+            "what": "It is well-known that... = 众所周知，固定句型。",
+            "why": "It is well-known that 是固定句型，表示「众所周知」，well-known 是复合形容词。",
+            "how": "译「众所周知」，it is well-known that 译「众所周知」。",
+            "highlight": [
+              0,
+              21
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "众所周知。",
+            "why": "It is well-known that... 译「众所周知」。",
+            "highlight": [
+              0,
+              23
+            ]
+          }
+        ],
+        "finalZh": "众所周知。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s05-0022",
+      "en": "The milk smells sour.",
+      "zh": "牛奶闻起来酸了。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 4,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "被动语态",
+          "冠词",
+          "名词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "The",
+          "hint": "定冠词，特指（本空填 The）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "The milk",
+          "role": "主语",
+          "span": [
+            0,
+            8
+          ]
+        },
+        {
+          "text": "smells",
+          "role": "谓语",
+          "span": [
+            9,
+            15
+          ]
+        },
+        {
+          "text": "sour",
+          "role": "表语",
+          "span": [
+            16,
+            20
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 smells（系动词），表语 sour。",
+            "why": "smells 是 smell 作系动词「闻起来」，sour（酸的）是表语。",
+            "highlight": [
+              9,
+              15
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "系动词无被动",
+            "what": "The milk smells sour = 牛奶闻起来酸了，系动词不能用于被动。",
+            "why": "smell 是系动词，后面接形容词 sour 作表语，系动词没有被动语态。",
+            "how": "译「牛奶闻起来酸了」，smells 译「闻起来」。",
+            "highlight": [
+              0,
+              20
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "牛奶闻起来酸了。",
+            "why": "The milk smells sour 译「牛奶闻起来酸了」。",
+            "highlight": [
+              0,
+              20
+            ]
+          }
+        ],
+        "finalZh": "牛奶闻起来酸了。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s05-0023",
+      "en": "Dayan looks very tired.",
+      "zh": "大雁看起来特别累。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 4,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "被动语态",
+          "非谓语动词",
+          "名词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "Dayan",
+          "hint": "本句关键词，注意它的形式（本空填 Dayan）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "Dayan",
+          "role": "主语",
+          "span": [
+            0,
+            5
+          ]
+        },
+        {
+          "text": "looks",
+          "role": "谓语",
+          "span": [
+            6,
+            11
+          ]
+        },
+        {
+          "text": "very",
+          "role": "表语",
+          "span": [
+            12,
+            16
+          ]
+        },
+        {
+          "text": "tired",
+          "role": "谓语",
+          "span": [
+            17,
+            22
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 looks（系动词），表语 very tired。",
+            "why": "looks 是 look 作系动词「看起来」，very tired（特别累）是表语。",
+            "highlight": [
+              6,
+              11
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "大雁看起来特别累。",
+            "why": "Dayan looks very tired 译「大雁看起来特别累」。",
+            "highlight": [
+              0,
+              22
+            ]
+          }
+        ],
+        "finalZh": "大雁看起来特别累。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s05-0024",
+      "en": "The attack took place last Monday.",
+      "zh": "袭击发生在上周一。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 6,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "被动语态",
+          "冠词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "The",
+          "hint": "定冠词，特指（本空填 The）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "The attack",
+          "role": "主语",
+          "span": [
+            0,
+            10
+          ]
+        },
+        {
+          "text": "took place last",
+          "role": "谓语",
+          "span": [
+            11,
+            26
+          ]
+        },
+        {
+          "text": "Monday",
+          "role": "宾语",
+          "span": [
+            27,
+            33
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 took place（不及物短语动词），last Monday 是时间。",
+            "why": "took place（发生）是不及物短语动词，last Monday 是时间状语。",
+            "highlight": [
+              11,
+              21
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "take place 无被动",
+            "what": "took place = 发生，take place 是不及物短语，不能用于被动。",
+            "why": "take place（发生）是不及物短语动词，没有被动语态，不能写成 was taken place。",
+            "how": "译「袭击发生在上周一」，took place 译「发生」。",
+            "highlight": [
+              4,
+              33
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "袭击发生在上周一。",
+            "why": "The attack took place last Monday 译「袭击发生在上周一」。",
+            "highlight": [
+              0,
+              33
+            ]
+          }
+        ],
+        "finalZh": "袭击发生在上周一。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s05-0025",
+      "en": "The war broke out in 1937.",
+      "zh": "战争于 1937 年爆发。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 5,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "被动语态",
+          "冠词",
+          "介词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "in",
+          "hint": "介词，在…里（本空填 in）",
+          "gp": "介词"
+        },
+        {
+          "answer": "The",
+          "hint": "定冠词，特指（本空填 The）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 broke out（不及物短语），in 1937 是时间。",
+            "why": "broke out（爆发）是不及物短语动词，in 1937 是时间状语。",
+            "highlight": [
+              8,
+              17
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "break out 无被动",
+            "what": "broke out = 爆发，break out 是不及物短语不能用于被动。",
+            "why": "break out（爆发）是不及物短语动词，没有被动语态，不能说 was broken out。",
+            "how": "译「战争于 1937 年爆发」，broke out 译「爆发」。",
+            "highlight": [
+              4,
+              25
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "战争于 1937 年爆发。",
+            "why": "The war broke out in 1937 译「战争于 1937 年爆发」。",
+            "highlight": [
+              0,
+              25
+            ]
+          }
+        ],
+        "finalZh": "战争于 1937 年爆发。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s05-0026",
+      "en": "I have many cute dolls.",
+      "zh": "我有很多可爱的洋娃娃。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 5,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "被动语态",
+          "动词时态",
+          "代词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "have",
+          "hint": "使役动词，让（have sth done）（本空填 have）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "have",
+          "role": "谓语",
+          "span": [
+            2,
+            6
+          ]
+        },
+        {
+          "text": "many cute dolls",
+          "role": "宾语",
+          "span": [
+            7,
+            22
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 have，宾语 many cute dolls。",
+            "why": "have（有）是谓语，many cute dolls（很多可爱的洋娃娃）是宾语。",
+            "highlight": [
+              2,
+              6
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我有很多可爱的洋娃娃。",
+            "why": "I have many cute dolls 译「我有很多可爱的洋娃娃」。",
+            "highlight": [
+              0,
+              22
+            ]
+          }
+        ],
+        "finalZh": "我有很多可爱的洋娃娃。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOC"
+    },
+    {
+      "id": "s05-0027",
+      "en": "A person should possess courage, determination and wisdom.",
+      "zh": "一个人应该拥有勇气、决心和智慧。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "被动语态",
+          "情态动词",
+          "并列结构"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "should",
+          "hint": "情态动词，应该（本空填 should）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "A",
+          "hint": "不定冠词，修饰可数名词单数（本空填 A）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "A person",
+          "role": "主语",
+          "span": [
+            0,
+            8
+          ]
+        },
+        {
+          "text": "should",
+          "role": "谓语",
+          "span": [
+            9,
+            15
+          ]
+        },
+        {
+          "text": "possess courage, determination",
+          "role": "宾语",
+          "span": [
+            16,
+            46
+          ]
+        },
+        {
+          "text": "and",
+          "role": "状语",
+          "span": [
+            47,
+            50
+          ]
+        },
+        {
+          "text": "wisdom",
+          "role": "状语",
+          "span": [
+            51,
+            57
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 should possess，宾语并列的 courage、determination、wisdom。",
+            "why": "should（应该）后面 possess 用原形，courage、determination、wisdom 是并列宾语。",
+            "highlight": [
+              9,
+              23
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "一个人应该拥有勇气、决心和智慧。",
+            "why": "A person should possess courage, determination and wisdom 译「一个人应该拥有勇气、决心和智慧」。",
+            "highlight": [
+              0,
+              57
+            ]
+          }
+        ],
+        "finalZh": "一个人应该拥有勇气、决心和智慧。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s05-0028",
+      "en": "We should help each other.",
+      "zh": "我们应该互相帮助。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 5,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "被动语态",
+          "情态动词",
+          "主谓一致"
+        ],
+        "fine": [
+          "each/every 作主语时谓语用单数",
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "should",
+          "hint": "情态动词，应该（本空填 should）",
+          "gp": "情态动词"
+        }
+      ],
+      "components": [
+        {
+          "text": "We",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "should help",
+          "role": "谓语",
+          "span": [
+            3,
+            14
+          ]
+        },
+        {
+          "text": "each other",
+          "role": "宾语",
+          "span": [
+            15,
+            25
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 should help，each other 是宾语。",
+            "why": "should（应该）后面 help 用原形，each other（互相）是宾语。",
+            "highlight": [
+              3,
+              14
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我们应该互相帮助。",
+            "why": "We should help each other 译「我们应该互相帮助」。",
+            "highlight": [
+              0,
+              25
+            ]
+          }
+        ],
+        "finalZh": "我们应该互相帮助。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOC"
+    },
+    {
+      "id": "s05-0029",
+      "en": "He thinks of himself too much.",
+      "zh": "他太在意自己了。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 6,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "被动语态",
+          "代词",
+          "介词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "of",
+          "hint": "介词，…的（本空填 of）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "He",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "thinks",
+          "role": "谓语",
+          "span": [
+            3,
+            9
+          ]
+        },
+        {
+          "text": "of himself too much",
+          "role": "状语",
+          "span": [
+            10,
+            29
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 thinks of，himself 是反身代词作宾语。",
+            "why": "thinks of（想着）是谓语，himself（他自己）是反身代词作宾语，too much 是程度状语。",
+            "highlight": [
+              3,
+              20
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "think of oneself",
+            "what": "thinks of himself too much = 太在意自己，think of 是「考虑、想着」。",
+            "why": "think of（考虑）是短语动词，himself 是反身代词，too much 表程度。",
+            "how": "译「他太在意自己了」，thinks of himself 译「想着自己」。",
+            "highlight": [
+              3,
+              29
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他太在意自己了。",
+            "why": "He thinks of himself too much 译「他太在意自己了」。",
+            "highlight": [
+              0,
+              29
+            ]
+          }
+        ],
+        "finalZh": "他太在意自己了。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s05-0030",
+      "en": "We live a happy life in the small town.",
+      "zh": "我们在这个小镇上过着幸福的生活。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "被动语态",
+          "代词",
+          "冠词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "in",
+          "hint": "介词，在…里（本空填 in）",
+          "gp": "介词"
+        },
+        {
+          "answer": "a",
+          "hint": "不定冠词，修饰可数名词单数（本空填 a）",
+          "gp": "冠词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "We",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "live",
+          "role": "谓语",
+          "span": [
+            3,
+            7
+          ]
+        },
+        {
+          "text": "a happy life",
+          "role": "宾语",
+          "span": [
+            8,
+            20
+          ]
+        },
+        {
+          "text": "in the small town",
+          "role": "状语",
+          "span": [
+            21,
+            38
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 live，a happy life 是宾语（同源宾语），in the small town 是地点。",
+            "why": "live（过）是谓语，a happy life（幸福的生活）是同源宾语，in the small town 是地点。",
+            "highlight": [
+              3,
+              7
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "同源宾语 live a life",
+            "what": "live a happy life = 过着幸福的生活，live 和 life 同源。",
+            "why": "live a happy life 中 live 和 life 是同源词，构成「同源宾语」结构。",
+            "how": "译「过着幸福的生活」，live a happy life 译「过着幸福的生活」。",
+            "highlight": [
+              3,
+              20
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我们在这个小镇上过着幸福的生活。",
+            "why": "We live a happy life in the small town 译「我们在这个小镇上过着幸福的生活」。",
+            "highlight": [
+              0,
+              38
+            ]
+          }
+        ],
+        "finalZh": "我们在这个小镇上过着幸福的生活。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s05-0031",
+      "en": "We will reach the airport in two hours.",
+      "zh": "我们将在两小时后到达机场。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "被动语态",
+          "情态动词",
+          "动词时态"
+        ],
+        "fine": [
+          "一般将来时"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "will",
+          "hint": "助动词，一般将来时（本空填 will）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "in",
+          "hint": "介词，在…里（本空填 in）",
+          "gp": "介词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "We",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "will reach",
+          "role": "谓语",
+          "span": [
+            3,
+            13
+          ]
+        },
+        {
+          "text": "the airport",
+          "role": "宾语",
+          "span": [
+            14,
+            25
+          ]
+        },
+        {
+          "text": "in two hours",
+          "role": "状语",
+          "span": [
+            26,
+            38
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L1",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 will reach，in two hours 是时间。",
+            "why": "will reach（将到达）是将来时，the airport 是宾语，in two hours 是时间。",
+            "highlight": [
+              3,
+              13
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我们将在两小时后到达机场。",
+            "why": "We will reach the airport in two hours 译「我们将在两小时后到达机场」。",
+            "highlight": [
+              0,
+              38
+            ]
+          }
+        ],
+        "finalZh": "我们将在两小时后到达机场。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s05-0032",
+      "en": "He has gone to Chongqing.",
+      "zh": "他去重庆了。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 5,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "被动语态",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "has",
+          "hint": "助动词，第三人称单数（本空填 has）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "He",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "has gone",
+          "role": "谓语",
+          "span": [
+            3,
+            11
+          ]
+        },
+        {
+          "text": "to Chongqing",
+          "role": "状语",
+          "span": [
+            12,
+            24
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 has gone（完成时），to Chongqing 是方向。",
+            "why": "has gone（去了）是完成时，has gone to 表「去而未归」。",
+            "highlight": [
+              3,
+              11
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "has gone to 去而未归",
+            "what": "has gone to Chongqing = 去重庆了（还没回来），has gone to 表去而未归。",
+            "why": "has gone to 表示「去了（人还在那里）」，区别于 has been to（去过已回来）。",
+            "how": "译「他去重庆了」，has gone to 译「去了」。",
+            "highlight": [
+              3,
+              24
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他去重庆了。",
+            "why": "He has gone to Chongqing 译「他去重庆了」。",
+            "highlight": [
+              0,
+              24
+            ]
+          }
+        ],
+        "finalZh": "他去重庆了。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s05-0033",
+      "en": "Superstars should not be pursued blindly by teenagers and youngsters.",
+      "zh": "青少年和年轻人不应该盲目追星。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "被动语态",
+          "情态动词",
+          "非谓语动词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "should",
+          "hint": "情态动词，应该（本空填 should）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "be",
+          "hint": "系动词/助动词原形（本空填 be）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "by",
+          "hint": "介词，被/通过（本空填 by）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Superstars",
+          "role": "主语",
+          "span": [
+            0,
+            10
+          ]
+        },
+        {
+          "text": "should not be",
+          "role": "谓语",
+          "span": [
+            11,
+            24
+          ]
+        },
+        {
+          "text": "pursued blindly",
+          "role": "表语",
+          "span": [
+            25,
+            40
+          ]
+        },
+        {
+          "text": "and",
+          "role": "状语",
+          "span": [
+            54,
+            57
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 should not be pursued（情态动词否定被动）。",
+            "why": "should not be pursued 是「should not + be + 过去分词」的被动否定，pursued 是 pursue 的过去分词。",
+            "highlight": [
+              11,
+              32
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "被动 + by 施动者",
+            "what": "should not be pursued blindly by teenagers = 不应该被青少年盲目追（星）。",
+            "why": "should not be pursued 是被动否定，blindly 是方式副词，by teenagers and youngsters 引出施动者。",
+            "how": "译「青少年和年轻人不应该盲目追星」，被动还原主动。",
+            "highlight": [
+              0,
+              68
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "青少年和年轻人不应该盲目追星。",
+            "why": "Superstars should not be pursued blindly by teenagers and youngsters 译「青少年和年轻人不应该盲目追星」。",
+            "highlight": [
+              0,
+              68
+            ]
+          }
+        ],
+        "finalZh": "青少年和年轻人不应该盲目追星。",
+        "orderRules": [
+          "被动还原主动"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s05-0035",
+      "en": "You can borrow two books at a time.",
+      "zh": "你可以一次借两本书。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "被动语态",
+          "情态动词",
+          "代词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "can",
+          "hint": "情态动词，能/可以（本空填 can）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "at",
+          "hint": "介词，在（本空填 at）",
+          "gp": "介词"
+        },
+        {
+          "answer": "a",
+          "hint": "不定冠词，修饰可数名词单数（本空填 a）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "You",
+          "role": "主语",
+          "span": [
+            0,
+            3
+          ]
+        },
+        {
+          "text": "can borrow",
+          "role": "谓语",
+          "span": [
+            4,
+            14
+          ]
+        },
+        {
+          "text": "two books",
+          "role": "宾语",
+          "span": [
+            15,
+            24
+          ]
+        },
+        {
+          "text": "at a time",
+          "role": "状语",
+          "span": [
+            25,
+            34
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 can borrow，two books 是宾语，at a time 是状语。",
+            "why": "can（能）后面 borrow 用原形，two books 是宾语，at a time（一次）是状语。",
+            "highlight": [
+              4,
+              14
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "你可以一次借两本书。",
+            "why": "You can borrow two books at a time 译「你可以一次借两本书」。",
+            "highlight": [
+              0,
+              34
+            ]
+          }
+        ],
+        "finalZh": "你可以一次借两本书。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s05-0036",
+      "en": "We should take good care of our parents.",
+      "zh": "我们应该好好照顾父母。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "被动语态",
+          "情态动词",
+          "代词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "should",
+          "hint": "情态动词，应该（本空填 should）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "of",
+          "hint": "介词，…的（本空填 of）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "We",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "should take",
+          "role": "谓语",
+          "span": [
+            3,
+            14
+          ]
+        },
+        {
+          "text": "good care",
+          "role": "宾语",
+          "span": [
+            15,
+            24
+          ]
+        },
+        {
+          "text": "of our parents",
+          "role": "状语",
+          "span": [
+            25,
+            39
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 should take good care of，our parents 是宾语。",
+            "why": "should（应该）后面 take 用原形，take good care of（好好照顾）是短语动词，our parents 是宾语。",
+            "highlight": [
+              3,
+              24
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "take care of 短语",
+            "what": "take good care of our parents = 好好照顾父母，take care of 是「照顾」。",
+            "why": "take care of（照顾）是固定短语，good 修饰 care，our parents 是 of 的宾语。",
+            "how": "译「好好照顾父母」，take good care of 译「好好照顾」。",
+            "highlight": [
+              3,
+              39
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我们应该好好照顾父母。",
+            "why": "We should take good care of our parents 译「我们应该好好照顾父母」。",
+            "highlight": [
+              0,
+              39
+            ]
+          }
+        ],
+        "finalZh": "我们应该好好照顾父母。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s05-0037",
+      "en": "The teacher gave the student a book.",
+      "zh": "老师给了那个学生一本书。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 7,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "被动语态",
+          "冠词",
+          "形容词与副词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "The",
+          "hint": "定冠词，特指（本空填 The）",
+          "gp": "冠词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        },
+        {
+          "answer": "a",
+          "hint": "不定冠词，修饰可数名词单数（本空填 a）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "The teacher",
+          "role": "主语",
+          "span": [
+            0,
+            11
+          ]
+        },
+        {
+          "text": "gave",
+          "role": "谓语",
+          "span": [
+            12,
+            16
+          ]
+        },
+        {
+          "text": "the student a book",
+          "role": "宾语",
+          "span": [
+            17,
+            35
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 gave，宾语 the student（间接）和 a book（直接）。",
+            "why": "gave 是 give 的过去式，the student（那个学生）是间接宾语，a book 是直接宾语。",
+            "highlight": [
+              12,
+              16
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "双宾语",
+            "what": "gave the student a book = 给了学生一本书，双宾语结构。",
+            "why": "give 带双宾语，the student 指人（给谁），a book 指物（给什么）。",
+            "how": "译「给了那个学生一本书」，双宾语顺译。",
+            "highlight": [
+              12,
+              35
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "老师给了那个学生一本书。",
+            "why": "The teacher gave the student a book 译「老师给了那个学生一本书」。",
+            "highlight": [
+              0,
+              35
+            ]
+          }
+        ],
+        "finalZh": "老师给了那个学生一本书。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s05-0038",
+      "en": "A book was given to the student by the teacher.",
+      "zh": "老师把这本书给了那个学生。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "被动语态",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "was",
+          "hint": "系动词/助动词，过去式单数（本空填 was）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        },
+        {
+          "answer": "by",
+          "hint": "介词，被/通过（本空填 by）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "A book",
+          "role": "主语",
+          "span": [
+            0,
+            6
+          ]
+        },
+        {
+          "text": "was given",
+          "role": "谓语",
+          "span": [
+            7,
+            16
+          ]
+        },
+        {
+          "text": "to the student by the teacher",
+          "role": "状语",
+          "span": [
+            17,
+            46
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 was given（被动），by the teacher 是施动者。",
+            "why": "was given 是被动「被给」，by the teacher 引出施动者。",
+            "highlight": [
+              7,
+              16
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "双宾语变被动",
+            "what": "A book was given to the student = 书被给了学生，双宾语变被动的对照句。",
+            "why": "主动 give the student a book 变被动时，a book 变主语，to the student 用 to 引出，by the teacher 是施动者。",
+            "how": "译「老师把这本书给了那个学生」，被动还原主动。",
+            "highlight": [
+              0,
+              46
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "老师把这本书给了那个学生。",
+            "why": "A book was given to the student by the teacher 被动还原成「老师把这本书给了那个学生」。",
+            "highlight": [
+              0,
+              46
+            ]
+          }
+        ],
+        "finalZh": "老师把这本书给了那个学生。",
+        "orderRules": [
+          "被动还原主动"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s05-0039",
+      "en": "Her mother bought her a dress.",
+      "zh": "她妈妈给她买了一条裙子。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 6,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "被动语态",
+          "代词",
+          "冠词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "a",
+          "hint": "不定冠词，修饰可数名词单数（本空填 a）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Her mother",
+          "role": "主语",
+          "span": [
+            0,
+            10
+          ]
+        },
+        {
+          "text": "bought",
+          "role": "谓语",
+          "span": [
+            11,
+            17
+          ]
+        },
+        {
+          "text": "her a",
+          "role": "宾语",
+          "span": [
+            18,
+            23
+          ]
+        },
+        {
+          "text": "dress",
+          "role": "谓语",
+          "span": [
+            24,
+            29
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 bought，宾语 her（间接）和 a dress（直接）。",
+            "why": "bought 是 buy 的过去式，her（她）是间接宾语，a dress（一条裙子）是直接宾语。",
+            "highlight": [
+              11,
+              17
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "双宾语",
+            "what": "bought her a dress = 给她买了一条裙子，双宾语结构。",
+            "why": "buy 带双宾语，her 指人（给谁），a dress 指物（买什么）。",
+            "how": "译「给她买了一条裙子」，双宾语顺译。",
+            "highlight": [
+              11,
+              29
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "她妈妈给她买了一条裙子。",
+            "why": "Her mother bought her a dress 译「她妈妈给她买了一条裙子」。",
+            "highlight": [
+              0,
+              29
+            ]
+          }
+        ],
+        "finalZh": "她妈妈给她买了一条裙子。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s05-0040",
+      "en": "A dress was bought for her by her mother.",
+      "zh": "她妈妈给她买了一条裙子。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "被动语态",
+          "动词时态",
+          "代词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "was",
+          "hint": "系动词/助动词，过去式单数（本空填 was）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "for",
+          "hint": "介词，为了（本空填 for）",
+          "gp": "介词"
+        },
+        {
+          "answer": "by",
+          "hint": "介词，被/通过（本空填 by）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "A dress",
+          "role": "主语",
+          "span": [
+            0,
+            7
+          ]
+        },
+        {
+          "text": "was bought",
+          "role": "谓语",
+          "span": [
+            8,
+            18
+          ]
+        },
+        {
+          "text": "for her by her mother",
+          "role": "状语",
+          "span": [
+            19,
+            40
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 was bought（被动），by her mother 是施动者。",
+            "why": "was bought 是被动「被买」，by her mother 引出施动者。",
+            "highlight": [
+              8,
+              18
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "双宾语变被动（for）",
+            "what": "A dress was bought for her = 裙子被买给她的，for her 用 for 引出。",
+            "why": "主动 bought her a dress 变被动，a dress 变主语，for her 用 for 引出（buy 用 for 不用 to）。",
+            "how": "译「她妈妈给她买了一条裙子」，被动还原主动。",
+            "highlight": [
+              0,
+              40
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "她妈妈给她买了一条裙子。",
+            "why": "A dress was bought for her by her mother 被动还原成「她妈妈给她买了一条裙子」。",
+            "highlight": [
+              0,
+              40
+            ]
+          }
+        ],
+        "finalZh": "她妈妈给她买了一条裙子。",
+        "orderRules": [
+          "被动还原主动"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    }
+  ]
+}

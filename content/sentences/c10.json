@@ -1,0 +1,6878 @@
+{
+  "schemaVersion": 1,
+  "chapterId": "c10",
+  "sentences": [
+    {
+      "id": "s10-0004",
+      "en": "Leave nothing for tomorrow which can be done today.",
+      "zh": "今天能做的事不要留到明天。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "定语从句",
+          "情态动词"
+        ],
+        "fine": [
+          "关系代词 which 指物"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "which",
+          "hint": "关系代词，指物（本空填 which）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "can",
+          "hint": "情态动词，能/可以（本空填 can）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "be",
+          "hint": "系动词/助动词原形（本空填 be）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "Leave nothing",
+          "role": "谓语",
+          "span": [
+            0,
+            13
+          ]
+        },
+        {
+          "text": "for tomorrow",
+          "role": "状语",
+          "span": [
+            14,
+            26
+          ]
+        },
+        {
+          "text": "which can be done today.",
+          "role": "定语从句",
+          "span": [
+            27,
+            51
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 Leave，which 引导定语从句修饰 nothing。",
+            "why": "Leave（留下）是谓语，which can be done today 是 which 引导的定语从句修饰 nothing。",
+            "highlight": [
+              0,
+              5
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别定语从句",
+            "what": "which can be done today 是定语从句，修饰 nothing。",
+            "why": "which 是关系代词指代 nothing，在从句中作主语，can be done 是被动。",
+            "highlight": [
+              27,
+              50
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "今天能做的事不要留到明天。",
+            "why": "Leave nothing for tomorrow which can be done today 译「今天能做的事不要留到明天」。",
+            "highlight": [
+              0,
+              50
+            ]
+          }
+        ],
+        "finalZh": "今天能做的事不要留到明天。",
+        "orderRules": [
+          "定语从句 which can be done 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s10-0005",
+      "en": "Although tomorrow is regarded as a better time to act, the famous saying highlights the greater value of taking immediate action.",
+      "zh": "案例1 尽管很多人认为明天才是行动的更佳时机，但这句名言却彰显了立即行动的更大价值。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "exercise"
+      },
+      "difficulty": {
+        "words": 21,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "被动语态",
+          "非谓语动词"
+        ],
+        "fine": [
+          "介词 + 动名词",
+          "长句，先找谓语再断句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "Although",
+          "hint": "引导让步状语从句（本空填 Although）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "as",
+          "hint": "引导时间/原因/方式状语从句（本空填 as）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "Although tomorrow is regarded as a better time to act",
+          "role": "状语从句",
+          "span": [
+            0,
+            53
+          ]
+        },
+        {
+          "text": "the famous saying highlights the greater",
+          "role": "宾语",
+          "span": [
+            55,
+            95
+          ]
+        },
+        {
+          "text": "value",
+          "role": "谓语",
+          "span": [
+            96,
+            101
+          ]
+        },
+        {
+          "text": "of taking immediate action",
+          "role": "状语",
+          "span": [
+            102,
+            128
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 highlights，Although 引导让步状语从句。",
+            "why": "highlights（彰显）是谓语，Although tomorrow is regarded as a better time 是 Although 引导的让步状语从句。",
+            "highlight": [
+              73,
+              83
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别让步状语从句",
+            "what": "Although tomorrow is regarded as a better time to act 是让步状语从句。",
+            "why": "Although（尽管）引导让步状语从句，tomorrow is regarded as a better time 是从句内容。",
+            "highlight": [
+              0,
+              53
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "尽管很多人认为明天才是行动的更佳时机，但这句名言却彰显了立即行动的更大价值。",
+            "why": "Although tomorrow is regarded as a better time to act 译「尽管明天被认为是行动的更佳时机」，the famous saying highlights the greater value of taking immediate action 译「但这句名言彰显了立即行动的更大价值」。",
+            "highlight": [
+              0,
+              128
+            ]
+          }
+        ],
+        "finalZh": "尽管很多人认为明天才是行动的更佳时机，但这句名言却彰显了立即行动的更大价值。",
+        "orderRules": [
+          "让步状语从句 Although... 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s10-0009",
+      "en": "Since you are leaving tomorrow, we can have dinner together tonight.",
+      "zh": "既然你明天就要走了，我们今晚可以一起吃晚饭。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 11,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "情态动词",
+          "非谓语动词"
+        ],
+        "fine": [
+          "进行时（be + 现在分词）"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "Since",
+          "hint": "引导时间状语从句（本空填 Since）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "are",
+          "hint": "系动词/助动词，复数（本空填 are）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "can",
+          "hint": "情态动词，能/可以（本空填 can）",
+          "gp": "情态动词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Since you are leaving tomorrow",
+          "role": "状语从句",
+          "span": [
+            0,
+            30
+          ]
+        },
+        {
+          "text": "we",
+          "role": "表语",
+          "span": [
+            32,
+            34
+          ]
+        },
+        {
+          "text": "can have",
+          "role": "谓语",
+          "span": [
+            35,
+            43
+          ]
+        },
+        {
+          "text": "dinner together tonight",
+          "role": "宾语",
+          "span": [
+            44,
+            67
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 can have，Since 引导原因状语从句。",
+            "why": "can have dinner（能吃晚饭）是谓语，Since you are leaving tomorrow 是 Since 引导的原因状语从句。",
+            "highlight": [
+              35,
+              43
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别原因状语从句",
+            "what": "Since you are leaving tomorrow 是原因状语从句，Since 表「既然」。",
+            "why": "Since（既然）引导原因状语从句，you are leaving tomorrow 是从句内容。",
+            "highlight": [
+              0,
+              30
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "既然你明天就要走了，我们今晚可以一起吃晚饭。",
+            "why": "Since you are leaving tomorrow 译「既然你明天就要走了」，we can have dinner together tonight 译「我们今晚可以一起吃晚饭」。",
+            "highlight": [
+              0,
+              67
+            ]
+          }
+        ],
+        "finalZh": "既然你明天就要走了，我们今晚可以一起吃晚饭。",
+        "orderRules": [
+          "原因状语从句 Since... 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s10-0010",
+      "en": "You will certainly succeed as long as you keep on trying.",
+      "zh": "只要你坚持下去，你一定会成功。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 11,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "情态动词",
+          "非谓语动词"
+        ],
+        "fine": [
+          "一般将来时",
+          "keep sb/sth doing 结构",
+          "介词 + 动名词",
+          "as…as 原级比较"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "as",
+          "hint": "引导时间/原因/方式状语从句（本空填 as）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "as",
+          "hint": "引导时间/原因/方式状语从句（本空填 as）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "will",
+          "hint": "助动词，一般将来时（本空填 will）",
+          "gp": "情态动词"
+        }
+      ],
+      "components": [
+        {
+          "text": "You",
+          "role": "主语",
+          "span": [
+            0,
+            3
+          ]
+        },
+        {
+          "text": "will certainly succeed",
+          "role": "谓语",
+          "span": [
+            4,
+            26
+          ]
+        },
+        {
+          "text": "as long as you keep on trying.",
+          "role": "状语从句",
+          "span": [
+            27,
+            57
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 will succeed，as long as 引导条件状语从句。",
+            "why": "will succeed（将成功）是谓语，as long as you keep on trying 是 as long as 引导的条件状语从句。",
+            "highlight": [
+              4,
+              25
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别条件状语从句",
+            "what": "as long as you keep on trying 是条件状语从句，as long as 表「只要」。",
+            "why": "as long as（只要）引导条件状语从句，you keep on trying 是从句内容。",
+            "highlight": [
+              27,
+              56
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "只要你坚持下去，你一定会成功。",
+            "why": "You will certainly succeed as long as you keep on trying 译「只要你坚持下去，你一定会成功」。",
+            "highlight": [
+              0,
+              56
+            ]
+          }
+        ],
+        "finalZh": "只要你坚持下去，你一定会成功。",
+        "orderRules": [
+          "条件状语从句 as long as... 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s10-0011",
+      "en": "I was angry because I played so badly.",
+      "zh": "我生气是因为我打得太差了。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "because",
+          "hint": "引导原因状语从句（本空填 because）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "was",
+          "hint": "系动词/助动词，过去式单数（本空填 was）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "was",
+          "role": "谓语",
+          "span": [
+            2,
+            5
+          ]
+        },
+        {
+          "text": "angry",
+          "role": "表语",
+          "span": [
+            6,
+            11
+          ]
+        },
+        {
+          "text": "because I played so badly.",
+          "role": "状语从句",
+          "span": [
+            12,
+            38
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 was angry，because 引导原因状语从句。",
+            "why": "was angry（生气）是谓语，because I played so badly 是 because 引导的原因状语从句。",
+            "highlight": [
+              2,
+              11
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别原因状语从句",
+            "what": "because I played so badly 是原因状语从句。",
+            "why": "because（因为）引导原因状语从句，I played so badly 是从句内容。",
+            "highlight": [
+              12,
+              37
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我生气是因为我打得太差了。",
+            "why": "I was angry because I played so badly 译「我生气是因为我打得太差了」。",
+            "highlight": [
+              0,
+              37
+            ]
+          }
+        ],
+        "finalZh": "我生气是因为我打得太差了。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s10-0013",
+      "en": "I will send you a postcard as soon as I arrive in Paris.",
+      "zh": "我一到巴黎就给你寄明信片。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 13,
+        "clauses": 0,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "情态动词",
+          "动词时态"
+        ],
+        "fine": [
+          "一般将来时",
+          "as…as 原级比较",
+          "as soon as 引导时间状语从句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "as",
+          "hint": "引导时间/原因/方式状语从句（本空填 as）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "as",
+          "hint": "引导时间/原因/方式状语从句（本空填 as）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "will",
+          "hint": "助动词，一般将来时（本空填 will）",
+          "gp": "情态动词"
+        }
+      ],
+      "components": [
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "will send",
+          "role": "谓语",
+          "span": [
+            2,
+            11
+          ]
+        },
+        {
+          "text": "you a postcard",
+          "role": "宾语",
+          "span": [
+            12,
+            26
+          ]
+        },
+        {
+          "text": "as soon as I arrive in Paris.",
+          "role": "状语从句",
+          "span": [
+            27,
+            56
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 will send，as soon as 引导时间状语从句。",
+            "why": "will send（将寄）是谓语，as soon as I arrive in Paris 是 as soon as 引导的时间状语从句。",
+            "highlight": [
+              2,
+              16
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别时间状语从句",
+            "what": "as soon as I arrive in Paris 是时间状语从句，as soon as 表「一……就」。",
+            "why": "as soon as（一……就）引导时间状语从句，I arrive in Paris 是从句内容。",
+            "highlight": [
+              27,
+              55
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我一到巴黎就给你寄明信片。",
+            "why": "I will send you a postcard as soon as I arrive in Paris 译「我一到巴黎就给你寄明信片」。",
+            "highlight": [
+              0,
+              55
+            ]
+          }
+        ],
+        "finalZh": "我一到巴黎就给你寄明信片。",
+        "orderRules": [
+          "时间状语从句 as soon as... 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s10-0014",
+      "en": "When love comes, I will hold her hands.",
+      "zh": "当爱情来临时，我会握住她的手。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "情态动词",
+          "动词时态"
+        ],
+        "fine": [
+          "一般将来时"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "When",
+          "hint": "关系副词/时间状语从句引导词（本空填 When）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "will",
+          "hint": "助动词，一般将来时（本空填 will）",
+          "gp": "情态动词"
+        }
+      ],
+      "components": [
+        {
+          "text": "When love comes",
+          "role": "状语从句",
+          "span": [
+            0,
+            15
+          ]
+        },
+        {
+          "text": "I",
+          "role": "宾语",
+          "span": [
+            17,
+            18
+          ]
+        },
+        {
+          "text": "will hold",
+          "role": "谓语",
+          "span": [
+            19,
+            28
+          ]
+        },
+        {
+          "text": "her hands",
+          "role": "宾语",
+          "span": [
+            29,
+            38
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 will hold，When 引导时间状语从句。",
+            "why": "will hold（将握住）是谓语，When love comes 是 When 引导的时间状语从句。",
+            "highlight": [
+              17,
+              27
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别时间状语从句",
+            "what": "When love comes 是时间状语从句。",
+            "why": "When（当……时）引导时间状语从句，love comes 是从句内容。",
+            "highlight": [
+              0,
+              15
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "当爱情来临时，我会握住她的手。",
+            "why": "When love comes, I will hold her hands 译「当爱情来临时，我会握住她的手」。",
+            "highlight": [
+              0,
+              38
+            ]
+          }
+        ],
+        "finalZh": "当爱情来临时，我会握住她的手。",
+        "orderRules": [
+          "时间状语从句 When... 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOO"
+    },
+    {
+      "id": "s10-0015",
+      "en": "I sent you a postcard as soon as I arrived in Paris.",
+      "zh": "我一到巴黎就给你寄了明信片。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 12,
+        "clauses": 0,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "非谓语动词",
+          "代词"
+        ],
+        "fine": [
+          "as…as 原级比较",
+          "as soon as 引导时间状语从句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "as",
+          "hint": "引导时间/原因/方式状语从句（本空填 as）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "as",
+          "hint": "引导时间/原因/方式状语从句（本空填 as）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "in",
+          "hint": "介词，在…里（本空填 in）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "sent",
+          "role": "谓语",
+          "span": [
+            2,
+            6
+          ]
+        },
+        {
+          "text": "you a postcard",
+          "role": "宾语",
+          "span": [
+            7,
+            21
+          ]
+        },
+        {
+          "text": "as soon as I arrived in Paris.",
+          "role": "状语从句",
+          "span": [
+            22,
+            52
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 sent，as soon as 引导时间状语从句（过去时）。",
+            "why": "sent（寄了）是谓语，as soon as I arrived in Paris 是 as soon as 引导的时间状语从句。",
+            "highlight": [
+              2,
+              6
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别时间状语从句",
+            "what": "as soon as I arrived in Paris 是时间状语从句，as soon as 表「一……就」。",
+            "why": "as soon as（一……就）引导时间状语从句，I arrived in Paris 是从句内容。",
+            "highlight": [
+              22,
+              51
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我一到巴黎就给你寄了明信片。",
+            "why": "I sent you a postcard as soon as I arrived in Paris 译「我一到巴黎就给你寄了明信片」。",
+            "highlight": [
+              0,
+              51
+            ]
+          }
+        ],
+        "finalZh": "我一到巴黎就给你寄了明信片。",
+        "orderRules": [
+          "时间状语从句 as soon as... 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s10-0016",
+      "en": "When love came, I held her hands.",
+      "zh": "当爱情来临时，我握住了她的手。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 7,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "代词",
+          "名词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "When",
+          "hint": "关系副词/时间状语从句引导词（本空填 When）",
+          "gp": "状语从句"
+        }
+      ],
+      "components": [
+        {
+          "text": "When love came",
+          "role": "状语从句",
+          "span": [
+            0,
+            14
+          ]
+        },
+        {
+          "text": "I",
+          "role": "宾语",
+          "span": [
+            16,
+            17
+          ]
+        },
+        {
+          "text": "held",
+          "role": "谓语",
+          "span": [
+            18,
+            22
+          ]
+        },
+        {
+          "text": "her hands",
+          "role": "宾语",
+          "span": [
+            23,
+            32
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 held，When 引导时间状语从句（过去时）。",
+            "why": "held（握住）是谓语，When love came 是 When 引导的时间状语从句。",
+            "highlight": [
+              16,
+              21
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别时间状语从句",
+            "what": "When love came 是时间状语从句。",
+            "why": "When（当……时）引导时间状语从句，love came 是从句内容。",
+            "highlight": [
+              0,
+              14
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "当爱情来临时，我握住了她的手。",
+            "why": "When love came, I held her hands 译「当爱情来临时，我握住了她的手」。",
+            "highlight": [
+              0,
+              32
+            ]
+          }
+        ],
+        "finalZh": "当爱情来临时，我握住了她的手。",
+        "orderRules": [
+          "时间状语从句 When... 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOO"
+    },
+    {
+      "id": "s10-0017",
+      "en": "When the teacher came in, we stopped talking.",
+      "zh": "老师进来时，我们停止了说话。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "非谓语动词",
+          "代词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "When",
+          "hint": "关系副词/时间状语从句引导词（本空填 When）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "in",
+          "hint": "介词，在…里（本空填 in）",
+          "gp": "介词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "When the teacher came in",
+          "role": "状语从句",
+          "span": [
+            0,
+            24
+          ]
+        },
+        {
+          "text": "we",
+          "role": "宾语",
+          "span": [
+            26,
+            28
+          ]
+        },
+        {
+          "text": "stopped talking",
+          "role": "谓语",
+          "span": [
+            29,
+            44
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 stopped，When 引导时间状语从句。",
+            "why": "stopped talking（停止说话）是谓语，When the teacher came in 是 When 引导的时间状语从句。",
+            "highlight": [
+              26,
+              33
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别时间状语从句",
+            "what": "When the teacher came in 是时间状语从句。",
+            "why": "When（当……时）引导时间状语从句，the teacher came in 是从句内容。",
+            "highlight": [
+              0,
+              24
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "老师进来时，我们停止了说话。",
+            "why": "When the teacher came in, we stopped talking 译「老师进来时，我们停止了说话」。",
+            "highlight": [
+              0,
+              44
+            ]
+          }
+        ],
+        "finalZh": "老师进来时，我们停止了说话。",
+        "orderRules": [
+          "时间状语从句 When... 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s10-0018",
+      "en": "When I lived in the countryside, I used to live a tough life.",
+      "zh": "我住在乡下时，过着艰苦的生活。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 13,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "情态动词",
+          "非谓语动词"
+        ],
+        "fine": [
+          "used to 表示过去常常（现在不了）"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "When",
+          "hint": "关系副词/时间状语从句引导词（本空填 When）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "in",
+          "hint": "介词，在…里（本空填 in）",
+          "gp": "介词"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "When I lived in the countryside",
+          "role": "状语从句",
+          "span": [
+            0,
+            31
+          ]
+        },
+        {
+          "text": "I",
+          "role": "宾语",
+          "span": [
+            33,
+            34
+          ]
+        },
+        {
+          "text": "used to",
+          "role": "谓语",
+          "span": [
+            35,
+            42
+          ]
+        },
+        {
+          "text": "live a tough life",
+          "role": "宾语",
+          "span": [
+            43,
+            60
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 used to live，When 引导时间状语从句。",
+            "why": "used to live（过去过着）是谓语，When I lived in the countryside 是 When 引导的时间状语从句。",
+            "highlight": [
+              35,
+              48
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别时间状语从句",
+            "what": "When I lived in the countryside 是时间状语从句。",
+            "why": "When（当……时）引导时间状语从句，I lived in the countryside 是从句内容。",
+            "highlight": [
+              0,
+              31
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我住在乡下时，过着艰苦的生活。",
+            "why": "When I lived in the countryside, I used to live a tough life 译「我住在乡下时，过着艰苦的生活」。",
+            "highlight": [
+              0,
+              60
+            ]
+          }
+        ],
+        "finalZh": "我住在乡下时，过着艰苦的生活。",
+        "orderRules": [
+          "时间状语从句 When... 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOO"
+    },
+    {
+      "id": "s10-0019",
+      "en": "When I was alone, I would often weep.",
+      "zh": "一个人的时候，我常常哭泣。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "情态动词",
+          "动词时态"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "When",
+          "hint": "关系副词/时间状语从句引导词（本空填 When）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "was",
+          "hint": "系动词/助动词，过去式单数（本空填 was）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "would",
+          "hint": "助动词，过去将来时/虚拟（本空填 would）",
+          "gp": "情态动词"
+        }
+      ],
+      "components": [
+        {
+          "text": "When I was alone",
+          "role": "状语从句",
+          "span": [
+            0,
+            16
+          ]
+        },
+        {
+          "text": "I",
+          "role": "表语",
+          "span": [
+            18,
+            19
+          ]
+        },
+        {
+          "text": "would often weep",
+          "role": "谓语",
+          "span": [
+            20,
+            36
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 would weep，When 引导时间状语从句。",
+            "why": "would weep（常常哭泣）是谓语，When I was alone 是 When 引导的时间状语从句。",
+            "highlight": [
+              18,
+              28
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别时间状语从句",
+            "what": "When I was alone 是时间状语从句。",
+            "why": "When（当……时）引导时间状语从句，I was alone 是从句内容。",
+            "highlight": [
+              0,
+              16
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "一个人的时候，我常常哭泣。",
+            "why": "When I was alone, I would often weep 译「一个人的时候，我常常哭泣」。",
+            "highlight": [
+              0,
+              36
+            ]
+          }
+        ],
+        "finalZh": "一个人的时候，我常常哭泣。",
+        "orderRules": [
+          "时间状语从句 When... 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s10-0020",
+      "en": "When alone, I would often weep.",
+      "zh": "一个人的时候，我常常哭泣。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 6,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "情态动词",
+          "动词时态"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "When",
+          "hint": "关系副词/时间状语从句引导词（本空填 When）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "would",
+          "hint": "助动词，过去将来时/虚拟（本空填 would）",
+          "gp": "情态动词"
+        }
+      ],
+      "components": [
+        {
+          "text": "When alone",
+          "role": "状语从句",
+          "span": [
+            0,
+            10
+          ]
+        },
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            12,
+            13
+          ]
+        },
+        {
+          "text": "would often weep",
+          "role": "谓语",
+          "span": [
+            14,
+            30
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 would weep，When alone 是省略的时间状语从句。",
+            "why": "would weep（常常哭泣）是谓语，When alone 是省略了 I was 的时间状语从句。",
+            "highlight": [
+              12,
+              21
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "状语从句省略",
+            "what": "When alone = 当我一个人时，省略了 I was。",
+            "why": "When alone 是 When I was alone 的省略，当从句主语与主句一致且含 be 时可省略。",
+            "how": "译「一个人的时候」，When alone 译「一个人时」。",
+            "highlight": [
+              0,
+              10
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "一个人的时候，我常常哭泣。",
+            "why": "When alone, I would often weep 译「一个人的时候，我常常哭泣」。",
+            "highlight": [
+              0,
+              30
+            ]
+          }
+        ],
+        "finalZh": "一个人的时候，我常常哭泣。",
+        "orderRules": [
+          "省略时间状语从句 When alone 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s10-0021",
+      "en": "She enjoys listening to music while she is reading.",
+      "zh": "她喜欢边读书边听音乐。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "进行时（be + 现在分词）"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "while",
+          "hint": "引导时间/让步状语从句（本空填 while）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "She",
+          "role": "主语",
+          "span": [
+            0,
+            3
+          ]
+        },
+        {
+          "text": "enjoys listening",
+          "role": "谓语",
+          "span": [
+            4,
+            20
+          ]
+        },
+        {
+          "text": "to music",
+          "role": "状语",
+          "span": [
+            21,
+            29
+          ]
+        },
+        {
+          "text": "while she is reading.",
+          "role": "状语从句",
+          "span": [
+            30,
+            51
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 enjoys，while 引导时间状语从句。",
+            "why": "enjoys listening（喜欢听）是谓语，while she is reading 是 while 引导的时间状语从句。",
+            "highlight": [
+              4,
+              20
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别时间状语从句",
+            "what": "while she is reading 是时间状语从句，while 表「一边……一边」。",
+            "why": "while（当……时）引导时间状语从句，she is reading 是从句内容。",
+            "highlight": [
+              30,
+              50
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "她喜欢边读书边听音乐。",
+            "why": "She enjoys listening to music while she is reading 译「她喜欢边读书边听音乐」。",
+            "highlight": [
+              0,
+              50
+            ]
+          }
+        ],
+        "finalZh": "她喜欢边读书边听音乐。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s10-0022",
+      "en": "We always sing as we walk.",
+      "zh": "我们边走边唱。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 6,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "非谓语动词",
+          "代词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "as",
+          "hint": "引导时间/原因/方式状语从句（本空填 as）",
+          "gp": "状语从句"
+        }
+      ],
+      "components": [
+        {
+          "text": "We always",
+          "role": "主语",
+          "span": [
+            0,
+            9
+          ]
+        },
+        {
+          "text": "sing",
+          "role": "谓语",
+          "span": [
+            10,
+            14
+          ]
+        },
+        {
+          "text": "as we walk.",
+          "role": "状语从句",
+          "span": [
+            15,
+            26
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 sing，as 引导时间状语从句。",
+            "why": "sing（唱）是谓语，as we walk 是 as 引导的时间状语从句。",
+            "highlight": [
+              10,
+              14
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别时间状语从句",
+            "what": "as we walk 是时间状语从句，as 表「一边……一边」。",
+            "why": "as（当……时）引导时间状语从句，we walk 是从句内容。",
+            "highlight": [
+              15,
+              25
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我们边走边唱。",
+            "why": "We always sing as we walk 译「我们边走边唱」。",
+            "highlight": [
+              0,
+              25
+            ]
+          }
+        ],
+        "finalZh": "我们边走边唱。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s10-0023",
+      "en": "As time went by, we saw less and less of each other.",
+      "zh": "随着时间流逝，我们见面的次数越来越少。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 12,
+        "clauses": 0,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "并列结构",
+          "主谓一致"
+        ],
+        "fine": [
+          "each/every 作主语时谓语用单数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "As",
+          "hint": "引导时间/原因/方式状语从句（本空填 As）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "by",
+          "hint": "介词，被/通过（本空填 by）",
+          "gp": "介词"
+        },
+        {
+          "answer": "of",
+          "hint": "介词，…的（本空填 of）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "As time went by",
+          "role": "状语从句",
+          "span": [
+            0,
+            15
+          ]
+        },
+        {
+          "text": "we",
+          "role": "宾语",
+          "span": [
+            17,
+            19
+          ]
+        },
+        {
+          "text": "saw",
+          "role": "谓语",
+          "span": [
+            20,
+            23
+          ]
+        },
+        {
+          "text": "less",
+          "role": "宾语",
+          "span": [
+            24,
+            28
+          ]
+        },
+        {
+          "text": "and",
+          "role": "状语",
+          "span": [
+            29,
+            32
+          ]
+        },
+        {
+          "text": "less of each other",
+          "role": "状语",
+          "span": [
+            33,
+            51
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 saw，As 引导时间状语从句。",
+            "why": "saw less and less（见面越来越少）是谓语，As time went by 是 As 引导的时间状语从句。",
+            "highlight": [
+              17,
+              37
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别时间状语从句",
+            "what": "As time went by 是时间状语从句，as 表「随着」。",
+            "why": "As（随着）引导时间状语从句，time went by 是从句内容。",
+            "highlight": [
+              0,
+              15
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "随着时间流逝，我们见面的次数越来越少。",
+            "why": "As time went by, we saw less and less of each other 译「随着时间流逝，我们见面的次数越来越少」。",
+            "highlight": [
+              0,
+              51
+            ]
+          }
+        ],
+        "finalZh": "随着时间流逝，我们见面的次数越来越少。",
+        "orderRules": [
+          "时间状语从句 As... 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOO"
+    },
+    {
+      "id": "s10-0024",
+      "en": "I had no sooner begun to take a shower than the water was unavailable.",
+      "zh": "我刚开始洗澡，水就停了。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 14,
+        "clauses": 0,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "比较级 + than",
+          "no sooner…than 刚…就…"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "had",
+          "hint": "使役/助动词过去式（本空填 had）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "was",
+          "hint": "系动词/助动词，过去式单数（本空填 was）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "had",
+          "role": "谓语",
+          "span": [
+            2,
+            5
+          ]
+        },
+        {
+          "text": "no sooner",
+          "role": "宾语",
+          "span": [
+            6,
+            15
+          ]
+        },
+        {
+          "text": "begun",
+          "role": "谓语",
+          "span": [
+            16,
+            21
+          ]
+        },
+        {
+          "text": "to take a shower than the water was unavailable",
+          "role": "状语",
+          "span": [
+            22,
+            69
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 had begun，no sooner...than 引导时间状语从句。",
+            "why": "had no sooner begun（刚开始）是谓语，than the water was unavailable 是 no sooner...than 引导的时间状语从句。",
+            "highlight": [
+              2,
+              29
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "no sooner...than...",
+            "what": "no sooner...than = 刚……就，表「一……就」。",
+            "why": "no sooner...than（刚……就）引导时间状语从句，had begun 是过去完成时。",
+            "how": "译「我刚开始洗澡，水就停了」，no sooner...than 译「刚……就」。",
+            "highlight": [
+              0,
+              69
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我刚开始洗澡，水就停了。",
+            "why": "I had no sooner begun to take a shower than the water was unavailable 译「我刚开始洗澡，水就停了」。",
+            "highlight": [
+              0,
+              69
+            ]
+          }
+        ],
+        "finalZh": "我刚开始洗澡，水就停了。",
+        "orderRules": [
+          "no sooner...than 译「刚……就」"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOC"
+    },
+    {
+      "id": "s10-0025",
+      "en": "They had hardly arrived at the bus stop when the bus left.",
+      "zh": "他们刚到公交站，车就开走了。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 12,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "have/get sth done 结构",
+          "hardly…when 刚…就…"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "when",
+          "hint": "关系副词/时间状语从句引导词（本空填 when）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "had",
+          "hint": "使役/助动词过去式（本空填 had）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "at",
+          "hint": "介词，在（本空填 at）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "They",
+          "role": "主语",
+          "span": [
+            0,
+            4
+          ]
+        },
+        {
+          "text": "had hardly arrived",
+          "role": "谓语",
+          "span": [
+            5,
+            23
+          ]
+        },
+        {
+          "text": "at the bus",
+          "role": "状语",
+          "span": [
+            24,
+            34
+          ]
+        },
+        {
+          "text": "stop",
+          "role": "谓语",
+          "span": [
+            35,
+            39
+          ]
+        },
+        {
+          "text": "when the bus left.",
+          "role": "状语从句",
+          "span": [
+            40,
+            58
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 had arrived，hardly...when 引导时间状语从句。",
+            "why": "had hardly arrived（刚到）是谓语，when the bus left 是 hardly...when 引导的时间状语从句。",
+            "highlight": [
+              5,
+              22
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "hardly...when...",
+            "what": "hardly...when = 刚……就，表「一……就」。",
+            "why": "hardly...when（刚……就）引导时间状语从句，had arrived 是过去完成时。",
+            "how": "译「他们刚到公交站，车就开走了」，hardly...when 译「刚……就」。",
+            "highlight": [
+              0,
+              57
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他们刚到公交站，车就开走了。",
+            "why": "They had hardly arrived at the bus stop when the bus left 译「他们刚到公交站，车就开走了」。",
+            "highlight": [
+              0,
+              57
+            ]
+          }
+        ],
+        "finalZh": "他们刚到公交站，车就开走了。",
+        "orderRules": [
+          "hardly...when 译「刚……就」"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s10-0032",
+      "en": "I can go where I want.",
+      "zh": "我可以去我想去的地方。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 6,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "情态动词",
+          "代词"
+        ],
+        "fine": [
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "where",
+          "hint": "关系副词，表示地点（本空填 where）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "can",
+          "hint": "情态动词，能/可以（本空填 can）",
+          "gp": "情态动词"
+        }
+      ],
+      "components": [
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "can go",
+          "role": "谓语",
+          "span": [
+            2,
+            8
+          ]
+        },
+        {
+          "text": "where I want.",
+          "role": "状语从句",
+          "span": [
+            9,
+            22
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 can go，where 引导地点状语从句。",
+            "why": "can go（能去）是谓语，where I want 是 where 引导的地点状语从句。",
+            "highlight": [
+              2,
+              8
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别地点状语从句",
+            "what": "where I want 是地点状语从句，where 表「……的地方」。",
+            "why": "where（……的地方）引导地点状语从句，I want 是从句内容。",
+            "highlight": [
+              9,
+              21
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我可以去我想去的地方。",
+            "why": "I can go where I want 译「我可以去我想去的地方」。",
+            "highlight": [
+              0,
+              21
+            ]
+          }
+        ],
+        "finalZh": "我可以去我想去的地方。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s10-0033",
+      "en": "We can have lunch wherever you like.",
+      "zh": "你想在哪里吃午饭，我们就在哪里吃。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 7,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "名词性从句",
+          "情态动词"
+        ],
+        "fine": [
+          "让步状语从句（-ever 引导）"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "can",
+          "hint": "情态动词，能/可以（本空填 can）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "have",
+          "hint": "使役动词，让（have sth done）（本空填 have）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "We",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "can have",
+          "role": "谓语",
+          "span": [
+            3,
+            11
+          ]
+        },
+        {
+          "text": "lunch wherever you",
+          "role": "宾语",
+          "span": [
+            12,
+            30
+          ]
+        },
+        {
+          "text": "like",
+          "role": "谓语",
+          "span": [
+            31,
+            35
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 can have，wherever 引导地点状语从句。",
+            "why": "can have lunch（能吃午饭）是谓语，wherever you like 是 wherever 引导的地点状语从句。",
+            "highlight": [
+              3,
+              17
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别地点状语从句",
+            "what": "wherever you like 是地点状语从句，wherever 表「无论哪里」。",
+            "why": "wherever（无论哪里）引导地点状语从句，you like 是从句内容。",
+            "highlight": [
+              18,
+              35
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "你想在哪里吃午饭，我们就在哪里吃。",
+            "why": "We can have lunch wherever you like 译「你想在哪里吃午饭，我们就在哪里吃」。",
+            "highlight": [
+              0,
+              35
+            ]
+          }
+        ],
+        "finalZh": "你想在哪里吃午饭，我们就在哪里吃。",
+        "orderRules": [
+          "地点状语从句 wherever... 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOC"
+    },
+    {
+      "id": "s10-0034",
+      "en": "Everywhere I see rural laborers in the city, I think of my old father.",
+      "zh": "每当我在城里看到农民工，我就想起我的老父亲。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 14,
+        "clauses": 0,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "代词",
+          "冠词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "in",
+          "hint": "介词，在…里（本空填 in）",
+          "gp": "介词"
+        },
+        {
+          "answer": "of",
+          "hint": "介词，…的（本空填 of）",
+          "gp": "介词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Everywhere",
+          "role": "状语",
+          "span": [
+            0,
+            10
+          ]
+        },
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            11,
+            12
+          ]
+        },
+        {
+          "text": "see",
+          "role": "谓语",
+          "span": [
+            13,
+            16
+          ]
+        },
+        {
+          "text": "rural laborers",
+          "role": "宾语",
+          "span": [
+            17,
+            31
+          ]
+        },
+        {
+          "text": "in the city, I",
+          "role": "状语",
+          "span": [
+            32,
+            46
+          ]
+        },
+        {
+          "text": "think of",
+          "role": "谓语",
+          "span": [
+            47,
+            55
+          ]
+        },
+        {
+          "text": "my old father",
+          "role": "宾语",
+          "span": [
+            56,
+            69
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 think of，Everywhere 引导地点状语从句。",
+            "why": "think of（想起）是谓语，Everywhere I see rural laborers 是 Everywhere 引导的地点状语从句。",
+            "highlight": [
+              45,
+              53
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别地点状语从句",
+            "what": "Everywhere I see rural laborers in the city 是地点状语从句，Everywhere 表「每当……」。",
+            "why": "Everywhere（每当……的地方）引导地点状语从句，I see rural laborers 是从句内容。",
+            "highlight": [
+              0,
+              43
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "每当我在城里看到农民工，我就想起我的老父亲。",
+            "why": "Everywhere I see rural laborers in the city, I think of my old father 译「每当我在城里看到农民工，我就想起我的老父亲」。",
+            "highlight": [
+              0,
+              69
+            ]
+          }
+        ],
+        "finalZh": "每当我在城里看到农民工，我就想起我的老父亲。",
+        "orderRules": [
+          "地点状语从句 Everywhere... 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOO"
+    },
+    {
+      "id": "s10-0035",
+      "en": "Wherever you go, whatever you do, I am just here waiting for you.",
+      "zh": "无论你去哪里，无论你做什么，我就在这里等着你。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 13,
+        "clauses": 0,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "名词性从句",
+          "被动语态"
+        ],
+        "fine": [
+          "让步状语从句（-ever 引导）",
+          "多点修饰，注意先断句再翻译"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "do",
+          "hint": "助动词/实义动词（本空填 do）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "am",
+          "hint": "系动词/助动词，第一人称单数（本空填 am）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "for",
+          "hint": "介词，为了（本空填 for）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Wherever you",
+          "role": "主语",
+          "span": [
+            0,
+            12
+          ]
+        },
+        {
+          "text": "go",
+          "role": "谓语",
+          "span": [
+            13,
+            15
+          ]
+        },
+        {
+          "text": "whatever you",
+          "role": "宾语",
+          "span": [
+            17,
+            29
+          ]
+        },
+        {
+          "text": "do",
+          "role": "谓语",
+          "span": [
+            30,
+            32
+          ]
+        },
+        {
+          "text": "I am just here waiting",
+          "role": "宾语",
+          "span": [
+            34,
+            56
+          ]
+        },
+        {
+          "text": "for",
+          "role": "状语",
+          "span": [
+            57,
+            60
+          ]
+        },
+        {
+          "text": "you",
+          "role": "状语",
+          "span": [
+            61,
+            64
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 am，Wherever 和 whatever 引导两个让步状语从句。",
+            "why": "am here waiting（在这里等）是谓语，Wherever you go 和 whatever you do 是两个让步状语从句。",
+            "highlight": [
+              34,
+              64
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别让步状语从句",
+            "what": "Wherever you go, whatever you do 是两个让步状语从句。",
+            "why": "Wherever（无论哪里）和 whatever（无论什么）引导让步状语从句。",
+            "highlight": [
+              0,
+              32
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "无论你去哪里，无论你做什么，我就在这里等着你。",
+            "why": "Wherever you go, whatever you do, I am just here waiting for you 译「无论你去哪里，无论你做什么，我就在这里等着你」。",
+            "highlight": [
+              0,
+              64
+            ]
+          }
+        ],
+        "finalZh": "无论你去哪里，无论你做什么，我就在这里等着你。",
+        "orderRules": [
+          "让步状语从句 wherever/whatever 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOO"
+    },
+    {
+      "id": "s10-0036",
+      "en": "I found my phone where I had lost it.",
+      "zh": "【翻译】我在丢手机的地方找到了我的手机。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "动词时态",
+          "代词"
+        ],
+        "fine": [
+          "have/get sth done 结构"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "where",
+          "hint": "关系副词，表示地点（本空填 where）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "had",
+          "hint": "使役/助动词过去式（本空填 had）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "found",
+          "hint": "find 的过去式（本空填 found）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "I",
+          "role": "主语",
+          "span": [
+            0,
+            1
+          ]
+        },
+        {
+          "text": "found",
+          "role": "谓语",
+          "span": [
+            2,
+            7
+          ]
+        },
+        {
+          "text": "my phone",
+          "role": "宾语",
+          "span": [
+            8,
+            16
+          ]
+        },
+        {
+          "text": "where I had lost it.",
+          "role": "状语从句",
+          "span": [
+            17,
+            37
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 found，where 引导地点状语从句。",
+            "why": "found（找到）是谓语，where I had lost it 是 where 引导的地点状语从句。",
+            "highlight": [
+              2,
+              7
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别地点状语从句",
+            "what": "where I had lost it 是地点状语从句，where 表「……的地方」。",
+            "why": "where（……的地方）引导地点状语从句，I had lost it 是从句内容。",
+            "highlight": [
+              17,
+              36
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我在丢手机的地方找到了我的手机。",
+            "why": "I found my phone where I had lost it 译「我在丢手机的地方找到了我的手机」。",
+            "highlight": [
+              0,
+              36
+            ]
+          }
+        ],
+        "finalZh": "我在丢手机的地方找到了我的手机。",
+        "orderRules": [
+          "地点状语从句 where... 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOC"
+    },
+    {
+      "id": "s10-0037",
+      "en": "This is the house where I lived two years ago.",
+      "zh": "这是我两年前住过的房子。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "where",
+          "hint": "关系副词，表示地点（本空填 where）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "This",
+          "role": "主语",
+          "span": [
+            0,
+            4
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            5,
+            7
+          ]
+        },
+        {
+          "text": "the house",
+          "role": "表语",
+          "span": [
+            8,
+            17
+          ]
+        },
+        {
+          "text": "where I lived two years ago.",
+          "role": "状语从句",
+          "span": [
+            18,
+            46
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，where 引导定语从句修饰 house。",
+            "why": "is the house（是房子）是谓语，where I lived two years ago 是 where 引导的定语从句修饰 house。",
+            "highlight": [
+              5,
+              7
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别定语从句（where）",
+            "what": "where I lived two years ago 是定语从句，where 表地点。",
+            "why": "where 是关系副词，在定语从句中作地点状语，修饰 house。",
+            "highlight": [
+              18,
+              45
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "这是我两年前住过的房子。",
+            "why": "This is the house where I lived two years ago 译「这是我两年前住过的房子」。",
+            "highlight": [
+              0,
+              45
+            ]
+          }
+        ],
+        "finalZh": "这是我两年前住过的房子。",
+        "orderRules": [
+          "定语从句 where I lived 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s10-0038",
+      "en": "As it was raining heavily outside, we decided to cancel the picnic.",
+      "zh": "因为外面下着大雨，我们决定取消野餐。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 12,
+        "clauses": 0,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "进行时（be + 现在分词）"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "As",
+          "hint": "引导时间/原因/方式状语从句（本空填 As）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "was",
+          "hint": "系动词/助动词，过去式单数（本空填 was）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "As it was raining heavily outside",
+          "role": "状语从句",
+          "span": [
+            0,
+            33
+          ]
+        },
+        {
+          "text": "we",
+          "role": "表语",
+          "span": [
+            35,
+            37
+          ]
+        },
+        {
+          "text": "decided",
+          "role": "谓语",
+          "span": [
+            38,
+            45
+          ]
+        },
+        {
+          "text": "to cancel the picnic",
+          "role": "状语",
+          "span": [
+            46,
+            66
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 decided，As 引导原因状语从句。",
+            "why": "decided to cancel（决定取消）是谓语，As it was raining heavily 是 As 引导的原因状语从句。",
+            "highlight": [
+              38,
+              45
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别原因状语从句",
+            "what": "As it was raining heavily outside 是原因状语从句，As 表「因为」。",
+            "why": "As（因为）引导原因状语从句，it was raining heavily 是从句内容。",
+            "highlight": [
+              0,
+              33
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "因为外面下着大雨，我们决定取消野餐。",
+            "why": "As it was raining heavily outside, we decided to cancel the picnic 译「因为外面下着大雨，我们决定取消野餐」。",
+            "highlight": [
+              0,
+              66
+            ]
+          }
+        ],
+        "finalZh": "因为外面下着大雨，我们决定取消野餐。",
+        "orderRules": [
+          "原因状语从句 As... 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s10-0039",
+      "en": "Now that the exams are over, we can finally relax and enjoy our holiday.",
+      "zh": "【翻译】既然考试已经结束了，我们终于可以放松一下，享受假期了。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 14,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "情态动词",
+          "并列结构"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "are",
+          "hint": "系动词/助动词，复数（本空填 are）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "can",
+          "hint": "情态动词，能/可以（本空填 can）",
+          "gp": "情态动词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Now",
+          "role": "状语",
+          "span": [
+            0,
+            3
+          ]
+        },
+        {
+          "text": "that the exams",
+          "role": "主语",
+          "span": [
+            4,
+            18
+          ]
+        },
+        {
+          "text": "are",
+          "role": "谓语",
+          "span": [
+            19,
+            22
+          ]
+        },
+        {
+          "text": "over, we can finally relax",
+          "role": "状语",
+          "span": [
+            23,
+            49
+          ]
+        },
+        {
+          "text": "enjoy",
+          "role": "谓语",
+          "span": [
+            54,
+            59
+          ]
+        },
+        {
+          "text": "our holiday",
+          "role": "宾语",
+          "span": [
+            60,
+            71
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 can relax，Now that 引导原因状语从句。",
+            "why": "can relax and enjoy（能放松享受）是谓语，Now that the exams are over 是 Now that 引导的原因状语从句。",
+            "highlight": [
+              29,
+              71
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别原因状语从句",
+            "what": "Now that the exams are over 是原因状语从句，Now that 表「既然」。",
+            "why": "Now that（既然）引导原因状语从句，the exams are over 是从句内容。",
+            "highlight": [
+              0,
+              27
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "既然考试已经结束了，我们终于可以放松一下，享受假期了。",
+            "why": "Now that the exams are over, we can finally relax and enjoy our holiday 译「既然考试已经结束了，我们终于可以放松一下，享受假期了」。",
+            "highlight": [
+              0,
+              71
+            ]
+          }
+        ],
+        "finalZh": "既然考试已经结束了，我们终于可以放松一下，享受假期了。",
+        "orderRules": [
+          "原因状语从句 Now that... 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s10-0041",
+      "en": "She kept practicing in order to win the competition.",
+      "zh": "她坚持练习是为了赢得比赛。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "非谓语动词",
+          "代词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "in",
+          "hint": "介词，在…里（本空填 in）",
+          "gp": "介词"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "She",
+          "role": "主语",
+          "span": [
+            0,
+            3
+          ]
+        },
+        {
+          "text": "kept practicing",
+          "role": "谓语",
+          "span": [
+            4,
+            19
+          ]
+        },
+        {
+          "text": "in",
+          "role": "状语",
+          "span": [
+            20,
+            22
+          ]
+        },
+        {
+          "text": "order",
+          "role": "谓语",
+          "span": [
+            23,
+            28
+          ]
+        },
+        {
+          "text": "to win the competition",
+          "role": "状语",
+          "span": [
+            29,
+            51
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 kept practicing，in order to 表目的。",
+            "why": "kept practicing（坚持练习）是谓语，in order to win the competition 是 in order to 引导的目的状语。",
+            "highlight": [
+              4,
+              19
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "in order to 表目的",
+            "what": "in order to win = 为了赢得，in order to do 表目的。",
+            "why": "in order to（为了）后接动词原形 win，the competition 是 win 的宾语。",
+            "how": "译「为了赢得比赛」，in order to win 译「为了赢得」。",
+            "highlight": [
+              20,
+              51
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "她坚持练习是为了赢得比赛。",
+            "why": "She kept practicing in order to win the competition 译「她坚持练习是为了赢得比赛」。",
+            "highlight": [
+              0,
+              51
+            ]
+          }
+        ],
+        "finalZh": "她坚持练习是为了赢得比赛。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s10-0044",
+      "en": "He works hard in order that his family can live well.",
+      "zh": "他努力工作是为了他的家人能过得好。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 11,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "情态动词",
+          "代词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "can",
+          "hint": "情态动词，能/可以（本空填 can）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "in",
+          "hint": "介词，在…里（本空填 in）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "He",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "works",
+          "role": "谓语",
+          "span": [
+            3,
+            8
+          ]
+        },
+        {
+          "text": "hard",
+          "role": "宾语",
+          "span": [
+            9,
+            13
+          ]
+        },
+        {
+          "text": "in",
+          "role": "状语",
+          "span": [
+            14,
+            16
+          ]
+        },
+        {
+          "text": "order",
+          "role": "谓语",
+          "span": [
+            17,
+            22
+          ]
+        },
+        {
+          "text": "that his family can live well",
+          "role": "宾语",
+          "span": [
+            23,
+            52
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 works，in order that 引导目的状语从句。",
+            "why": "works hard（努力工作）是谓语，in order that his family can live well 是 in order that 引导的目的状语从句。",
+            "highlight": [
+              3,
+              13
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别目的状语从句",
+            "what": "in order that his family can live well 是目的状语从句。",
+            "why": "in order that（为了）引导目的状语从句，his family can live well 是从句内容。",
+            "highlight": [
+              14,
+              52
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他努力工作是为了他的家人能过得好。",
+            "why": "He works hard in order that his family can live well 译「他努力工作是为了他的家人能过得好」。",
+            "highlight": [
+              0,
+              52
+            ]
+          }
+        ],
+        "finalZh": "他努力工作是为了他的家人能过得好。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOO"
+    },
+    {
+      "id": "s10-0045",
+      "en": "I hurried through my work so that I could be on time for the TV program.",
+      "zh": "我匆匆完成工作，以便能准时看电视节目。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 16,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "定语从句",
+          "情态动词"
+        ],
+        "fine": [
+          "长句，先找谓语再断句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "could",
+          "hint": "情态动词，能（过去）/可以（本空填 could）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "be",
+          "hint": "系动词/助动词原形（本空填 be）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "I hurried through my",
+          "role": "主语",
+          "span": [
+            0,
+            20
+          ]
+        },
+        {
+          "text": "work",
+          "role": "谓语",
+          "span": [
+            21,
+            25
+          ]
+        },
+        {
+          "text": "that I",
+          "role": "主语",
+          "span": [
+            29,
+            35
+          ]
+        },
+        {
+          "text": "could be",
+          "role": "谓语",
+          "span": [
+            36,
+            44
+          ]
+        },
+        {
+          "text": "on time for the TV program",
+          "role": "状语",
+          "span": [
+            45,
+            71
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 hurried，so that 引导目的状语从句。",
+            "why": "hurried through（匆匆完成）是谓语，so that I could be on time 是 so that 引导的目的状语从句。",
+            "highlight": [
+              2,
+              17
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别目的状语从句",
+            "what": "so that I could be on time 是目的状语从句。",
+            "why": "so that（以便）引导目的状语从句，I could be on time 是从句内容。",
+            "highlight": [
+              26,
+              71
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我匆匆完成工作，以便能准时看电视节目。",
+            "why": "I hurried through my work so that I could be on time for the TV program 译「我匆匆完成工作，以便能准时看电视节目」。",
+            "highlight": [
+              0,
+              71
+            ]
+          }
+        ],
+        "finalZh": "我匆匆完成工作，以便能准时看电视节目。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s10-0046",
+      "en": "We moved to the countryside so that we were away from the crowded city.",
+      "zh": "我们搬到乡下，以便远离拥挤的城市。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 14,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "定语从句",
+          "非谓语动词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "were",
+          "hint": "系动词/助动词，过去式复数（本空填 were）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "We",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "moved",
+          "role": "谓语",
+          "span": [
+            3,
+            8
+          ]
+        },
+        {
+          "text": "to the countryside",
+          "role": "状语",
+          "span": [
+            9,
+            27
+          ]
+        },
+        {
+          "text": "that we",
+          "role": "主语",
+          "span": [
+            31,
+            38
+          ]
+        },
+        {
+          "text": "were",
+          "role": "谓语",
+          "span": [
+            39,
+            43
+          ]
+        },
+        {
+          "text": "away",
+          "role": "表语",
+          "span": [
+            44,
+            48
+          ]
+        },
+        {
+          "text": "from the crowded city",
+          "role": "状语",
+          "span": [
+            49,
+            70
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 moved，so that 引导目的状语从句。",
+            "why": "moved（搬）是谓语，so that we were away 是 so that 引导的目的状语从句。",
+            "highlight": [
+              3,
+              8
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别目的状语从句",
+            "what": "so that we were away from the crowded city 是目的状语从句。",
+            "why": "so that（以便）引导目的状语从句，we were away 是从句内容。",
+            "highlight": [
+              28,
+              70
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "我们搬到乡下，以便远离拥挤的城市。",
+            "why": "We moved to the countryside so that we were away from the crowded city 译「我们搬到乡下，以便远离拥挤的城市」。",
+            "highlight": [
+              0,
+              70
+            ]
+          }
+        ],
+        "finalZh": "我们搬到乡下，以便远离拥挤的城市。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s10-0047",
+      "en": "The movie was so boring that I gave up watching it.",
+      "zh": "这部电影太无聊了，我放弃了观看。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 11,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "定语从句",
+          "非谓语动词"
+        ],
+        "fine": [
+          "so + 形容词/副词 + that 结果状语从句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "was",
+          "hint": "系动词/助动词，过去式单数（本空填 was）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "The",
+          "hint": "定冠词，特指（本空填 The）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "The movie",
+          "role": "主语",
+          "span": [
+            0,
+            9
+          ]
+        },
+        {
+          "text": "was",
+          "role": "谓语",
+          "span": [
+            10,
+            13
+          ]
+        },
+        {
+          "text": "boring that I",
+          "role": "主语",
+          "span": [
+            17,
+            30
+          ]
+        },
+        {
+          "text": "gave",
+          "role": "谓语",
+          "span": [
+            31,
+            35
+          ]
+        },
+        {
+          "text": "up watching it",
+          "role": "宾语",
+          "span": [
+            36,
+            50
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 was，so boring that 引导结果状语从句。",
+            "why": "was so boring（太无聊）是谓语，that I gave up watching it 是 so...that 引导的结果状语从句。",
+            "highlight": [
+              10,
+              23
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别结果状语从句",
+            "what": "so boring that I gave up = 太无聊以至于放弃，so...that 表「如此……以至于」。",
+            "why": "so...that（如此……以至于）引导结果状语从句，I gave up watching it 是从句内容。",
+            "highlight": [
+              24,
+              50
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "这部电影太无聊了，我放弃了观看。",
+            "why": "The movie was so boring that I gave up watching it 译「这部电影太无聊了，我放弃了观看」。",
+            "highlight": [
+              0,
+              50
+            ]
+          }
+        ],
+        "finalZh": "这部电影太无聊了，我放弃了观看。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s10-0048",
+      "en": "She ran so quickly that no one could catch her.",
+      "zh": "她跑得太快了，没人能追上她。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "情态动词",
+          "代词"
+        ],
+        "fine": [
+          "so + 形容词/副词 + that 结果状语从句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "could",
+          "hint": "情态动词，能（过去）/可以（本空填 could）",
+          "gp": "情态动词"
+        }
+      ],
+      "components": [
+        {
+          "text": "She",
+          "role": "主语",
+          "span": [
+            0,
+            3
+          ]
+        },
+        {
+          "text": "ran",
+          "role": "谓语",
+          "span": [
+            4,
+            7
+          ]
+        },
+        {
+          "text": "so quickly",
+          "role": "宾语",
+          "span": [
+            8,
+            18
+          ]
+        },
+        {
+          "text": "that",
+          "role": "状语",
+          "span": [
+            19,
+            23
+          ]
+        },
+        {
+          "text": "no one",
+          "role": "状语",
+          "span": [
+            24,
+            30
+          ]
+        },
+        {
+          "text": "could catch",
+          "role": "谓语",
+          "span": [
+            31,
+            42
+          ]
+        },
+        {
+          "text": "her",
+          "role": "宾语",
+          "span": [
+            43,
+            46
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 ran，so quickly that 引导结果状语从句。",
+            "why": "ran so quickly（跑得很快）是谓语，that no one could catch her 是 so...that 引导的结果状语从句。",
+            "highlight": [
+              4,
+              23
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别结果状语从句",
+            "what": "so quickly that no one could catch = 太快以至于没人能追上。",
+            "why": "so...that（如此……以至于）引导结果状语从句，ran quickly 导致 no one could catch her。",
+            "highlight": [
+              24,
+              46
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "她跑得太快了，没人能追上她。",
+            "why": "She ran so quickly that no one could catch her 译「她跑得太快了，没人能追上她」。",
+            "highlight": [
+              0,
+              46
+            ]
+          }
+        ],
+        "finalZh": "她跑得太快了，没人能追上她。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOO"
+    },
+    {
+      "id": "s10-0049",
+      "en": "He got so little money that his family had to live on welfare.",
+      "zh": "他挣的钱太少，全家只能靠救济生活。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 13,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "had",
+          "hint": "使役/助动词过去式（本空填 had）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "He",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "got",
+          "role": "谓语",
+          "span": [
+            3,
+            6
+          ]
+        },
+        {
+          "text": "so little money",
+          "role": "表语",
+          "span": [
+            7,
+            22
+          ]
+        },
+        {
+          "text": "that",
+          "role": "状语",
+          "span": [
+            23,
+            27
+          ]
+        },
+        {
+          "text": "his family",
+          "role": "状语",
+          "span": [
+            28,
+            38
+          ]
+        },
+        {
+          "text": "had",
+          "role": "谓语",
+          "span": [
+            39,
+            42
+          ]
+        },
+        {
+          "text": "to live on welfare",
+          "role": "状语",
+          "span": [
+            43,
+            61
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 got，so little money that 引导结果状语从句。",
+            "why": "got so little money（挣的钱太少）是谓语，that his family had to live on welfare 是 so...that 引导的结果状语从句。",
+            "highlight": [
+              3,
+              22
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别结果状语从句",
+            "what": "so little money that... = 钱太少以至于……。",
+            "why": "so little（如此少）+ 不可数名词 money + that 引导结果状语从句。",
+            "highlight": [
+              23,
+              61
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他挣的钱太少，全家只能靠救济生活。",
+            "why": "He got so little money that his family had to live on welfare 译「他挣的钱太少，全家只能靠救济生活」。",
+            "highlight": [
+              0,
+              61
+            ]
+          }
+        ],
+        "finalZh": "他挣的钱太少，全家只能靠救济生活。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s10-0050",
+      "en": "There were so many people that we couldn't find a seat.",
+      "zh": "人太多了，我们找不到座位。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 11,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "定语从句",
+          "情态动词"
+        ],
+        "fine": [
+          "there be 存现句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "were",
+          "hint": "系动词/助动词，过去式复数（本空填 were）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "a",
+          "hint": "不定冠词，修饰可数名词单数（本空填 a）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "There",
+          "role": "主语",
+          "span": [
+            0,
+            5
+          ]
+        },
+        {
+          "text": "were",
+          "role": "谓语",
+          "span": [
+            6,
+            10
+          ]
+        },
+        {
+          "text": "so many people",
+          "role": "表语",
+          "span": [
+            11,
+            25
+          ]
+        },
+        {
+          "text": "that",
+          "role": "状语",
+          "span": [
+            26,
+            30
+          ]
+        },
+        {
+          "text": "we",
+          "role": "状语",
+          "span": [
+            31,
+            33
+          ]
+        },
+        {
+          "text": "couldn't find",
+          "role": "谓语",
+          "span": [
+            34,
+            47
+          ]
+        },
+        {
+          "text": "a seat",
+          "role": "宾语",
+          "span": [
+            48,
+            54
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 were，so many people that 引导结果状语从句。",
+            "why": "were so many people（人太多）是谓语，that we couldn't find a seat 是 so...that 引导的结果状语从句。",
+            "highlight": [
+              6,
+              25
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别结果状语从句",
+            "what": "so many people that... = 人太多以至于……。",
+            "why": "so many（如此多）+ 可数复数 people + that 引导结果状语从句。",
+            "highlight": [
+              26,
+              54
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "人太多了，我们找不到座位。",
+            "why": "There were so many people that we couldn't find a seat 译「人太多了，我们找不到座位」。",
+            "highlight": [
+              0,
+              54
+            ]
+          }
+        ],
+        "finalZh": "人太多了，我们找不到座位。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s10-0051",
+      "en": "Dayan is so nice a teacher that everyone loves and respects her.",
+      "zh": "大雁是这么好的老师，人人都爱戴她。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 12,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "并列结构",
+          "动词时态"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "a",
+          "hint": "不定冠词，修饰可数名词单数（本空填 a）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Dayan",
+          "role": "主语",
+          "span": [
+            0,
+            5
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            6,
+            8
+          ]
+        },
+        {
+          "text": "so nice a teacher",
+          "role": "表语",
+          "span": [
+            9,
+            26
+          ]
+        },
+        {
+          "text": "that",
+          "role": "状语",
+          "span": [
+            27,
+            31
+          ]
+        },
+        {
+          "text": "everyone loves",
+          "role": "状语",
+          "span": [
+            32,
+            46
+          ]
+        },
+        {
+          "text": "respects",
+          "role": "谓语",
+          "span": [
+            51,
+            59
+          ]
+        },
+        {
+          "text": "her",
+          "role": "宾语",
+          "span": [
+            60,
+            63
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，so nice a teacher that 引导结果状语从句。",
+            "why": "is so nice a teacher（是这么好的老师）是谓语，that everyone loves her 是 so...that 引导的结果状语从句。",
+            "highlight": [
+              6,
+              26
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "so + adj + a/an + 名词",
+            "what": "so nice a teacher = 这么好的老师，so 后接形容词再加名词。",
+            "why": "so nice a teacher 是「so + 形容词 + a/an + 单数名词」结构，that 引导结果状语从句。",
+            "how": "译「这么好的老师」，so nice a teacher 译「这么好的老师」。",
+            "highlight": [
+              6,
+              63
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "大雁是这么好的老师，人人都爱戴她。",
+            "why": "Dayan is so nice a teacher that everyone loves and respects her 译「大雁是这么好的老师，人人都爱戴她」。",
+            "highlight": [
+              0,
+              63
+            ]
+          }
+        ],
+        "finalZh": "大雁是这么好的老师，人人都爱戴她。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s10-0052",
+      "en": "This is so interesting a book that I finished reading it in one day.",
+      "zh": "这本书太有趣了，我一天就读完了。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 14,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "in",
+          "hint": "介词，在…里（本空填 in）",
+          "gp": "介词"
+        }
+      ],
+      "components": [
+        {
+          "text": "This",
+          "role": "主语",
+          "span": [
+            0,
+            4
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            5,
+            7
+          ]
+        },
+        {
+          "text": "so interesting a book",
+          "role": "表语",
+          "span": [
+            8,
+            29
+          ]
+        },
+        {
+          "text": "that",
+          "role": "状语",
+          "span": [
+            30,
+            34
+          ]
+        },
+        {
+          "text": "I",
+          "role": "状语",
+          "span": [
+            35,
+            36
+          ]
+        },
+        {
+          "text": "finished reading",
+          "role": "谓语",
+          "span": [
+            37,
+            53
+          ]
+        },
+        {
+          "text": "it",
+          "role": "宾语",
+          "span": [
+            54,
+            56
+          ]
+        },
+        {
+          "text": "in one day",
+          "role": "状语",
+          "span": [
+            57,
+            67
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，so interesting a book that 引导结果状语从句。",
+            "why": "is so interesting a book（是这么有趣的书）是谓语，that I finished reading it 是 so...that 引导的结果状语从句。",
+            "highlight": [
+              5,
+              29
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "so + adj + a/an + 名词",
+            "what": "so interesting a book = 这么有趣的书，so 后接形容词再加名词。",
+            "why": "so interesting a book 是「so + 形容词 + a/an + 单数名词」结构。",
+            "how": "译「这么有趣的书」，so interesting a book 译「这么有趣的书」。",
+            "highlight": [
+              5,
+              67
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "这本书太有趣了，我一天就读完了。",
+            "why": "This is so interesting a book that I finished reading it in one day 译「这本书太有趣了，我一天就读完了」。",
+            "highlight": [
+              0,
+              67
+            ]
+          }
+        ],
+        "finalZh": "这本书太有趣了，我一天就读完了。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s10-0053",
+      "en": "It was such a terrible show that none of us would pay for watching it again.",
+      "zh": "这场演出太糟糕了，没人愿意再花钱看。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 16,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "强调",
+          "情态动词"
+        ],
+        "fine": [
+          "介词 + 动名词",
+          "长句，先找谓语再断句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "was",
+          "hint": "系动词/助动词，过去式单数（本空填 was）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "would",
+          "hint": "助动词，过去将来时/虚拟（本空填 would）",
+          "gp": "情态动词"
+        }
+      ],
+      "components": [
+        {
+          "text": "It",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "was",
+          "role": "谓语",
+          "span": [
+            3,
+            6
+          ]
+        },
+        {
+          "text": "such a terrible",
+          "role": "表语",
+          "span": [
+            7,
+            22
+          ]
+        },
+        {
+          "text": "show",
+          "role": "谓语",
+          "span": [
+            23,
+            27
+          ]
+        },
+        {
+          "text": "that none",
+          "role": "宾语",
+          "span": [
+            28,
+            37
+          ]
+        },
+        {
+          "text": "for",
+          "role": "状语",
+          "span": [
+            54,
+            57
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 was，such a terrible show that 引导结果状语从句。",
+            "why": "was such a terrible show（是这么糟糕的演出）是谓语，that none of us would pay 是 such...that 引导的结果状语从句。",
+            "highlight": [
+              3,
+              22
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "such + a/an + 名词",
+            "what": "such a terrible show = 这么糟糕的演出，such 后接名词。",
+            "why": "such a terrible show 是「such + a/an + 形容词 + 名词」结构，that 引导结果状语从句。",
+            "how": "译「这么糟糕的演出」，such a terrible show 译「这么糟糕的演出」。",
+            "highlight": [
+              3,
+              75
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "这场演出太糟糕了，没人愿意再花钱看。",
+            "why": "It was such a terrible show that none of us would pay for watching it again 译「这场演出太糟糕了，没人愿意再花钱看」。",
+            "highlight": [
+              0,
+              75
+            ]
+          }
+        ],
+        "finalZh": "这场演出太糟糕了，没人愿意再花钱看。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s10-0054",
+      "en": "It was such a difficult exam that many students failed.",
+      "zh": "考试太难了，许多学生都没通过。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "强调",
+          "it的用法"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "was",
+          "hint": "系动词/助动词，过去式单数（本空填 was）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "a",
+          "hint": "不定冠词，修饰可数名词单数（本空填 a）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "It",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "was",
+          "role": "谓语",
+          "span": [
+            3,
+            6
+          ]
+        },
+        {
+          "text": "such a difficult exam",
+          "role": "表语",
+          "span": [
+            7,
+            28
+          ]
+        },
+        {
+          "text": "that",
+          "role": "状语",
+          "span": [
+            29,
+            33
+          ]
+        },
+        {
+          "text": "many students",
+          "role": "状语",
+          "span": [
+            34,
+            47
+          ]
+        },
+        {
+          "text": "failed",
+          "role": "谓语",
+          "span": [
+            48,
+            54
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 was，such a difficult exam that 引导结果状语从句。",
+            "why": "was such a difficult exam（是这么难的考试）是谓语，that many students failed 是 such...that 引导的结果状语从句。",
+            "highlight": [
+              3,
+              24
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "such + a/an + 名词",
+            "what": "such a difficult exam = 这么难的考试，such 后接名词。",
+            "why": "such a difficult exam 是「such + a/an + 形容词 + 名词」结构。",
+            "how": "译「这么难的考试」，such a difficult exam 译「这么难的考试」。",
+            "highlight": [
+              3,
+              54
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "考试太难了，许多学生都没通过。",
+            "why": "It was such a difficult exam that many students failed 译「考试太难了，许多学生都没通过」。",
+            "highlight": [
+              0,
+              54
+            ]
+          }
+        ],
+        "finalZh": "考试太难了，许多学生都没通过。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s10-0055",
+      "en": "They are such cute babies that we all love them.",
+      "zh": "这些婴儿太可爱了，我们都喜欢他们。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "主谓一致",
+          "动词时态"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "are",
+          "hint": "系动词/助动词，复数（本空填 are）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "They",
+          "role": "主语",
+          "span": [
+            0,
+            4
+          ]
+        },
+        {
+          "text": "are",
+          "role": "谓语",
+          "span": [
+            5,
+            8
+          ]
+        },
+        {
+          "text": "such cute babies",
+          "role": "表语",
+          "span": [
+            9,
+            25
+          ]
+        },
+        {
+          "text": "that",
+          "role": "状语",
+          "span": [
+            26,
+            30
+          ]
+        },
+        {
+          "text": "we all",
+          "role": "状语",
+          "span": [
+            31,
+            37
+          ]
+        },
+        {
+          "text": "love",
+          "role": "谓语",
+          "span": [
+            38,
+            42
+          ]
+        },
+        {
+          "text": "them",
+          "role": "宾语",
+          "span": [
+            43,
+            47
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 are，such cute babies that 引导结果状语从句。",
+            "why": "are such cute babies（是这么可爱的婴儿）是谓语，that we all love them 是 such...that 引导的结果状语从句。",
+            "highlight": [
+              5,
+              25
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "such + 复数名词",
+            "what": "such cute babies = 这么可爱的婴儿，such 后接复数名词。",
+            "why": "such cute babies 是「such + 形容词 + 复数名词」结构，that 引导结果状语从句。",
+            "how": "译「这么可爱的婴儿」，such cute babies 译「这么可爱的婴儿」。",
+            "highlight": [
+              5,
+              47
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "这些婴儿太可爱了，我们都喜欢他们。",
+            "why": "They are such cute babies that we all love them 译「这些婴儿太可爱了，我们都喜欢他们」。",
+            "highlight": [
+              0,
+              47
+            ]
+          }
+        ],
+        "finalZh": "这些婴儿太可爱了，我们都喜欢他们。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s10-0056",
+      "en": "This was such wonderful music that it deserved to be replayed.",
+      "zh": "这音乐太美妙了，值得重播。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 11,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "被动语态",
+          "非谓语动词"
+        ],
+        "fine": [
+          "不定式的被动式"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "that",
+          "hint": "关系代词/从句引导词（本空填 that）",
+          "gp": "定语从句"
+        },
+        {
+          "answer": "was",
+          "hint": "系动词/助动词，过去式单数（本空填 was）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "be",
+          "hint": "系动词/助动词原形（本空填 be）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "This",
+          "role": "主语",
+          "span": [
+            0,
+            4
+          ]
+        },
+        {
+          "text": "was",
+          "role": "谓语",
+          "span": [
+            5,
+            8
+          ]
+        },
+        {
+          "text": "such wonderful music",
+          "role": "表语",
+          "span": [
+            9,
+            29
+          ]
+        },
+        {
+          "text": "that",
+          "role": "状语",
+          "span": [
+            30,
+            34
+          ]
+        },
+        {
+          "text": "it deserved to",
+          "role": "状语",
+          "span": [
+            35,
+            49
+          ]
+        },
+        {
+          "text": "be",
+          "role": "谓语",
+          "span": [
+            50,
+            52
+          ]
+        },
+        {
+          "text": "replayed",
+          "role": "表语",
+          "span": [
+            53,
+            61
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 was，such wonderful music that 引导结果状语从句。",
+            "why": "was such wonderful music（是这么美妙的音乐）是谓语，that it deserved to be replayed 是 such...that 引导的结果状语从句。",
+            "highlight": [
+              5,
+              24
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "such + 不可数名词",
+            "what": "such wonderful music = 这么美妙的音乐，such 后接不可数名词。",
+            "why": "such wonderful music 是「such + 形容词 + 不可数名词」结构。",
+            "how": "译「这么美妙的音乐」，such wonderful music 译「这么美妙的音乐」。",
+            "highlight": [
+              5,
+              61
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "这音乐太美妙了，值得重播。",
+            "why": "This was such wonderful music that it deserved to be replayed 译「这音乐太美妙了，值得重播」。",
+            "highlight": [
+              0,
+              61
+            ]
+          }
+        ],
+        "finalZh": "这音乐太美妙了，值得重播。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s10-0060",
+      "en": "Whatever decision he made, I would support it.",
+      "zh": "无论他做什么决定，我都会支持。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "名词性从句",
+          "情态动词"
+        ],
+        "fine": [
+          "让步状语从句（-ever 引导）"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "would",
+          "hint": "助动词，过去将来时/虚拟（本空填 would）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "made",
+          "hint": "make 的过去式/过去分词（本空填 made）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "it",
+          "hint": "代词，可作形式主语/形式宾语（本空填 it）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "Whatever decision he",
+          "role": "主语",
+          "span": [
+            0,
+            20
+          ]
+        },
+        {
+          "text": "made",
+          "role": "谓语",
+          "span": [
+            21,
+            25
+          ]
+        },
+        {
+          "text": "I",
+          "role": "宾语",
+          "span": [
+            27,
+            28
+          ]
+        },
+        {
+          "text": "would support",
+          "role": "谓语",
+          "span": [
+            29,
+            42
+          ]
+        },
+        {
+          "text": "it",
+          "role": "宾语",
+          "span": [
+            43,
+            45
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 would support，Whatever 引导让步状语从句。",
+            "why": "would support（会支持）是谓语，Whatever decision he made 是 Whatever 引导的让步状语从句。",
+            "highlight": [
+              27,
+              45
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别让步状语从句",
+            "what": "Whatever decision he made 是让步状语从句，Whatever 表「无论什么」。",
+            "why": "Whatever（无论什么）引导让步状语从句，decision he made 是从句内容。",
+            "highlight": [
+              0,
+              25
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "无论他做什么决定，我都会支持。",
+            "why": "Whatever decision he made, I would support it 译「无论他做什么决定，我都会支持」。",
+            "highlight": [
+              0,
+              45
+            ]
+          }
+        ],
+        "finalZh": "无论他做什么决定，我都会支持。",
+        "orderRules": [
+          "让步状语从句 Whatever... 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOO"
+    },
+    {
+      "id": "s10-0061",
+      "en": "No matter what decision he made, I would support it.",
+      "zh": "无论他做什么决定，我都会支持。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "名词性从句",
+          "情态动词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "what",
+          "hint": "引导名词性从句并在从句中作成分（本空填 what）",
+          "gp": "名词性从句"
+        },
+        {
+          "answer": "would",
+          "hint": "助动词，过去将来时/虚拟（本空填 would）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "made",
+          "hint": "make 的过去式/过去分词（本空填 made）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "No",
+          "role": "主语",
+          "span": [
+            0,
+            2
+          ]
+        },
+        {
+          "text": "matter",
+          "role": "谓语",
+          "span": [
+            3,
+            9
+          ]
+        },
+        {
+          "text": "what decision he made",
+          "role": "宾语从句",
+          "span": [
+            10,
+            31
+          ]
+        },
+        {
+          "text": "I would support it",
+          "role": "宾语",
+          "span": [
+            33,
+            51
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 would support，No matter what 引导让步状语从句。",
+            "why": "would support（会支持）是谓语，No matter what decision he made 是 No matter what 引导的让步状语从句。",
+            "highlight": [
+              33,
+              51
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别让步状语从句",
+            "what": "No matter what decision he made 是让步状语从句，No matter what 表「无论什么」。",
+            "why": "No matter what（无论什么）引导让步状语从句，decision he made 是从句内容。",
+            "highlight": [
+              0,
+              31
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "无论他做什么决定，我都会支持。",
+            "why": "No matter what decision he made, I would support it 译「无论他做什么决定，我都会支持」。",
+            "highlight": [
+              0,
+              51
+            ]
+          }
+        ],
+        "finalZh": "无论他做什么决定，我都会支持。",
+        "orderRules": [
+          "让步状语从句 No matter what... 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s10-0064",
+      "en": "Dayan is a beauty although she has very short hair.",
+      "zh": "尽管大雁有很短的头发， 她依然是个美女。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "动词时态",
+          "代词"
+        ],
+        "fine": [
+          "have/get sth done 结构"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "although",
+          "hint": "引导让步状语从句（本空填 although）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "has",
+          "hint": "助动词，第三人称单数（本空填 has）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "Dayan",
+          "role": "主语",
+          "span": [
+            0,
+            5
+          ]
+        },
+        {
+          "text": "is",
+          "role": "谓语",
+          "span": [
+            6,
+            8
+          ]
+        },
+        {
+          "text": "a beauty",
+          "role": "表语",
+          "span": [
+            9,
+            17
+          ]
+        },
+        {
+          "text": "although she has very short hair.",
+          "role": "状语从句",
+          "span": [
+            18,
+            51
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，although 引导让步状语从句。",
+            "why": "is a beauty（是美女）是谓语，although she has very short hair 是 although 引导的让步状语从句。",
+            "highlight": [
+              6,
+              17
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别让步状语从句",
+            "what": "although she has very short hair 是让步状语从句。",
+            "why": "although（尽管）引导让步状语从句，she has very short hair 是从句内容。",
+            "highlight": [
+              18,
+              50
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "尽管大雁有很短的头发，她依然是个美女。",
+            "why": "Dayan is a beauty although she has very short hair 译「尽管大雁有很短的头发，她依然是个美女」。",
+            "highlight": [
+              0,
+              50
+            ]
+          }
+        ],
+        "finalZh": "尽管大雁有很短的头发，她依然是个美女。",
+        "orderRules": [
+          "让步状语从句 although... 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s10-0066",
+      "en": "Worshipping stars blindly will waste a lot of time and energy of teenagers although they may work hard and set good examples.",
+      "zh": "盲目追星会浪费青少年很多时间和精力，尽管他们可能努力工作并树立良好的榜样。",
+      "zhSource": "book",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 22,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "情态动词",
+          "非谓语动词"
+        ],
+        "fine": [
+          "一般将来时",
+          "长句，先找谓语再断句"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "although",
+          "hint": "引导让步状语从句（本空填 although）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "will",
+          "hint": "助动词，一般将来时（本空填 will）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "may",
+          "hint": "情态动词，可以/可能（本空填 may）",
+          "gp": "情态动词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Worshipping stars blindly",
+          "role": "主语",
+          "span": [
+            0,
+            25
+          ]
+        },
+        {
+          "text": "will",
+          "role": "谓语",
+          "span": [
+            26,
+            30
+          ]
+        },
+        {
+          "text": "waste a lot",
+          "role": "宾语",
+          "span": [
+            31,
+            42
+          ]
+        },
+        {
+          "text": "and",
+          "role": "状语",
+          "span": [
+            51,
+            54
+          ]
+        },
+        {
+          "text": "although they may work hard and set good examples.",
+          "role": "状语从句",
+          "span": [
+            75,
+            125
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 will waste，although 引导让步状语从句。",
+            "why": "will waste（会浪费）是谓语，although they may work hard 是 although 引导的让步状语从句。",
+            "highlight": [
+              26,
+              36
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别让步状语从句",
+            "what": "although they may work hard and set good examples 是让步状语从句。",
+            "why": "although（尽管）引导让步状语从句，they may work hard and set good examples 是从句内容。",
+            "highlight": [
+              84,
+              124
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "盲目追星会浪费青少年很多时间和精力，尽管他们可能努力工作并树立良好的榜样。",
+            "why": "Worshipping stars blindly will waste a lot of time and energy of teenagers although they may work hard and set good examples 译「盲目追星会浪费青少年很多时间和精力，尽管他们可能努力工作并树立良好的榜样」。",
+            "highlight": [
+              0,
+              124
+            ]
+          }
+        ],
+        "finalZh": "盲目追星会浪费青少年很多时间和精力，尽管他们可能努力工作并树立良好的榜样。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s10-0067",
+      "en": "They did as I had asked.",
+      "zh": "他们照我说的做了。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 6,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "现在完成时或过去完成时",
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "as",
+          "hint": "引导时间/原因/方式状语从句（本空填 as）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "did",
+          "hint": "助动词，过去式（本空填 did）",
+          "gp": "动词时态"
+        },
+        {
+          "answer": "had",
+          "hint": "使役/助动词过去式（本空填 had）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "They",
+          "role": "主语",
+          "span": [
+            0,
+            4
+          ]
+        },
+        {
+          "text": "did",
+          "role": "谓语",
+          "span": [
+            5,
+            8
+          ]
+        },
+        {
+          "text": "as I had asked.",
+          "role": "状语从句",
+          "span": [
+            9,
+            24
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 did，as 引导方式状语从句。",
+            "why": "did（做）是谓语，as I had asked 是 as 引导的方式状语从句。",
+            "highlight": [
+              5,
+              8
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别方式状语从句",
+            "what": "as I had asked 是方式状语从句，as 表「按照」。",
+            "why": "as（按照）引导方式状语从句，I had asked 是从句内容。",
+            "highlight": [
+              9,
+              23
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "他们照我说的做了。",
+            "why": "They did as I had asked 译「他们照我说的做了」。",
+            "highlight": [
+              0,
+              23
+            ]
+          }
+        ],
+        "finalZh": "他们照我说的做了。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s10-0068",
+      "en": "She talks with me as if she were my mother.",
+      "zh": "她和我说话的样子就像她是我妈一样。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 1,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "虚拟语气",
+          "动词时态"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "as",
+          "hint": "引导时间/原因/方式状语从句（本空填 as）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "if",
+          "hint": "引导条件状语从句或宾语从句（本空填 if）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "were",
+          "hint": "系动词/助动词，过去式复数（本空填 were）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "She",
+          "role": "主语",
+          "span": [
+            0,
+            3
+          ]
+        },
+        {
+          "text": "talks",
+          "role": "谓语",
+          "span": [
+            4,
+            9
+          ]
+        },
+        {
+          "text": "with me",
+          "role": "状语",
+          "span": [
+            10,
+            17
+          ]
+        },
+        {
+          "text": "as if she were my mother.",
+          "role": "状语从句",
+          "span": [
+            18,
+            43
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 talks，as if 引导方式状语从句（虚拟语气）。",
+            "why": "talks（说话）是谓语，as if she were my mother 是 as if 引导的方式状语从句，were 表虚拟。",
+            "highlight": [
+              4,
+              9
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别方式状语从句",
+            "what": "as if she were my mother 是方式状语从句，as if 表「好像」。",
+            "why": "as if（好像）引导方式状语从句，she were my mother 用 were 表虚拟（实际不是）。",
+            "highlight": [
+              10,
+              42
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "她和我说话的样子就像她是我妈一样。",
+            "why": "She talks with me as if she were my mother 译「她和我说话的样子就像她是我妈一样」。",
+            "highlight": [
+              0,
+              42
+            ]
+          }
+        ],
+        "finalZh": "她和我说话的样子就像她是我妈一样。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s10-0069",
+      "en": "Your children will treat you the way you treat your parents.",
+      "zh": "你怎样对待你的父母，你的孩子就会怎样对待你。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 11,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "情态动词",
+          "动词时态"
+        ],
+        "fine": [
+          "一般将来时"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "will",
+          "hint": "助动词，一般将来时（本空填 will）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Your children",
+          "role": "主语",
+          "span": [
+            0,
+            13
+          ]
+        },
+        {
+          "text": "will treat",
+          "role": "谓语",
+          "span": [
+            14,
+            24
+          ]
+        },
+        {
+          "text": "you the way you",
+          "role": "宾语",
+          "span": [
+            25,
+            40
+          ]
+        },
+        {
+          "text": "treat",
+          "role": "谓语",
+          "span": [
+            41,
+            46
+          ]
+        },
+        {
+          "text": "your parents",
+          "role": "宾语",
+          "span": [
+            47,
+            59
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 will treat，the way 引导方式状语从句。",
+            "why": "will treat（将对待）是谓语，the way you treat your parents 中 the way 引导方式状语从句。",
+            "highlight": [
+              13,
+              24
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别方式状语从句（the way）",
+            "what": "the way you treat your parents 是方式状语从句，the way 表「……的方式」。",
+            "why": "the way（……的方式）引导方式状语从句，you treat your parents 是从句内容。",
+            "highlight": [
+              25,
+              59
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "你怎样对待你的父母，你的孩子就会怎样对待你。",
+            "why": "Your children will treat you the way you treat your parents 译「你怎样对待你的父母，你的孩子就会怎样对待你」。",
+            "highlight": [
+              0,
+              59
+            ]
+          }
+        ],
+        "finalZh": "你怎样对待你的父母，你的孩子就会怎样对待你。",
+        "orderRules": [
+          "方式状语从句 the way... 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVOO"
+    },
+    {
+      "id": "s10-0070",
+      "en": "You can get high marks by studying hard.",
+      "zh": "你努力学习就能得高分。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 8,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "情态动词",
+          "非谓语动词"
+        ],
+        "fine": [
+          "介词 + 动名词"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "can",
+          "hint": "情态动词，能/可以（本空填 can）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "by",
+          "hint": "介词，被/通过（本空填 by）",
+          "gp": "介词"
+        },
+        {
+          "answer": "get",
+          "hint": "使役动词，使（get sth done）（本空填 get）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "You",
+          "role": "主语",
+          "span": [
+            0,
+            3
+          ]
+        },
+        {
+          "text": "can get",
+          "role": "谓语",
+          "span": [
+            4,
+            11
+          ]
+        },
+        {
+          "text": "high marks",
+          "role": "表语",
+          "span": [
+            12,
+            22
+          ]
+        },
+        {
+          "text": "by studying hard",
+          "role": "状语",
+          "span": [
+            23,
+            39
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 can get，by studying hard 是方式状语。",
+            "why": "can get（能得）是谓语，by studying hard（通过努力学习）是方式状语。",
+            "highlight": [
+              4,
+              22
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "by + 动名词表方式",
+            "what": "by studying hard = 通过努力学习，by doing 表方式。",
+            "why": "by（通过）后接动名词 studying，表方式。",
+            "how": "译「通过努力学习」，by studying hard 译「通过努力学习」。",
+            "highlight": [
+              23,
+              39
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "你努力学习就能得高分。",
+            "why": "You can get high marks by studying hard 译「你努力学习就能得高分」。",
+            "highlight": [
+              0,
+              39
+            ]
+          }
+        ],
+        "finalZh": "你努力学习就能得高分。",
+        "orderRules": [
+          "方式状语 by studying 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s10-0072",
+      "en": "The youth of today enjoy a better situation than we used to.",
+      "zh": "如今的年轻人比我们过去享有更好的条件。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 12,
+        "clauses": 0,
+        "level": 2
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "情态动词",
+          "非谓语动词"
+        ],
+        "fine": [
+          "used to 表示过去常常（现在不了）"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "of",
+          "hint": "介词，…的（本空填 of）",
+          "gp": "介词"
+        },
+        {
+          "answer": "to",
+          "hint": "介词/不定式符号（本空填 to）",
+          "gp": "介词"
+        },
+        {
+          "answer": "The",
+          "hint": "定冠词，特指（本空填 The）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "The youth of today",
+          "role": "主语",
+          "span": [
+            0,
+            18
+          ]
+        },
+        {
+          "text": "enjoy",
+          "role": "谓语",
+          "span": [
+            19,
+            24
+          ]
+        },
+        {
+          "text": "a better situation",
+          "role": "宾语",
+          "span": [
+            25,
+            43
+          ]
+        },
+        {
+          "text": "than we",
+          "role": "状语",
+          "span": [
+            44,
+            51
+          ]
+        },
+        {
+          "text": "used to",
+          "role": "谓语",
+          "span": [
+            52,
+            59
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 enjoy，than we used to 是比较状语从句。",
+            "why": "enjoy（享有）是谓语，a better situation than we used to 中 than 引导比较状语从句。",
+            "highlight": [
+              19,
+              42
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别比较状语从句",
+            "what": "than we used to 是比较状语从句，than 表「比」。",
+            "why": "than（比）引导比较状语从句，we used to 是从句内容（后省略 enjoy）。",
+            "highlight": [
+              44,
+              59
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "如今的年轻人比我们过去享有更好的条件。",
+            "why": "The youth of today enjoy a better situation than we used to 译「如今的年轻人比我们过去享有更好的条件」。",
+            "highlight": [
+              0,
+              59
+            ]
+          }
+        ],
+        "finalZh": "如今的年轻人比我们过去享有更好的条件。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s10-0073",
+      "en": "She is not so energetic as she used to be.",
+      "zh": "她不像以前那么精力充沛了。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 10,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "被动语态",
+          "情态动词"
+        ],
+        "fine": [
+          "used to 表示过去常常（现在不了）",
+          "not so…as 否定比较"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "as",
+          "hint": "引导时间/原因/方式状语从句（本空填 as）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "is",
+          "hint": "系动词/助动词，第三人称单数（本空填 is）",
+          "gp": "被动语态"
+        },
+        {
+          "answer": "be",
+          "hint": "系动词/助动词原形（本空填 be）",
+          "gp": "被动语态"
+        }
+      ],
+      "components": [
+        {
+          "text": "She",
+          "role": "主语",
+          "span": [
+            0,
+            3
+          ]
+        },
+        {
+          "text": "is not",
+          "role": "谓语",
+          "span": [
+            4,
+            10
+          ]
+        },
+        {
+          "text": "so energetic",
+          "role": "表语",
+          "span": [
+            11,
+            23
+          ]
+        },
+        {
+          "text": "as she used to be.",
+          "role": "状语从句",
+          "span": [
+            24,
+            42
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 is，not so...as 是比较结构。",
+            "why": "is not so energetic（不那么精力充沛）是谓语，as she used to be 是比较结构。",
+            "highlight": [
+              4,
+              23
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别比较状语从句",
+            "what": "not so energetic as she used to be = 不像以前那么精力充沛。",
+            "why": "not so...as（不如……那么）是比较结构，she used to be 是从句内容。",
+            "highlight": [
+              24,
+              41
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "她不像以前那么精力充沛了。",
+            "why": "She is not so energetic as she used to be 译「她不像以前那么精力充沛了」。",
+            "highlight": [
+              0,
+              41
+            ]
+          }
+        ],
+        "finalZh": "她不像以前那么精力充沛了。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVC"
+    },
+    {
+      "id": "s10-0074",
+      "en": "The movie wasn't as interesting as we had expected.",
+      "zh": "这部电影没有我们预期的那么有趣。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "非谓语动词",
+          "动词时态"
+        ],
+        "fine": [
+          "现在完成时或过去完成时",
+          "as…as 原级比较"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "as",
+          "hint": "引导时间/原因/方式状语从句（本空填 as）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "as",
+          "hint": "引导时间/原因/方式状语从句（本空填 as）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "had",
+          "hint": "使役/助动词过去式（本空填 had）",
+          "gp": "动词时态"
+        }
+      ],
+      "components": [
+        {
+          "text": "The movie",
+          "role": "主语",
+          "span": [
+            0,
+            9
+          ]
+        },
+        {
+          "text": "wasn't",
+          "role": "谓语",
+          "span": [
+            10,
+            16
+          ]
+        },
+        {
+          "text": "as interesting as we had expected.",
+          "role": "状语从句",
+          "span": [
+            17,
+            51
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 wasn't，as interesting as 是比较结构。",
+            "why": "wasn't as interesting（不那么有趣）是谓语，as we had expected 是比较结构。",
+            "highlight": [
+              10,
+              30
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别比较状语从句",
+            "what": "as interesting as we had expected = 不如我们预期的有趣。",
+            "why": "not as...as（不如……那么）是比较结构，we had expected 是从句内容。",
+            "highlight": [
+              32,
+              50
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "这部电影没有我们预期的那么有趣。",
+            "why": "The movie wasn't as interesting as we had expected 译「这部电影没有我们预期的那么有趣」。",
+            "highlight": [
+              0,
+              50
+            ]
+          }
+        ],
+        "finalZh": "这部电影没有我们预期的那么有趣。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s10-0075",
+      "en": "Please work as carefully as you can.",
+      "zh": "请尽可能仔细地工作。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 7,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "情态动词",
+          "祈使句与感叹句"
+        ],
+        "fine": [
+          "as…as 原级比较"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "as",
+          "hint": "引导时间/原因/方式状语从句（本空填 as）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "as",
+          "hint": "引导时间/原因/方式状语从句（本空填 as）",
+          "gp": "状语从句"
+        },
+        {
+          "answer": "can",
+          "hint": "情态动词，能/可以（本空填 can）",
+          "gp": "情态动词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Please",
+          "role": "主语",
+          "span": [
+            0,
+            6
+          ]
+        },
+        {
+          "text": "work",
+          "role": "谓语",
+          "span": [
+            7,
+            11
+          ]
+        },
+        {
+          "text": "as carefully as you can.",
+          "role": "状语从句",
+          "span": [
+            12,
+            36
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 work，as...as 是比较结构。",
+            "why": "work（工作）是谓语，as carefully as you can 是比较结构。",
+            "highlight": [
+              7,
+              11
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "clause",
+            "title": "识别比较状语从句",
+            "what": "as carefully as you can = 尽可能仔细，as...as 比较结构。",
+            "why": "as...as（像……一样）是比较结构，work carefully 和 you can 是从句内容。",
+            "highlight": [
+              12,
+              35
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "请尽可能仔细地工作。",
+            "why": "Please work as carefully as you can 译「请尽可能仔细地工作」。",
+            "highlight": [
+              0,
+              35
+            ]
+          }
+        ],
+        "finalZh": "请尽可能仔细地工作。",
+        "orderRules": [],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s10-0076",
+      "en": "The harder you work, the luckier you will become.",
+      "zh": "你工作越努力，就越幸运。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "情态动词",
+          "动词时态"
+        ],
+        "fine": [
+          "一般将来时"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "will",
+          "hint": "助动词，一般将来时（本空填 will）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "The",
+          "hint": "定冠词，特指（本空填 The）",
+          "gp": "冠词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "The harder you",
+          "role": "主语",
+          "span": [
+            0,
+            14
+          ]
+        },
+        {
+          "text": "work",
+          "role": "谓语",
+          "span": [
+            15,
+            19
+          ]
+        },
+        {
+          "text": "the luckier you",
+          "role": "宾语",
+          "span": [
+            21,
+            36
+          ]
+        },
+        {
+          "text": "will become",
+          "role": "谓语",
+          "span": [
+            37,
+            48
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 work 和 will become，the harder...the luckier 是并列结构。",
+            "why": "work（工作）和 will become（将变成）是谓语，the harder...the luckier 是「the + 比较级」结构。",
+            "highlight": [
+              4,
+              19
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "the + 比较级",
+            "what": "The harder you work, the luckier you will become = 越努力越幸运。",
+            "why": "the + 比较级...the + 比较级 表示「越……越……」，harder 和 luckier 两个比较级对应。",
+            "how": "译「你工作越努力，就越幸运」，the harder 译「越努力」。",
+            "highlight": [
+              0,
+              48
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "你工作越努力，就越幸运。",
+            "why": "The harder you work, the luckier you will become 译「你工作越努力，就越幸运」。",
+            "highlight": [
+              0,
+              48
+            ]
+          }
+        ],
+        "finalZh": "你工作越努力，就越幸运。",
+        "orderRules": [
+          "the + 比较级 表「越……越……」"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SVO"
+    },
+    {
+      "id": "s10-0077",
+      "en": "The higher you climb, the farther you can see.",
+      "zh": "你爬得越高，看得就越远。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 9,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "情态动词",
+          "代词"
+        ],
+        "fine": []
+      },
+      "cloze": [
+        {
+          "answer": "can",
+          "hint": "情态动词，能/可以（本空填 can）",
+          "gp": "情态动词"
+        },
+        {
+          "answer": "The",
+          "hint": "定冠词，特指（本空填 The）",
+          "gp": "冠词"
+        },
+        {
+          "answer": "the",
+          "hint": "定冠词，特指（本空填 the）",
+          "gp": "冠词"
+        }
+      ],
+      "components": [
+        {
+          "text": "The higher you climb, the farther you",
+          "role": "主语",
+          "span": [
+            0,
+            37
+          ]
+        },
+        {
+          "text": "can see",
+          "role": "谓语",
+          "span": [
+            38,
+            45
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L2",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 climb 和 can see，the higher...the farther 是并列结构。",
+            "why": "climb（爬）和 can see（能看）是谓语，the higher...the farther 是「the + 比较级」结构。",
+            "highlight": [
+              4,
+              20
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "the + 比较级",
+            "what": "The higher you climb, the farther you can see = 爬得越高看得越远。",
+            "why": "the + 比较级...the + 比较级 表示「越……越……」，higher 和 farther 两个比较级对应。",
+            "how": "译「你爬得越高，看得就越远」，the higher 译「越高」。",
+            "highlight": [
+              0,
+              45
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "你爬得越高，看得就越远。",
+            "why": "The higher you climb, the farther you can see 译「你爬得越高，看得就越远」。",
+            "highlight": [
+              0,
+              45
+            ]
+          }
+        ],
+        "finalZh": "你爬得越高，看得就越远。",
+        "orderRules": [
+          "the + 比较级 表「越……越……」"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    },
+    {
+      "id": "s10-0082",
+      "en": "Winter coming, spring will arrive soon.",
+      "zh": "冬天来了，春天也就不远了。",
+      "zhSource": "ai",
+      "source": {
+        "page": null,
+        "type": "example"
+      },
+      "difficulty": {
+        "words": 6,
+        "clauses": 0,
+        "level": 1
+      },
+      "tags": {
+        "major": [
+          "状语从句",
+          "情态动词",
+          "非谓语动词"
+        ],
+        "fine": [
+          "一般将来时",
+          "短句，重点看时态和单复数"
+        ]
+      },
+      "cloze": [
+        {
+          "answer": "will",
+          "hint": "助动词，一般将来时（本空填 will）",
+          "gp": "情态动词"
+        }
+      ],
+      "components": [
+        {
+          "text": "Winter coming, spring",
+          "role": "主语",
+          "span": [
+            0,
+            21
+          ]
+        },
+        {
+          "text": "will arrive soon",
+          "role": "谓语",
+          "span": [
+            22,
+            38
+          ]
+        }
+      ],
+      "derivation": {
+        "schema": 2,
+        "level": "L3",
+        "steps": [
+          {
+            "step": 1,
+            "kind": "predicate",
+            "title": "找谓语",
+            "what": "谓语是 will arrive，Winter coming 是独立主格结构。",
+            "why": "will arrive（将到来）是谓语，Winter coming 是独立主格结构（名词 + 现在分词）。",
+            "highlight": [
+              22,
+              38
+            ]
+          },
+          {
+            "step": 2,
+            "kind": "trap",
+            "title": "独立主格结构",
+            "what": "Winter coming = 冬天来了，独立主格表条件/时间。",
+            "why": "Winter coming 是独立主格结构（名词 Winter + 现在分词 coming），作状语表时间/条件。",
+            "how": "译「冬天来了」，Winter coming 译「冬天来了」。",
+            "highlight": [
+              0,
+              13
+            ]
+          },
+          {
+            "step": 3,
+            "kind": "final",
+            "title": "译文定稿",
+            "what": "冬天来了，春天也就不远了。",
+            "why": "Winter coming, spring will arrive soon 译「冬天来了，春天也就不远了」。",
+            "highlight": [
+              0,
+              38
+            ]
+          }
+        ],
+        "finalZh": "冬天来了，春天也就不远了。",
+        "orderRules": [
+          "独立主格结构 Winter coming 前置"
+        ],
+        "generatedBy": "deepseek-v4-pro",
+        "rev": 2
+      },
+      "patternHint": "SV"
+    }
+  ]
+}
